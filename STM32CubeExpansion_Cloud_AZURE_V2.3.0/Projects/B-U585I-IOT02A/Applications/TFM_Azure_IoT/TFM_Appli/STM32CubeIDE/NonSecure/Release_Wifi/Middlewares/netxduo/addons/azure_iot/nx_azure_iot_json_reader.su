@@ -1,0 +1,12 @@
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:39:6:nx_azure_iot_json_reader_with_buffer_init	32	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:71:6:nx_azure_iot_json_reader_init	32	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:121:6:nx_azure_iot_json_reader_deinit	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:136:6:nx_azure_iot_json_reader_token_is_text_equal	32	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:150:6:nx_azure_iot_json_reader_next_token	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:164:6:nx_azure_iot_json_reader_skip_children	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:178:6:nx_azure_iot_json_reader_token_bool_get	16	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:198:6:nx_azure_iot_json_reader_token_uint32_get	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:214:6:nx_azure_iot_json_reader_token_int32_get	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:230:7:nx_azure_iot_json_reader_token_double_get	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:246:6:nx_azure_iot_json_reader_token_string_get	24	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c:272:6:nx_azure_iot_json_reader_token_type	0	static

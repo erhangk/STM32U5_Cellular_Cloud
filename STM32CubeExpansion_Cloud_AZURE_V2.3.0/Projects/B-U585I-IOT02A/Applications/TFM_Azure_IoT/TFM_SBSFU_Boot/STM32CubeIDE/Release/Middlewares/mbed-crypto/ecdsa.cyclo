@@ -1,0 +1,12 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:751:12:ecdsa_signature_to_asn1	5
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:256:12:ecdsa_sign_restartable.constprop	25
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:390:5:mbedtls_ecdsa_can_do	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:407:5:mbedtls_ecdsa_sign	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:775:5:mbedtls_ecdsa_write_signature_restartable	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:825:5:mbedtls_ecdsa_write_signature	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:873:5:mbedtls_ecdsa_read_signature_restartable	6
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:859:5:mbedtls_ecdsa_read_signature	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:939:5:mbedtls_ecdsa_genkey	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:977:6:mbedtls_ecdsa_init	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:987:6:mbedtls_ecdsa_free	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/ecdsa.c:958:5:mbedtls_ecdsa_from_keypair	4

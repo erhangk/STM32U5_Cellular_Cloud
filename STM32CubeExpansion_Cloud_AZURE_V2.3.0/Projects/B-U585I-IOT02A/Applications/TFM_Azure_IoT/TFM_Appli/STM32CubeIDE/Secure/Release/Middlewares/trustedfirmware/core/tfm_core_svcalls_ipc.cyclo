@@ -1,0 +1,3 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_core_svcalls_ipc.c:126:10:tfm_core_svc_handler	30
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_core_svcalls_ipc.c:180:30:tfm_core_handler_mode	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_core_svcalls_ipc.c:187:6:tfm_access_violation_handler	1

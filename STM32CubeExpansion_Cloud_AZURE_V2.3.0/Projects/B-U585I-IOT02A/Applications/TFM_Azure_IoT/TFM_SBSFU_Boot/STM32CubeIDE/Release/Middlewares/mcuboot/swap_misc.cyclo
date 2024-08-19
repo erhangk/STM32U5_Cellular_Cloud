@@ -1,0 +1,5 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_misc.c:35:1:swap_erase_trailer_sectors	4
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_misc.c:83:1:swap_status_init	5
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_misc.c:132:1:swap_read_status	9
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_misc.c:188:1:swap_set_copy_done	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_misc.c:205:1:swap_set_image_ok	5

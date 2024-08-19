@@ -1,0 +1,5 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/tfm_internal_trusted_storage.c:142:14:tfm_its_init	12
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/tfm_internal_trusted_storage.c:229:14:tfm_its_set	8
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/tfm_internal_trusted_storage.c:303:14:tfm_its_get	6
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/tfm_internal_trusted_storage.c:373:14:tfm_its_get_info	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/tfm_internal_trusted_storage.c:401:14:tfm_its_remove	4

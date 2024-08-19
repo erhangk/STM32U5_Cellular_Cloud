@@ -1,0 +1,5 @@
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/components_factory.c:70:29:components_factory_get_load_array	1
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/components_factory.c:75:16:components_factory_create_id	1
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/components_factory.c:80:14:components_factory_set	4
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/components_factory.c:123:6:component_factory_unload	1
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/components_factory.c:134:6:components_factory_unload	2

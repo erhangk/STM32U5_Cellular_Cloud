@@ -1,0 +1,10 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:111:5:psa_is_key_present_in_storage	32	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:182:14:psa_destroy_persistent_key	40	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:248:6:psa_format_key_data_for_storage	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:276:14:psa_parse_key_data_from_storage	32	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:325:14:psa_save_persistent_key	56	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:355:6:psa_free_persistent_key_data	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:364:14:psa_load_persistent_key	64	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:409:14:psa_crypto_save_transaction	32	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:428:14:psa_crypto_load_transaction	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_storage.c:442:14:psa_crypto_stop_transaction	8	static

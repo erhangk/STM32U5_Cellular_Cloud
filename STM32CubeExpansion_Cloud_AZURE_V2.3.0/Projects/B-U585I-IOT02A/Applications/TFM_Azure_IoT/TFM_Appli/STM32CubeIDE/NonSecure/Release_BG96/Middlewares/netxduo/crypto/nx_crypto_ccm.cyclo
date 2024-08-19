@@ -1,0 +1,6 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_ccm.c:68:28:_nx_crypto_ccm_xor	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_ccm.c:147:28:_nx_crypto_ccm_cbc_pad.constprop	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_ccm.c:300:21:_nx_crypto_ccm_encrypt_init	5
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_ccm.c:386:21:_nx_crypto_ccm_encrypt_update	12
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_ccm.c:497:21:_nx_crypto_ccm_encrypt_calculate	4
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_ccm.c:579:21:_nx_crypto_ccm_decrypt_calculate	5

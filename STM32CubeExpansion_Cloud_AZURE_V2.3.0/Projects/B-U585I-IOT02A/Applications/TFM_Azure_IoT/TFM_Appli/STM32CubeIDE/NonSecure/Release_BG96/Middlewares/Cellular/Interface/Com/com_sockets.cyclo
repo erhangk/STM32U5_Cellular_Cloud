@@ -1,0 +1,17 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:59:9:com_socket	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:83:9:com_setsockopt	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:108:9:com_getsockopt	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:131:9:com_bind	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:153:9:com_listen	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:176:9:com_accept	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:199:9:com_connect	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:223:9:com_send	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:250:9:com_sendto	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:276:9:com_recv	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:303:9:com_recvfrom	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:326:9:com_closesocket	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:349:9:com_gethostbyname	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:372:9:com_getpeername	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:395:9:com_getsockname	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:491:6:com_sockets_init	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_sockets.c:517:6:com_sockets_start	1

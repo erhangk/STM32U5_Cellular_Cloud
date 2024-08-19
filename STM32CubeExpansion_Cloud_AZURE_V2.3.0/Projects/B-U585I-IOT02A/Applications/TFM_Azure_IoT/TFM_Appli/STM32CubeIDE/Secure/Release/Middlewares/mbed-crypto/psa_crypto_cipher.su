@@ -1,0 +1,10 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:34:30:mbedtls_cipher_info_from_psa	4	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:131:21:psa_cipher_setup.constprop	40	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:208:14:mbedtls_psa_cipher_encrypt_setup	4	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:219:14:mbedtls_psa_cipher_decrypt_setup	4	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:230:14:mbedtls_psa_cipher_set_iv	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:346:14:mbedtls_psa_cipher_update	56	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:396:14:mbedtls_psa_cipher_finish	40	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:434:14:mbedtls_psa_cipher_abort	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:447:14:mbedtls_psa_cipher_encrypt	128	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/psa_crypto_cipher.c:498:14:mbedtls_psa_cipher_decrypt	120	static

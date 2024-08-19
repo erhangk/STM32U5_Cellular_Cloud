@@ -1,0 +1,6 @@
+loader without secure part (MCUBOOT_PRIMARY_ONLY not defined)
+loader without secure part (MCUBOOT_PRIMARY_ONLY not defined)
+loader without secure part (MCUBOOT_PRIMARY_ONLY not defined)
+loader without secure part (MCUBOOT_PRIMARY_ONLY not defined)
+loader without secure part (MCUBOOT_PRIMARY_ONLY not defined)
+loader without secure part (MCUBOOT_PRIMARY_ONLY not defined)

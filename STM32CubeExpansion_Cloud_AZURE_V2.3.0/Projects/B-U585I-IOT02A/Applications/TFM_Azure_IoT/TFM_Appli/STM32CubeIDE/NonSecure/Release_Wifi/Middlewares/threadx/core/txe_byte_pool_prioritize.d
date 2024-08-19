@@ -1,0 +1,10 @@
+Middlewares/threadx/core/txe_byte_pool_prioritize.o: \
+ /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/common/src/txe_byte_pool_prioritize.c \
+ ../../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h \
+ ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
+ ../../../NonSecure/Core/Inc/tx_user.h \
+ ../../../../../../../../Middlewares/ST/threadx/common/inc/tx_byte_pool.h
+../../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h:
+../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h:
+../../../NonSecure/Core/Inc/tx_user.h:
+../../../../../../../../Middlewares/ST/threadx/common/inc/tx_byte_pool.h:

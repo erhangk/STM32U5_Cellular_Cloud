@@ -1,0 +1,2 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/its_utils.c:10:14:its_utils_check_contained_in	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/its_utils.c:30:14:its_utils_validate_fid	0	static

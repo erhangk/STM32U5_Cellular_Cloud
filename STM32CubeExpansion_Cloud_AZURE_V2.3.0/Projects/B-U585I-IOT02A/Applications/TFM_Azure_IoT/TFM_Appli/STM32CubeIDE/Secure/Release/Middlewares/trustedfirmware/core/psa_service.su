@@ -1,0 +1,13 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:20:14:psa_wait	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:29:14:psa_get	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:37:6:psa_set_rhandle	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:45:8:psa_read	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:55:8:psa_skip	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:63:6:psa_write	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:72:6:psa_reply	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:80:6:psa_notify	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:88:6:psa_clear	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:96:6:psa_eoi	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:104:6:psa_panic	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:112:6:psa_irq_enable	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_service.c:120:18:psa_irq_disable	0	static,ignoring_inline_asm

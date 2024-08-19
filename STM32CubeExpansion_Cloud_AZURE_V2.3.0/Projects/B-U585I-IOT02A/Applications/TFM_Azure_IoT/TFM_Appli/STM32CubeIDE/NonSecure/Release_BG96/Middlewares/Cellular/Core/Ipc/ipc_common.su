@@ -1,0 +1,12 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:47:14:IPC_init	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:89:14:IPC_deinit	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:117:14:IPC_open	16	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:170:14:IPC_close	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:191:14:IPC_reset	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:212:14:IPC_abort	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:233:14:IPC_select	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:254:15:IPC_get_other_channel	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:266:14:IPC_send	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:288:14:IPC_receive	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:313:14:IPC_streamReceive	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Ipc/Src/ipc_common.c:342:6:IPC_DumpRXQueue	0	static,ignoring_inline_asm

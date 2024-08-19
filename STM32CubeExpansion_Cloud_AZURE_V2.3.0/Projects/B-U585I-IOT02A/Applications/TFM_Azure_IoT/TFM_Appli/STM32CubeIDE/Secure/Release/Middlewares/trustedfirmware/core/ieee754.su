@@ -1,0 +1,6 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/ieee754.c:179:10:IEEE754_FloatToHalf	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/ieee754.c:252:10:IEEE754_DoubleToHalf	20	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/ieee754.c:328:7:IEEE754_HalfToFloat	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/ieee754.c:391:8:IEEE754_HalfToDouble	16	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/ieee754.c:454:15:IEEE754_FloatToSmallest	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/ieee754.c:490:15:IEEE754_DoubleToSmallestInternal	24	static

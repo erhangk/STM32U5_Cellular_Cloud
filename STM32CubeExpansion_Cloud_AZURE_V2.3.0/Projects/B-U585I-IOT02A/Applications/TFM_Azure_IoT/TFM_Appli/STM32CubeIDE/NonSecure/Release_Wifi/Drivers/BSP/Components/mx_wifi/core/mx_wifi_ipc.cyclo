@@ -1,0 +1,8 @@
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.c:347:6:mapi_reboot_event_callback	2
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.c:403:6:mapi_wifi_netlink_input_callback	4
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.c:358:6:mapi_wifi_status_event_callback	6
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.c:180:9:mipc_init	1
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.c:193:9:mipc_deinit	1
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.c:205:9:mipc_request	10
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.c:301:6:mipc_poll	15
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.c:325:9:mipc_echo	5

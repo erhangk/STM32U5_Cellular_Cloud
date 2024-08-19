@@ -1,0 +1,8 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/encrypted.c:401:1:boot_enc_init	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/encrypted.c:408:1:boot_enc_drop	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/encrypted.c:415:1:boot_enc_set_key	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/encrypted.c:461:1:boot_enc_decrypt	11
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/encrypted.c:688:1:boot_enc_load	7
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/encrypted.c:745:1:boot_enc_valid	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/encrypted.c:761:1:boot_encrypt	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/encrypted.c:797:1:boot_enc_zeroize	1

@@ -1,0 +1,2 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/caps.c:22:10:bootutil_get_caps	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/caps.c:75:10:bootutil_get_num_images	0	static

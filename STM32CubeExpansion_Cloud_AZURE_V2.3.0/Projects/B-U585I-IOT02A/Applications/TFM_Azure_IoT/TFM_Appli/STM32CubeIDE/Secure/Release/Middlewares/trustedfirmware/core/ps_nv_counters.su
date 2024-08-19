@@ -1,0 +1,2 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/protected_storage/nv_counters/ps_nv_counters.c:11:14:ps_read_nv_counter	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/protected_storage/nv_counters/ps_nv_counters.c:25:14:ps_increment_nv_counter	8	static

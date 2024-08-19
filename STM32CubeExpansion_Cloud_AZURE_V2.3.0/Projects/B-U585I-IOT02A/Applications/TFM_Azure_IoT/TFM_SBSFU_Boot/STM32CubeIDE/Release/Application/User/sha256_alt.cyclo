@@ -1,0 +1,7 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/sha256_alt.c:62:6:mbedtls_sha256_init	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/sha256_alt.c:72:6:mbedtls_sha256_free	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/sha256_alt.c:81:6:mbedtls_sha256_clone	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/sha256_alt.c:90:5:mbedtls_sha256_starts_ret	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/sha256_alt.c:121:5:mbedtls_internal_sha256_process	4
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/sha256_alt.c:149:5:mbedtls_sha256_update_ret	10
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/sha256_alt.c:226:5:mbedtls_sha256_finish_ret	4

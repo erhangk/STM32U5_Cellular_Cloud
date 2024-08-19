@@ -1,0 +1,15 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:80:13:atcm_socket_reserve_modem_cid	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:108:13:atcm_socket_release_modem_cid	4
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:146:10:atcm_socket_get_modem_cid	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:173:13:atcm_socket_set_modem_cid	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:199:17:atcm_socket_get_socket_handle	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:229:13:atcm_socket_set_urc_data_pending	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:257:13:atcm_socket_set_urc_closed_by_remote	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:282:17:atcm_socket_get_hdle_urc_data_pending	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:310:17:atcm_socket_get_hdle_urc_closed_by_remote	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:337:11:atcm_socket_remaining_urc_data_pending	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:362:11:atcm_socket_remaining_urc_closed_by_remote	3
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:388:11:atcm_socket_request_available_data	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:417:6:atcm_socket_clear_available_data_flag	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:436:11:atcm_socket_is_connected	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_modem_socket.c:460:13:atcm_socket_set_connected	2

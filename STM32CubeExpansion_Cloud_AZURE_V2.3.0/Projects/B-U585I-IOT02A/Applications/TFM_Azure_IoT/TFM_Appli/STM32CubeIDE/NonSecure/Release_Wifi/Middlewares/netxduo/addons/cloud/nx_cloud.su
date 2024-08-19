@@ -1,0 +1,14 @@
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:1177:13:_nx_cloud_periodic_timer_entry	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:1077:13:_nx_cloud_thread_entry	48	static,ignoring_inline_asm
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:166:6:_nx_cloud_create	88	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:87:6:_nxe_cloud_create	12	static,ignoring_inline_asm
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:369:6:_nx_cloud_delete	32	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:296:6:_nxe_cloud_delete	0	static,ignoring_inline_asm
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:548:6:_nx_cloud_module_register	32	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:469:6:_nxe_cloud_module_register	20	static,ignoring_inline_asm
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:698:6:_nx_cloud_module_deregister	16	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:633:6:_nxe_cloud_module_deregister	4	static,ignoring_inline_asm
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:863:6:_nx_cloud_module_event_set	8	static,ignoring_inline_asm
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:795:6:_nxe_cloud_module_event_set	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:931:6:_nxe_cloud_module_event_clear	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/cloud/nx_cloud.c:999:6:_nx_cloud_module_event_clear	8	static,ignoring_inline_asm

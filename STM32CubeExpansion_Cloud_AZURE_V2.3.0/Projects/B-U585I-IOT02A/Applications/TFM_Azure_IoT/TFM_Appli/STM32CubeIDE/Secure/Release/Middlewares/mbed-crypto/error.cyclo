@@ -1,0 +1,3 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/error.c:214:14:mbedtls_high_level_strerr	49
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/error.c:578:14:mbedtls_low_level_strerr	52
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/error.c:896:6:mbedtls_strerror	8

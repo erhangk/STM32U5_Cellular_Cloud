@@ -1,0 +1,5 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/util/qcbor_util.c:18:1:qcbor_util_consume_item	56	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/util/qcbor_util.c:62:1:qcbor_util_get_items_in_map	80	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/util/qcbor_util.c:133:1:qcbor_util_decode_to_labeled_item	64	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/util/qcbor_util.c:191:1:qcbor_util_get_item_in_map	112	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/util/qcbor_util.c:222:1:qcbor_util_get_top_level_item_in_map	176	static

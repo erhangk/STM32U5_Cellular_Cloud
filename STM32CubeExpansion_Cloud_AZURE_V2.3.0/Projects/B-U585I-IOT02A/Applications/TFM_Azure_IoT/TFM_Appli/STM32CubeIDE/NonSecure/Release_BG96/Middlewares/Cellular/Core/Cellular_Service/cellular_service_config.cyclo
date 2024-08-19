@@ -1,0 +1,3 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Cellular_Service/Src/cellular_service_config.c:167:13:CST_local_setup_handler	7
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Cellular_Service/Src/cellular_service_config.c:101:19:cst_get_cid_value	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Cellular_Service/Src/cellular_service_config.c:301:13:CST_config_init	1

@@ -1,0 +1,4 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Runtime_Library/Src/cellular_runtime_standard.c:45:10:crs_itoa	8
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Runtime_Library/Src/cellular_runtime_standard.c:123:9:crs_atoi	4
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Runtime_Library/Src/cellular_runtime_standard.c:185:9:crs_atoi_hex	5
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/Runtime_Library/Src/cellular_runtime_standard.c:238:10:crs_strlen	4

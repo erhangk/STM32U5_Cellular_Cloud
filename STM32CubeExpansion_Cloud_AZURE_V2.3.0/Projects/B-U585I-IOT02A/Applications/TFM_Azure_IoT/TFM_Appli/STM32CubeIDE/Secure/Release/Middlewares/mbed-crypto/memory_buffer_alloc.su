@@ -1,0 +1,8 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/memory_buffer_alloc.c:128:12:verify_header	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/memory_buffer_alloc.c:173:12:verify_chain	16	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/memory_buffer_alloc.c:224:14:buffer_alloc_calloc	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/memory_buffer_alloc.c:375:13:buffer_alloc_free	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/memory_buffer_alloc.c:492:6:mbedtls_memory_buffer_set_verify	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/memory_buffer_alloc.c:497:5:mbedtls_memory_buffer_alloc_verify	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/memory_buffer_alloc.c:567:6:mbedtls_memory_buffer_alloc_init	16	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mbed-crypto/library/memory_buffer_alloc.c:602:6:mbedtls_memory_buffer_alloc_free	0	static

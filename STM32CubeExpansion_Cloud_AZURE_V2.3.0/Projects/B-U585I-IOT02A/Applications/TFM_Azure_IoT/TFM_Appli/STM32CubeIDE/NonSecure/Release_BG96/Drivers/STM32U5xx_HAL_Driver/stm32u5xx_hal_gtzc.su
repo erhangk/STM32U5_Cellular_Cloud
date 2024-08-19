@@ -1,0 +1,6 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c:267:19:HAL_GTZC_TZSC_ConfigPeriphAttributes	12	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c:380:19:HAL_GTZC_TZSC_GetConfigPeriphAttributes	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c:894:19:HAL_GTZC_MPCBB_ConfigMem	12	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c:1019:19:HAL_GTZC_MPCBB_GetConfigMem	12	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c:1138:19:HAL_GTZC_MPCBB_ConfigMemAttributes	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c:1320:19:HAL_GTZC_MPCBB_GetConfigMemAttributes	20	static

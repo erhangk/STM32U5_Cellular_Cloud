@@ -452,7 +452,7 @@ class BasedIntAllParamType(click.ParamType):
               help='print the value in hexa')
 @click.command(help='modify bash /batch variable value with layout file content')              
 def flash(infile, layout, macro, begin, setting, division, phexa ):
-    image_value_re = re.compile(r"^\s*"+macro+"\s*=\s*(.*)")
+    image_value_re = re.compile(r"^\s*" + macro + r"\s*=\s*(.*)")
     try:
         value = macro_parser.evaluate_macro(layout, image_value_re, 0, 1)
     except:  

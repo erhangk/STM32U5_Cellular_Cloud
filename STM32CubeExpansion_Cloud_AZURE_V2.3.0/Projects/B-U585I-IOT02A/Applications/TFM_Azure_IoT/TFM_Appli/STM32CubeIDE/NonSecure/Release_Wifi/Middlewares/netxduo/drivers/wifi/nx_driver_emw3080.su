@@ -1,0 +1,10 @@
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c:221:13:_nx_driver_emw3080_packet_received	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c:168:6:_nx_driver_emw3080_packet_send	16	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c:155:6:_nx_driver_emw3080_disable	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c:118:6:_nx_driver_emw3080_enable	16	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c:77:6:_nx_driver_emw3080_initialize	16	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c:228:13:_nx_mx_wifi_status_changed	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c:206:13:_nx_netlink_input_callback	16	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.c:796:14:nx_driver_multicast_join.constprop	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c:42:6:nx_driver_emw3080_entry	32	static,ignoring_inline_asm
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.c:59:6:nx_driver_emw3080_interrupt	0	static

@@ -1,0 +1,9 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/UsefulBuf.c:68:12:UsefulBuf_CopyOffset	32	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/UsefulBuf.c:85:5:UsefulBuf_Compare	16	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/UsefulBuf.c:102:8:UsefulBuf_IsValue	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/UsefulBuf.c:126:8:UsefulBuf_FindBytes	56	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/UsefulBuf.c:147:6:UsefulOutBuf_Init	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/UsefulBuf.c:208:6:UsefulOutBuf_InsertUsefulBuf	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/UsefulBuf.c:308:12:UsefulOutBuf_OutUBuf	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/UsefulBuf.c:328:12:UsefulOutBuf_CopyOut	48	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/UsefulBuf.c:347:14:UsefulInputBuf_GetBytes	8	static

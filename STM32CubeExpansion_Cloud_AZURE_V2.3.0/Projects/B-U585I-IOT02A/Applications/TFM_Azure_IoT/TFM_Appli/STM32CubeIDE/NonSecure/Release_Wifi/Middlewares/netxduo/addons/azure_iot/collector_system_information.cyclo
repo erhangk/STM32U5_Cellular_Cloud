@@ -1,0 +1,3 @@
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/src/collectors/collector_system_information.c:37:1:components_factory_SystemInformation_load	1
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/src/collectors/collector_system_information.c:39:21:_cm_init	1
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/src/collectors/collector_system_information.c:45:21:_collector_system_information_serialize_events	1

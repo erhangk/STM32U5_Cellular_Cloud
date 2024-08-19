@@ -1,0 +1,7 @@
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_ps_ipc_api.c:15:14:psa_ps_set	56	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_ps_ipc_api.c:42:14:psa_ps_get	64	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_ps_ipc_api.c:79:14:psa_ps_get_info	48	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_ps_ipc_api.c:106:14:psa_ps_remove	40	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_ps_ipc_api.c:129:14:psa_ps_create	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_ps_ipc_api.c:139:14:psa_ps_set_extended	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_ps_ipc_api.c:150:10:psa_ps_get_support	40	static

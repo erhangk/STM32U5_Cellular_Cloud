@@ -1,0 +1,4 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/low_level_security.c:535:6:LL_SECU_UpdateLoaderRunTimeProtections	40	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/low_level_security.c:556:6:LL_SECU_ApplyRunTimeProtections	48	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/low_level_security.c:590:6:LL_SECU_UpdateRunTimeProtections	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/low_level_security.c:617:6:LL_SECU_CheckStaticProtections	24	static

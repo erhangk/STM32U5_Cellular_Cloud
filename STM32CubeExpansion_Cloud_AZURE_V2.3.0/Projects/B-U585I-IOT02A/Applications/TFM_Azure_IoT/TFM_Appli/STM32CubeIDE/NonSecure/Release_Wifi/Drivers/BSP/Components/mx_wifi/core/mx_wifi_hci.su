@@ -1,0 +1,6 @@
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.c:65:9:mx_wifi_hci_init	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.c:74:9:mx_wifi_hci_deinit	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.c:81:9:mx_wifi_hci_send	8	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.c:129:11:mx_wifi_hci_recv	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.c:146:6:mx_wifi_hci_free	0	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.c:158:6:mx_wifi_hci_input	16	static

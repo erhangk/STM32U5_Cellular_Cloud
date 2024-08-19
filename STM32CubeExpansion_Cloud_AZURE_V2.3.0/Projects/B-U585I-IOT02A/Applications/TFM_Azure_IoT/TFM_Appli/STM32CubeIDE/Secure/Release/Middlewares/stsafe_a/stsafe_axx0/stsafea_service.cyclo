@@ -1,0 +1,6 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STSAFE_A1xx/CoreModules/Src/stsafea_service.c:457:6:StSafeA_Crc16	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STSAFE_A1xx/CoreModules/Src/stsafea_service.c:167:24:StSafeA_Transmit	11
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STSAFE_A1xx/CoreModules/Src/stsafea_service.c:209:24:StSafeA_Receive	19
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STSAFE_A1xx/CoreModules/Src/stsafea_service.c:270:6:StSafeA_Delay	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STSAFE_A1xx/CoreModules/Src/stsafea_service.c:304:15:StSafeA_HW_Probe	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STSAFE_A1xx/CoreModules/Src/stsafea_service.c:105:8:StSafeA_HW_Init	11

@@ -1,0 +1,17 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:310:13:InsertEncodedTypeAndNumber	56	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:429:20:AppendEncodedTypeAndNumber	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:131:26:Nesting_Increment.isra	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:248:6:QCBOREncode_Init	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:447:6:QCBOREncode_AddUInt64	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:459:6:QCBOREncode_AddInt64	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:500:6:QCBOREncode_AddBuffer	32	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:526:6:QCBOREncode_AddTag	0	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:538:6:QCBOREncode_AddType7	32	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:565:6:QCBOREncode_AddDouble	32	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:617:6:QCBOREncode_OpenMapOrArray	16	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:658:6:QCBOREncode_OpenMapOrArrayIndefiniteLength	32	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:670:6:QCBOREncode_CloseMapOrArray	48	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:580:6:QCBOREncode_AddExponentAndMantissa	48	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:733:6:QCBOREncode_CloseMapOrArrayIndefiniteLength	40	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:773:12:QCBOREncode_Finish	24	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/qcbor/src/qcbor_encode.c:797:12:QCBOREncode_FinishGetSize	16	static

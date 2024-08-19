@@ -1,0 +1,4 @@
+../../../../../../../../Drivers/CMSIS/Include/core_cm33.h:2448:34:__NVIC_SystemReset	0	static,ignoring_inline_asm
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Secure/Src/tfm_platform_system.c:169:25:tfm_platform_hal_ioctl	32	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Secure/Src/tfm_platform_system.c:36:6:Error_Handler	8	static
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Secure/Src/tfm_platform_system.c:42:6:tfm_hal_system_reset	8	static

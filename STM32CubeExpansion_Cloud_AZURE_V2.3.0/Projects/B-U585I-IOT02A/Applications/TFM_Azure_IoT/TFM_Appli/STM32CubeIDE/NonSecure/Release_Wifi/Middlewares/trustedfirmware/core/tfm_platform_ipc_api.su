@@ -1,0 +1,2 @@
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_platform_ipc_api.c:12:25:tfm_platform_system_reset	24	static
+/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_platform_ipc_api.c:36:1:tfm_platform_ioctl	48	static

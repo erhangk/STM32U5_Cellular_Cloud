@@ -1,0 +1,2153 @@
+
+TFM_Loader_Secure.elf:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000d20  0c1fa000  0c1fa000  00001000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .ARM.exidx    00000008  0c1fad20  0c1fad20  00001d20  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  2 .copy.table   0000000c  0c1fad28  0c1fad28  00001d28  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .zero.table   00000008  0c1fad34  0c1fad34  00001d34  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .data         0000000c  30030000  0c1fad3c  00002000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000020  3003000c  0c1fad48  0000200c  2**2
+                  ALLOC
+  6 .msp_stack    00000400  30030040  0c1fad80  00002040  2**5
+                  ALLOC
+  7 .heap         00000200  30030440  0c1fb180  00002040  2**3
+                  ALLOC
+  8 .gnu.sgstubs  00000020  0c1fdf00  0c1fdf00  00002f00  2**5
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .ARM.attributes 00000036  00000000  00000000  00002f20  2**0
+                  CONTENTS, READONLY
+ 10 .comment      00000043  00000000  00000000  00002f56  2**0
+                  CONTENTS, READONLY
+ 11 .debug_info   0000751d  00000000  00000000  00002f99  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 12 .debug_abbrev 00001461  00000000  00000000  0000a4b6  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 13 .debug_loclists 00001fb3  00000000  00000000  0000b917  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 14 .debug_aranges 000008a8  00000000  00000000  0000d8ca  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_rnglists 000007b4  00000000  00000000  0000e172  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .debug_macro  00001cad  00000000  00000000  0000e926  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 17 .debug_line   000093ac  00000000  00000000  000105d3  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 18 .debug_str    001356c8  00000000  00000000  0001997f  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 19 .debug_frame  0000144c  00000000  00000000  0014f048  2**2
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+
+Disassembly of section .text:
+
+0c1fa000 <__Vectors>:
+ c1fa000:	40 04 03 30 75 a5 1f 0c 65 a4 1f 0c 67 a4 1f 0c     @..0u...e...g...
+ c1fa010:	69 a4 1f 0c 6b a4 1f 0c 6d a4 1f 0c 6f a4 1f 0c     i...k...m...o...
+	...
+ c1fa02c:	71 a4 1f 0c 73 a4 1f 0c 00 00 00 00 75 a4 1f 0c     q...s.......u...
+ c1fa03c:	77 a4 1f 0c 79 a4 1f 0c 7b a4 1f 0c 7d a4 1f 0c     w...y...{...}...
+ c1fa04c:	7f a4 1f 0c f1 a3 1f 0c 81 a4 1f 0c 83 a4 1f 0c     ................
+ c1fa05c:	85 a4 1f 0c 87 a4 1f 0c 89 a4 1f 0c 8b a4 1f 0c     ................
+ c1fa06c:	8d a4 1f 0c 8f a4 1f 0c 91 a4 1f 0c 93 a4 1f 0c     ................
+ c1fa07c:	95 a4 1f 0c 97 a4 1f 0c 99 a4 1f 0c 9b a4 1f 0c     ................
+ c1fa08c:	9d a4 1f 0c 9f a4 1f 0c a1 a4 1f 0c a3 a4 1f 0c     ................
+ c1fa09c:	a5 a4 1f 0c a7 a4 1f 0c a9 a4 1f 0c ab a4 1f 0c     ................
+ c1fa0ac:	ad a4 1f 0c af a4 1f 0c b1 a4 1f 0c b3 a4 1f 0c     ................
+ c1fa0bc:	b5 a4 1f 0c b7 a4 1f 0c b9 a4 1f 0c bb a4 1f 0c     ................
+ c1fa0cc:	bd a4 1f 0c bf a4 1f 0c c1 a4 1f 0c c3 a4 1f 0c     ................
+ c1fa0dc:	c5 a4 1f 0c c7 a4 1f 0c c9 a4 1f 0c cb a4 1f 0c     ................
+ c1fa0ec:	cd a4 1f 0c cf a4 1f 0c d1 a4 1f 0c d3 a4 1f 0c     ................
+ c1fa0fc:	d5 a4 1f 0c d7 a4 1f 0c d9 a4 1f 0c db a4 1f 0c     ................
+ c1fa10c:	dd a4 1f 0c df a4 1f 0c e1 a4 1f 0c e3 a4 1f 0c     ................
+ c1fa11c:	e5 a4 1f 0c e7 a4 1f 0c e9 a4 1f 0c eb a4 1f 0c     ................
+ c1fa12c:	ed a4 1f 0c ef a4 1f 0c f1 a4 1f 0c f3 a4 1f 0c     ................
+ c1fa13c:	f5 a4 1f 0c f7 a4 1f 0c f9 a4 1f 0c fb a4 1f 0c     ................
+ c1fa14c:	fd a4 1f 0c ff a4 1f 0c 01 a5 1f 0c 03 a5 1f 0c     ................
+ c1fa15c:	05 a5 1f 0c 07 a5 1f 0c 09 a5 1f 0c 0b a5 1f 0c     ................
+ c1fa16c:	0d a5 1f 0c 0f a5 1f 0c 11 a5 1f 0c 13 a5 1f 0c     ................
+ c1fa17c:	15 a5 1f 0c 17 a5 1f 0c 19 a5 1f 0c 1b a5 1f 0c     ................
+ c1fa18c:	1d a5 1f 0c 1f a5 1f 0c 21 a5 1f 0c 23 a5 1f 0c     ........!...#...
+ c1fa19c:	25 a5 1f 0c 27 a5 1f 0c 29 a5 1f 0c 2b a5 1f 0c     %...'...)...+...
+ c1fa1ac:	2d a5 1f 0c 2f a5 1f 0c 31 a5 1f 0c 33 a5 1f 0c     -.../...1...3...
+ c1fa1bc:	35 a5 1f 0c 37 a5 1f 0c 39 a5 1f 0c 3b a5 1f 0c     5...7...9...;...
+ c1fa1cc:	3d a5 1f 0c 3f a5 1f 0c 41 a5 1f 0c 43 a5 1f 0c     =...?...A...C...
+ c1fa1dc:	45 a5 1f 0c 47 a5 1f 0c 49 a5 1f 0c 4b a5 1f 0c     E...G...I...K...
+ c1fa1ec:	4d a5 1f 0c 4f a5 1f 0c 51 a5 1f 0c 53 a5 1f 0c     M...O...Q...S...
+ c1fa1fc:	55 a5 1f 0c 57 a5 1f 0c 59 a5 1f 0c 5b a5 1f 0c     U...W...Y...[...
+ c1fa20c:	5d a5 1f 0c 5f a5 1f 0c 61 a5 1f 0c 63 a5 1f 0c     ]..._...a...c...
+ c1fa21c:	65 a5 1f 0c 67 a5 1f 0c 69 a5 1f 0c 6b a5 1f 0c     e...g...i...k...
+ c1fa22c:	6d a5 1f 0c 6f a5 1f 0c 71 a5 1f 0c                 m...o...q...
+
+0c1fa238 <__do_global_dtors_aux>:
+ c1fa238:	b510      	push	{r4, lr}
+ c1fa23a:	4c05      	ldr	r4, [pc, #20]	@ (c1fa250 <__do_global_dtors_aux+0x18>)
+ c1fa23c:	7823      	ldrb	r3, [r4, #0]
+ c1fa23e:	b933      	cbnz	r3, c1fa24e <__do_global_dtors_aux+0x16>
+ c1fa240:	4b04      	ldr	r3, [pc, #16]	@ (c1fa254 <__do_global_dtors_aux+0x1c>)
+ c1fa242:	b113      	cbz	r3, c1fa24a <__do_global_dtors_aux+0x12>
+ c1fa244:	4804      	ldr	r0, [pc, #16]	@ (c1fa258 <__do_global_dtors_aux+0x20>)
+ c1fa246:	f3af 8000 	nop.w
+ c1fa24a:	2301      	movs	r3, #1
+ c1fa24c:	7023      	strb	r3, [r4, #0]
+ c1fa24e:	bd10      	pop	{r4, pc}
+ c1fa250:	3003000c 	.word	0x3003000c
+ c1fa254:	00000000 	.word	0x00000000
+ c1fa258:	0c1fad1c 	.word	0x0c1fad1c
+
+0c1fa25c <frame_dummy>:
+ c1fa25c:	b508      	push	{r3, lr}
+ c1fa25e:	4b03      	ldr	r3, [pc, #12]	@ (c1fa26c <frame_dummy+0x10>)
+ c1fa260:	b11b      	cbz	r3, c1fa26a <frame_dummy+0xe>
+ c1fa262:	4903      	ldr	r1, [pc, #12]	@ (c1fa270 <frame_dummy+0x14>)
+ c1fa264:	4803      	ldr	r0, [pc, #12]	@ (c1fa274 <frame_dummy+0x18>)
+ c1fa266:	f3af 8000 	nop.w
+ c1fa26a:	bd08      	pop	{r3, pc}
+ c1fa26c:	00000000 	.word	0x00000000
+ c1fa270:	30030010 	.word	0x30030010
+ c1fa274:	0c1fad1c 	.word	0x0c1fad1c
+
+0c1fa278 <_stack_init>:
+ c1fa278:	f5a3 3a80 	sub.w	sl, r3, #65536	@ 0x10000
+ c1fa27c:	4770      	bx	lr
+ c1fa27e:	bf00      	nop
+
+0c1fa280 <_mainCRTStartup>:
+ c1fa280:	4b17      	ldr	r3, [pc, #92]	@ (c1fa2e0 <_mainCRTStartup+0x60>)
+ c1fa282:	2b00      	cmp	r3, #0
+ c1fa284:	bf08      	it	eq
+ c1fa286:	4b13      	ldreq	r3, [pc, #76]	@ (c1fa2d4 <_mainCRTStartup+0x54>)
+ c1fa288:	469d      	mov	sp, r3
+ c1fa28a:	f7ff fff5 	bl	c1fa278 <_stack_init>
+ c1fa28e:	2100      	movs	r1, #0
+ c1fa290:	468b      	mov	fp, r1
+ c1fa292:	460f      	mov	r7, r1
+ c1fa294:	4813      	ldr	r0, [pc, #76]	@ (c1fa2e4 <_mainCRTStartup+0x64>)
+ c1fa296:	4a14      	ldr	r2, [pc, #80]	@ (c1fa2e8 <_mainCRTStartup+0x68>)
+ c1fa298:	1a12      	subs	r2, r2, r0
+ c1fa29a:	f000 fcaf 	bl	c1fabfc <memset>
+ c1fa29e:	4b0e      	ldr	r3, [pc, #56]	@ (c1fa2d8 <_mainCRTStartup+0x58>)
+ c1fa2a0:	2b00      	cmp	r3, #0
+ c1fa2a2:	d000      	beq.n	c1fa2a6 <_mainCRTStartup+0x26>
+ c1fa2a4:	4798      	blx	r3
+ c1fa2a6:	4b0d      	ldr	r3, [pc, #52]	@ (c1fa2dc <_mainCRTStartup+0x5c>)
+ c1fa2a8:	2b00      	cmp	r3, #0
+ c1fa2aa:	d000      	beq.n	c1fa2ae <_mainCRTStartup+0x2e>
+ c1fa2ac:	4798      	blx	r3
+ c1fa2ae:	2000      	movs	r0, #0
+ c1fa2b0:	2100      	movs	r1, #0
+ c1fa2b2:	0004      	movs	r4, r0
+ c1fa2b4:	000d      	movs	r5, r1
+ c1fa2b6:	480d      	ldr	r0, [pc, #52]	@ (c1fa2ec <_mainCRTStartup+0x6c>)
+ c1fa2b8:	2800      	cmp	r0, #0
+ c1fa2ba:	d002      	beq.n	c1fa2c2 <_mainCRTStartup+0x42>
+ c1fa2bc:	480c      	ldr	r0, [pc, #48]	@ (c1fa2f0 <_mainCRTStartup+0x70>)
+ c1fa2be:	f3af 8000 	nop.w
+ c1fa2c2:	f000 fca3 	bl	c1fac0c <__libc_init_array>
+ c1fa2c6:	0020      	movs	r0, r4
+ c1fa2c8:	0029      	movs	r1, r5
+ c1fa2ca:	f000 f851 	bl	c1fa370 <main>
+ c1fa2ce:	f000 fc83 	bl	c1fabd8 <exit>
+ c1fa2d2:	bf00      	nop
+ c1fa2d4:	00080000 	.word	0x00080000
+	...
+ c1fa2e0:	30030440 	.word	0x30030440
+ c1fa2e4:	3003000c 	.word	0x3003000c
+ c1fa2e8:	3003002c 	.word	0x3003002c
+	...
+
+0c1fa2f4 <__NVIC_SystemReset>:
+  \details Acts as a special kind of Data Memory Barrier.
+           It completes when all explicit memory accesses before this instruction complete.
+ */
+__STATIC_FORCEINLINE void __DSB(void)
+{
+  __ASM volatile ("dsb 0xF":::"memory");
+ c1fa2f4:	f3bf 8f4f 	dsb	sy
+__NO_RETURN __STATIC_INLINE void __NVIC_SystemReset(void)
+{
+  __DSB();                                                          /* Ensure all outstanding memory accesses included
+                                                                       buffered write are completed before reset */
+  SCB->AIRCR  = (uint32_t)((0x5FAUL << SCB_AIRCR_VECTKEY_Pos)    |
+                           (SCB->AIRCR & SCB_AIRCR_PRIGROUP_Msk) |
+ c1fa2f8:	4905      	ldr	r1, [pc, #20]	@ (c1fa310 <__NVIC_SystemReset+0x1c>)
+  SCB->AIRCR  = (uint32_t)((0x5FAUL << SCB_AIRCR_VECTKEY_Pos)    |
+ c1fa2fa:	4b06      	ldr	r3, [pc, #24]	@ (c1fa314 <__NVIC_SystemReset+0x20>)
+                           (SCB->AIRCR & SCB_AIRCR_PRIGROUP_Msk) |
+ c1fa2fc:	68ca      	ldr	r2, [r1, #12]
+ c1fa2fe:	f402 62e0 	and.w	r2, r2, #1792	@ 0x700
+  SCB->AIRCR  = (uint32_t)((0x5FAUL << SCB_AIRCR_VECTKEY_Pos)    |
+ c1fa302:	4313      	orrs	r3, r2
+ c1fa304:	60cb      	str	r3, [r1, #12]
+ c1fa306:	f3bf 8f4f 	dsb	sy
+                            SCB_AIRCR_SYSRESETREQ_Msk    );         /* Keep priority group unchanged */
+  __DSB();                                                          /* Ensure completion of memory access */
+
+  for(;;)                                                           /* wait until reset */
+  {
+    __NOP();
+ c1fa30a:	bf00      	nop
+  for(;;)                                                           /* wait until reset */
+ c1fa30c:	e7fd      	b.n	c1fa30a <__NVIC_SystemReset+0x16>
+ c1fa30e:	bf00      	nop
+ c1fa310:	e000ed00 	.word	0xe000ed00
+ c1fa314:	05fa0004 	.word	0x05fa0004
+
+0c1fa318 <unsecure_sram1.constprop.0>:
+
+/**
+  * @brief  Unsecure SRAM 1 part used by non secure loader
+  * @retval None
+  */
+static void  unsecure_sram1(uint32_t offset_start, uint32_t offset_end)
+ c1fa318:	b530      	push	{r4, r5, lr}
+ c1fa31a:	b0c5      	sub	sp, #276	@ 0x114
+  if (offset_start & 0xff)
+    /*  Check alignment to avoid further problem  */
+    /*  FIX ME  */
+    while (1);
+
+  if (HAL_GTZC_MPCBB_GetConfigMem(SRAM1_BASE, &MPCBB_desc) != HAL_OK)
+ c1fa31c:	ac01      	add	r4, sp, #4
+ c1fa31e:	4621      	mov	r1, r4
+ c1fa320:	f04f 5040 	mov.w	r0, #805306368	@ 0x30000000
+ c1fa324:	f000 fb78 	bl	c1faa18 <HAL_GTZC_MPCBB_GetConfigMem>
+ c1fa328:	b108      	cbz	r0, c1fa32e <unsecure_sram1.constprop.0+0x16>
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  NVIC_SystemReset();
+ c1fa32a:	f7ff ffe3 	bl	c1fa2f4 <__NVIC_SystemReset>
+  uint32_t regwrite = 0xffffffff;
+ c1fa32e:	f04f 33ff 	mov.w	r3, #4294967295	@ 0xffffffff
+      regwrite = regwrite & ~(1 << (index & 0x1f));
+ c1fa332:	2101      	movs	r1, #1
+      regwrite = 0xffffffff;
+ c1fa334:	f010 021f 	ands.w	r2, r0, #31
+ c1fa338:	bf08      	it	eq
+ c1fa33a:	f04f 33ff 	moveq.w	r3, #4294967295	@ 0xffffffff
+    if ((index & 0x1f) == 0x1f)
+ c1fa33e:	2a1f      	cmp	r2, #31
+      regwrite = regwrite & ~(1 << (index & 0x1f));
+ c1fa340:	fa01 f502 	lsl.w	r5, r1, r2
+      MPCBB_desc.AttributeConfig.MPCBB_SecConfig_array[index >> 5] = regwrite;
+ c1fa344:	bf04      	itt	eq
+ c1fa346:	0942      	lsreq	r2, r0, #5
+ c1fa348:	3202      	addeq	r2, #2
+      regwrite = regwrite & ~(1 << (index & 0x1f));
+ c1fa34a:	ea23 0305 	bic.w	r3, r3, r5
+  for (index = 0; index < SRAM1_SIZE / GTZC_MPCBB_BLOCK_SIZE; index++)
+ c1fa34e:	f100 0001 	add.w	r0, r0, #1
+      MPCBB_desc.AttributeConfig.MPCBB_SecConfig_array[index >> 5] = regwrite;
+ c1fa352:	bf08      	it	eq
+ c1fa354:	f844 3022 	streq.w	r3, [r4, r2, lsl #2]
+  for (index = 0; index < SRAM1_SIZE / GTZC_MPCBB_BLOCK_SIZE; index++)
+ c1fa358:	f5b0 7fc0 	cmp.w	r0, #384	@ 0x180
+ c1fa35c:	d1ea      	bne.n	c1fa334 <unsecure_sram1.constprop.0+0x1c>
+  if (HAL_GTZC_MPCBB_ConfigMem(SRAM1_BASE, &MPCBB_desc) != HAL_OK)
+ c1fa35e:	4621      	mov	r1, r4
+ c1fa360:	f04f 5040 	mov.w	r0, #805306368	@ 0x30000000
+ c1fa364:	f000 faea 	bl	c1fa93c <HAL_GTZC_MPCBB_ConfigMem>
+ c1fa368:	2800      	cmp	r0, #0
+ c1fa36a:	d1de      	bne.n	c1fa32a <unsecure_sram1.constprop.0+0x12>
+}
+ c1fa36c:	b045      	add	sp, #276	@ 0x114
+ c1fa36e:	bd30      	pop	{r4, r5, pc}
+
+0c1fa370 <main>:
+  SCB->SHCSR |= SCB_SHCSR_SECUREFAULTENA_Msk;
+ c1fa370:	4a1c      	ldr	r2, [pc, #112]	@ (c1fa3e4 <main+0x74>)
+{
+ c1fa372:	b508      	push	{r3, lr}
+  SCB->SHCSR |= SCB_SHCSR_SECUREFAULTENA_Msk;
+ c1fa374:	6a53      	ldr	r3, [r2, #36]	@ 0x24
+ c1fa376:	f443 2300 	orr.w	r3, r3, #524288	@ 0x80000
+ c1fa37a:	6253      	str	r3, [r2, #36]	@ 0x24
+  HAL_Init();
+ c1fa37c:	f000 faa4 	bl	c1fa8c8 <HAL_Init>
+  unsecure_sram1((uint32_t)(LOADER_NS_DATA_START-SRAM1_BASE_NS),(uint32_t)( LOADER_NS_DATA_LIMIT-SRAM1_BASE_NS));
+ c1fa380:	f7ff ffca 	bl	c1fa318 <unsecure_sram1.constprop.0>
+  SCB_NS->VTOR = VTOR_TABLE_NS_START_ADDR;
+ c1fa384:	4b18      	ldr	r3, [pc, #96]	@ (c1fa3e8 <main+0x78>)
+ c1fa386:	4a19      	ldr	r2, [pc, #100]	@ (c1fa3ec <main+0x7c>)
+ c1fa388:	6093      	str	r3, [r2, #8]
+  __ASM volatile ("MSR msp_ns, %0" : : "r" (topOfMainStack) : );
+ c1fa38a:	681a      	ldr	r2, [r3, #0]
+ c1fa38c:	f382 8888 	msr	MSP_NS, r2
+  NonSecure_ResetHandler();
+ c1fa390:	685c      	ldr	r4, [r3, #4]
+ c1fa392:	0864      	lsrs	r4, r4, #1
+ c1fa394:	0064      	lsls	r4, r4, #1
+ c1fa396:	4620      	mov	r0, r4
+ c1fa398:	4621      	mov	r1, r4
+ c1fa39a:	4622      	mov	r2, r4
+ c1fa39c:	4623      	mov	r3, r4
+ c1fa39e:	eeb7 0a00 	vmov.f32	s0, #112	@ 0x3f800000  1.0
+ c1fa3a2:	eef7 0a00 	vmov.f32	s1, #112	@ 0x3f800000  1.0
+ c1fa3a6:	eeb7 1a00 	vmov.f32	s2, #112	@ 0x3f800000  1.0
+ c1fa3aa:	eef7 1a00 	vmov.f32	s3, #112	@ 0x3f800000  1.0
+ c1fa3ae:	eeb7 2a00 	vmov.f32	s4, #112	@ 0x3f800000  1.0
+ c1fa3b2:	eef7 2a00 	vmov.f32	s5, #112	@ 0x3f800000  1.0
+ c1fa3b6:	eeb7 3a00 	vmov.f32	s6, #112	@ 0x3f800000  1.0
+ c1fa3ba:	eef7 3a00 	vmov.f32	s7, #112	@ 0x3f800000  1.0
+ c1fa3be:	eeb7 4a00 	vmov.f32	s8, #112	@ 0x3f800000  1.0
+ c1fa3c2:	eef7 4a00 	vmov.f32	s9, #112	@ 0x3f800000  1.0
+ c1fa3c6:	eeb7 5a00 	vmov.f32	s10, #112	@ 0x3f800000  1.0
+ c1fa3ca:	eef7 5a00 	vmov.f32	s11, #112	@ 0x3f800000  1.0
+ c1fa3ce:	eeb7 6a00 	vmov.f32	s12, #112	@ 0x3f800000  1.0
+ c1fa3d2:	eef7 6a00 	vmov.f32	s13, #112	@ 0x3f800000  1.0
+ c1fa3d6:	eeb7 7a00 	vmov.f32	s14, #112	@ 0x3f800000  1.0
+ c1fa3da:	eef7 7a00 	vmov.f32	s15, #112	@ 0x3f800000  1.0
+ c1fa3de:	f000 fc39 	bl	c1fac54 <__gnu_cmse_nonsecure_call>
+  while (1)
+ c1fa3e2:	e7fe      	b.n	c1fa3e2 <main+0x72>
+ c1fa3e4:	e000ed00 	.word	0xe000ed00
+ c1fa3e8:	081fa000 	.word	0x081fa000
+ c1fa3ec:	e002ed00 	.word	0xe002ed00
+
+0c1fa3f0 <TAMP_IRQHandler>:
+void TAMP_IRQHandler(void)
+ c1fa3f0:	b508      	push	{r3, lr}
+ c1fa3f2:	f7ff ff7f 	bl	c1fa2f4 <__NVIC_SystemReset>
+
+0c1fa3f6 <Error_Handler>:
+{
+ c1fa3f6:	b508      	push	{r3, lr}
+  NVIC_SystemReset();
+ c1fa3f8:	f7ff ff7c 	bl	c1fa2f4 <__NVIC_SystemReset>
+
+0c1fa3fc <__acle_se_dummy>:
+}
+#else
+CMSE_NS_ENTRY void dummy(void)
+{
+	return;
+}
+ c1fa3fc:	4670      	mov	r0, lr
+ c1fa3fe:	4671      	mov	r1, lr
+ c1fa400:	4672      	mov	r2, lr
+ c1fa402:	4673      	mov	r3, lr
+ c1fa404:	eeb7 0a00 	vmov.f32	s0, #112	@ 0x3f800000  1.0
+ c1fa408:	eef7 0a00 	vmov.f32	s1, #112	@ 0x3f800000  1.0
+ c1fa40c:	eeb7 1a00 	vmov.f32	s2, #112	@ 0x3f800000  1.0
+ c1fa410:	eef7 1a00 	vmov.f32	s3, #112	@ 0x3f800000  1.0
+ c1fa414:	eeb7 2a00 	vmov.f32	s4, #112	@ 0x3f800000  1.0
+ c1fa418:	eef7 2a00 	vmov.f32	s5, #112	@ 0x3f800000  1.0
+ c1fa41c:	eeb7 3a00 	vmov.f32	s6, #112	@ 0x3f800000  1.0
+ c1fa420:	eef7 3a00 	vmov.f32	s7, #112	@ 0x3f800000  1.0
+ c1fa424:	eeb7 4a00 	vmov.f32	s8, #112	@ 0x3f800000  1.0
+ c1fa428:	eef7 4a00 	vmov.f32	s9, #112	@ 0x3f800000  1.0
+ c1fa42c:	eeb7 5a00 	vmov.f32	s10, #112	@ 0x3f800000  1.0
+ c1fa430:	eef7 5a00 	vmov.f32	s11, #112	@ 0x3f800000  1.0
+ c1fa434:	eeb7 6a00 	vmov.f32	s12, #112	@ 0x3f800000  1.0
+ c1fa438:	eef7 6a00 	vmov.f32	s13, #112	@ 0x3f800000  1.0
+ c1fa43c:	eeb7 7a00 	vmov.f32	s14, #112	@ 0x3f800000  1.0
+ c1fa440:	eef7 7a00 	vmov.f32	s15, #112	@ 0x3f800000  1.0
+ c1fa444:	f38e 8c00 	msr	CPSR_fs, lr
+ c1fa448:	b410      	push	{r4}
+ c1fa44a:	eef1 ca10 	vmrs	ip, fpscr
+ c1fa44e:	f64f 7460 	movw	r4, #65376	@ 0xff60
+ c1fa452:	f6c0 74ff 	movt	r4, #4095	@ 0xfff
+ c1fa456:	ea0c 0c04 	and.w	ip, ip, r4
+ c1fa45a:	eee1 ca10 	vmsr	fpscr, ip
+ c1fa45e:	bc10      	pop	{r4}
+ c1fa460:	46f4      	mov	ip, lr
+ c1fa462:	4774      	bxns	lr
+
+0c1fa464 <NMI_Handler>:
+__WEAK void handler_name(void) { \
+    while(1); \
+}
+
+/* Exceptions */
+DEFAULT_IRQ_HANDLER(NMI_Handler)
+ c1fa464:	e7fe      	b.n	c1fa464 <NMI_Handler>
+
+0c1fa466 <HardFault_Handler>:
+DEFAULT_IRQ_HANDLER(HardFault_Handler)
+ c1fa466:	e7fe      	b.n	c1fa466 <HardFault_Handler>
+
+0c1fa468 <MemManage_Handler>:
+DEFAULT_IRQ_HANDLER(MemManage_Handler)
+ c1fa468:	e7fe      	b.n	c1fa468 <MemManage_Handler>
+
+0c1fa46a <BusFault_Handler>:
+DEFAULT_IRQ_HANDLER(BusFault_Handler)
+ c1fa46a:	e7fe      	b.n	c1fa46a <BusFault_Handler>
+
+0c1fa46c <UsageFault_Handler>:
+DEFAULT_IRQ_HANDLER(UsageFault_Handler)
+ c1fa46c:	e7fe      	b.n	c1fa46c <UsageFault_Handler>
+
+0c1fa46e <SecureFault_Handler>:
+DEFAULT_IRQ_HANDLER(SecureFault_Handler)
+ c1fa46e:	e7fe      	b.n	c1fa46e <SecureFault_Handler>
+
+0c1fa470 <SVC_Handler>:
+DEFAULT_IRQ_HANDLER(SVC_Handler)
+ c1fa470:	e7fe      	b.n	c1fa470 <SVC_Handler>
+
+0c1fa472 <DebugMon_Handler>:
+DEFAULT_IRQ_HANDLER(DebugMon_Handler)
+ c1fa472:	e7fe      	b.n	c1fa472 <DebugMon_Handler>
+
+0c1fa474 <PendSV_Handler>:
+DEFAULT_IRQ_HANDLER(PendSV_Handler)
+ c1fa474:	e7fe      	b.n	c1fa474 <PendSV_Handler>
+
+0c1fa476 <SysTick_Handler>:
+DEFAULT_IRQ_HANDLER(SysTick_Handler)
+ c1fa476:	e7fe      	b.n	c1fa476 <SysTick_Handler>
+
+0c1fa478 <WWDG_IRQHandler>:
+
+DEFAULT_IRQ_HANDLER(WWDG_IRQHandler)
+ c1fa478:	e7fe      	b.n	c1fa478 <WWDG_IRQHandler>
+
+0c1fa47a <PVD_PVM_IRQHandler>:
+DEFAULT_IRQ_HANDLER(PVD_PVM_IRQHandler)
+ c1fa47a:	e7fe      	b.n	c1fa47a <PVD_PVM_IRQHandler>
+
+0c1fa47c <RTC_IRQHandler>:
+DEFAULT_IRQ_HANDLER(RTC_IRQHandler)
+ c1fa47c:	e7fe      	b.n	c1fa47c <RTC_IRQHandler>
+
+0c1fa47e <RTC_IRQHandler_S>:
+DEFAULT_IRQ_HANDLER(RTC_IRQHandler_S)
+ c1fa47e:	e7fe      	b.n	c1fa47e <RTC_IRQHandler_S>
+
+0c1fa480 <RAMCFG_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TAMP_IRQHandler)
+DEFAULT_IRQ_HANDLER(RAMCFG_IRQHandler)
+ c1fa480:	e7fe      	b.n	c1fa480 <RAMCFG_IRQHandler>
+
+0c1fa482 <FLASH_IRQHandler>:
+DEFAULT_IRQ_HANDLER(FLASH_IRQHandler)
+ c1fa482:	e7fe      	b.n	c1fa482 <FLASH_IRQHandler>
+
+0c1fa484 <FLASH_IRQHandler_S>:
+DEFAULT_IRQ_HANDLER(FLASH_IRQHandler_S)
+ c1fa484:	e7fe      	b.n	c1fa484 <FLASH_IRQHandler_S>
+
+0c1fa486 <GTZC_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GTZC_IRQHandler)
+ c1fa486:	e7fe      	b.n	c1fa486 <GTZC_IRQHandler>
+
+0c1fa488 <RCC_IRQHandler>:
+DEFAULT_IRQ_HANDLER(RCC_IRQHandler)
+ c1fa488:	e7fe      	b.n	c1fa488 <RCC_IRQHandler>
+
+0c1fa48a <RCC_IRQHandler_S>:
+DEFAULT_IRQ_HANDLER(RCC_IRQHandler_S)
+ c1fa48a:	e7fe      	b.n	c1fa48a <RCC_IRQHandler_S>
+
+0c1fa48c <EXTI0_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI0_IRQHandler)
+ c1fa48c:	e7fe      	b.n	c1fa48c <EXTI0_IRQHandler>
+
+0c1fa48e <EXTI1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI1_IRQHandler)
+ c1fa48e:	e7fe      	b.n	c1fa48e <EXTI1_IRQHandler>
+
+0c1fa490 <EXTI2_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI2_IRQHandler)
+ c1fa490:	e7fe      	b.n	c1fa490 <EXTI2_IRQHandler>
+
+0c1fa492 <EXTI3_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI3_IRQHandler)
+ c1fa492:	e7fe      	b.n	c1fa492 <EXTI3_IRQHandler>
+
+0c1fa494 <EXTI4_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI4_IRQHandler)
+ c1fa494:	e7fe      	b.n	c1fa494 <EXTI4_IRQHandler>
+
+0c1fa496 <EXTI5_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI5_IRQHandler)
+ c1fa496:	e7fe      	b.n	c1fa496 <EXTI5_IRQHandler>
+
+0c1fa498 <EXTI6_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI6_IRQHandler)
+ c1fa498:	e7fe      	b.n	c1fa498 <EXTI6_IRQHandler>
+
+0c1fa49a <EXTI7_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI7_IRQHandler)
+ c1fa49a:	e7fe      	b.n	c1fa49a <EXTI7_IRQHandler>
+
+0c1fa49c <EXTI8_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI8_IRQHandler)
+ c1fa49c:	e7fe      	b.n	c1fa49c <EXTI8_IRQHandler>
+
+0c1fa49e <EXTI9_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI9_IRQHandler)
+ c1fa49e:	e7fe      	b.n	c1fa49e <EXTI9_IRQHandler>
+
+0c1fa4a0 <EXTI10_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI10_IRQHandler)
+ c1fa4a0:	e7fe      	b.n	c1fa4a0 <EXTI10_IRQHandler>
+
+0c1fa4a2 <EXTI11_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI11_IRQHandler)
+ c1fa4a2:	e7fe      	b.n	c1fa4a2 <EXTI11_IRQHandler>
+
+0c1fa4a4 <EXTI12_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI12_IRQHandler)
+ c1fa4a4:	e7fe      	b.n	c1fa4a4 <EXTI12_IRQHandler>
+
+0c1fa4a6 <EXTI13_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI13_IRQHandler)
+ c1fa4a6:	e7fe      	b.n	c1fa4a6 <EXTI13_IRQHandler>
+
+0c1fa4a8 <EXTI14_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI14_IRQHandler)
+ c1fa4a8:	e7fe      	b.n	c1fa4a8 <EXTI14_IRQHandler>
+
+0c1fa4aa <EXTI15_IRQHandler>:
+DEFAULT_IRQ_HANDLER(EXTI15_IRQHandler)
+ c1fa4aa:	e7fe      	b.n	c1fa4aa <EXTI15_IRQHandler>
+
+0c1fa4ac <IWDG_IRQHandler>:
+DEFAULT_IRQ_HANDLER(IWDG_IRQHandler)
+ c1fa4ac:	e7fe      	b.n	c1fa4ac <IWDG_IRQHandler>
+
+0c1fa4ae <SAES_IRQHandler>:
+#if defined(STM32U585xx) || defined(STM32U5A5xx) || defined(STM32U5A9xx) || defined(STM32U545xx)
+DEFAULT_IRQ_HANDLER(SAES_IRQHandler)
+ c1fa4ae:	e7fe      	b.n	c1fa4ae <SAES_IRQHandler>
+
+0c1fa4b0 <GPDMA1_Channel0_IRQHandler>:
+#endif /* defined(STM32U585xx) || defined(STM32U5A5xx) || defined(STM32U5A9xx) || defined(STM32U545xx) */
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel0_IRQHandler)
+ c1fa4b0:	e7fe      	b.n	c1fa4b0 <GPDMA1_Channel0_IRQHandler>
+
+0c1fa4b2 <GPDMA1_Channel1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel1_IRQHandler)
+ c1fa4b2:	e7fe      	b.n	c1fa4b2 <GPDMA1_Channel1_IRQHandler>
+
+0c1fa4b4 <GPDMA1_Channel2_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel2_IRQHandler)
+ c1fa4b4:	e7fe      	b.n	c1fa4b4 <GPDMA1_Channel2_IRQHandler>
+
+0c1fa4b6 <GPDMA1_Channel3_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel3_IRQHandler)
+ c1fa4b6:	e7fe      	b.n	c1fa4b6 <GPDMA1_Channel3_IRQHandler>
+
+0c1fa4b8 <GPDMA1_Channel4_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel4_IRQHandler)
+ c1fa4b8:	e7fe      	b.n	c1fa4b8 <GPDMA1_Channel4_IRQHandler>
+
+0c1fa4ba <GPDMA1_Channel5_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel5_IRQHandler)
+ c1fa4ba:	e7fe      	b.n	c1fa4ba <GPDMA1_Channel5_IRQHandler>
+
+0c1fa4bc <GPDMA1_Channel6_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel6_IRQHandler)
+ c1fa4bc:	e7fe      	b.n	c1fa4bc <GPDMA1_Channel6_IRQHandler>
+
+0c1fa4be <GPDMA1_Channel7_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel7_IRQHandler)
+ c1fa4be:	e7fe      	b.n	c1fa4be <GPDMA1_Channel7_IRQHandler>
+
+0c1fa4c0 <ADC1_IRQHandler>:
+#if defined(STM32U585xx) || defined(STM32U575xx) || defined(STM32U535xx) || defined(STM32U545xx)
+DEFAULT_IRQ_HANDLER(ADC1_IRQHandler)
+ c1fa4c0:	e7fe      	b.n	c1fa4c0 <ADC1_IRQHandler>
+
+0c1fa4c2 <DAC1_IRQHandler>:
+#else
+DEFAULT_IRQ_HANDLER(ADC1_2_IRQHandler)
+#endif /* defined(STM32U585xx) || defined(STM32U575xx) || defined(STM32U535xx) || defined(STM32U545xx) */
+DEFAULT_IRQ_HANDLER(DAC1_IRQHandler)
+ c1fa4c2:	e7fe      	b.n	c1fa4c2 <DAC1_IRQHandler>
+
+0c1fa4c4 <FDCAN1_IT0_IRQHandler>:
+DEFAULT_IRQ_HANDLER(FDCAN1_IT0_IRQHandler)
+ c1fa4c4:	e7fe      	b.n	c1fa4c4 <FDCAN1_IT0_IRQHandler>
+
+0c1fa4c6 <FDCAN1_IT1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(FDCAN1_IT1_IRQHandler)
+ c1fa4c6:	e7fe      	b.n	c1fa4c6 <FDCAN1_IT1_IRQHandler>
+
+0c1fa4c8 <TIM1_BRK_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM1_BRK_IRQHandler)
+ c1fa4c8:	e7fe      	b.n	c1fa4c8 <TIM1_BRK_IRQHandler>
+
+0c1fa4ca <TIM1_UP_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM1_UP_IRQHandler)
+ c1fa4ca:	e7fe      	b.n	c1fa4ca <TIM1_UP_IRQHandler>
+
+0c1fa4cc <TIM1_TRG_COM_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM1_TRG_COM_IRQHandler)
+ c1fa4cc:	e7fe      	b.n	c1fa4cc <TIM1_TRG_COM_IRQHandler>
+
+0c1fa4ce <TIM1_CC_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM1_CC_IRQHandler)
+ c1fa4ce:	e7fe      	b.n	c1fa4ce <TIM1_CC_IRQHandler>
+
+0c1fa4d0 <TIM2_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM2_IRQHandler)
+ c1fa4d0:	e7fe      	b.n	c1fa4d0 <TIM2_IRQHandler>
+
+0c1fa4d2 <TIM3_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM3_IRQHandler)
+ c1fa4d2:	e7fe      	b.n	c1fa4d2 <TIM3_IRQHandler>
+
+0c1fa4d4 <TIM4_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM4_IRQHandler)
+ c1fa4d4:	e7fe      	b.n	c1fa4d4 <TIM4_IRQHandler>
+
+0c1fa4d6 <TIM5_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM5_IRQHandler)
+ c1fa4d6:	e7fe      	b.n	c1fa4d6 <TIM5_IRQHandler>
+
+0c1fa4d8 <TIM6_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM6_IRQHandler)
+ c1fa4d8:	e7fe      	b.n	c1fa4d8 <TIM6_IRQHandler>
+
+0c1fa4da <TIM7_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM7_IRQHandler)
+ c1fa4da:	e7fe      	b.n	c1fa4da <TIM7_IRQHandler>
+
+0c1fa4dc <TIM8_BRK_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM8_BRK_IRQHandler)
+ c1fa4dc:	e7fe      	b.n	c1fa4dc <TIM8_BRK_IRQHandler>
+
+0c1fa4de <TIM8_UP_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM8_UP_IRQHandler)
+ c1fa4de:	e7fe      	b.n	c1fa4de <TIM8_UP_IRQHandler>
+
+0c1fa4e0 <TIM8_TRG_COM_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM8_TRG_COM_IRQHandler)
+ c1fa4e0:	e7fe      	b.n	c1fa4e0 <TIM8_TRG_COM_IRQHandler>
+
+0c1fa4e2 <TIM8_CC_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM8_CC_IRQHandler)
+ c1fa4e2:	e7fe      	b.n	c1fa4e2 <TIM8_CC_IRQHandler>
+
+0c1fa4e4 <I2C1_EV_IRQHandler>:
+DEFAULT_IRQ_HANDLER(I2C1_EV_IRQHandler)
+ c1fa4e4:	e7fe      	b.n	c1fa4e4 <I2C1_EV_IRQHandler>
+
+0c1fa4e6 <I2C1_ER_IRQHandler>:
+DEFAULT_IRQ_HANDLER(I2C1_ER_IRQHandler)
+ c1fa4e6:	e7fe      	b.n	c1fa4e6 <I2C1_ER_IRQHandler>
+
+0c1fa4e8 <I2C2_EV_IRQHandler>:
+DEFAULT_IRQ_HANDLER(I2C2_EV_IRQHandler)
+ c1fa4e8:	e7fe      	b.n	c1fa4e8 <I2C2_EV_IRQHandler>
+
+0c1fa4ea <I2C2_ER_IRQHandler>:
+DEFAULT_IRQ_HANDLER(I2C2_ER_IRQHandler)
+ c1fa4ea:	e7fe      	b.n	c1fa4ea <I2C2_ER_IRQHandler>
+
+0c1fa4ec <SPI1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(SPI1_IRQHandler)
+ c1fa4ec:	e7fe      	b.n	c1fa4ec <SPI1_IRQHandler>
+
+0c1fa4ee <SPI2_IRQHandler>:
+DEFAULT_IRQ_HANDLER(SPI2_IRQHandler)
+ c1fa4ee:	e7fe      	b.n	c1fa4ee <SPI2_IRQHandler>
+
+0c1fa4f0 <USART1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(USART1_IRQHandler)
+ c1fa4f0:	e7fe      	b.n	c1fa4f0 <USART1_IRQHandler>
+
+0c1fa4f2 <USART2_IRQHandler>:
+#if !(defined(STM32U535xx) || defined(STM32U545xx))
+DEFAULT_IRQ_HANDLER(USART2_IRQHandler)
+ c1fa4f2:	e7fe      	b.n	c1fa4f2 <USART2_IRQHandler>
+
+0c1fa4f4 <USART3_IRQHandler>:
+#endif /* !(defined(STM32U535xx) || defined(STM32U545xx)) */
+DEFAULT_IRQ_HANDLER(USART3_IRQHandler)
+ c1fa4f4:	e7fe      	b.n	c1fa4f4 <USART3_IRQHandler>
+
+0c1fa4f6 <UART4_IRQHandler>:
+DEFAULT_IRQ_HANDLER(UART4_IRQHandler)
+ c1fa4f6:	e7fe      	b.n	c1fa4f6 <UART4_IRQHandler>
+
+0c1fa4f8 <UART5_IRQHandler>:
+DEFAULT_IRQ_HANDLER(UART5_IRQHandler)
+ c1fa4f8:	e7fe      	b.n	c1fa4f8 <UART5_IRQHandler>
+
+0c1fa4fa <LPUART1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(LPUART1_IRQHandler)
+ c1fa4fa:	e7fe      	b.n	c1fa4fa <LPUART1_IRQHandler>
+
+0c1fa4fc <LPTIM1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(LPTIM1_IRQHandler)
+ c1fa4fc:	e7fe      	b.n	c1fa4fc <LPTIM1_IRQHandler>
+
+0c1fa4fe <LPTIM2_IRQHandler>:
+DEFAULT_IRQ_HANDLER(LPTIM2_IRQHandler)
+ c1fa4fe:	e7fe      	b.n	c1fa4fe <LPTIM2_IRQHandler>
+
+0c1fa500 <TIM15_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM15_IRQHandler)
+ c1fa500:	e7fe      	b.n	c1fa500 <TIM15_IRQHandler>
+
+0c1fa502 <TIM16_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM16_IRQHandler)
+ c1fa502:	e7fe      	b.n	c1fa502 <TIM16_IRQHandler>
+
+0c1fa504 <TIM17_IRQHandler>:
+DEFAULT_IRQ_HANDLER(TIM17_IRQHandler)
+ c1fa504:	e7fe      	b.n	c1fa504 <TIM17_IRQHandler>
+
+0c1fa506 <COMP_IRQHandler>:
+DEFAULT_IRQ_HANDLER(COMP_IRQHandler)
+ c1fa506:	e7fe      	b.n	c1fa506 <COMP_IRQHandler>
+
+0c1fa508 <OTG_FS_IRQHandler>:
+#if defined(STM32U535xx) || defined(STM32U545xx)
+DEFAULT_IRQ_HANDLER(USB_IRQHandler)
+#elif defined(STM32U585xx) || defined(STM32U575xx)
+DEFAULT_IRQ_HANDLER(OTG_FS_IRQHandler)
+ c1fa508:	e7fe      	b.n	c1fa508 <OTG_FS_IRQHandler>
+
+0c1fa50a <CRS_IRQHandler>:
+#else
+DEFAULT_IRQ_HANDLER(OTG_HS_IRQHandler)
+#endif /* defined(STM32U535xx) || defined(STM32U545xx) */
+DEFAULT_IRQ_HANDLER(CRS_IRQHandler)
+ c1fa50a:	e7fe      	b.n	c1fa50a <CRS_IRQHandler>
+
+0c1fa50c <FMC_IRQHandler>:
+#if !(defined(STM32U535xx) || defined(STM32U545xx))
+DEFAULT_IRQ_HANDLER(FMC_IRQHandler)
+ c1fa50c:	e7fe      	b.n	c1fa50c <FMC_IRQHandler>
+
+0c1fa50e <OCTOSPI1_IRQHandler>:
+#endif /* !(defined(STM32U535xx) || defined(STM32U545xx)) */
+DEFAULT_IRQ_HANDLER(OCTOSPI1_IRQHandler)
+ c1fa50e:	e7fe      	b.n	c1fa50e <OCTOSPI1_IRQHandler>
+
+0c1fa510 <PWR_S3WU_IRQHandler>:
+DEFAULT_IRQ_HANDLER(PWR_S3WU_IRQHandler)
+ c1fa510:	e7fe      	b.n	c1fa510 <PWR_S3WU_IRQHandler>
+
+0c1fa512 <SDMMC1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(SDMMC1_IRQHandler)
+ c1fa512:	e7fe      	b.n	c1fa512 <SDMMC1_IRQHandler>
+
+0c1fa514 <SDMMC2_IRQHandler>:
+#if !(defined(STM32U535xx) || defined(STM32U545xx))
+DEFAULT_IRQ_HANDLER(SDMMC2_IRQHandler)
+ c1fa514:	e7fe      	b.n	c1fa514 <SDMMC2_IRQHandler>
+
+0c1fa516 <GPDMA1_Channel8_IRQHandler>:
+#endif /* !(defined(STM32U535xx) || defined(STM32U545xx)) */
+
+DEFAULT_IRQ_HANDLER(DMA2_Channel1_IRQHandler)
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel8_IRQHandler)
+ c1fa516:	e7fe      	b.n	c1fa516 <GPDMA1_Channel8_IRQHandler>
+
+0c1fa518 <GPDMA1_Channel9_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel9_IRQHandler)
+ c1fa518:	e7fe      	b.n	c1fa518 <GPDMA1_Channel9_IRQHandler>
+
+0c1fa51a <GPDMA1_Channel10_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel10_IRQHandler)
+ c1fa51a:	e7fe      	b.n	c1fa51a <GPDMA1_Channel10_IRQHandler>
+
+0c1fa51c <GPDMA1_Channel11_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel11_IRQHandler)
+ c1fa51c:	e7fe      	b.n	c1fa51c <GPDMA1_Channel11_IRQHandler>
+
+0c1fa51e <GPDMA1_Channel12_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel12_IRQHandler)
+ c1fa51e:	e7fe      	b.n	c1fa51e <GPDMA1_Channel12_IRQHandler>
+
+0c1fa520 <GPDMA1_Channel13_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel13_IRQHandler)
+ c1fa520:	e7fe      	b.n	c1fa520 <GPDMA1_Channel13_IRQHandler>
+
+0c1fa522 <GPDMA1_Channel14_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel14_IRQHandler)
+ c1fa522:	e7fe      	b.n	c1fa522 <GPDMA1_Channel14_IRQHandler>
+
+0c1fa524 <GPDMA1_Channel15_IRQHandler>:
+DEFAULT_IRQ_HANDLER(GPDMA1_Channel15_IRQHandler)
+ c1fa524:	e7fe      	b.n	c1fa524 <GPDMA1_Channel15_IRQHandler>
+
+0c1fa526 <I2C3_EV_IRQHandler>:
+DEFAULT_IRQ_HANDLER(I2C3_EV_IRQHandler)
+ c1fa526:	e7fe      	b.n	c1fa526 <I2C3_EV_IRQHandler>
+
+0c1fa528 <I2C3_ER_IRQHandler>:
+DEFAULT_IRQ_HANDLER(I2C3_ER_IRQHandler)
+ c1fa528:	e7fe      	b.n	c1fa528 <I2C3_ER_IRQHandler>
+
+0c1fa52a <SAI1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(SAI1_IRQHandler)
+ c1fa52a:	e7fe      	b.n	c1fa52a <SAI1_IRQHandler>
+
+0c1fa52c <SAI2_IRQHandler>:
+#if !(defined(STM32U535xx) || defined(STM32U545xx))
+DEFAULT_IRQ_HANDLER(SAI2_IRQHandler)
+ c1fa52c:	e7fe      	b.n	c1fa52c <SAI2_IRQHandler>
+
+0c1fa52e <TSC_IRQHandler>:
+#endif /* !(defined(STM32U535xx) || defined(STM32U545xx)) */
+DEFAULT_IRQ_HANDLER(TSC_IRQHandler)
+ c1fa52e:	e7fe      	b.n	c1fa52e <TSC_IRQHandler>
+
+0c1fa530 <AES_IRQHandler>:
+#if defined(STM32U585xx) || defined(STM32U5A5xx) || defined(STM32U5A9xx) || defined(STM32U545xx)
+DEFAULT_IRQ_HANDLER(AES_IRQHandler)
+ c1fa530:	e7fe      	b.n	c1fa530 <AES_IRQHandler>
+
+0c1fa532 <RNG_IRQHandler>:
+#endif /* defined(STM32U585xx) || defined(STM32U5A5xx) || defined(STM32U5A9xx) || defined(STM32U545xx) */
+DEFAULT_IRQ_HANDLER(RNG_IRQHandler)
+ c1fa532:	e7fe      	b.n	c1fa532 <RNG_IRQHandler>
+
+0c1fa534 <FPU_IRQHandler>:
+DEFAULT_IRQ_HANDLER(FPU_IRQHandler)
+ c1fa534:	e7fe      	b.n	c1fa534 <FPU_IRQHandler>
+
+0c1fa536 <HASH_IRQHandler>:
+DEFAULT_IRQ_HANDLER(HASH_IRQHandler)
+ c1fa536:	e7fe      	b.n	c1fa536 <HASH_IRQHandler>
+
+0c1fa538 <PKA_IRQHandler>:
+#if defined(STM32U585xx) || defined(STM32U5A5xx) || defined(STM32U5A9xx) || defined(STM32U545xx)
+DEFAULT_IRQ_HANDLER(PKA_IRQHandler)
+ c1fa538:	e7fe      	b.n	c1fa538 <PKA_IRQHandler>
+
+0c1fa53a <LPTIM3_IRQHandler>:
+#endif /* defined(STM32U585xx) || defined(STM32U5A5xx) || defined(STM32U5A9xx) || defined(STM32U545xx) */
+DEFAULT_IRQ_HANDLER(LPTIM3_IRQHandler)
+ c1fa53a:	e7fe      	b.n	c1fa53a <LPTIM3_IRQHandler>
+
+0c1fa53c <SPI3_IRQHandler>:
+DEFAULT_IRQ_HANDLER(SPI3_IRQHandler)
+ c1fa53c:	e7fe      	b.n	c1fa53c <SPI3_IRQHandler>
+
+0c1fa53e <I2C4_ER_IRQHandler>:
+DEFAULT_IRQ_HANDLER(I2C4_ER_IRQHandler)
+ c1fa53e:	e7fe      	b.n	c1fa53e <I2C4_ER_IRQHandler>
+
+0c1fa540 <I2C4_EV_IRQHandler>:
+DEFAULT_IRQ_HANDLER(I2C4_EV_IRQHandler)
+ c1fa540:	e7fe      	b.n	c1fa540 <I2C4_EV_IRQHandler>
+
+0c1fa542 <MDF1_FLT0_IRQHandler>:
+DEFAULT_IRQ_HANDLER(MDF1_FLT0_IRQHandler)
+ c1fa542:	e7fe      	b.n	c1fa542 <MDF1_FLT0_IRQHandler>
+
+0c1fa544 <MDF1_FLT1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(MDF1_FLT1_IRQHandler)
+ c1fa544:	e7fe      	b.n	c1fa544 <MDF1_FLT1_IRQHandler>
+
+0c1fa546 <MDF1_FLT2_IRQHandler>:
+#if !(defined(STM32U535xx) || defined(STM32U545xx))
+DEFAULT_IRQ_HANDLER(MDF1_FLT2_IRQHandler)
+ c1fa546:	e7fe      	b.n	c1fa546 <MDF1_FLT2_IRQHandler>
+
+0c1fa548 <MDF1_FLT3_IRQHandler>:
+DEFAULT_IRQ_HANDLER(MDF1_FLT3_IRQHandler)
+ c1fa548:	e7fe      	b.n	c1fa548 <MDF1_FLT3_IRQHandler>
+
+0c1fa54a <UCPD1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(UCPD1_IRQHandler)
+ c1fa54a:	e7fe      	b.n	c1fa54a <UCPD1_IRQHandler>
+
+0c1fa54c <ICACHE_IRQHandler>:
+#endif /* !(defined(STM32U535xx) || defined(STM32U545xx)) */
+DEFAULT_IRQ_HANDLER(ICACHE_IRQHandler)
+ c1fa54c:	e7fe      	b.n	c1fa54c <ICACHE_IRQHandler>
+
+0c1fa54e <OTFDEC1_IRQHandler>:
+#if defined(STM32U545xx)
+DEFAULT_IRQ_HANDLER(OTFDEC1_IRQHandler)
+#elif defined(STM32U585xx) || defined(STM32U5A5xx) || defined(STM32U5A9xx)
+DEFAULT_IRQ_HANDLER(OTFDEC1_IRQHandler)
+ c1fa54e:	e7fe      	b.n	c1fa54e <OTFDEC1_IRQHandler>
+
+0c1fa550 <OTFDEC2_IRQHandler>:
+DEFAULT_IRQ_HANDLER(OTFDEC2_IRQHandler)
+ c1fa550:	e7fe      	b.n	c1fa550 <OTFDEC2_IRQHandler>
+
+0c1fa552 <LPTIM4_IRQHandler>:
+#endif /* defined(STM32U545xx) */
+DEFAULT_IRQ_HANDLER(LPTIM4_IRQHandler)
+ c1fa552:	e7fe      	b.n	c1fa552 <LPTIM4_IRQHandler>
+
+0c1fa554 <DCACHE1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(DCACHE1_IRQHandler)
+ c1fa554:	e7fe      	b.n	c1fa554 <DCACHE1_IRQHandler>
+
+0c1fa556 <ADF1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(ADF1_IRQHandler)
+ c1fa556:	e7fe      	b.n	c1fa556 <ADF1_IRQHandler>
+
+0c1fa558 <ADC4_IRQHandler>:
+DEFAULT_IRQ_HANDLER(ADC4_IRQHandler)
+ c1fa558:	e7fe      	b.n	c1fa558 <ADC4_IRQHandler>
+
+0c1fa55a <LPDMA1_Channel0_IRQHandler>:
+DEFAULT_IRQ_HANDLER(LPDMA1_Channel0_IRQHandler)
+ c1fa55a:	e7fe      	b.n	c1fa55a <LPDMA1_Channel0_IRQHandler>
+
+0c1fa55c <LPDMA1_Channel1_IRQHandler>:
+DEFAULT_IRQ_HANDLER(LPDMA1_Channel1_IRQHandler)
+ c1fa55c:	e7fe      	b.n	c1fa55c <LPDMA1_Channel1_IRQHandler>
+
+0c1fa55e <LPDMA1_Channel2_IRQHandler>:
+DEFAULT_IRQ_HANDLER(LPDMA1_Channel2_IRQHandler)
+ c1fa55e:	e7fe      	b.n	c1fa55e <LPDMA1_Channel2_IRQHandler>
+
+0c1fa560 <LPDMA1_Channel3_IRQHandler>:
+DEFAULT_IRQ_HANDLER(LPDMA1_Channel3_IRQHandler)
+ c1fa560:	e7fe      	b.n	c1fa560 <LPDMA1_Channel3_IRQHandler>
+
+0c1fa562 <DMA2D_IRQHandler>:
+#if !(defined(STM32U535xx) || defined(STM32U545xx))
+DEFAULT_IRQ_HANDLER(DMA2D_IRQHandler)
+ c1fa562:	e7fe      	b.n	c1fa562 <DMA2D_IRQHandler>
+
+0c1fa564 <DCMI_PSSI_IRQHandler>:
+#endif /* !(defined(STM32U535xx) || defined(STM32U545xx)) */
+DEFAULT_IRQ_HANDLER(DCMI_PSSI_IRQHandler)
+ c1fa564:	e7fe      	b.n	c1fa564 <DCMI_PSSI_IRQHandler>
+
+0c1fa566 <OCTOSPI2_IRQHandler>:
+#if !(defined(STM32U535xx) || defined(STM32U545xx))
+DEFAULT_IRQ_HANDLER(OCTOSPI2_IRQHandler)
+ c1fa566:	e7fe      	b.n	c1fa566 <OCTOSPI2_IRQHandler>
+
+0c1fa568 <MDF1_FLT4_IRQHandler>:
+DEFAULT_IRQ_HANDLER(MDF1_FLT4_IRQHandler)
+ c1fa568:	e7fe      	b.n	c1fa568 <MDF1_FLT4_IRQHandler>
+
+0c1fa56a <MDF1_FLT5_IRQHandler>:
+DEFAULT_IRQ_HANDLER(MDF1_FLT5_IRQHandler)
+ c1fa56a:	e7fe      	b.n	c1fa56a <MDF1_FLT5_IRQHandler>
+
+0c1fa56c <CORDIC_IRQHandler>:
+#endif /* !(defined(STM32U535xx) || defined(STM32U545xx)) */
+DEFAULT_IRQ_HANDLER(CORDIC_IRQHandler)
+ c1fa56c:	e7fe      	b.n	c1fa56c <CORDIC_IRQHandler>
+
+0c1fa56e <FMAC_IRQHandler>:
+DEFAULT_IRQ_HANDLER(FMAC_IRQHandler)
+ c1fa56e:	e7fe      	b.n	c1fa56e <FMAC_IRQHandler>
+
+0c1fa570 <LSECSSD_IRQHandler>:
+DEFAULT_IRQ_HANDLER(LSECSSD_IRQHandler)
+ c1fa570:	e7fe      	b.n	c1fa570 <LSECSSD_IRQHandler>
+	...
+
+0c1fa574 <Reset_Handler>:
+
+/*----------------------------------------------------------------------------
+  Reset Handler called on controller reset
+ *----------------------------------------------------------------------------*/
+void Reset_Handler(void)
+{
+ c1fa574:	b507      	push	{r0, r1, r2, lr}
+  __ASM volatile ("MSR msplim, %0" : : "r" (MainStackPtrLimit));
+ c1fa576:	4b1e      	ldr	r3, [pc, #120]	@ (c1fa5f0 <Reset_Handler+0x7c>)
+ c1fa578:	f383 880a 	msr	MSPLIM, r3
+#if defined (__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3U)
+  __IO uint32_t tmp;
+
+#endif
+  __set_MSPLIM((uint32_t)(&__STACK_LIMIT));
+  SystemInit();                             /* CMSIS System Initialization */
+ c1fa57c:	f000 f854 	bl	c1fa628 <SystemInit>
+#if defined (__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3U)
+  /* Enable SYSCFG interface clock */
+  RCC->APB3ENR |= RCC_APB3ENR_SYSCFGEN;
+ c1fa580:	4b1c      	ldr	r3, [pc, #112]	@ (c1fa5f4 <Reset_Handler+0x80>)
+ c1fa582:	f8d3 20a8 	ldr.w	r2, [r3, #168]	@ 0xa8
+ c1fa586:	f042 0202 	orr.w	r2, r2, #2
+ c1fa58a:	f8c3 20a8 	str.w	r2, [r3, #168]	@ 0xa8
+  /* Delay after an RCC peripheral clock enabling */
+  tmp = RCC->APB3ENR;
+ c1fa58e:	f8d3 30a8 	ldr.w	r3, [r3, #168]	@ 0xa8
+ c1fa592:	9301      	str	r3, [sp, #4]
+  (void)tmp;
+ c1fa594:	9b01      	ldr	r3, [sp, #4]
+
+  /* Check VTOR_S, MPU_S and SAU are locked */
+  if ((READ_BIT(SYSCFG->CSLCKR,
+ c1fa596:	4b18      	ldr	r3, [pc, #96]	@ (c1fa5f8 <Reset_Handler+0x84>)
+ c1fa598:	691b      	ldr	r3, [r3, #16]
+ c1fa59a:	f003 0307 	and.w	r3, r3, #7
+ c1fa59e:	2b07      	cmp	r3, #7
+ c1fa5a0:	d001      	beq.n	c1fa5a6 <Reset_Handler+0x32>
+              (SYSCFG_CSLCKR_LOCKSVTAIRCR | SYSCFG_CSLCKR_LOCKSMPU | SYSCFG_CSLCKR_LOCKSAU)))
+              != (SYSCFG_CSLCKR_LOCKSVTAIRCR | SYSCFG_CSLCKR_LOCKSMPU | SYSCFG_CSLCKR_LOCKSAU))
+  {
+    Error_Handler();
+ c1fa5a2:	f7ff ff28 	bl	c1fa3f6 <Error_Handler>
+    for(uint32_t i=0u; i<pTable->wlen; ++i) {
+ c1fa5a6:	4b15      	ldr	r3, [pc, #84]	@ (c1fa5fc <Reset_Handler+0x88>)
+  for (__copy_table_t const* pTable = &__copy_table_start__; pTable < &__copy_table_end__; ++pTable) {
+ c1fa5a8:	4915      	ldr	r1, [pc, #84]	@ (c1fa600 <Reset_Handler+0x8c>)
+ c1fa5aa:	428b      	cmp	r3, r1
+ c1fa5ac:	d312      	bcc.n	c1fa5d4 <Reset_Handler+0x60>
+      pTable->dest[i] = 0u;
+ c1fa5ae:	2000      	movs	r0, #0
+  for (__zero_table_t const* pTable = &__zero_table_start__; pTable < &__zero_table_end__; ++pTable) {
+ c1fa5b0:	4b14      	ldr	r3, [pc, #80]	@ (c1fa604 <Reset_Handler+0x90>)
+ c1fa5b2:	4915      	ldr	r1, [pc, #84]	@ (c1fa608 <Reset_Handler+0x94>)
+ c1fa5b4:	428b      	cmp	r3, r1
+ c1fa5b6:	d318      	bcc.n	c1fa5ea <Reset_Handler+0x76>
+  _start();
+ c1fa5b8:	f7ff fe62 	bl	c1fa280 <_mainCRTStartup>
+      pTable->dest[i] = pTable->src[i];
+ c1fa5bc:	6818      	ldr	r0, [r3, #0]
+ c1fa5be:	f850 4022 	ldr.w	r4, [r0, r2, lsl #2]
+ c1fa5c2:	6858      	ldr	r0, [r3, #4]
+ c1fa5c4:	f840 4022 	str.w	r4, [r0, r2, lsl #2]
+    for(uint32_t i=0u; i<pTable->wlen; ++i) {
+ c1fa5c8:	3201      	adds	r2, #1
+ c1fa5ca:	6898      	ldr	r0, [r3, #8]
+ c1fa5cc:	4282      	cmp	r2, r0
+ c1fa5ce:	d3f5      	bcc.n	c1fa5bc <Reset_Handler+0x48>
+  for (__copy_table_t const* pTable = &__copy_table_start__; pTable < &__copy_table_end__; ++pTable) {
+ c1fa5d0:	330c      	adds	r3, #12
+ c1fa5d2:	e7ea      	b.n	c1fa5aa <Reset_Handler+0x36>
+    for(uint32_t i=0u; i<pTable->wlen; ++i) {
+ c1fa5d4:	2200      	movs	r2, #0
+ c1fa5d6:	e7f8      	b.n	c1fa5ca <Reset_Handler+0x56>
+      pTable->dest[i] = 0u;
+ c1fa5d8:	681c      	ldr	r4, [r3, #0]
+ c1fa5da:	f844 0022 	str.w	r0, [r4, r2, lsl #2]
+    for(uint32_t i=0u; i<pTable->wlen; ++i) {
+ c1fa5de:	3201      	adds	r2, #1
+ c1fa5e0:	685c      	ldr	r4, [r3, #4]
+ c1fa5e2:	42a2      	cmp	r2, r4
+ c1fa5e4:	d3f8      	bcc.n	c1fa5d8 <Reset_Handler+0x64>
+  for (__zero_table_t const* pTable = &__zero_table_start__; pTable < &__zero_table_end__; ++pTable) {
+ c1fa5e6:	3308      	adds	r3, #8
+ c1fa5e8:	e7e4      	b.n	c1fa5b4 <Reset_Handler+0x40>
+    for(uint32_t i=0u; i<pTable->wlen; ++i) {
+ c1fa5ea:	2200      	movs	r2, #0
+ c1fa5ec:	e7f8      	b.n	c1fa5e0 <Reset_Handler+0x6c>
+ c1fa5ee:	bf00      	nop
+ c1fa5f0:	30030040 	.word	0x30030040
+ c1fa5f4:	56020c00 	.word	0x56020c00
+ c1fa5f8:	56000400 	.word	0x56000400
+ c1fa5fc:	0c1fad28 	.word	0x0c1fad28
+ c1fa600:	0c1fad34 	.word	0x0c1fad34
+ c1fa604:	0c1fad34 	.word	0x0c1fad34
+ c1fa608:	0c1fad3c 	.word	0x0c1fad3c
+
+0c1fa60c <HAL_InitTick>:
+  * @retval HAL status
+  */
+HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)
+{
+  /* load 1Hz for timeout 1 second */
+  uint32_t ticks = SystemCoreClock ;
+ c1fa60c:	4b05      	ldr	r3, [pc, #20]	@ (c1fa624 <HAL_InitTick+0x18>)
+  SysTick->LOAD  = (uint32_t)(ticks - 1UL);                         /* set reload register */
+  SysTick->VAL   = 0UL;                                             /* Load the SysTick Counter Value */
+ c1fa60e:	2000      	movs	r0, #0
+  SysTick->LOAD  = (uint32_t)(ticks - 1UL);                         /* set reload register */
+ c1fa610:	681a      	ldr	r2, [r3, #0]
+ c1fa612:	f04f 23e0 	mov.w	r3, #3758153728	@ 0xe000e000
+ c1fa616:	3a01      	subs	r2, #1
+ c1fa618:	615a      	str	r2, [r3, #20]
+  SysTick->CTRL  = SysTick_CTRL_CLKSOURCE_Msk |
+ c1fa61a:	2205      	movs	r2, #5
+  SysTick->VAL   = 0UL;                                             /* Load the SysTick Counter Value */
+ c1fa61c:	6198      	str	r0, [r3, #24]
+  SysTick->CTRL  = SysTick_CTRL_CLKSOURCE_Msk |
+ c1fa61e:	611a      	str	r2, [r3, #16]
+                   SysTick_CTRL_ENABLE_Msk;
+  return HAL_OK;
+}
+ c1fa620:	4770      	bx	lr
+ c1fa622:	bf00      	nop
+ c1fa624:	30030000 	.word	0x30030000
+
+0c1fa628 <SystemInit>:
+{
+
+#if defined (__SAUREGION_PRESENT) && (__SAUREGION_PRESENT == 1U)
+
+  #if defined (SAU_INIT_REGION0) && (SAU_INIT_REGION0 == 1U)
+    SAU_INIT_REGION(0);
+ c1fa628:	2100      	movs	r1, #0
+  * @param  None
+  * @retval None
+  */
+
+void SystemInit(void)
+{
+ c1fa62a:	b510      	push	{r4, lr}
+  #endif
+
+  #if defined (SAU_INIT_REGION1) && (SAU_INIT_REGION1 == 1U)
+    SAU_INIT_REGION(1);
+ c1fa62c:	2401      	movs	r4, #1
+    SAU_INIT_REGION(0);
+ c1fa62e:	4b3e      	ldr	r3, [pc, #248]	@ (c1fa728 <SystemInit+0x100>)
+ c1fa630:	4a3e      	ldr	r2, [pc, #248]	@ (c1fa72c <SystemInit+0x104>)
+ c1fa632:	f8c3 10d8 	str.w	r1, [r3, #216]	@ 0xd8
+ c1fa636:	f8c3 20dc 	str.w	r2, [r3, #220]	@ 0xdc
+ c1fa63a:	f502 3237 	add.w	r2, r2, #187392	@ 0x2dc00
+ c1fa63e:	3203      	adds	r2, #3
+ c1fa640:	f8c3 20e0 	str.w	r2, [r3, #224]	@ 0xe0
+    SAU_INIT_REGION(1);
+ c1fa644:	4a3a      	ldr	r2, [pc, #232]	@ (c1fa730 <SystemInit+0x108>)
+ c1fa646:	f8c3 40d8 	str.w	r4, [r3, #216]	@ 0xd8
+ c1fa64a:	f8c3 20dc 	str.w	r2, [r3, #220]	@ 0xdc
+ c1fa64e:	4a39      	ldr	r2, [pc, #228]	@ (c1fa734 <SystemInit+0x10c>)
+  #if defined (__FPU_USED) && (__FPU_USED == 1U) && defined (TZ_FPU_NS_USAGE) && (TZ_FPU_NS_USAGE == 1U)
+
+    SCB->NSACR = (SCB->NSACR & ~(SCB_NSACR_CP10_Msk | SCB_NSACR_CP11_Msk)) |
+                   ((SCB_NSACR_CP10_11_VAL << SCB_NSACR_CP10_Pos) & (SCB_NSACR_CP10_Msk | SCB_NSACR_CP11_Msk));
+
+    FPU->FPCCR = (FPU->FPCCR & ~(FPU_FPCCR_TS_Msk | FPU_FPCCR_CLRONRETS_Msk | FPU_FPCCR_CLRONRET_Msk)) |
+ c1fa650:	4839      	ldr	r0, [pc, #228]	@ (c1fa738 <SystemInit+0x110>)
+    SAU_INIT_REGION(1);
+ c1fa652:	f8c3 20e0 	str.w	r2, [r3, #224]	@ 0xe0
+    SAU_INIT_REGION(2);
+ c1fa656:	2202      	movs	r2, #2
+ c1fa658:	f8c3 20d8 	str.w	r2, [r3, #216]	@ 0xd8
+ c1fa65c:	f04f 5200 	mov.w	r2, #536870912	@ 0x20000000
+ c1fa660:	f8c3 20dc 	str.w	r2, [r3, #220]	@ 0xdc
+ c1fa664:	f502 323f 	add.w	r2, r2, #195584	@ 0x2fc00
+ c1fa668:	f202 32e1 	addw	r2, r2, #993	@ 0x3e1
+ c1fa66c:	f8c3 20e0 	str.w	r2, [r3, #224]	@ 0xe0
+    SAU_INIT_REGION(3);
+ c1fa670:	2203      	movs	r2, #3
+ c1fa672:	f8c3 20d8 	str.w	r2, [r3, #216]	@ 0xd8
+ c1fa676:	4a31      	ldr	r2, [pc, #196]	@ (c1fa73c <SystemInit+0x114>)
+ c1fa678:	f8c3 20dc 	str.w	r2, [r3, #220]	@ 0xdc
+ c1fa67c:	f502 22ef 	add.w	r2, r2, #489472	@ 0x77800
+ c1fa680:	f202 72e1 	addw	r2, r2, #2017	@ 0x7e1
+ c1fa684:	f8c3 20e0 	str.w	r2, [r3, #224]	@ 0xe0
+    SAU_INIT_REGION(4);
+ c1fa688:	2204      	movs	r2, #4
+ c1fa68a:	f8c3 20d8 	str.w	r2, [r3, #216]	@ 0xd8
+ c1fa68e:	f04f 4280 	mov.w	r2, #1073741824	@ 0x40000000
+ c1fa692:	f8c3 20dc 	str.w	r2, [r3, #220]	@ 0xdc
+ c1fa696:	4a2a      	ldr	r2, [pc, #168]	@ (c1fa740 <SystemInit+0x118>)
+ c1fa698:	f8c3 20e0 	str.w	r2, [r3, #224]	@ 0xe0
+    SAU_INIT_REGION(5);
+ c1fa69c:	2205      	movs	r2, #5
+ c1fa69e:	f8c3 20d8 	str.w	r2, [r3, #216]	@ 0xd8
+ c1fa6a2:	f04f 42c0 	mov.w	r2, #1610612736	@ 0x60000000
+ c1fa6a6:	f8c3 20dc 	str.w	r2, [r3, #220]	@ 0xdc
+ c1fa6aa:	4a26      	ldr	r2, [pc, #152]	@ (c1fa744 <SystemInit+0x11c>)
+ c1fa6ac:	f8c3 20e0 	str.w	r2, [r3, #224]	@ 0xe0
+    SAU->CTRL = ((SAU_INIT_CTRL_ENABLE << SAU_CTRL_ENABLE_Pos) & SAU_CTRL_ENABLE_Msk) |
+ c1fa6b0:	f8c3 40d0 	str.w	r4, [r3, #208]	@ 0xd0
+    SCB->NSACR = (SCB->NSACR & ~(SCB_NSACR_CP10_Msk | SCB_NSACR_CP11_Msk)) |
+ c1fa6b4:	f8d3 208c 	ldr.w	r2, [r3, #140]	@ 0x8c
+ c1fa6b8:	f442 6240 	orr.w	r2, r2, #3072	@ 0xc00
+ c1fa6bc:	f8c3 208c 	str.w	r2, [r3, #140]	@ 0x8c
+    FPU->FPCCR = (FPU->FPCCR & ~(FPU_FPCCR_TS_Msk | FPU_FPCCR_CLRONRETS_Msk | FPU_FPCCR_CLRONRET_Msk)) |
+ c1fa6c0:	6b42      	ldr	r2, [r0, #52]	@ 0x34
+                   ((FPU_FPCCR_TS_VAL        << FPU_FPCCR_TS_Pos       ) & FPU_FPCCR_TS_Msk       ) |
+ c1fa6c2:	f022 52e0 	bic.w	r2, r2, #469762048	@ 0x1c000000
+                   ((FPU_FPCCR_CLRONRETS_VAL << FPU_FPCCR_CLRONRETS_Pos) & FPU_FPCCR_CLRONRETS_Msk) |
+ c1fa6c6:	f042 5280 	orr.w	r2, r2, #268435456	@ 0x10000000
+    FPU->FPCCR = (FPU->FPCCR & ~(FPU_FPCCR_TS_Msk | FPU_FPCCR_CLRONRETS_Msk | FPU_FPCCR_CLRONRET_Msk)) |
+ c1fa6ca:	6342      	str	r2, [r0, #52]	@ 0x34
+                   ((FPU_FPCCR_CLRONRET_VAL  << FPU_FPCCR_CLRONRET_Pos ) & FPU_FPCCR_CLRONRET_Msk );
+  #endif
+
+  #if defined (NVIC_INIT_ITNS0) && (NVIC_INIT_ITNS0 == 1U)
+    NVIC->ITNS[0] = NVIC_INIT_ITNS0_VAL;
+ c1fa6cc:	f04f 30ff 	mov.w	r0, #4294967295	@ 0xffffffff
+ c1fa6d0:	4a1d      	ldr	r2, [pc, #116]	@ (c1fa748 <SystemInit+0x120>)
+ c1fa6d2:	f8c2 0280 	str.w	r0, [r2, #640]	@ 0x280
+  #endif
+
+  #if defined (NVIC_INIT_ITNS1) && (NVIC_INIT_ITNS1 == 1U)
+    NVIC->ITNS[1] = NVIC_INIT_ITNS1_VAL;
+ c1fa6d6:	f8c2 0284 	str.w	r0, [r2, #644]	@ 0x284
+  #endif
+
+  #if defined (NVIC_INIT_ITNS2) && (NVIC_INIT_ITNS2 == 1U)
+    NVIC->ITNS[2] = NVIC_INIT_ITNS2_VAL;
+ c1fa6da:	f8c2 0288 	str.w	r0, [r2, #648]	@ 0x288
+  #endif
+
+  #if defined (NVIC_INIT_ITNS3) && (NVIC_INIT_ITNS3 == 1U)
+    NVIC->ITNS[3] = NVIC_INIT_ITNS3_VAL;
+ c1fa6de:	f8c2 028c 	str.w	r0, [r2, #652]	@ 0x28c
+  /* SAU/IDAU, FPU and Interrupts secure/non-secure allocation settings */
+  TZ_SAU_Setup();
+
+  /* FPU settings ------------------------------------------------------------*/
+#if (__FPU_PRESENT == 1) && (__FPU_USED == 1)
+    SCB->CPACR |= ((3UL << 20U)|(3UL << 22U));     /* set CP10 and CP11 Full Access */
+ c1fa6e2:	f8d3 2088 	ldr.w	r2, [r3, #136]	@ 0x88
+
+    SCB_NS->CPACR |= ((3UL << 20U)|(3UL << 22U));  /* set CP10 and CP11 Full Access */
+ c1fa6e6:	4819      	ldr	r0, [pc, #100]	@ (c1fa74c <SystemInit+0x124>)
+    SCB->CPACR |= ((3UL << 20U)|(3UL << 22U));     /* set CP10 and CP11 Full Access */
+ c1fa6e8:	f442 0270 	orr.w	r2, r2, #15728640	@ 0xf00000
+ c1fa6ec:	f8c3 2088 	str.w	r2, [r3, #136]	@ 0x88
+    SCB_NS->CPACR |= ((3UL << 20U)|(3UL << 22U));  /* set CP10 and CP11 Full Access */
+ c1fa6f0:	f8d0 2088 	ldr.w	r2, [r0, #136]	@ 0x88
+ c1fa6f4:	f442 0270 	orr.w	r2, r2, #15728640	@ 0xf00000
+ c1fa6f8:	f8c0 2088 	str.w	r2, [r0, #136]	@ 0x88
+#endif
+
+  /* Reset the RCC clock configuration to the default reset state ------------*/
+  /* Set MSION bit */
+  RCC->CR = RCC_CR_MSISON;
+ c1fa6fc:	4a14      	ldr	r2, [pc, #80]	@ (c1fa750 <SystemInit+0x128>)
+ c1fa6fe:	6014      	str	r4, [r2, #0]
+
+  /* Reset CFGR register */
+  RCC->CFGR1 = 0U;
+ c1fa700:	61d1      	str	r1, [r2, #28]
+  RCC->CFGR2 = 0U;
+ c1fa702:	6211      	str	r1, [r2, #32]
+  RCC->CFGR3 = 0U;
+ c1fa704:	6251      	str	r1, [r2, #36]	@ 0x24
+
+  /* Reset HSEON, CSSON , HSION, PLLxON bits */
+  RCC->CR &= ~(RCC_CR_HSEON | RCC_CR_CSSON | RCC_CR_PLL1ON | RCC_CR_PLL2ON | RCC_CR_PLL3ON);
+ c1fa706:	6810      	ldr	r0, [r2, #0]
+ c1fa708:	f020 50a8 	bic.w	r0, r0, #352321536	@ 0x15000000
+ c1fa70c:	f420 2010 	bic.w	r0, r0, #589824	@ 0x90000
+ c1fa710:	6010      	str	r0, [r2, #0]
+
+  /* Reset PLLCFGR register */
+  RCC->PLL1CFGR = 0U;
+ c1fa712:	6291      	str	r1, [r2, #40]	@ 0x28
+
+  /* Reset HSEBYP bit */
+  RCC->CR &= ~(RCC_CR_HSEBYP);
+ c1fa714:	6810      	ldr	r0, [r2, #0]
+ c1fa716:	f420 2080 	bic.w	r0, r0, #262144	@ 0x40000
+ c1fa71a:	6010      	str	r0, [r2, #0]
+
+  /* Disable all interrupts */
+  RCC->CIER = 0U;
+ c1fa71c:	6511      	str	r1, [r2, #80]	@ 0x50
+
+  /* Configure the Vector Table location add offset address ------------------*/
+#ifdef VECT_TAB_SRAM
+    SCB->VTOR = SRAM1_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal SRAM */
+#else
+    SCB->VTOR = FLASH_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal FLASH */
+ c1fa71e:	f04f 6240 	mov.w	r2, #201326592	@ 0xc000000
+ c1fa722:	609a      	str	r2, [r3, #8]
+#endif
+}
+ c1fa724:	bd10      	pop	{r4, pc}
+ c1fa726:	bf00      	nop
+ c1fa728:	e000ed00 	.word	0xe000ed00
+ c1fa72c:	0c038400 	.word	0x0c038400
+ c1fa730:	08068400 	.word	0x08068400
+ c1fa734:	08200001 	.word	0x08200001
+ c1fa738:	e000ef00 	.word	0xe000ef00
+ c1fa73c:	20048000 	.word	0x20048000
+ c1fa740:	4fffffe1 	.word	0x4fffffe1
+ c1fa744:	9fffffe1 	.word	0x9fffffe1
+ c1fa748:	e000e100 	.word	0xe000e100
+ c1fa74c:	e002ed00 	.word	0xe002ed00
+ c1fa750:	56020c00 	.word	0x56020c00
+
+0c1fa754 <SystemCoreClockUpdate>:
+{
+  uint32_t pllr, pllsource, pllm , tmp, pllfracen, msirange;
+  float_t fracn1, pllvco;
+
+  /* Get MSI Range frequency--------------------------------------------------*/
+  if(READ_BIT(RCC->ICSCR1, RCC_ICSCR1_MSIRGSEL) == 0U)
+ c1fa754:	4935      	ldr	r1, [pc, #212]	@ (c1fa82c <SystemCoreClockUpdate+0xd8>)
+    /* MSIRANGE from RCC_CR applies */
+    msirange = (RCC->ICSCR1 & RCC_ICSCR1_MSISRANGE) >> RCC_ICSCR1_MSISRANGE_Pos;
+  }
+
+  /*MSI frequency range in HZ*/
+  msirange = MSIRangeTable[msirange];
+ c1fa756:	4a36      	ldr	r2, [pc, #216]	@ (c1fa830 <SystemCoreClockUpdate+0xdc>)
+  if(READ_BIT(RCC->ICSCR1, RCC_ICSCR1_MSIRGSEL) == 0U)
+ c1fa758:	688b      	ldr	r3, [r1, #8]
+{
+ c1fa75a:	b510      	push	{r4, lr}
+  if(READ_BIT(RCC->ICSCR1, RCC_ICSCR1_MSIRGSEL) == 0U)
+ c1fa75c:	021b      	lsls	r3, r3, #8
+    msirange = (RCC->CSR & RCC_CSR_MSISSRANGE) >> RCC_CSR_MSISSRANGE_Pos;
+ c1fa75e:	bf55      	itete	pl
+ c1fa760:	f8d1 30f4 	ldrpl.w	r3, [r1, #244]	@ 0xf4
+    msirange = (RCC->ICSCR1 & RCC_ICSCR1_MSISRANGE) >> RCC_ICSCR1_MSISRANGE_Pos;
+ c1fa764:	688b      	ldrmi	r3, [r1, #8]
+    msirange = (RCC->CSR & RCC_CSR_MSISSRANGE) >> RCC_CSR_MSISSRANGE_Pos;
+ c1fa766:	f3c3 3303 	ubfxpl	r3, r3, #12, #4
+    msirange = (RCC->ICSCR1 & RCC_ICSCR1_MSISRANGE) >> RCC_ICSCR1_MSISRANGE_Pos;
+ c1fa76a:	0f1b      	lsrmi	r3, r3, #28
+  msirange = MSIRangeTable[msirange];
+ c1fa76c:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
+
+  /* Get SYSCLK source -------------------------------------------------------*/
+  switch (RCC->CFGR1 & RCC_CFGR1_SWS)
+ c1fa770:	69ca      	ldr	r2, [r1, #28]
+ c1fa772:	f002 020c 	and.w	r2, r2, #12
+ c1fa776:	2a08      	cmp	r2, #8
+ c1fa778:	d055      	beq.n	c1fa826 <SystemCoreClockUpdate+0xd2>
+ c1fa77a:	2a0c      	cmp	r2, #12
+ c1fa77c:	d00d      	beq.n	c1fa79a <SystemCoreClockUpdate+0x46>
+ c1fa77e:	492d      	ldr	r1, [pc, #180]	@ (c1fa834 <SystemCoreClockUpdate+0xe0>)
+ c1fa780:	2a04      	cmp	r2, #4
+ c1fa782:	bf08      	it	eq
+ c1fa784:	460b      	moveq	r3, r1
+    SystemCoreClock = msirange;
+    break;
+  }
+  /* Compute HCLK clock frequency --------------------------------------------*/
+  /* Get HCLK prescaler */
+  tmp = AHBPrescTable[((RCC->CFGR2 & RCC_CFGR2_HPRE) >> RCC_CFGR2_HPRE_Pos)];
+ c1fa786:	4a29      	ldr	r2, [pc, #164]	@ (c1fa82c <SystemCoreClockUpdate+0xd8>)
+ c1fa788:	492b      	ldr	r1, [pc, #172]	@ (c1fa838 <SystemCoreClockUpdate+0xe4>)
+ c1fa78a:	6a12      	ldr	r2, [r2, #32]
+ c1fa78c:	f002 020f 	and.w	r2, r2, #15
+ c1fa790:	5c8a      	ldrb	r2, [r1, r2]
+  /* HCLK clock frequency */
+  SystemCoreClock >>= tmp;
+ c1fa792:	40d3      	lsrs	r3, r2
+ c1fa794:	4a29      	ldr	r2, [pc, #164]	@ (c1fa83c <SystemCoreClockUpdate+0xe8>)
+ c1fa796:	6013      	str	r3, [r2, #0]
+}
+ c1fa798:	bd10      	pop	{r4, pc}
+    pllsource = (RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1SRC);
+ c1fa79a:	6a88      	ldr	r0, [r1, #40]	@ 0x28
+    pllm = ((RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1M)>> RCC_PLL1CFGR_PLL1M_Pos) + 1U;
+ c1fa79c:	6a8a      	ldr	r2, [r1, #40]	@ 0x28
+    pllfracen = ((RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1FRACEN)>>RCC_PLL1CFGR_PLL1FRACEN_Pos);
+ c1fa79e:	6a8c      	ldr	r4, [r1, #40]	@ 0x28
+    pllm = ((RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1M)>> RCC_PLL1CFGR_PLL1M_Pos) + 1U;
+ c1fa7a0:	f3c2 2203 	ubfx	r2, r2, #8, #4
+ c1fa7a4:	3201      	adds	r2, #1
+ c1fa7a6:	ee07 2a90 	vmov	s15, r2
+    fracn1 = (float_t)(uint32_t)(pllfracen* ((RCC->PLL1FRACR & RCC_PLL1FRACR_PLL1FRACN)>> RCC_PLL1FRACR_PLL1FRACN_Pos));
+ c1fa7aa:	6b8a      	ldr	r2, [r1, #56]	@ 0x38
+    pllfracen = ((RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1FRACEN)>>RCC_PLL1CFGR_PLL1FRACEN_Pos);
+ c1fa7ac:	f3c4 1100 	ubfx	r1, r4, #4, #1
+    fracn1 = (float_t)(uint32_t)(pllfracen* ((RCC->PLL1FRACR & RCC_PLL1FRACR_PLL1FRACN)>> RCC_PLL1FRACR_PLL1FRACN_Pos));
+ c1fa7b0:	f3c2 02cc 	ubfx	r2, r2, #3, #13
+ c1fa7b4:	434a      	muls	r2, r1
+ c1fa7b6:	ee07 2a10 	vmov	s14, r2
+    pllsource = (RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1SRC);
+ c1fa7ba:	f000 0003 	and.w	r0, r0, #3
+    fracn1 = (float_t)(uint32_t)(pllfracen* ((RCC->PLL1FRACR & RCC_PLL1FRACR_PLL1FRACN)>> RCC_PLL1FRACR_PLL1FRACN_Pos));
+ c1fa7be:	2802      	cmp	r0, #2
+ c1fa7c0:	eeb8 7ac7 	vcvt.f32.s32	s14, s14
+      switch (pllsource)
+ c1fa7c4:	d005      	beq.n	c1fa7d2 <SystemCoreClockUpdate+0x7e>
+ c1fa7c6:	2803      	cmp	r0, #3
+ c1fa7c8:	d003      	beq.n	c1fa7d2 <SystemCoreClockUpdate+0x7e>
+ c1fa7ca:	bb28      	cbnz	r0, c1fa818 <SystemCoreClockUpdate+0xc4>
+ c1fa7cc:	eddf 6a1c 	vldr	s13, [pc, #112]	@ c1fa840 <SystemCoreClockUpdate+0xec>
+ c1fa7d0:	e005      	b.n	c1fa7de <SystemCoreClockUpdate+0x8a>
+        pllvco = ((float_t)HSE_VALUE / (float_t)pllm);
+ c1fa7d2:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ c1fa7d6:	ed9f 6a1b 	vldr	s12, [pc, #108]	@ c1fa844 <SystemCoreClockUpdate+0xf0>
+        pllvco = ((float_t)msirange / (float_t)pllm);
+ c1fa7da:	eec6 6a27 	vdiv.f32	s13, s12, s15
+      pllvco = pllvco * ((float_t)(uint32_t)(RCC->PLL1DIVR & RCC_PLL1DIVR_PLL1N) + (fracn1/(float_t)0x2000) + (float_t)1U);
+ c1fa7de:	4a13      	ldr	r2, [pc, #76]	@ (c1fa82c <SystemCoreClockUpdate+0xd8>)
+ c1fa7e0:	ed9f 6a19 	vldr	s12, [pc, #100]	@ c1fa848 <SystemCoreClockUpdate+0xf4>
+ c1fa7e4:	6b53      	ldr	r3, [r2, #52]	@ 0x34
+      pllr = (((RCC->PLL1DIVR & RCC_PLL1DIVR_PLL1R) >> RCC_PLL1DIVR_PLL1R_Pos) + 1U );
+ c1fa7e6:	6b52      	ldr	r2, [r2, #52]	@ 0x34
+      pllvco = pllvco * ((float_t)(uint32_t)(RCC->PLL1DIVR & RCC_PLL1DIVR_PLL1N) + (fracn1/(float_t)0x2000) + (float_t)1U);
+ c1fa7e8:	f3c3 0308 	ubfx	r3, r3, #0, #9
+ c1fa7ec:	ee07 3a90 	vmov	s15, r3
+ c1fa7f0:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ c1fa7f4:	eee7 7a06 	vfma.f32	s15, s14, s12
+ c1fa7f8:	eeb7 7a00 	vmov.f32	s14, #112	@ 0x3f800000  1.0
+ c1fa7fc:	ee77 7a87 	vadd.f32	s15, s15, s14
+ c1fa800:	ee67 7aa6 	vmul.f32	s15, s15, s13
+      SystemCoreClock = (uint32_t)((uint32_t)pllvco/pllr);
+ c1fa804:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+ c1fa808:	ee17 3a90 	vmov	r3, s15
+      pllr = (((RCC->PLL1DIVR & RCC_PLL1DIVR_PLL1R) >> RCC_PLL1DIVR_PLL1R_Pos) + 1U );
+ c1fa80c:	f3c2 6206 	ubfx	r2, r2, #24, #7
+ c1fa810:	3201      	adds	r2, #1
+      SystemCoreClock = (uint32_t)((uint32_t)pllvco/pllr);
+ c1fa812:	fbb3 f3f2 	udiv	r3, r3, r2
+      break;
+ c1fa816:	e7b6      	b.n	c1fa786 <SystemCoreClockUpdate+0x32>
+        pllvco = ((float_t)msirange / (float_t)pllm);
+ c1fa818:	ee06 3a90 	vmov	s13, r3
+ c1fa81c:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ c1fa820:	eeb8 6a66 	vcvt.f32.u32	s12, s13
+ c1fa824:	e7d9      	b.n	c1fa7da <SystemCoreClockUpdate+0x86>
+  switch (RCC->CFGR1 & RCC_CFGR1_SWS)
+ c1fa826:	4b03      	ldr	r3, [pc, #12]	@ (c1fa834 <SystemCoreClockUpdate+0xe0>)
+ c1fa828:	e7ad      	b.n	c1fa786 <SystemCoreClockUpdate+0x32>
+ c1fa82a:	bf00      	nop
+ c1fa82c:	56020c00 	.word	0x56020c00
+ c1fa830:	0c1faccc 	.word	0x0c1faccc
+ c1fa834:	00f42400 	.word	0x00f42400
+ c1fa838:	0c1fad0c 	.word	0x0c1fad0c
+ c1fa83c:	30030000 	.word	0x30030000
+ c1fa840:	00000000 	.word	0x00000000
+ c1fa844:	4b742400 	.word	0x4b742400
+ c1fa848:	39000000 	.word	0x39000000
+
+0c1fa84c <__acle_se_SECURE_SystemCoreClockUpdate>:
+  *         be used by the user application to setup the SysTick timer or configure
+  *         other parameters.
+  * @retval SystemCoreClock value (HCLK)
+  */
+CMSE_NS_ENTRY uint32_t SECURE_SystemCoreClockUpdate(void)
+{
+ c1fa84c:	b508      	push	{r3, lr}
+  SystemCoreClockUpdate();
+ c1fa84e:	f7ff ff81 	bl	c1fa754 <SystemCoreClockUpdate>
+
+  return SystemCoreClock;
+}
+ c1fa852:	4b1b      	ldr	r3, [pc, #108]	@ (c1fa8c0 <__acle_se_SECURE_SystemCoreClockUpdate+0x74>)
+ c1fa854:	eeb7 0a00 	vmov.f32	s0, #112	@ 0x3f800000  1.0
+ c1fa858:	6818      	ldr	r0, [r3, #0]
+ c1fa85a:	eef7 0a00 	vmov.f32	s1, #112	@ 0x3f800000  1.0
+ c1fa85e:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+ c1fa862:	4671      	mov	r1, lr
+ c1fa864:	4672      	mov	r2, lr
+ c1fa866:	4673      	mov	r3, lr
+ c1fa868:	eeb7 1a00 	vmov.f32	s2, #112	@ 0x3f800000  1.0
+ c1fa86c:	eef7 1a00 	vmov.f32	s3, #112	@ 0x3f800000  1.0
+ c1fa870:	eeb7 2a00 	vmov.f32	s4, #112	@ 0x3f800000  1.0
+ c1fa874:	eef7 2a00 	vmov.f32	s5, #112	@ 0x3f800000  1.0
+ c1fa878:	eeb7 3a00 	vmov.f32	s6, #112	@ 0x3f800000  1.0
+ c1fa87c:	eef7 3a00 	vmov.f32	s7, #112	@ 0x3f800000  1.0
+ c1fa880:	eeb7 4a00 	vmov.f32	s8, #112	@ 0x3f800000  1.0
+ c1fa884:	eef7 4a00 	vmov.f32	s9, #112	@ 0x3f800000  1.0
+ c1fa888:	eeb7 5a00 	vmov.f32	s10, #112	@ 0x3f800000  1.0
+ c1fa88c:	eef7 5a00 	vmov.f32	s11, #112	@ 0x3f800000  1.0
+ c1fa890:	eeb7 6a00 	vmov.f32	s12, #112	@ 0x3f800000  1.0
+ c1fa894:	eef7 6a00 	vmov.f32	s13, #112	@ 0x3f800000  1.0
+ c1fa898:	eeb7 7a00 	vmov.f32	s14, #112	@ 0x3f800000  1.0
+ c1fa89c:	eef7 7a00 	vmov.f32	s15, #112	@ 0x3f800000  1.0
+ c1fa8a0:	f38e 8c00 	msr	CPSR_fs, lr
+ c1fa8a4:	b410      	push	{r4}
+ c1fa8a6:	eef1 ca10 	vmrs	ip, fpscr
+ c1fa8aa:	f64f 7460 	movw	r4, #65376	@ 0xff60
+ c1fa8ae:	f6c0 74ff 	movt	r4, #4095	@ 0xfff
+ c1fa8b2:	ea0c 0c04 	and.w	ip, ip, r4
+ c1fa8b6:	eee1 ca10 	vmsr	fpscr, ip
+ c1fa8ba:	bc10      	pop	{r4}
+ c1fa8bc:	46f4      	mov	ip, lr
+ c1fa8be:	4774      	bxns	lr
+ c1fa8c0:	30030000 	.word	0x30030000
+
+0c1fa8c4 <HAL_MspInit>:
+__weak void HAL_MspInit(void)
+{
+  /* NOTE : This function Should not be modified, when the callback is needed,
+            the HAL_MspInit could be implemented in the user file
+   */
+}
+ c1fa8c4:	4770      	bx	lr
+	...
+
+0c1fa8c8 <HAL_Init>:
+  __HAL_FLASH_PREFETCH_BUFFER_ENABLE();
+ c1fa8c8:	4a0f      	ldr	r2, [pc, #60]	@ (c1fa908 <HAL_Init+0x40>)
+{
+ c1fa8ca:	b510      	push	{r4, lr}
+  __HAL_FLASH_PREFETCH_BUFFER_ENABLE();
+ c1fa8cc:	6813      	ldr	r3, [r2, #0]
+  HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
+ c1fa8ce:	2003      	movs	r0, #3
+  __HAL_FLASH_PREFETCH_BUFFER_ENABLE();
+ c1fa8d0:	f443 7380 	orr.w	r3, r3, #256	@ 0x100
+ c1fa8d4:	6013      	str	r3, [r2, #0]
+  HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
+ c1fa8d6:	f000 f81f 	bl	c1fa918 <HAL_NVIC_SetPriorityGrouping>
+  SystemCoreClock = HAL_RCC_GetSysClockFreq() >> AHBPrescTable[(RCC->CFGR2 & RCC_CFGR2_HPRE) >> RCC_CFGR2_HPRE_Pos];
+ c1fa8da:	f000 f8f1 	bl	c1faac0 <HAL_RCC_GetSysClockFreq>
+ c1fa8de:	4b0b      	ldr	r3, [pc, #44]	@ (c1fa90c <HAL_Init+0x44>)
+ c1fa8e0:	4a0b      	ldr	r2, [pc, #44]	@ (c1fa910 <HAL_Init+0x48>)
+ c1fa8e2:	6a1b      	ldr	r3, [r3, #32]
+ c1fa8e4:	f003 030f 	and.w	r3, r3, #15
+ c1fa8e8:	5cd3      	ldrb	r3, [r2, r3]
+ c1fa8ea:	40d8      	lsrs	r0, r3
+ c1fa8ec:	4b09      	ldr	r3, [pc, #36]	@ (c1fa914 <HAL_Init+0x4c>)
+ c1fa8ee:	6018      	str	r0, [r3, #0]
+  if (HAL_InitTick(TICK_INT_PRIORITY) != HAL_OK)
+ c1fa8f0:	200f      	movs	r0, #15
+ c1fa8f2:	f7ff fe8b 	bl	c1fa60c <HAL_InitTick>
+ c1fa8f6:	4604      	mov	r4, r0
+ c1fa8f8:	b918      	cbnz	r0, c1fa902 <HAL_Init+0x3a>
+  HAL_MspInit();
+ c1fa8fa:	f7ff ffe3 	bl	c1fa8c4 <HAL_MspInit>
+}
+ c1fa8fe:	4620      	mov	r0, r4
+ c1fa900:	bd10      	pop	{r4, pc}
+    return HAL_ERROR;
+ c1fa902:	2401      	movs	r4, #1
+ c1fa904:	e7fb      	b.n	c1fa8fe <HAL_Init+0x36>
+ c1fa906:	bf00      	nop
+ c1fa908:	50022000 	.word	0x50022000
+ c1fa90c:	56020c00 	.word	0x56020c00
+ c1fa910:	0c1fad0c 	.word	0x0c1fad0c
+ c1fa914:	30030000 	.word	0x30030000
+
+0c1fa918 <HAL_NVIC_SetPriorityGrouping>:
+  reg_value  =  SCB->AIRCR;                                                   /* read old register configuration    */
+ c1fa918:	4907      	ldr	r1, [pc, #28]	@ (c1fa938 <HAL_NVIC_SetPriorityGrouping+0x20>)
+                (PriorityGroupTmp << SCB_AIRCR_PRIGROUP_Pos)  );              /* Insert write key and priority group */
+ c1fa91a:	0203      	lsls	r3, r0, #8
+  reg_value  =  SCB->AIRCR;                                                   /* read old register configuration    */
+ c1fa91c:	68ca      	ldr	r2, [r1, #12]
+                (PriorityGroupTmp << SCB_AIRCR_PRIGROUP_Pos)  );              /* Insert write key and priority group */
+ c1fa91e:	f403 63e0 	and.w	r3, r3, #1792	@ 0x700
+  reg_value &= ~((uint32_t)(SCB_AIRCR_VECTKEY_Msk | SCB_AIRCR_PRIGROUP_Msk)); /* clear bits to change               */
+ c1fa922:	f422 62e0 	bic.w	r2, r2, #1792	@ 0x700
+ c1fa926:	0412      	lsls	r2, r2, #16
+ c1fa928:	0c12      	lsrs	r2, r2, #16
+                ((uint32_t)0x5FAUL << SCB_AIRCR_VECTKEY_Pos) |
+ c1fa92a:	4313      	orrs	r3, r2
+  reg_value  =  (reg_value                                   |
+ c1fa92c:	f043 63bf 	orr.w	r3, r3, #100139008	@ 0x5f80000
+ c1fa930:	f443 3300 	orr.w	r3, r3, #131072	@ 0x20000
+  SCB->AIRCR =  reg_value;
+ c1fa934:	60cb      	str	r3, [r1, #12]
+  /* Check the parameters */
+  assert_param(IS_NVIC_PRIORITY_GROUP(PriorityGroup));
+
+  /* Set the PRIGROUP[10:8] bits according to the PriorityGroup parameter value */
+  NVIC_SetPriorityGrouping(PriorityGroup);
+}
+ c1fa936:	4770      	bx	lr
+ c1fa938:	e000ed00 	.word	0xe000ed00
+
+0c1fa93c <HAL_GTZC_MPCBB_ConfigMem>:
+  uint32_t mem_size;
+  uint32_t size_in_superblocks;
+  uint32_t i;
+
+  /* check entry parameters */
+  if ((!(IS_GTZC_BASE_ADDRESS(SRAM1, MemBaseAddress))
+ c1fa93c:	f020 5380 	bic.w	r3, r0, #268435456	@ 0x10000000
+ c1fa940:	f423 2380 	bic.w	r3, r3, #262144	@ 0x40000
+ c1fa944:	f1b3 5f00 	cmp.w	r3, #536870912	@ 0x20000000
+{
+ c1fa948:	b5f0      	push	{r4, r5, r6, r7, lr}
+  if ((!(IS_GTZC_BASE_ADDRESS(SRAM1, MemBaseAddress))
+ c1fa94a:	d007      	beq.n	c1fa95c <HAL_GTZC_MPCBB_ConfigMem+0x20>
+       &&  !(IS_GTZC_BASE_ADDRESS(SRAM2, MemBaseAddress))
+ c1fa94c:	4a2d      	ldr	r2, [pc, #180]	@ (c1faa04 <HAL_GTZC_MPCBB_ConfigMem+0xc8>)
+ c1fa94e:	f020 5380 	bic.w	r3, r0, #268435456	@ 0x10000000
+ c1fa952:	4293      	cmp	r3, r2
+ c1fa954:	d002      	beq.n	c1fa95c <HAL_GTZC_MPCBB_ConfigMem+0x20>
+#if defined (SRAM3_BASE)
+       &&  !(IS_GTZC_BASE_ADDRESS(SRAM3, MemBaseAddress))
+#endif /* SRAM3_BASE */
+       &&  !(IS_GTZC_BASE_ADDRESS(SRAM4, MemBaseAddress))
+ c1fa956:	f1b3 5f20 	cmp.w	r3, #671088640	@ 0x28000000
+ c1fa95a:	d150      	bne.n	c1fa9fe <HAL_GTZC_MPCBB_ConfigMem+0xc2>
+#endif /* SRAM5_BASE */
+#if defined (SRAM6_BASE)
+       &&  !(IS_GTZC_BASE_ADDRESS(SRAM6, MemBaseAddress))
+#endif /* SRAM6_BASE */
+      )
+      || ((pMPCBB_desc->SecureRWIllegalMode != GTZC_MPCBB_SRWILADIS_ENABLE)
+ c1fa95c:	680c      	ldr	r4, [r1, #0]
+ c1fa95e:	f034 4300 	bics.w	r3, r4, #2147483648	@ 0x80000000
+ c1fa962:	d14c      	bne.n	c1fa9fe <HAL_GTZC_MPCBB_ConfigMem+0xc2>
+          && (pMPCBB_desc->SecureRWIllegalMode != GTZC_MPCBB_SRWILADIS_DISABLE))
+      || ((pMPCBB_desc->InvertSecureState != GTZC_MPCBB_INVSECSTATE_NOT_INVERTED)
+ c1fa964:	684d      	ldr	r5, [r1, #4]
+ c1fa966:	f035 4680 	bics.w	r6, r5, #1073741824	@ 0x40000000
+ c1fa96a:	d148      	bne.n	c1fa9fe <HAL_GTZC_MPCBB_ConfigMem+0xc2>
+          && (pMPCBB_desc->InvertSecureState != GTZC_MPCBB_INVSECSTATE_INVERTED)))
+  {
+    return HAL_ERROR;
+  }
+
+  if (IS_GTZC_BASE_ADDRESS(SRAM1, MemBaseAddress))
+ c1fa96c:	f020 5080 	bic.w	r0, r0, #268435456	@ 0x10000000
+ c1fa970:	f1b0 5f00 	cmp.w	r0, #536870912	@ 0x20000000
+ c1fa974:	d037      	beq.n	c1fa9e6 <HAL_GTZC_MPCBB_ConfigMem+0xaa>
+  {
+    mpcbb_ptr = GTZC_MPCBB1;
+    mem_size = GTZC_MEM_SIZE(SRAM1);
+  }
+  else if (IS_GTZC_BASE_ADDRESS(SRAM2, MemBaseAddress))
+ c1fa976:	4b23      	ldr	r3, [pc, #140]	@ (c1faa04 <HAL_GTZC_MPCBB_ConfigMem+0xc8>)
+ c1fa978:	4298      	cmp	r0, r3
+ c1fa97a:	d038      	beq.n	c1fa9ee <HAL_GTZC_MPCBB_ConfigMem+0xb2>
+  {
+    mpcbb_ptr = GTZC_MPCBB2;
+    mem_size = GTZC_MEM_SIZE(SRAM2);
+  }
+#if defined (SRAM3_BASE)
+  else if (IS_GTZC_BASE_ADDRESS(SRAM3, MemBaseAddress))
+ c1fa97c:	f503 3380 	add.w	r3, r3, #65536	@ 0x10000
+ c1fa980:	4298      	cmp	r0, r3
+ c1fa982:	d038      	beq.n	c1fa9f6 <HAL_GTZC_MPCBB_ConfigMem+0xba>
+  {
+    mpcbb_ptr = GTZC_MPCBB3;
+    mem_size = GTZC_MEM_SIZE(SRAM3);
+  }
+#endif /* SRAM3_BASE */
+  else if (IS_GTZC_BASE_ADDRESS(SRAM4, MemBaseAddress))
+ c1fa984:	f1b0 5f20 	cmp.w	r0, #671088640	@ 0x28000000
+ c1fa988:	d139      	bne.n	c1fa9fe <HAL_GTZC_MPCBB_ConfigMem+0xc2>
+  {
+    mpcbb_ptr = GTZC_MPCBB4;
+    mem_size = GTZC_MEM_SIZE(SRAM4);
+ c1fa98a:	f44f 4380 	mov.w	r3, #16384	@ 0x4000
+    mpcbb_ptr = GTZC_MPCBB4;
+ c1fa98e:	4a1e      	ldr	r2, [pc, #120]	@ (c1faa08 <HAL_GTZC_MPCBB_ConfigMem+0xcc>)
+
+  /* translate mem_size in number of super-blocks  */
+  size_in_superblocks = (mem_size / GTZC_MPCBB_SUPERBLOCK_SIZE);
+
+  /* write PRIVCFGR register information */
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1fa990:	2000      	movs	r0, #0
+  size_in_superblocks = (mem_size / GTZC_MPCBB_SUPERBLOCK_SIZE);
+ c1fa992:	0b9b      	lsrs	r3, r3, #14
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1fa994:	f101 0784 	add.w	r7, r1, #132	@ 0x84
+  {
+    WRITE_REG(mpcbb_ptr->PRIVCFGR[i],
+ c1fa998:	f100 0c80 	add.w	ip, r0, #128	@ 0x80
+ c1fa99c:	f857 ef04 	ldr.w	lr, [r7, #4]!
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1fa9a0:	3001      	adds	r0, #1
+ c1fa9a2:	4283      	cmp	r3, r0
+    WRITE_REG(mpcbb_ptr->PRIVCFGR[i],
+ c1fa9a4:	f842 e02c 	str.w	lr, [r2, ip, lsl #2]
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1fa9a8:	d1f6      	bne.n	c1fa998 <HAL_GTZC_MPCBB_ConfigMem+0x5c>
+ c1fa9aa:	1d08      	adds	r0, r1, #4
+  uint32_t reg_value;
+
+  /* write SECCFGR register information */
+  for (i = 0U; i < size_in_superblocks; i++)
+  {
+    WRITE_REG(mpcbb_ptr->SECCFGR[i],
+ c1fa9ac:	f106 0740 	add.w	r7, r6, #64	@ 0x40
+ c1fa9b0:	f850 cf04 	ldr.w	ip, [r0, #4]!
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1fa9b4:	3601      	adds	r6, #1
+ c1fa9b6:	42b3      	cmp	r3, r6
+    WRITE_REG(mpcbb_ptr->SECCFGR[i],
+ c1fa9b8:	f842 c027 	str.w	ip, [r2, r7, lsl #2]
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1fa9bc:	d1f6      	bne.n	c1fa9ac <HAL_GTZC_MPCBB_ConfigMem+0x70>
+    MODIFY_REG(mpcbb_ptr->CFGLOCKR2, 0x000FFFFFUL, pMPCBB_desc->AttributeConfig.MPCBB_LockConfig_array[1]);
+  }
+  else
+#endif /* GTZC_MPCBB_CFGLOCKR2_SPLCK32_Msk */
+  {
+    size_mask = (1UL << (size_in_superblocks & 0x1FU)) - 1U;
+ c1fa9be:	f04f 30ff 	mov.w	r0, #4294967295	@ 0xffffffff
+ c1fa9c2:	f003 031f 	and.w	r3, r3, #31
+  }
+  /* limitation: code not portable with memory > 512K */
+  MODIFY_REG(mpcbb_ptr->CFGLOCKR1, size_mask, pMPCBB_desc->AttributeConfig.MPCBB_LockConfig_array[0]);
+ c1fa9c6:	fa00 f303 	lsl.w	r3, r0, r3
+  /* write configuration and lock register information */
+  MODIFY_REG(mpcbb_ptr->CR,
+             GTZC_MPCBB_CR_INVSECSTATE_Msk | GTZC_MPCBB_CR_SRWILADIS_Msk, reg_value);
+#endif /* defined(__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3U) */
+
+  return HAL_OK;
+ c1fa9ca:	2000      	movs	r0, #0
+  MODIFY_REG(mpcbb_ptr->CFGLOCKR1, size_mask, pMPCBB_desc->AttributeConfig.MPCBB_LockConfig_array[0]);
+ c1fa9cc:	6916      	ldr	r6, [r2, #16]
+ c1fa9ce:	f8d1 1108 	ldr.w	r1, [r1, #264]	@ 0x108
+ c1fa9d2:	4033      	ands	r3, r6
+ c1fa9d4:	430b      	orrs	r3, r1
+ c1fa9d6:	6113      	str	r3, [r2, #16]
+  MODIFY_REG(mpcbb_ptr->CR,
+ c1fa9d8:	6813      	ldr	r3, [r2, #0]
+  reg_value |= pMPCBB_desc->SecureRWIllegalMode;
+ c1fa9da:	432c      	orrs	r4, r5
+  MODIFY_REG(mpcbb_ptr->CR,
+ c1fa9dc:	f023 4340 	bic.w	r3, r3, #3221225472	@ 0xc0000000
+ c1fa9e0:	4323      	orrs	r3, r4
+ c1fa9e2:	6013      	str	r3, [r2, #0]
+}
+ c1fa9e4:	bdf0      	pop	{r4, r5, r6, r7, pc}
+    mem_size = GTZC_MEM_SIZE(SRAM1);
+ c1fa9e6:	f44f 3340 	mov.w	r3, #196608	@ 0x30000
+    mpcbb_ptr = GTZC_MPCBB1;
+ c1fa9ea:	4a08      	ldr	r2, [pc, #32]	@ (c1faa0c <HAL_GTZC_MPCBB_ConfigMem+0xd0>)
+ c1fa9ec:	e7d0      	b.n	c1fa990 <HAL_GTZC_MPCBB_ConfigMem+0x54>
+    mem_size = GTZC_MEM_SIZE(SRAM2);
+ c1fa9ee:	f44f 3380 	mov.w	r3, #65536	@ 0x10000
+    mpcbb_ptr = GTZC_MPCBB2;
+ c1fa9f2:	4a07      	ldr	r2, [pc, #28]	@ (c1faa10 <HAL_GTZC_MPCBB_ConfigMem+0xd4>)
+ c1fa9f4:	e7cc      	b.n	c1fa990 <HAL_GTZC_MPCBB_ConfigMem+0x54>
+    mem_size = GTZC_MEM_SIZE(SRAM3);
+ c1fa9f6:	f44f 2300 	mov.w	r3, #524288	@ 0x80000
+    mpcbb_ptr = GTZC_MPCBB3;
+ c1fa9fa:	4a06      	ldr	r2, [pc, #24]	@ (c1faa14 <HAL_GTZC_MPCBB_ConfigMem+0xd8>)
+ c1fa9fc:	e7c8      	b.n	c1fa990 <HAL_GTZC_MPCBB_ConfigMem+0x54>
+    return HAL_ERROR;
+ c1fa9fe:	2001      	movs	r0, #1
+ c1faa00:	e7f0      	b.n	c1fa9e4 <HAL_GTZC_MPCBB_ConfigMem+0xa8>
+ c1faa02:	bf00      	nop
+ c1faa04:	20030000 	.word	0x20030000
+ c1faa08:	56023800 	.word	0x56023800
+ c1faa0c:	50032c00 	.word	0x50032c00
+ c1faa10:	50033000 	.word	0x50033000
+ c1faa14:	50033400 	.word	0x50033400
+
+0c1faa18 <HAL_GTZC_MPCBB_GetConfigMem>:
+  uint32_t mem_size;
+  uint32_t size_in_superblocks;
+  uint32_t i;
+
+  /* check entry parameters */
+  if (!(IS_GTZC_BASE_ADDRESS(SRAM1, MemBaseAddress))
+ c1faa18:	f020 5080 	bic.w	r0, r0, #268435456	@ 0x10000000
+ c1faa1c:	f1b0 5f00 	cmp.w	r0, #536870912	@ 0x20000000
+{
+ c1faa20:	b530      	push	{r4, r5, lr}
+  if (!(IS_GTZC_BASE_ADDRESS(SRAM1, MemBaseAddress))
+ c1faa22:	d035      	beq.n	c1faa90 <HAL_GTZC_MPCBB_GetConfigMem+0x78>
+      && !(IS_GTZC_BASE_ADDRESS(SRAM2, MemBaseAddress))
+ c1faa24:	4b21      	ldr	r3, [pc, #132]	@ (c1faaac <HAL_GTZC_MPCBB_GetConfigMem+0x94>)
+ c1faa26:	4298      	cmp	r0, r3
+ c1faa28:	d036      	beq.n	c1faa98 <HAL_GTZC_MPCBB_GetConfigMem+0x80>
+#if defined (SRAM3_BASE)
+      && !(IS_GTZC_BASE_ADDRESS(SRAM3, MemBaseAddress))
+ c1faa2a:	f503 3380 	add.w	r3, r3, #65536	@ 0x10000
+ c1faa2e:	4298      	cmp	r0, r3
+ c1faa30:	d036      	beq.n	c1faaa0 <HAL_GTZC_MPCBB_GetConfigMem+0x88>
+#endif /* SRAM3_BASE */
+      && !(IS_GTZC_BASE_ADDRESS(SRAM4, MemBaseAddress))
+ c1faa32:	f1b0 5f20 	cmp.w	r0, #671088640	@ 0x28000000
+ c1faa36:	d137      	bne.n	c1faaa8 <HAL_GTZC_MPCBB_GetConfigMem+0x90>
+  }
+#endif /* SRAM3_BASE */
+  else if (IS_GTZC_BASE_ADDRESS(SRAM4, MemBaseAddress))
+  {
+    mpcbb_ptr = GTZC_MPCBB4;
+    mem_size = GTZC_MEM_SIZE(SRAM4);
+ c1faa38:	f44f 4280 	mov.w	r2, #16384	@ 0x4000
+    mpcbb_ptr = GTZC_MPCBB4;
+ c1faa3c:	4b1c      	ldr	r3, [pc, #112]	@ (c1faab0 <HAL_GTZC_MPCBB_GetConfigMem+0x98>)
+
+  /* read configuration and lock register information */
+  reg_value = READ_REG(mpcbb_ptr->CR);
+  pMPCBB_desc->InvertSecureState = (reg_value & GTZC_MPCBB_CR_INVSECSTATE_Msk);
+  pMPCBB_desc->SecureRWIllegalMode = (reg_value & GTZC_MPCBB_CR_SRWILADIS_Msk);
+  if (size_in_superblocks >= 32U)
+ c1faa3e:	f5b2 2f00 	cmp.w	r2, #524288	@ 0x80000
+  size_in_superblocks = (mem_size / GTZC_MPCBB_SUPERBLOCK_SIZE);
+ c1faa42:	ea4f 3492 	mov.w	r4, r2, lsr #14
+                                                             & 0x000FFFFFUL;
+#endif /* GTZC_MPCBB_CFGLOCKR2_SPLCK32_Msk */
+  }
+  else
+  {
+    size_mask = (1UL << size_in_superblocks) - 1U;
+ c1faa46:	bf14      	ite	ne
+ c1faa48:	2201      	movne	r2, #1
+    size_mask = 0xFFFFFFFFU;
+ c1faa4a:	f04f 32ff 	moveq.w	r2, #4294967295	@ 0xffffffff
+  reg_value = READ_REG(mpcbb_ptr->CR);
+ c1faa4e:	6818      	ldr	r0, [r3, #0]
+    size_mask = (1UL << size_in_superblocks) - 1U;
+ c1faa50:	bf18      	it	ne
+ c1faa52:	40a2      	lslne	r2, r4
+  pMPCBB_desc->InvertSecureState = (reg_value & GTZC_MPCBB_CR_INVSECSTATE_Msk);
+ c1faa54:	f000 4580 	and.w	r5, r0, #1073741824	@ 0x40000000
+  pMPCBB_desc->SecureRWIllegalMode = (reg_value & GTZC_MPCBB_CR_SRWILADIS_Msk);
+ c1faa58:	f000 4000 	and.w	r0, r0, #2147483648	@ 0x80000000
+ c1faa5c:	6008      	str	r0, [r1, #0]
+  }
+  /* limitation: code not portable with memory > 512K */
+  pMPCBB_desc->AttributeConfig.MPCBB_LockConfig_array[0] = READ_REG(mpcbb_ptr->CFGLOCKR1)
+ c1faa5e:	6918      	ldr	r0, [r3, #16]
+    size_mask = (1UL << size_in_superblocks) - 1U;
+ c1faa60:	bf18      	it	ne
+ c1faa62:	f102 32ff 	addne.w	r2, r2, #4294967295	@ 0xffffffff
+                                                           & size_mask;
+ c1faa66:	4002      	ands	r2, r0
+  pMPCBB_desc->AttributeConfig.MPCBB_LockConfig_array[0] = READ_REG(mpcbb_ptr->CFGLOCKR1)
+ c1faa68:	f8c1 2108 	str.w	r2, [r1, #264]	@ 0x108
+#endif /* defined(__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3U) */
+
+  /* read SECCFGR / PRIVCFGR registers information */
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1faa6c:	2200      	movs	r2, #0
+  pMPCBB_desc->InvertSecureState = (reg_value & GTZC_MPCBB_CR_INVSECSTATE_Msk);
+ c1faa6e:	604d      	str	r5, [r1, #4]
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1faa70:	3104      	adds	r1, #4
+  {
+    pMPCBB_desc->AttributeConfig.MPCBB_SecConfig_array[i] = mpcbb_ptr->SECCFGR[i];
+ c1faa72:	eb03 0082 	add.w	r0, r3, r2, lsl #2
+ c1faa76:	f8d0 5100 	ldr.w	r5, [r0, #256]	@ 0x100
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1faa7a:	3201      	adds	r2, #1
+    pMPCBB_desc->AttributeConfig.MPCBB_SecConfig_array[i] = mpcbb_ptr->SECCFGR[i];
+ c1faa7c:	f841 5f04 	str.w	r5, [r1, #4]!
+    pMPCBB_desc->AttributeConfig.MPCBB_PrivConfig_array[i] = mpcbb_ptr->PRIVCFGR[i];
+ c1faa80:	f8d0 0200 	ldr.w	r0, [r0, #512]	@ 0x200
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1faa84:	4294      	cmp	r4, r2
+    pMPCBB_desc->AttributeConfig.MPCBB_PrivConfig_array[i] = mpcbb_ptr->PRIVCFGR[i];
+ c1faa86:	f8c1 0080 	str.w	r0, [r1, #128]	@ 0x80
+  for (i = 0U; i < size_in_superblocks; i++)
+ c1faa8a:	d1f2      	bne.n	c1faa72 <HAL_GTZC_MPCBB_GetConfigMem+0x5a>
+  }
+
+  return HAL_OK;
+ c1faa8c:	2000      	movs	r0, #0
+}
+ c1faa8e:	bd30      	pop	{r4, r5, pc}
+    mem_size = GTZC_MEM_SIZE(SRAM1);
+ c1faa90:	f44f 3240 	mov.w	r2, #196608	@ 0x30000
+    mpcbb_ptr = GTZC_MPCBB1;
+ c1faa94:	4b07      	ldr	r3, [pc, #28]	@ (c1faab4 <HAL_GTZC_MPCBB_GetConfigMem+0x9c>)
+ c1faa96:	e7d2      	b.n	c1faa3e <HAL_GTZC_MPCBB_GetConfigMem+0x26>
+    mem_size = GTZC_MEM_SIZE(SRAM2);
+ c1faa98:	f44f 3280 	mov.w	r2, #65536	@ 0x10000
+    mpcbb_ptr = GTZC_MPCBB2;
+ c1faa9c:	4b06      	ldr	r3, [pc, #24]	@ (c1faab8 <HAL_GTZC_MPCBB_GetConfigMem+0xa0>)
+ c1faa9e:	e7ce      	b.n	c1faa3e <HAL_GTZC_MPCBB_GetConfigMem+0x26>
+    mem_size = GTZC_MEM_SIZE(SRAM3);
+ c1faaa0:	f44f 2200 	mov.w	r2, #524288	@ 0x80000
+    mpcbb_ptr = GTZC_MPCBB3;
+ c1faaa4:	4b05      	ldr	r3, [pc, #20]	@ (c1faabc <HAL_GTZC_MPCBB_GetConfigMem+0xa4>)
+ c1faaa6:	e7ca      	b.n	c1faa3e <HAL_GTZC_MPCBB_GetConfigMem+0x26>
+    return HAL_ERROR;
+ c1faaa8:	2001      	movs	r0, #1
+ c1faaaa:	e7f0      	b.n	c1faa8e <HAL_GTZC_MPCBB_GetConfigMem+0x76>
+ c1faaac:	20030000 	.word	0x20030000
+ c1faab0:	56023800 	.word	0x56023800
+ c1faab4:	50032c00 	.word	0x50032c00
+ c1faab8:	50033000 	.word	0x50033000
+ c1faabc:	50033400 	.word	0x50033400
+
+0c1faac0 <HAL_RCC_GetSysClockFreq>:
+  uint32_t sysclk_source;
+  uint32_t pll_oscsource;
+  float_t fracn1;
+  float_t pllvco;
+
+  sysclk_source = __HAL_RCC_GET_SYSCLK_SOURCE();
+ c1faac0:	4a40      	ldr	r2, [pc, #256]	@ (c1fabc4 <HAL_RCC_GetSysClockFreq+0x104>)
+{
+ c1faac2:	b510      	push	{r4, lr}
+  sysclk_source = __HAL_RCC_GET_SYSCLK_SOURCE();
+ c1faac4:	69d3      	ldr	r3, [r2, #28]
+  pll_oscsource = __HAL_RCC_GET_PLL_OSCSOURCE();
+ c1faac6:	6a91      	ldr	r1, [r2, #40]	@ 0x28
+
+  if ((sysclk_source == RCC_SYSCLKSOURCE_STATUS_MSI) ||
+ c1faac8:	f013 030c 	ands.w	r3, r3, #12
+ c1faacc:	d005      	beq.n	c1faada <HAL_RCC_GetSysClockFreq+0x1a>
+ c1faace:	2b0c      	cmp	r3, #12
+ c1faad0:	d148      	bne.n	c1fab64 <HAL_RCC_GetSysClockFreq+0xa4>
+  pll_oscsource = __HAL_RCC_GET_PLL_OSCSOURCE();
+ c1faad2:	f001 0103 	and.w	r1, r1, #3
+      ((sysclk_source == RCC_SYSCLKSOURCE_STATUS_PLLCLK) && (pll_oscsource == RCC_PLLSOURCE_MSI)))
+ c1faad6:	2901      	cmp	r1, #1
+ c1faad8:	d144      	bne.n	c1fab64 <HAL_RCC_GetSysClockFreq+0xa4>
+  {
+    /* MSI or PLL with MSI source used as system clock source */
+
+    /* Get SYSCLK source */
+    if (READ_BIT(RCC->ICSCR1, RCC_ICSCR1_MSIRGSEL) == 0U)
+ c1faada:	6891      	ldr	r1, [r2, #8]
+ c1faadc:	0209      	lsls	r1, r1, #8
+    {
+      /* MSISRANGE from RCC_CSR applies */
+      msirange = (RCC->CSR & RCC_CSR_MSISSRANGE) >> RCC_CSR_MSISSRANGE_Pos;
+ c1faade:	bf54      	ite	pl
+ c1faae0:	f8d2 20f4 	ldrpl.w	r2, [r2, #244]	@ 0xf4
+    }
+    else
+    {
+      /* MSIRANGE from RCC_CR applies */
+      msirange = (RCC->ICSCR1 & RCC_ICSCR1_MSISRANGE) >> RCC_ICSCR1_MSISRANGE_Pos;
+ c1faae4:	6892      	ldrmi	r2, [r2, #8]
+    }
+    /*MSI frequency range in HZ*/
+    msirange = MSIRangeTable[msirange];
+ c1faae6:	4938      	ldr	r1, [pc, #224]	@ (c1fabc8 <HAL_RCC_GetSysClockFreq+0x108>)
+      msirange = (RCC->CSR & RCC_CSR_MSISSRANGE) >> RCC_CSR_MSISSRANGE_Pos;
+ c1faae8:	bf54      	ite	pl
+ c1faaea:	f3c2 3203 	ubfxpl	r2, r2, #12, #4
+      msirange = (RCC->ICSCR1 & RCC_ICSCR1_MSISRANGE) >> RCC_ICSCR1_MSISRANGE_Pos;
+ c1faaee:	0f12      	lsrmi	r2, r2, #28
+    msirange = MSIRangeTable[msirange];
+ c1faaf0:	f851 2022 	ldr.w	r2, [r1, r2, lsl #2]
+
+    if (sysclk_source == RCC_SYSCLKSOURCE_STATUS_MSI)
+ c1faaf4:	2b00      	cmp	r3, #0
+ c1faaf6:	d063      	beq.n	c1fabc0 <HAL_RCC_GetSysClockFreq+0x100>
+  uint32_t sysclockfreq = 0U;
+ c1faaf8:	2000      	movs	r0, #0
+  else
+  {
+    /* Nothing to do */
+  }
+
+  if (sysclk_source == RCC_SYSCLKSOURCE_STATUS_PLLCLK)
+ c1faafa:	2b0c      	cmp	r3, #12
+ c1faafc:	d15e      	bne.n	c1fabbc <HAL_RCC_GetSysClockFreq+0xfc>
+  {
+    /* PLL used as system clock  source
+       PLL_VCO = (HSE_VALUE or HSI_VALUE or MSI_VALUE/ PLLM) * PLLN
+       SYSCLK = PLL_VCO / PLLR
+    */
+    pllsource = (RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1SRC);
+ c1faafe:	4931      	ldr	r1, [pc, #196]	@ (c1fabc4 <HAL_RCC_GetSysClockFreq+0x104>)
+ c1fab00:	eddf 5a32 	vldr	s11, [pc, #200]	@ c1fabcc <HAL_RCC_GetSysClockFreq+0x10c>
+ c1fab04:	6a88      	ldr	r0, [r1, #40]	@ 0x28
+    pllm = ((RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1M) >> RCC_PLL1CFGR_PLL1M_Pos) + 1U;
+ c1fab06:	6a8b      	ldr	r3, [r1, #40]	@ 0x28
+    pllfracen = ((RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1FRACEN) >> RCC_PLL1CFGR_PLL1FRACEN_Pos);
+ c1fab08:	6a8c      	ldr	r4, [r1, #40]	@ 0x28
+    pllm = ((RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1M) >> RCC_PLL1CFGR_PLL1M_Pos) + 1U;
+ c1fab0a:	f3c3 2303 	ubfx	r3, r3, #8, #4
+ c1fab0e:	3301      	adds	r3, #1
+ c1fab10:	ee07 3a90 	vmov	s15, r3
+    fracn1 = (float_t)(uint32_t)(pllfracen * ((RCC->PLL1FRACR & RCC_PLL1FRACR_PLL1FRACN) >> \
+ c1fab14:	6b8b      	ldr	r3, [r1, #56]	@ 0x38
+    pllfracen = ((RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1FRACEN) >> RCC_PLL1CFGR_PLL1FRACEN_Pos);
+ c1fab16:	f3c4 1400 	ubfx	r4, r4, #4, #1
+    fracn1 = (float_t)(uint32_t)(pllfracen * ((RCC->PLL1FRACR & RCC_PLL1FRACR_PLL1FRACN) >> \
+ c1fab1a:	f3c3 03cc 	ubfx	r3, r3, #3, #13
+ c1fab1e:	4363      	muls	r3, r4
+ c1fab20:	ee07 3a10 	vmov	s14, r3
+    pllsource = (RCC->PLL1CFGR & RCC_PLL1CFGR_PLL1SRC);
+ c1fab24:	f000 0003 	and.w	r0, r0, #3
+                                              RCC_PLL1FRACR_PLL1FRACN_Pos));
+
+    if (pllm != 0U)
+    {
+      switch (pllsource)
+ c1fab28:	2802      	cmp	r0, #2
+    fracn1 = (float_t)(uint32_t)(pllfracen * ((RCC->PLL1FRACR & RCC_PLL1FRACR_PLL1FRACN) >> \
+ c1fab2a:	eeb8 7ac7 	vcvt.f32.s32	s14, s14
+      switch (pllsource)
+ c1fab2e:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ c1fab32:	eeb7 6a00 	vmov.f32	s12, #112	@ 0x3f800000  1.0
+ c1fab36:	d021      	beq.n	c1fab7c <HAL_RCC_GetSysClockFreq+0xbc>
+ c1fab38:	2803      	cmp	r0, #3
+ c1fab3a:	d01f      	beq.n	c1fab7c <HAL_RCC_GetSysClockFreq+0xbc>
+                                                           (fracn1 / (float_t)0x2000) + (float_t)1U);
+          break;
+
+        case RCC_PLLSOURCE_MSI:  /* MSI used as PLL clock source */
+        default:
+          pllvco = ((float_t) msirange / (float_t)pllm) * ((float_t)(uint32_t)(RCC->PLL1DIVR & RCC_PLL1DIVR_PLL1N) + \
+ c1fab3c:	ee06 2a90 	vmov	s13, r2
+ c1fab40:	eef8 6a66 	vcvt.f32.u32	s13, s13
+ c1fab44:	6b4b      	ldr	r3, [r1, #52]	@ 0x34
+ c1fab46:	ee86 5aa7 	vdiv.f32	s10, s13, s15
+ c1fab4a:	f3c3 0308 	ubfx	r3, r3, #0, #9
+ c1fab4e:	ee07 3a90 	vmov	s15, r3
+ c1fab52:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ c1fab56:	eee7 7a25 	vfma.f32	s15, s14, s11
+                                                           (fracn1 / (float_t)0x2000) + (float_t)1U);
+ c1fab5a:	ee77 7a86 	vadd.f32	s15, s15, s12
+          pllvco = ((float_t) msirange / (float_t)pllm) * ((float_t)(uint32_t)(RCC->PLL1DIVR & RCC_PLL1DIVR_PLL1N) + \
+ c1fab5e:	ee67 7a85 	vmul.f32	s15, s15, s10
+          break;
+ c1fab62:	e01c      	b.n	c1fab9e <HAL_RCC_GetSysClockFreq+0xde>
+  else if (__HAL_RCC_GET_SYSCLK_SOURCE() == RCC_SYSCLKSOURCE_STATUS_HSI)
+ c1fab64:	69d2      	ldr	r2, [r2, #28]
+ c1fab66:	f002 020c 	and.w	r2, r2, #12
+ c1fab6a:	2a04      	cmp	r2, #4
+ c1fab6c:	d004      	beq.n	c1fab78 <HAL_RCC_GetSysClockFreq+0xb8>
+  else if (sysclk_source == RCC_SYSCLKSOURCE_STATUS_HSE)
+ c1fab6e:	2b08      	cmp	r3, #8
+ c1fab70:	d025      	beq.n	c1fabbe <HAL_RCC_GetSysClockFreq+0xfe>
+  uint32_t sysclockfreq = 0U;
+ c1fab72:	2000      	movs	r0, #0
+  uint32_t msirange = 0U;
+ c1fab74:	2200      	movs	r2, #0
+ c1fab76:	e7c0      	b.n	c1faafa <HAL_RCC_GetSysClockFreq+0x3a>
+    sysclockfreq = HSI_VALUE;
+ c1fab78:	4815      	ldr	r0, [pc, #84]	@ (c1fabd0 <HAL_RCC_GetSysClockFreq+0x110>)
+ c1fab7a:	e7fb      	b.n	c1fab74 <HAL_RCC_GetSysClockFreq+0xb4>
+          pllvco = ((float_t)HSE_VALUE / (float_t)pllm) * ((float_t)(uint32_t)(RCC->PLL1DIVR & RCC_PLL1DIVR_PLL1N) + \
+ c1fab7c:	ed9f 5a15 	vldr	s10, [pc, #84]	@ c1fabd4 <HAL_RCC_GetSysClockFreq+0x114>
+ c1fab80:	6b4b      	ldr	r3, [r1, #52]	@ 0x34
+ c1fab82:	eec5 6a27 	vdiv.f32	s13, s10, s15
+ c1fab86:	f3c3 0308 	ubfx	r3, r3, #0, #9
+ c1fab8a:	ee07 3a90 	vmov	s15, r3
+ c1fab8e:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ c1fab92:	eee7 7a25 	vfma.f32	s15, s14, s11
+                                                           (fracn1 / (float_t)0x2000) + (float_t)1U);
+ c1fab96:	ee77 7a86 	vadd.f32	s15, s15, s12
+          pllvco = ((float_t)HSE_VALUE / (float_t)pllm) * ((float_t)(uint32_t)(RCC->PLL1DIVR & RCC_PLL1DIVR_PLL1N) + \
+ c1fab9a:	ee67 7aa6 	vmul.f32	s15, s15, s13
+      }
+
+      pllr = (((RCC->PLL1DIVR & RCC_PLL1DIVR_PLL1R) >> RCC_PLL1DIVR_PLL1R_Pos) + 1U);
+ c1fab9e:	4b09      	ldr	r3, [pc, #36]	@ (c1fabc4 <HAL_RCC_GetSysClockFreq+0x104>)
+ c1faba0:	6b5b      	ldr	r3, [r3, #52]	@ 0x34
+ c1faba2:	f3c3 6306 	ubfx	r3, r3, #24, #7
+ c1faba6:	3301      	adds	r3, #1
+      sysclockfreq = (uint32_t)(float_t)((float_t)pllvco / (float_t)pllr);
+ c1faba8:	ee07 3a10 	vmov	s14, r3
+ c1fabac:	eef8 6ac7 	vcvt.f32.s32	s13, s14
+ c1fabb0:	ee87 7aa6 	vdiv.f32	s14, s15, s13
+ c1fabb4:	eefc 7ac7 	vcvt.u32.f32	s15, s14
+ c1fabb8:	ee17 0a90 	vmov	r0, s15
+      sysclockfreq = 0;
+    }
+  }
+
+  return sysclockfreq;
+}
+ c1fabbc:	bd10      	pop	{r4, pc}
+    sysclockfreq = HSE_VALUE;
+ c1fabbe:	4a04      	ldr	r2, [pc, #16]	@ (c1fabd0 <HAL_RCC_GetSysClockFreq+0x110>)
+  uint32_t msirange = 0U;
+ c1fabc0:	4610      	mov	r0, r2
+ c1fabc2:	e7fb      	b.n	c1fabbc <HAL_RCC_GetSysClockFreq+0xfc>
+ c1fabc4:	56020c00 	.word	0x56020c00
+ c1fabc8:	0c1faccc 	.word	0x0c1faccc
+ c1fabcc:	39000000 	.word	0x39000000
+ c1fabd0:	00f42400 	.word	0x00f42400
+ c1fabd4:	4b742400 	.word	0x4b742400
+
+0c1fabd8 <exit>:
+ c1fabd8:	b508      	push	{r3, lr}
+ c1fabda:	4b06      	ldr	r3, [pc, #24]	@ (c1fabf4 <exit+0x1c>)
+ c1fabdc:	4604      	mov	r4, r0
+ c1fabde:	b113      	cbz	r3, c1fabe6 <exit+0xe>
+ c1fabe0:	2100      	movs	r1, #0
+ c1fabe2:	f3af 8000 	nop.w
+ c1fabe6:	4b04      	ldr	r3, [pc, #16]	@ (c1fabf8 <exit+0x20>)
+ c1fabe8:	681b      	ldr	r3, [r3, #0]
+ c1fabea:	b103      	cbz	r3, c1fabee <exit+0x16>
+ c1fabec:	4798      	blx	r3
+ c1fabee:	4620      	mov	r0, r4
+ c1fabf0:	f000 f85e 	bl	c1facb0 <_exit>
+ c1fabf4:	00000000 	.word	0x00000000
+ c1fabf8:	30030028 	.word	0x30030028
+
+0c1fabfc <memset>:
+ c1fabfc:	4402      	add	r2, r0
+ c1fabfe:	4603      	mov	r3, r0
+ c1fac00:	4293      	cmp	r3, r2
+ c1fac02:	d100      	bne.n	c1fac06 <memset+0xa>
+ c1fac04:	4770      	bx	lr
+ c1fac06:	f803 1b01 	strb.w	r1, [r3], #1
+ c1fac0a:	e7f9      	b.n	c1fac00 <memset+0x4>
+
+0c1fac0c <__libc_init_array>:
+ c1fac0c:	b570      	push	{r4, r5, r6, lr}
+ c1fac0e:	4d0d      	ldr	r5, [pc, #52]	@ (c1fac44 <__libc_init_array+0x38>)
+ c1fac10:	2600      	movs	r6, #0
+ c1fac12:	4c0d      	ldr	r4, [pc, #52]	@ (c1fac48 <__libc_init_array+0x3c>)
+ c1fac14:	1b64      	subs	r4, r4, r5
+ c1fac16:	10a4      	asrs	r4, r4, #2
+ c1fac18:	42a6      	cmp	r6, r4
+ c1fac1a:	d109      	bne.n	c1fac30 <__libc_init_array+0x24>
+ c1fac1c:	4d0b      	ldr	r5, [pc, #44]	@ (c1fac4c <__libc_init_array+0x40>)
+ c1fac1e:	2600      	movs	r6, #0
+ c1fac20:	4c0b      	ldr	r4, [pc, #44]	@ (c1fac50 <__libc_init_array+0x44>)
+ c1fac22:	f000 f847 	bl	c1facb4 <_init>
+ c1fac26:	1b64      	subs	r4, r4, r5
+ c1fac28:	10a4      	asrs	r4, r4, #2
+ c1fac2a:	42a6      	cmp	r6, r4
+ c1fac2c:	d105      	bne.n	c1fac3a <__libc_init_array+0x2e>
+ c1fac2e:	bd70      	pop	{r4, r5, r6, pc}
+ c1fac30:	f855 3b04 	ldr.w	r3, [r5], #4
+ c1fac34:	3601      	adds	r6, #1
+ c1fac36:	4798      	blx	r3
+ c1fac38:	e7ee      	b.n	c1fac18 <__libc_init_array+0xc>
+ c1fac3a:	f855 3b04 	ldr.w	r3, [r5], #4
+ c1fac3e:	3601      	adds	r6, #1
+ c1fac40:	4798      	blx	r3
+ c1fac42:	e7f2      	b.n	c1fac2a <__libc_init_array+0x1e>
+ c1fac44:	30030004 	.word	0x30030004
+ c1fac48:	30030004 	.word	0x30030004
+ c1fac4c:	30030004 	.word	0x30030004
+ c1fac50:	30030008 	.word	0x30030008
+
+0c1fac54 <__gnu_cmse_nonsecure_call>:
+ c1fac54:	e92d 4fe0 	stmdb	sp!, {r5, r6, r7, r8, r9, sl, fp, lr}
+ c1fac58:	4627      	mov	r7, r4
+ c1fac5a:	46a0      	mov	r8, r4
+ c1fac5c:	46a1      	mov	r9, r4
+ c1fac5e:	46a2      	mov	sl, r4
+ c1fac60:	46a3      	mov	fp, r4
+ c1fac62:	46a4      	mov	ip, r4
+ c1fac64:	ed2d 8b10 	vpush	{d8-d15}
+ c1fac68:	f04f 0500 	mov.w	r5, #0
+ c1fac6c:	ec45 5b18 	vmov	d8, r5, r5
+ c1fac70:	ec45 5a19 	vmov	s18, s19, r5, r5
+ c1fac74:	ec45 5a1a 	vmov	s20, s21, r5, r5
+ c1fac78:	ec45 5a1b 	vmov	s22, s23, r5, r5
+ c1fac7c:	ec45 5a1c 	vmov	s24, s25, r5, r5
+ c1fac80:	ec45 5a1d 	vmov	s26, s27, r5, r5
+ c1fac84:	ec45 5a1e 	vmov	s28, s29, r5, r5
+ c1fac88:	ec45 5a1f 	vmov	s30, s31, r5, r5
+ c1fac8c:	eef1 5a10 	vmrs	r5, fpscr
+ c1fac90:	f64f 7660 	movw	r6, #65376	@ 0xff60
+ c1fac94:	f6c0 76ff 	movt	r6, #4095	@ 0xfff
+ c1fac98:	4035      	ands	r5, r6
+ c1fac9a:	eee1 5a10 	vmsr	fpscr, r5
+ c1fac9e:	f384 8800 	msr	CPSR_f, r4
+ c1faca2:	4625      	mov	r5, r4
+ c1faca4:	4626      	mov	r6, r4
+ c1faca6:	47a4      	blxns	r4
+ c1faca8:	ecbd 8b10 	vpop	{d8-d15}
+ c1facac:	e8bd 8fe0 	ldmia.w	sp!, {r5, r6, r7, r8, r9, sl, fp, pc}
+
+0c1facb0 <_exit>:
+ c1facb0:	e7fe      	b.n	c1facb0 <_exit>
+	...
+
+0c1facb4 <_init>:
+ c1facb4:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+ c1facb6:	bf00      	nop
+ c1facb8:	bcf8      	pop	{r3, r4, r5, r6, r7}
+ c1facba:	bc08      	pop	{r3}
+ c1facbc:	469e      	mov	lr, r3
+ c1facbe:	4770      	bx	lr
+
+0c1facc0 <_fini>:
+ c1facc0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+ c1facc2:	bf00      	nop
+ c1facc4:	bcf8      	pop	{r3, r4, r5, r6, r7}
+ c1facc6:	bc08      	pop	{r3}
+ c1facc8:	469e      	mov	lr, r3
+ c1facca:	4770      	bx	lr
+
+0c1faccc <MSIRangeTable>:
+ c1faccc:	6c00 02dc 3600 016e 2400 00f4 1b00 00b7     .l...6n..$......
+ c1facdc:	0900 003d 8480 001e e360 0016 4240 000f     ..=.....`...@B..
+ c1facec:	e000 002e 7000 0017 a000 000f b800 000b     .....p..........
+ c1facfc:	1a80 0006 0d40 0003 49f0 0002 86a0 0001     ....@....I......
+
+0c1fad0c <AHBPrescTable>:
+	...
+ c1fad14:	0201 0403 0706 0908                         ........
+
+0c1fad1c <__EH_FRAME_BEGIN__>:
+ c1fad1c:	0000 0000                                   ....
+
+Disassembly of section .gnu.sgstubs:
+
+0c1fdf00 <SECURE_SystemCoreClockUpdate>:
+ c1fdf00:	e97f e97f 	sg
+ c1fdf04:	f7fc bca2 	b.w	c1fa84c <__acle_se_SECURE_SystemCoreClockUpdate>
+
+0c1fdf08 <dummy>:
+ c1fdf08:	e97f e97f 	sg
+ c1fdf0c:	f7fc ba76 	b.w	c1fa3fc <__acle_se_dummy>
+	...

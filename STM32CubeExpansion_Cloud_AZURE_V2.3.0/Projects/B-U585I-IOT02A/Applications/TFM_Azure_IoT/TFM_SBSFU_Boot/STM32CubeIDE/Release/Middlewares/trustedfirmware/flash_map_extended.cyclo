@@ -1,0 +1,7 @@
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/flash_map_extended.c:24:12:flash_device_base	2
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/flash_map_extended.c:40:5:flash_area_id_from_multi_image_slot	8
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/flash_map_extended.c:53:5:flash_area_id_from_image_slot	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/flash_map_extended.c:58:5:flash_area_id_to_multi_image_slot	5
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/flash_map_extended.c:72:5:flash_area_id_to_image_slot	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/flash_map_extended.c:77:9:flash_area_erased_val	1
+/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/flash_map_extended.c:82:5:flash_area_read_is_empty	4
