@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>TFM Azure IOT Application - Getting started guide -
+EWARM</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="_htmresc/mini-st_2020.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1
+id="tfm-azure-iot-application---getting-started-guide---ewarm"><mark>TFM
+Azure IOT Application - Getting started guide - EWARM</mark></h1>
+<p><br/> <br/></p>
+<h1 id="setting-up-your-development-environment">Setting Up your
+Development Environment</h1>
+<h2 id="step-1-setup-your-development-board">Step 1: Setup your
+development board</h2>
+<p><img src="./_htmresc/Common/setup_development_board.png" /></p>
+<ol type="1">
+<li>Verify that the 5V_USB_STL and JP3 jumpers are bridged and the
+remaining jumpers are not bridged.</li>
+<li>Check that the BOOT0 switch is in the position closest to the STLINK
+USB connector.</li>
+<li>Connect a USB micro-B cable between the USB_STLK connector and your
+computer.</li>
+</ol>
+<p>The USB STLK port is located to the right of the MXCHIP WiFi module
+in the figure. It is used for power supply, programming, debugging, and
+interacting with the application via UART over USB.</p>
+<h2 id="step-2-install-prerequisites-packages">Step 2: Install
+Prerequisites Packages</h2>
+<h4
+id="download-and-install-the-latest-version-of-the-following-packages"><strong>*
+Download and install the latest version of the following
+packages:</strong></h4>
+<ul>
+<li><a href="https://www.python.org/downloads/">python</a> (with
+pip)</li>
+<li><a href="http://www.teraterm.org/">Tera Term</a></li>
+</ul>
+<h2 id="step-3-shorten-project-path-length">Step 3: Shorten project path
+length</h2>
+<p>EWARM has a path length limitation that requires to use a
+<strong>subst</strong> drive directory.<br />
+1. Navigate to the directory where you have installed the X-Cube-Azure
+package.</p>
+<p><img
+src="./_htmresc/Getting_started_EWARM/Package_Root_Folder.png" /></p>
+<ol start="2" type="1">
+<li>Click in the location’s selection bar, type in ‘cmd’ and press
+‘enter’</li>
+</ol>
+<p><img
+src="./_htmresc/Getting_started_EWARM/Package_Root_Folder_Cmd.png" /></p>
+<ol start="3" type="1">
+<li>A command prompt window will open in that directory.</li>
+</ol>
+<p><img
+src="./_htmresc/Getting_started_EWARM/Package_Root_Folder_Prompt.png" /></p>
+<ol start="4" type="1">
+<li>In this command prompt type in:</li>
+</ol>
+<pre><code>subst z: .</code></pre>
+<p>Use any unused drive letter instead of z: if necessary.<br />
+This will create a new drive letter referencing directly this directory,
+thus shortening the path length.</p>
+<p><img
+src="./_htmresc/Getting_started_EWARM/Package_Root_Folder_Subst_Drive.png" /></p>
+<p>To <strong>un-substs</strong> this drive, use the following
+command:</p>
+<pre><code>subst z: /d</code></pre>
+<h2 id="step-4-open-tfm_azure_iot-ewarm-workspace">Step 4: Open
+TFM_Azure_Iot EWARM workspace</h2>
+<ol type="1">
+<li>Open your EWARM IDE (&gt;=9.20.4)</li>
+<li>Select the <strong>File-&gt;Open Workspace</strong> menu</li>
+<li>Select the subst’d drive and navigate to the TFM_Azure_Iot project
+folder<br />
+<img
+src="./_htmresc/Getting_started_EWARM/EWARM_Project_Workspace_Open.png" /></li>
+<li>Open the TFM_Azure_IoT.eww workspace<br />
+<img
+src="./_htmresc/Getting_started_EWARM/EWARM_Project_Workspace.png" /></li>
+</ol>
+<p>The workspace contains several projects required by the
+application<br />
+&gt;<strong>TFM_Azure_IoT</strong><br />
+&gt;- <strong>TFM_SBSFU_Boot</strong> : Secure Bootloader based on the
+TFM implementation.<br />
+&gt;- <strong>TFM_Loader_S</strong> : Secure part of the Loader
+application.<br />
+&gt;- <strong>TFM_Loader_NS</strong> : A special application to upload
+new TFM_Appli (secure and non-secure) via the serial port
+(Y-Modem).<br />
+&gt;- <strong>TFM_Appli_G</strong> : Special project to generate Secure
+API source files based on selected TFM partitions.<br />
+&gt;- <strong>TFM_Appli_S</strong> : Secure API for the NonSecure
+application<br />
+&gt;- <strong>TFM_Appli_NS</strong> : The Actual Azure IoT
+application</p>
+<p></br> The TFM_Appli_NS provides 3 build configurations to choose
+from:</p>
+<ul>
+<li><strong>B-U858-IOT02A_Wifi</strong> for wifi connectivity</li>
+<li><strong>B-U858-IOT02A_BG96</strong> for cellular connectivity with
+the Quectel BG96 extension board</li>
+<li><strong>B-U858-IOT02A_T1SC</strong> for cellular connectivity with
+the Murata BG96 extension board</li>
+</ul>
+<p><img
+src="./_htmresc/Getting_started_EWARM/EWARM_Project_Connectivity.png" /></p>
+<h2 id="step-5-building-the-project">Step 5: Building the project</h2>
+<p>To build the entire workspace, press <strong>F8</strong> to open the
+Batch build dialog window:<br />
+<img
+src="./_htmresc/Getting_started_EWARM/EWARM_Project_BatchBuild.png" /></p>
+<p>Select the desired build type, then click the <strong>Make</strong>
+button.<br />
+The IDE will then build the entire workspace and generate the
+appropriate binaries to flash your board.<br />
+&gt; This process may take some time the first time it is executed.</p>
+<h2 id="step-6-provision-your-board">Step 6: Provision your Board</h2>
+<p>Automated script to configure your Azure environment, provision your
+board and flash the firmware are provided in the AzureScripts
+directory.</p>
+<p>Please refer to one of the azure cloud connection methods :</p>
+<ol type="1">
+<li><a
+href="./AzureScripts/readme/README_IOT_Hub_Auto.html">QC_IOT_HUB</a> :
+Connect the board to Azure Iot Hub with QuickConnect script</li>
+<li><a
+href="./AzureScripts/readme/README_IOT_Hub_Manual.html">MANUAL_IOT_HUB</a>
+: Connect the board to Azure Iot Hub Manually</li>
+<li><a
+href="./AzureScripts/readme/README_IOT_Central_Auto.html">QC_IOT_CENTRAL</a>
+: Connect the board the board to Azure Iot Central with QuickConnect
+script</li>
+<li><a
+href="./AzureScripts/readme/README_IOT_Central_Manual.html">MANUAL_IOT_CENTRAL</a>
+: Connect the board to Azure Iot Central Manually</li>
+</ol>
+<h2 id="step-7-flash-the-firmware">Step 7: Flash the firmware</h2>
+<p>To flash the firmware :<br />
+- connect your board via USB<br />
+<img src="./_htmresc/BU585I-USB-connected.jpg" /></p>
+<ul>
+<li>navigate to
+<code>Projects\B-U585I-IOT02A\Applications\TFM_Azure_IoT\TFM_SBSFU_Boot\EWARM</code><br />
+</li>
+<li>double click on <code>TFM_UPDATE.bat</code></li>
+</ul>
+<h3 id="step-8-connecting-to-the-board">Step 8: Connecting to the
+board</h3>
+<p>The application output can be monitored thru the serial port.</p>
+<ol type="1">
+<li>Open and configure Tera-Term under <strong>Setup -&gt; Serial
+Port…</strong><br />
+<img src="./_htmresc/TeraTermSetup.png" /><br />
+</li>
+<li>Select the correct port for your board and configure Tera-Term as
+follow:<br />
+<img src="./_htmresc/TeraTermSetupSerial.png" /><br />
+</li>
+<li>Navigate to <strong>Setup -&gt; Terminal</strong><br />
+<img src="./_htmresc/TeraTermSetupTerminalNavigate.png" /><br />
+</li>
+<li>Check the ‘Local echo’ box, select ‘CR’ for Transmit, and select
+‘OK’<br />
+<img src="./_htmresc/TeraTermSetupTerminal.png" /><br />
+</li>
+<li>Reset the board with the black ‘RST’ button and view the output in
+Tera-Term</li>
+</ol>
+<h2 id="step-9-debugging">Step 9: Debugging</h2>
+<ol type="1">
+<li><p>Right click on TFM_Appli_NS in the IAR workspace and select
+‘Options…’</p></li>
+<li><p>Under ‘C/C++ Compiler’ and ‘Optimization’ set Level to ‘None’</p>
+<p><img
+src="./_htmresc/Getting_started_EWARM/EWARM_Project_Debug_00.png" /></p></li>
+<li><p>Do the same for Project_ns-B-U585I-IOT02A_TFM_Loader_S</p></li>
+<li><p>Build the project</p></li>
+<li><p>Right click on TFM_SBSFU_Boot project in the IAR workspace and
+select it as the active project</p></li>
+<li><p>Right click on TFM_SBSFU_Boot project in the IAR workspace and
+select ‘Options’</p></li>
+<li><p>Under <strong>‘Debugger’ -&gt; ‘Setup’</strong></p>
+<p><img
+src="./_htmresc/Getting_started_EWARM/EWARM_Project_Debug_01.png" /></p>
+<ul>
+<li>Select <strong>‘ST-LINK’</strong> in the Driver drop box.</li>
+<li>Uncheck <strong>‘Run to’</strong></li>
+</ul></li>
+<li><p>Under <strong>‘Debugger’ -&gt; ‘Images’</strong></p>
+<p><img src="./_htmresc/DownloadExtraImage.png" /></p>
+<ul>
+<li>check the two first ‘Download extra image’ boxes, set offset at ‘0’
+and check ‘Debug info only’ for each.<br />
+</li>
+<li>Select
+<code>Projects\B-U585I-IOT02A\Applications\TFM_Azure_IoT\TFM_Appli\EWARM\Secure\B-U585I-IOT02A\Exe\B-U585I-IOT02A.out</code>
+as first path.</li>
+<li>Select
+<code>Projects\B-U585I-IOT02A\Applications\TFM_Azure_IoT\TFM_Appli\EWARM\NonSecure\B-U585I-IOT02A\Exe\B-U585I-IOT02A.out</code>
+as second path.</li>
+</ul></li>
+<li><p>Flash the Firmware</p></li>
+<li><p>Set desired breakpoints in IAR EWARM</p></li>
+<li><p>After the Firmware Image is Built and Flashed to the board. Click
+‘Project’ in the taskbar and select ‘Attach to Running Target’</p>
+<p><img src="./_htmresc/AttachToRunningTarget.png" /></p></li>
+<li><p>Press the black ‘RST’ Button on the board to reset and view the
+debugger in IAR EWARM</p>
+<p><img src="./_htmresc/CodeBreakPoint.png" /></p></li>
+</ol>
+</body>
+</html>

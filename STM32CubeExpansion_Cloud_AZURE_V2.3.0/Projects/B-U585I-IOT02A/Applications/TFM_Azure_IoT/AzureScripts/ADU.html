@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Azure Device Update on B-U585I-IOT02A</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../_htmresc/mini-st_2020.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Azure Device Update on B-U585I-IOT02A</h1>
+</header>
+<p>The Azure Device Update example in TFM_Azure_IoT project on
+B-U585I-IOT02A allows to update either the non-secure application or the
+TFM secure application, or both at same time.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li><p>You must have an Azure subscription and be able to log into <a
+href="https://portal.azure.com">Azure web portal</a></p></li>
+<li><p>Log into the Azure web portal</p></li>
+<li><p>If you don’t already have an IoT Hub, create an IoT hub resource.
+It must be of “Tier S” to support Device Update service.</p>
+<blockquote>
+<p>Note: to create a resource, use the Azure web portal menu on the top
+left side and click on “create resource”</p>
+</blockquote></li>
+<li><p>In the IoT hub, you must have a device created. See main README
+of TFM_Azure_IoT application to know how to create it.</p>
+<p>The devices must have a tag named “ADUGroup” to be recognized by
+Update service.</p>
+<p>Create the tag “ADUGroup” in the device twin and put a value (ex:
+“STM32U5”). This will be used during Update deployment.</p>
+<pre><code>&quot;tags&quot;: {
+  &quot;ADUGroup&quot;: &quot;&lt;CustomTagValue&gt;&quot;
+}</code></pre></li>
+<li><p>It is needed to have a “Device Update for IoT hub” resource with
+an instance linked to your IoT Hub. To create it, follow the
+instructions at <a
+href="https://docs.microsoft.com/azure/iot-hub-device-update/create-device-update-account">Azure
+documentation reference page</a>.</p></li>
+<li><p>It is needed to have an Azure storage account with a container
+created.</p></li>
+</ul>
+<h2 id="prepare-the-binary-files">Prepare the binary files</h2>
+<ul>
+<li><p>Compile the TFM_Azure_IoT project and program the B-U585I-IOT02A
+board with it. See main README for that.</p></li>
+<li><p>To create a new version of firmware binary files, the version
+number must be incremented in the project source, and the projects must
+be rebuilt.</p>
+<ul>
+<li>Update the VERSION files in the secure and non-secure
+applications</li>
+</ul>
+<p></br></p>
+<p>After changing the version number, build the projects.<br />
+The output binary files are under
+<code>Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Binary</code>
+:</p>
+<p>Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Binary/tfm_ns_app_enc_sign.bin<br />
+Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Binary/tfm_s_app_enc_sign.bin</p>
+<p>Copy these files to
+<code>Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/AzureDeviceUpdateScripts</code>.</p></li>
+</ul>
+<h2 id="create-the-import-manifest">Create the import manifest</h2>
+<p>An import manifest is a JSON file that describes to Azure the files
+to be imported to create an Update. It contains the file name, version,
+hash number, and installation criteria.</p>
+<ul>
+<li><p>Open a command prompt (CMD.exe) or a shell prompt in directory
+<code>Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/AzureDeviceUpdateScripts</code></p></li>
+<li><p>run the script STM32U5_ADU_CreateUpdatePackage.bat or
+STM32U5_ADU_CreateUpdatePackage.sh, depending of your environment,
+providing the newly generated binary file(s) to import.<br />
+run <code>STM32U5_ADU_CreateUpdatePackage.(bat|sh) -h</code> for a
+detailed parameters description.</p>
+<p>Example:</p>
+<pre><code>STM32U5_ADU_CreateUpdatePackage.(bat|sh) -ns tfm_ns_app_init.bin -s tfm_s_app_init.bin</code></pre>
+<p>it is possible to create an import manifest for one of the non-secure
+application binary or the secure binary, or both. The script creates 1
+or 2 import manifest JSON files depending if you specify the secure
+and/or the non-secure application.</p></li>
+<li><p>In Azure web portal, go to your Azure storage container. Upload
+the binary files and the import manifest(s) JSON files.</p></li>
+</ul>
+<h2 id="import-the-update-in-azure-cloud">Import the update in Azure
+cloud</h2>
+<ul>
+<li><p>Go to your IoT Hub resource and click on Updates.</p></li>
+<li><p>In Updates, click on Updates then “Import a new update”.</p></li>
+<li><p>Click on “Select from storage container”. Find your storage
+container and select the JSON import file(s) and the binary files that
+you have uploaded previously.</p></li>
+<li><p>wait until the import is complete (you can click on “View Import
+history” and Refresh to see the progress).</p></li>
+</ul>
+<h2 id="deploy-the-update">Deploy the update</h2>
+<ul>
+<li><p>make sure your device has an “ADUGroup” tag in its device twin,
+and it has already connected to the IoT Hub.</p></li>
+<li><p>In the IoT Hub Updates section, click on “Groups and
+deployments”.</p></li>
+<li><p>If the device has already connected to the IoT Hub with its
+device twin tag “ADUGroup”, the group name should appear in “Groups and
+deployments”. Click on the group name. It should contain the
+device.</p></li>
+<li><p>The imported update should appear as new available update for
+this group. Click on Deploy button. Select “Start immediately” and click
+on Create.</p></li>
+<li><p>on the device’s virtual com port, the update process will output
+some log traces.</p></li>
+<li><p>after downloading the new firmware(s), the device will reboot to
+install the new versions.</p></li>
+<li><p>the new versions should appear in device’s serial
+output.</p></li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<ul>
+<li><p>if the group name does not appear in “Groups and deployments”,
+make sure your device has an “ADUGroup” tag in its device twin, and it
+has already connected to the IoT Hub. Check the value of the group name
+in “ADUGroup” tag.</p></li>
+<li><p>try to click on Refresh buttons of IoT Hub Update page to update
+contents.</p></li>
+</ul>
+<h2 id="reference">Reference</h2>
+<p><a
+href="https://learn.microsoft.com/en-us/azure/iot-hub-device-update/device-update-azure-real-time-operating-system">Device
+Update Azure RTOS</a></p>
+</body>
+</html>

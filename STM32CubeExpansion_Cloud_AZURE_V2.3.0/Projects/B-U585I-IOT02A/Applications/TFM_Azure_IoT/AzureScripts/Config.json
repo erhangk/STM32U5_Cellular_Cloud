@@ -1,0 +1,30 @@
+{
+    "Entered": {
+        "AppName": "",
+        "SSID": "",
+        "Password": "",
+        "ResourceGroup": "",
+        "Location": "",
+        "DPS": "",
+        "IotHub": ""
+    },
+    "Constant": {
+        "AppTemplateID": "",
+        "DevTemplateID": "",
+        "Endpoint": "global.azure-devices-provisioning.net",
+        "CertPath": "cert.pem"
+    },
+    "Generated": {
+        "IDScope": "",
+        "Cert": "",
+        "RegistrationID": "",
+        "AppID": ""
+    },
+    "ADU": {
+        "Group": "",
+        "StorageAccount": "",
+        "Account": "",
+        "Instance": "",
+        "Container": ""
+    }
+}

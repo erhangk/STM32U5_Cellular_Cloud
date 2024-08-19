@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\Secure\TFM_Loader_S.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\NonSecure\TFM_Loader_NS.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>TFM_Loader Batch</name>
+            <member>
+                <project>TFM_Loader_S</project>
+                <configuration>B-U585I-IOT02A</configuration>
+            </member>
+            <member>
+                <project>TFM_Loader_NS</project>
+                <configuration>B-U585I-IOT02A</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>

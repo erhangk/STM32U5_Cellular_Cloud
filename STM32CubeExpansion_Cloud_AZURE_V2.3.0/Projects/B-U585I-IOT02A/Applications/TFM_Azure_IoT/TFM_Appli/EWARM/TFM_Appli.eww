@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\Secure\TFM_Appli_G.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Secure\TFM_Appli_S.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\NonSecure\TFM_Appli_NS.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>TFM_Appli</name>
+            <member>
+                <project>Appli_G</project>
+                <configuration>B-U585I-IOT02A</configuration>
+            </member>
+                <project>Appli_S</project>
+                <configuration>B-U585I-IOT02A</configuration>
+            </member>
+            <member>
+                <project>Appli_NS</project>
+                <configuration>B-U585I-IOT02A_Wifi</configuration>
+            </member>
+        </batchDefinition>
+        <batchDefinition>
+            <name>TFM_Appli - Cellular BG96</name>
+            <member>
+                <project>Appli_G</project>
+                <configuration>B-U585I-IOT02A</configuration>
+            </member>
+                <project>Appli_S</project>
+                <configuration>B-U585I-IOT02A</configuration>
+            </member>
+            <member>
+                <project>Appli_NS</project>
+                <configuration>B-U585I-IOT02A_BG96</configuration>
+            </member>
+        </batchDefinition>
+        <batchDefinition>
+            <name>TFM_Appli - Cellular TYPE1SC</name>
+            <member>
+                <project>Appli_G</project>
+                <configuration>B-U585I-IOT02A</configuration>
+            </member>
+                <project>Appli_S</project>
+                <configuration>B-U585I-IOT02A</configuration>
+            </member>
+            <member>
+                <project>Appli_NS</project>
+                <configuration>B-U585I-IOT02A_TYPE1SC</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>
+

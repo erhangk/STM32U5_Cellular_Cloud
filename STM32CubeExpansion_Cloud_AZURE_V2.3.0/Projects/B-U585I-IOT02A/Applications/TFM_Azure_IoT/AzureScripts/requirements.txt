@@ -1,0 +1,4 @@
+pathlib==1.0.1
+pyserial
+azure-cli
+halo

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>TFM Azure IOT Application</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="_htmresc/mini-st_2020.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="tfm-azure-iot-application"><mark>TFM Azure IOT
+Application</mark></h1>
+<p><br/></p>
+<h1 id="application-licence-clarification">Application Licence
+Clarification</h1>
+<p>The TFM application components are licensed by ST under Ultimate
+Liberty license SLA0044. Read the file q_a.txt for Application Licence
+Clarification.<br />
+Except as expressly mentioned, other rights are granted with the STSAFE
+components, where license SLA0088 is applied.</p>
+<p><br/> <br/></p>
+<h1 id="application-description">Application Description</h1>
+<p>This application provides an example of Azure RTOS NetX/NetXDuo Azure
+IoT Plug and Play usage of STM32 B-U585I-IOT02A board with either
+Cellular or WiFi connectivity and hardware security features.</p>
+<p>This reference design integrates the following:</p>
+<ul>
+<li><a
+href="https://azure.microsoft.com/en-us/services/rtos/">Azure-RTOS</a></li>
+<li><a href="https://www.trustedfirmware.org/projects/tf-m/">TF-M
+1.3</a> with <a
+href="https://www.st.com/en/secure-mcus/stsafe-a110.html">STSAFE-A110</a>
+Integration</li>
+<li><a
+href="https://www.st.com/resource/en/application_note/dm00625692-stm32l5-series-trustzone-features-stmicroelectronics.pdf">ARM
+TrustZone</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/iot-central/">IoT
+Central</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/iot-hub/">IoT
+Hub</a></li>
+<li><a
+href="https://learn.microsoft.com/en-us/azure/iot-hub-device-update/">Azure
+Device Update</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/iot-dps/">Device
+Provisioning Service (DPS)</a></li>
+<li>X.509 certificate attestation</li>
+<li><a
+href="https://docs.microsoft.com/en-us/azure/iot-develop/overview-iot-plug-and-play">Azure
+Plug and Play</a></li>
+<li>Prebuilt firmware for Quick Connect scripts (STM32CubeIDE binaries
+with ADU feature enabled)</li>
+<li>Wi-Fi and Azure Connection Credentials stored in <a
+href="https://armkeil.blob.core.windows.net/developer/Files/pdf/PlatformSecurityArchitecture/Implement/IHI0087-PSA_Storage_API-1.0.0.pdf">TF-M
+Protected Storage</a></li>
+<li><a
+href="https://www.st.com/en/microcontrollers-microprocessors/stm32u5-series.html">Ultra-Low-Power
+STM35U585</a></li>
+<li>Real time sensor data published and displayed in Azure cloud</li>
+</ul>
+<p><br/> <br/></p>
+<h1 id="directory-contents">Directory contents</h1>
+<ul>
+<li>Linker: Linker files definition shared between TFM_SBSFU_Boot,
+TFM_Appli and TFM_Loader projects.</li>
+<li>TFM_SBSFU_Boot: Secure boot and secure firmware update
+application.</li>
+<li>TFM_Appli: Secure services application and Azure_IoT
+application.</li>
+<li>TFM_Loader: Local loader application.</li>
+<li>AzureScripts: QuickConnect scripts</li>
+</ul>
+<p><br/> <br/></p>
+<h1 id="keywords">Keywords</h1>
+<p>RTOS, Network, ThreadX, NetXDuo, WIFI, MQTT, DNS, TLS, MXCHIP, UART,
+STSAFE, STSAFE-A110, TFM, TF-M 1.3, SBSFU, Azure-RTOS, IoT Central</p>
+<p><br/> <br/></p>
+<h1 id="hardware-and-software-environment">Hardware and Software
+environment</h1>
+<ul>
+<li><p>This example runs on B-U585I-IOT02A board with either WiFi or
+cellular modem.</p></li>
+<li><p>By default the WiFi connectivity is enabled with on-board WiFi
+module (MXCHIP:EMW3080) used with this configuration :</p>
+<ul>
+<li>MXCHIP Firmware 2.1.11</li>
+<li>SPI mode used as interface</li>
+<li>Bypass mode (TCP-IP stack is handled by NetXDuo, not by Wi-Fi
+module)</li>
+</ul>
+<p>The EMW3080B MXCHIP Wi-Fi module firmware must be version 2.1.11. If
+update is needed, a package is available at <a
+href="https://www.st.com/en/development-tools/x-wifi-emw3080b.html"
+class="uri">https://www.st.com/en/development-tools/x-wifi-emw3080b.html</a>.
+To update, follow the instructions given at the above link, using the
+EMW3080updateV2.1.11RevC.bin flasher under V2.1.11/SPI folder.</p></li>
+<li><p>In case of Cellular connectivity, the supported cellular modem is
+the Quectel BG96 on ST MB1329 extension board. It connects to STMOD+2
+connector CN2 on B-U585I-IOT02A board.</p></li>
+<li><p>This application has been tested with <a
+href="https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html">B-U585I-IOT02A</a>
+(MB1551-U585AI) board Revision: RevC and can be adapted to other
+supported device and development board.</p></li>
+<li><p>This application uses USART1 to display logs. The serial terminal
+(<a
+href="https://osdn.net/projects/ttssh2/downloads/74780/teraterm-4.106.exe/">Tera-Term</a>
+for example) configuration is as follows:</p>
+<ul>
+<li>BaudRate = 115200 baud</li>
+<li>Word Length = 8 Bits</li>
+<li>Stop Bit = 1</li>
+<li>Parity = None</li>
+<li>Flow control = None</li>
+<li>New Line Receive and Transmit: CR</li>
+</ul></li>
+<li><p>To build this application (not needed when Quick Connect is
+used):</p>
+<ul>
+<li>IAR Embedded Workbench IDE version &gt;= 9.20 is required. There is
+a <a
+href="https://www.iar.com/products/architectures/arm/iar-embedded-workbench-for-arm/#:~:text=Free%20trial%20of%20IAR%20Embedded%20Workbench%20for%20Arm">free
+trial</a> available.<br />
+Note that it is recommended to place the unzipped folder directly at
+root of <code>C:\</code> drive or to use a virtual drive with <a
+href="https://docs.microsoft.com/windows-server/administration/windows-commands/subst">subst
+command</a>. Indeed IAR project with a long file path may not build
+correctly.</li>
+<li>STM32CubeIDE &gt;= 1.10.0</li>
+</ul></li>
+<li><p>To flash this application:</p>
+<ul>
+<li><a
+href="https://www.st.com/en/development-tools/stm32cubeprog.html">STM32CubeProgrammer</a>
+version &gt;= 2.10.0</li>
+</ul></li>
+<li><p>If Wi-Fi connectivity is chosen, a 2.4 GHz Wi-Fi router connected
+to the Internet with DHCP enabled and the router’s SSID and password is
+also required for the STM32 B-U585I-IOT02A development board to connect
+to the cloud.</p></li>
+<li><p>If Cellular modem is chosen, a SIM card with suitable data plan
+must be inserted in SIM slot on cellular modem board.</p></li>
+</ul>
+<p><br/> <br/></p>
+<h1 id="known-limitations">Known limitations</h1>
+<ul>
+<li>IAR build not working if cube package is installed on a path with a
+space, or a long path.<br />
+</li>
+<li>STM32CubeIDE: Only Release configuration is supported due to flash
+mapping constraint. To allow debugging in Release configuration, the
+debug level is -g3.</li>
+</ul>
+<p><br/> <br/></p>
+<h1 id="table-of-contents">Table of contents</h1>
+<ol type="1">
+<li><a href="#azure-scripts---quickconnect">Azure IoT Central -
+QuickConnect scripts</a><br />
+</li>
+<li><a href="#advanced-users">Getting started guides: Configuring /
+Building / Debugging</a><br />
+</li>
+<li><a href="#azure-iot-central-application-device-template">Azure IoT
+Central Application device template</a></li>
+<li><a href="#trouble-shooting">Trouble shooting</a></li>
+</ol>
+<p><br/></p>
+<hr />
+<p><br/></p>
+<h1 id="azure-scripts---quickconnect">1. Azure Scripts -
+QuickConnect</h1>
+<p>By default, the application is delivered with pre-compiled binaries
+compatible with WiFi connectivity. If Cellular connectivity is desired,
+the full application must be recompiled with the dedicated configuration
+in Non Secure application project. See Advanced users section for more
+details.</p>
+<p>Please refer to one of the azure cloud connection methods :</p>
+<ol type="1">
+<li><a
+href="./AzureScripts/readme/README_IOT_Hub_Auto.html">QC_IOT_HUB</a> :
+Connect the board to Azure Iot Hub with QuickConnect script</li>
+<li><a
+href="./AzureScripts/readme/README_IOT_Hub_Manual.html">MANUAL_IOT_HUB</a>
+: Connect the board to Azure Iot Hub Manually</li>
+<li><a
+href="./AzureScripts/readme/README_IOT_Central_Auto.html">QC_IOT_CENTRAL</a>
+: Connect the board the board to Azure Iot Central with QuickConnect
+script</li>
+<li><a
+href="./AzureScripts/readme/README_IOT_Central_Manual.html">MANUAL_IOT_CENTRAL</a>
+: Connect the board to Azure Iot Central Manually</li>
+</ol>
+<h1 id="getting-started-guides-configuring-building-debugging">2.
+Getting started guides: <span id="advanced-users">Configuring / Building
+/ Debugging</span></h1>
+<p>For device developers, the suggested next step is to look at the
+other tutorials in the series <a
+href="https://go.microsoft.com/fwlink/p/?linkid=2129824">Getting started
+with Azure RTOS</a>.<br />
+<br/></p>
+<p>This application is provided with pre-configured projects for EWARM
+and STM32CubeIDE.<br />
+Depending on your development environment, please refer to one of the
+documentation below:</p>
+<ol type="1">
+<li><a href="./Getting_started_EWARM.html">EWARM</a> : Details procedure
+to configure, build and debug the application with EWRAM (Windows
+only)</li>
+<li><a href="./Getting_started_STM32CubeIDE.html">STM32CubeIDE</a> :
+Details procedure to start configure, build and debug the application
+with STM32CubeIDE (Windows and Linux)</li>
+</ol>
+<p><br/></p>
+<h1 id="azure-iot-central-application-device-template">3. Azure IoT
+Central Application device template</h1>
+<p>For a better experience with Azure IoT Central Application, you can
+use the following device template:</p>
+<p><code>Projects\B-U585I-IOT02A\Applications\TFM_Azure_IoT\TFM_Appli\NonSecure\Config\AzureIotCentral\dtmi_stmicroelectronics_b_u585i_iot02a_standard_fw;3.json</code></p>
+<p>Please refer to <a
+href="https://docs.microsoft.com/en-us/azure/iot-central/core/concepts-device-templates">Azure
+IoT Central Application device template documentation</a> for more
+information.</p>
+<p><br/></p>
+<h1 id="trouble-shooting">4.Trouble shooting</h1>
+<h2 id="iar-build-issues">4.1 IAR Build Issues</h2>
+<p>If you are experiencing build issues in IAR, ensure that the project
+is extracted directly at root of your <code>C:\</code> drive. If this is
+not possible you can use the <a
+href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/subst">subst</a>
+command to create a virtual drive.</p>
+<p><br/></p>
+<h2 id="running-quick-connect-multiple-times">4.2 Running Quick Connect
+Multiple Times</h2>
+<p>The state of Config.json determines how the script executes. If you
+have already run the STM32U5_AZ_IotCentral_QC.py script once,
+Config.json will be permanently modified. If you want to add another
+device to your central application on a second integration of the
+script, no changes need to be made to Config.json. If you would like to
+create another application, you will have to set Config.json to the
+default configuration as pictured below.</p>
+<p><img src="./_htmresc/ConfigJson.png" /></p>
+<p><br/></p>
+<h2 id="delete-an-existing-app-in-azure-iot-central">4.3 Delete an
+existing app in Azure IoT Central</h2>
+<p>To do so navigate to the drop menu on the left and select
+‘Application’</p>
+<p><img src="./_htmresc/SelectApp.png" /><br />
+<br/></p>
+<p>Under the Management tab, scroll down to and select ‘Delete’.</p>
+<p><img src="./_htmresc/DeleteApp.png" /><br />
+<br/></p>
+<h2 id="how-i-determine-my-boards-registration-id">4.4 How I determine
+my board’s Registration ID?</h2>
+<p>The X.509 certificate and Registration ID (Common Name) are printed
+on the terminal after each start.</p>
+<p><img src="./_htmresc/CertificateAndID.png" /><br />
+<br/></p>
+<h2 id="more-questions">4.5 More questions?</h2>
+<p>Online support requests can be submitted at <a
+href="https://my.st.com/ols">https://my.st.com/ols</a>.</p>
+</body>
+</html>
