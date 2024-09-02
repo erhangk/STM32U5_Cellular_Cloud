@@ -1,5 +1,5 @@
 Application/NetXDuo/App/app_azure_iot.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot.c \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u585xx.h \
  ../../../../../../../../Drivers/CMSIS/Include/core_cm33.h \
@@ -88,17 +88,17 @@ Application/NetXDuo/App/app_azure_iot.o: \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_hub_client_properties.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/web/nx_web_http_client.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/web/nx_web_http_common.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_cert.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_ciphersuites.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_config.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_info_component.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/std_component.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_cert.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_ciphersuites.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_config.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_info_component.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/std_component.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_writer.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/dm_http_status_code.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_identity.h
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/dm_http_status_code.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_identity.h
 ../../../../../../../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h:
 ../../../../../../../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u585xx.h:
 ../../../../../../../../Drivers/CMSIS/Include/core_cm33.h:
@@ -187,14 +187,14 @@ Application/NetXDuo/App/app_azure_iot.o: \
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_hub_client_properties.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/web/nx_web_http_client.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/web/nx_web_http_common.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_cert.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_ciphersuites.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_config.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_info_component.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/std_component.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_cert.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_ciphersuites.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_config.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_info_component.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/std_component.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_writer.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/dm_http_status_code.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_identity.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/dm_http_status_code.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_identity.h:

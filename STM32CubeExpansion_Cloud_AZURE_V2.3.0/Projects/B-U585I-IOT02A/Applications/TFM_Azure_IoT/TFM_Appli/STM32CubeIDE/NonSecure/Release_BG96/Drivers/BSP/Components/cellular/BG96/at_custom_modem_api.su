@@ -1,2 +1,0 @@
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/cellular/BG96/Src/at_custom_modem_api.c:48:6:atcma_init_at_func_ptrs	0	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/cellular/BG96/Src/at_custom_modem_api.c:75:6:atcma_init_sysctrl_func_ptrs	0	static

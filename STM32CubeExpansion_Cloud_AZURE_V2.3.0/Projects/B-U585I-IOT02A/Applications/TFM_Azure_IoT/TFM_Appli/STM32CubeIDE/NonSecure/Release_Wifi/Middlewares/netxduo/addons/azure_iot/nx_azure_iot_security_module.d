@@ -1,5 +1,5 @@
 Middlewares/netxduo/addons/azure_iot/nx_azure_iot_security_module.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/nx_azure_iot_security_module.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/nx_azure_iot_security_module.c \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/inc/configs/RTOS_BASE/asc_config.h \
  ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
  ../../../NonSecure/Core/Inc/tx_user.h \
@@ -32,7 +32,7 @@ Middlewares/netxduo/addons/azure_iot/nx_azure_iot_security_module.o: \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto_const.h \
  ../../../../../../../../Middlewares/ST/netxduo/nx_secure/inc/nx_secure_x509.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/nx_azure_iot_security_module.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/nx_azure_iot_security_module.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/core.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/asc_result.h \
@@ -99,7 +99,7 @@ Middlewares/netxduo/addons/azure_iot/nx_azure_iot_security_module.o: \
 ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto_const.h:
 ../../../../../../../../Middlewares/ST/netxduo/nx_secure/inc/nx_secure_x509.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/nx_azure_iot_security_module.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/nx_azure_iot_security_module.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/core.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/asc_result.h:

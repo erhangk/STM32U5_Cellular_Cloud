@@ -1,5 +1,5 @@
 Application/User/dummy_device_id.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Secure/Src/dummy_device_id.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Secure/Src/dummy_device_id.c \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_plat_device_id.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_plat_defs.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_secure_api.h \

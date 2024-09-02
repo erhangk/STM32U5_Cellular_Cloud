@@ -1,5 +1,5 @@
 Middlewares/netxduo/drivers/wifi/mx_wifi_azure_rtos.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/mx_wifi_azure_rtos.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/mx_wifi_azure_rtos.c \
  ../../../../../../../../Drivers/BSP/Components/mx_wifi/mx_wifi.h \
  ../../../NonSecure/Wifi/mx_wifi_conf.h \
  ../../../NonSecure/NetXDuo/App/app_azure_iot_config.h \
@@ -72,8 +72,8 @@ Middlewares/netxduo/drivers/wifi/mx_wifi_azure_rtos.o: \
  ../../../../../../../../Drivers/BSP/B-U585I-IOT02A/../Components/ism330dhcx/ism330dhcx.h \
  ../../../../../../../../Drivers/BSP/B-U585I-IOT02A/../Components/ism330dhcx/ism330dhcx_reg.h \
  ../../../NonSecure/Core/Inc/com.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.h
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.h
 ../../../../../../../../Drivers/BSP/Components/mx_wifi/mx_wifi.h:
 ../../../NonSecure/Wifi/mx_wifi_conf.h:
 ../../../NonSecure/NetXDuo/App/app_azure_iot_config.h:
@@ -146,5 +146,5 @@ Middlewares/netxduo/drivers/wifi/mx_wifi_azure_rtos.o: \
 ../../../../../../../../Drivers/BSP/B-U585I-IOT02A/../Components/ism330dhcx/ism330dhcx.h:
 ../../../../../../../../Drivers/BSP/B-U585I-IOT02A/../Components/ism330dhcx/ism330dhcx_reg.h:
 ../../../NonSecure/Core/Inc/com.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_emw3080.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/drivers/wifi/mxchip/nx_driver_framework.h:

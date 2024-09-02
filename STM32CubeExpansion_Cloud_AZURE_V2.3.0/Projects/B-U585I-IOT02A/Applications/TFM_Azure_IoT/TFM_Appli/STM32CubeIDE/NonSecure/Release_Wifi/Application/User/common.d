@@ -1,5 +1,5 @@
 Application/User/common.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/common.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/common.c \
  ../../../NonSecure/Core/Inc/common.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u585xx.h \

@@ -1,5 +1,5 @@
 Middlewares/netxduo/addons/azure_iot/az_iot_hub_client_commands.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/iot/az_iot_hub_client_commands.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/iot/az_iot_hub_client_commands.c \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_precondition.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_span.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_result.h \

@@ -1,5 +1,5 @@
 Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../../NonSecure/Core/Inc/stm32u5xx_hal_conf.h \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \

@@ -1,5 +1,5 @@
 Middlewares/netxduo/addons/azure_iot/builder.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/deps/flatcc/src/runtime/builder.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/deps/flatcc/src/runtime/builder.c \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/deps/flatcc/include/flatcc/flatcc_builder.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/deps/flatcc/include/flatcc/flatcc_flatbuffers.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/deps/flatcc/include/flatcc/portable/pstatic_assert.h \

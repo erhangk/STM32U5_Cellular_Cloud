@@ -1,5 +1,5 @@
 Application/User/tfm_hal_isolation.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Secure/Src/tfm_hal_isolation.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Secure/Src/tfm_hal_isolation.c \
  ../../../Secure/Inc/cmsis.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u585xx.h \

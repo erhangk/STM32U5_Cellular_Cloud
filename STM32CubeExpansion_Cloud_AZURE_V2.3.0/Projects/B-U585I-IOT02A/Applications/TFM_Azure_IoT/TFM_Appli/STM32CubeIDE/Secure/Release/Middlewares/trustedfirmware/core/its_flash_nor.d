@@ -1,6 +1,6 @@
 Middlewares/trustedfirmware/core/its_flash_nor.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nor.c \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nor.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nor.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nor.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash_fs/its_flash_fs.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash_fs/its_flash_fs_mblock.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash.h \
@@ -15,7 +15,7 @@ Middlewares/trustedfirmware/core/its_flash_nor.o: \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nor.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash_fs/its_flash_fs.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/driver/Driver_Flash.h
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nor.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nor.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash_fs/its_flash_fs.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash_fs/its_flash_fs_mblock.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash.h:

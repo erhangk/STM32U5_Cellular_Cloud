@@ -1,6 +1,6 @@
 Middlewares/trustedfirmware/core/its_flash_nand.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nand.c \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nand.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nand.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nand.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/driver/Driver_Flash.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/driver/Driver_Common.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash_fs/its_flash_fs.h \
@@ -18,7 +18,7 @@ Middlewares/trustedfirmware/core/its_flash_nand.o: \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_memory_utils.h \
  ../../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../../../../../../../Drivers/CMSIS/Include/cmsis_gcc.h
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nand.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash/its_flash_nand.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/driver/Driver_Flash.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/driver/Driver_Common.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/internal_trusted_storage/flash_fs/its_flash_fs.h:

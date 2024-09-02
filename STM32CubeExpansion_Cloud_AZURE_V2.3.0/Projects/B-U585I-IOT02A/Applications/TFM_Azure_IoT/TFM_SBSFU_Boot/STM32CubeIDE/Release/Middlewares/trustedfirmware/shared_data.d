@@ -1,5 +1,5 @@
 Middlewares/trustedfirmware/shared_data.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/src/shared_data.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/src/shared_data.c \
  ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/boot_record.h \
  ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/image.h \
  ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/fault_injection_hardening.h \

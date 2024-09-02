@@ -1,11 +1,11 @@
 Middlewares/trustedfirmware/core/spm_ipc.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/spm_ipc.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/spm_ipc.c \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/bitops.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/lib/fih/inc/fih.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/error.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/service.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_thread.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_thread.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_arch.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_device_header.h \
  ../../../Secure/Inc/cmsis.h \
@@ -49,8 +49,8 @@ Middlewares/trustedfirmware/core/spm_ipc.o: \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_arch_v8m.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_core_trustzone.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/utilities.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_wait.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/internal_errors.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_wait.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/internal_errors.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/ffm/spm_error_base.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_spm_hal.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_secure_api.h \
@@ -67,15 +67,15 @@ Middlewares/trustedfirmware/core/spm_ipc.o: \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_memory_utils.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_isolation.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_defs.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/spm_ipc.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/spm_ipc.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/spm_partition_defs.h \
  ../g/interface/include/psa_manifest/pid.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/lists.h \
  ../../../Secure/Inc/tfm_peripherals_def.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_core_utils.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_rpc.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_rpc.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_core_trustzone.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_pools.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_pools.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/region.h \
  ../../../../Linker/region_defs.h ../../../../Linker/flash_layout.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/include/tfm/tfm_spm_services.h \
@@ -93,7 +93,7 @@ Middlewares/trustedfirmware/core/spm_ipc.o: \
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/error.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/service.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_thread.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_thread.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_arch.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_device_header.h:
 ../../../Secure/Inc/cmsis.h:
@@ -137,8 +137,8 @@ Middlewares/trustedfirmware/core/spm_ipc.o: \
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_arch_v8m.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_core_trustzone.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/utilities.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_wait.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/internal_errors.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_wait.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/internal_errors.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/ffm/spm_error_base.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_spm_hal.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_secure_api.h:
@@ -155,15 +155,15 @@ Middlewares/trustedfirmware/core/spm_ipc.o: \
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_memory_utils.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_isolation.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_defs.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/spm_ipc.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/spm_ipc.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/spm_partition_defs.h:
 ../g/interface/include/psa_manifest/pid.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/lists.h:
 ../../../Secure/Inc/tfm_peripherals_def.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_core_utils.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_rpc.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_rpc.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_core_trustzone.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_pools.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_pools.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/region.h:
 ../../../../Linker/region_defs.h:
 ../../../../Linker/flash_layout.h:

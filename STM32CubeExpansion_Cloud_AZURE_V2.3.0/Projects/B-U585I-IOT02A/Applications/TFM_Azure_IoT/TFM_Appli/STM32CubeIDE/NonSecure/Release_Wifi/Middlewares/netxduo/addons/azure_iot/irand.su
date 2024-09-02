@@ -1,2 +1,2 @@
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/src/utils/irand.c:17:6:irand_srand	0	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/src/utils/irand.c:22:10:irand_int	0	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/src/utils/irand.c:17:6:irand_srand	0	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/src/utils/irand.c:22:10:irand_int	0	static

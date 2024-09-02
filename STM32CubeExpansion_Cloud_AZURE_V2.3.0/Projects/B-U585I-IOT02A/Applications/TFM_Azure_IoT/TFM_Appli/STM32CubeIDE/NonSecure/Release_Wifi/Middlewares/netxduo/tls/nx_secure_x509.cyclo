@@ -1,2 +1,2 @@
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/nx_secure/src/nx_secure_x509.c:875:13:_nx_secure_x509_parse_signature_algorithm	8
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/nx_secure/src/nx_secure_x509.c:113:6:_nx_secure_x509_certificate_parse	82
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/nx_secure/src/nx_secure_x509.c:875:13:_nx_secure_x509_parse_signature_algorithm	8
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/nx_secure/src/nx_secure_x509.c:113:6:_nx_secure_x509_certificate_parse	82

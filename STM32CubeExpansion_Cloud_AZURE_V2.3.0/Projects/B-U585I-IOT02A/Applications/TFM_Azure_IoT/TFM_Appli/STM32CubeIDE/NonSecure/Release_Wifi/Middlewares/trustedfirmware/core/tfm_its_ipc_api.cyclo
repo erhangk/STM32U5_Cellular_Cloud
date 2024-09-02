@@ -1,4 +1,4 @@
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_its_ipc_api.c:16:14:psa_its_set	2
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_its_ipc_api.c:42:14:psa_its_get	3
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_its_ipc_api.c:79:14:psa_its_get_info	2
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_its_ipc_api.c:106:14:psa_its_remove	2
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_its_ipc_api.c:16:14:psa_its_set	2
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_its_ipc_api.c:42:14:psa_its_get	3
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_its_ipc_api.c:79:14:psa_its_get_info	2
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_its_ipc_api.c:106:14:psa_its_remove	2

@@ -5,13 +5,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 S_UPPER_SRCS += \
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_context_restore.S \
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_context_save.S \
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_interrupt_control.S \
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_schedule.S \
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_stack_build.S \
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_system_return.S \
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_timer_interrupt.S 
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_context_restore.S \
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_context_save.S \
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_interrupt_control.S \
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_schedule.S \
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_stack_build.S \
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_system_return.S \
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_timer_interrupt.S 
 
 OBJS += \
 ./Middlewares/threadx/port_gcc/tx_thread_context_restore.o \
@@ -33,19 +33,19 @@ S_UPPER_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Middlewares/threadx/port_gcc/tx_thread_context_restore.o: /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_context_restore.S Middlewares/threadx/port_gcc/subdir.mk
+Middlewares/threadx/port_gcc/tx_thread_context_restore.o: /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_context_restore.S Middlewares/threadx/port_gcc/subdir.mk
 	arm-none-eabi-gcc -mcpu=cortex-m33 -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_DYNAMIC_MEMORY_ALLOCATION -c -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
-Middlewares/threadx/port_gcc/tx_thread_context_save.o: /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_context_save.S Middlewares/threadx/port_gcc/subdir.mk
+Middlewares/threadx/port_gcc/tx_thread_context_save.o: /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_context_save.S Middlewares/threadx/port_gcc/subdir.mk
 	arm-none-eabi-gcc -mcpu=cortex-m33 -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_DYNAMIC_MEMORY_ALLOCATION -c -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
-Middlewares/threadx/port_gcc/tx_thread_interrupt_control.o: /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_interrupt_control.S Middlewares/threadx/port_gcc/subdir.mk
+Middlewares/threadx/port_gcc/tx_thread_interrupt_control.o: /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_interrupt_control.S Middlewares/threadx/port_gcc/subdir.mk
 	arm-none-eabi-gcc -mcpu=cortex-m33 -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_DYNAMIC_MEMORY_ALLOCATION -c -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
-Middlewares/threadx/port_gcc/tx_thread_schedule.o: /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_schedule.S Middlewares/threadx/port_gcc/subdir.mk
+Middlewares/threadx/port_gcc/tx_thread_schedule.o: /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_schedule.S Middlewares/threadx/port_gcc/subdir.mk
 	arm-none-eabi-gcc -mcpu=cortex-m33 -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_DYNAMIC_MEMORY_ALLOCATION -c -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
-Middlewares/threadx/port_gcc/tx_thread_stack_build.o: /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_stack_build.S Middlewares/threadx/port_gcc/subdir.mk
+Middlewares/threadx/port_gcc/tx_thread_stack_build.o: /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_stack_build.S Middlewares/threadx/port_gcc/subdir.mk
 	arm-none-eabi-gcc -mcpu=cortex-m33 -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_DYNAMIC_MEMORY_ALLOCATION -c -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
-Middlewares/threadx/port_gcc/tx_thread_system_return.o: /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_system_return.S Middlewares/threadx/port_gcc/subdir.mk
+Middlewares/threadx/port_gcc/tx_thread_system_return.o: /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_thread_system_return.S Middlewares/threadx/port_gcc/subdir.mk
 	arm-none-eabi-gcc -mcpu=cortex-m33 -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_DYNAMIC_MEMORY_ALLOCATION -c -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
-Middlewares/threadx/port_gcc/tx_timer_interrupt.o: /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_timer_interrupt.S Middlewares/threadx/port_gcc/subdir.mk
+Middlewares/threadx/port_gcc/tx_timer_interrupt.o: /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/ports/cortex_m33/gnu/src/tx_timer_interrupt.S Middlewares/threadx/port_gcc/subdir.mk
 	arm-none-eabi-gcc -mcpu=cortex-m33 -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_DYNAMIC_MEMORY_ALLOCATION -c -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 
 clean: clean-Middlewares-2f-threadx-2f-port_gcc

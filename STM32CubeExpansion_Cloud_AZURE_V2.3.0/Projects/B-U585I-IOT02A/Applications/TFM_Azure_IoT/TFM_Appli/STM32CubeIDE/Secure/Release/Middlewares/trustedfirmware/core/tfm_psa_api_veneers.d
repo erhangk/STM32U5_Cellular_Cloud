@@ -1,5 +1,5 @@
 Middlewares/trustedfirmware/core/tfm_psa_api_veneers.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_psa_api_veneers.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_psa_api_veneers.c \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/error.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/service.h \
@@ -55,7 +55,7 @@ Middlewares/trustedfirmware/core/tfm_psa_api_veneers.o: \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/tfm_api.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_boot_status.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_svcalls.h
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_svcalls.h
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/error.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/service.h:
@@ -111,4 +111,4 @@ Middlewares/trustedfirmware/core/tfm_psa_api_veneers.o: \
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/tfm_api.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_boot_status.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_svcalls.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_svcalls.h:

@@ -1,5 +1,5 @@
 Middlewares/netxduo/tls/nx_secure_x509_local_device_certificate_get.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/nx_secure/src/nx_secure_x509_local_device_certificate_get.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/nx_secure/src/nx_secure_x509_local_device_certificate_get.c \
  ../../../../../../../../Middlewares/ST/netxduo/nx_secure/inc/nx_secure_x509.h \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto.h \
  ../../../../../../../../Middlewares/ST/netxduo/common/inc/nx_api.h \

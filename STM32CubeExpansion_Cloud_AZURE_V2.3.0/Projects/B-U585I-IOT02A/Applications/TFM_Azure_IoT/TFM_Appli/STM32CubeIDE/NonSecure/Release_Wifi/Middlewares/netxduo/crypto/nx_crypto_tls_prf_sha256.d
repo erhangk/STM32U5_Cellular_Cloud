@@ -1,5 +1,5 @@
 Middlewares/netxduo/crypto/nx_crypto_tls_prf_sha256.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_tls_prf_sha256.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_tls_prf_sha256.c \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto_tls_prf_sha256.h \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto_phash.h \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto.h \

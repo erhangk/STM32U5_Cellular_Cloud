@@ -1,4 +1,0 @@
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_core.c:70:13:com_core_cmd_help	8	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_core.c:84:13:com_core_cmd	40	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_core.c:158:6:com_init	0	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Interface/Com/Src/com_core.c:194:6:com_start	8	static

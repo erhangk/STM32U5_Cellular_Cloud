@@ -1,5 +1,5 @@
 Middlewares/netxduo/addons/azure_iot/serializer.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/serializer/serializer.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/serializer/serializer.c \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/inc/configs/RTOS_BASE/asc_config.h \
  ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
  ../../../NonSecure/Core/Inc/tx_user.h \
@@ -73,7 +73,7 @@ Middlewares/netxduo/addons/azure_iot/serializer.o: \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/model/objects/system_information.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/model/objects/network_activity.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/model/objects/transport_protocol.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/serializer/serializer_private.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/serializer/serializer_private.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/serializer/custom_builder_allocator.h
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/inc/configs/RTOS_BASE/asc_config.h:
 ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h:
@@ -148,5 +148,5 @@ Middlewares/netxduo/addons/azure_iot/serializer.o: \
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/model/objects/system_information.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/model/objects/network_activity.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/model/objects/transport_protocol.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/serializer/serializer_private.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/src/serializer/serializer_private.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/serializer/custom_builder_allocator.h:

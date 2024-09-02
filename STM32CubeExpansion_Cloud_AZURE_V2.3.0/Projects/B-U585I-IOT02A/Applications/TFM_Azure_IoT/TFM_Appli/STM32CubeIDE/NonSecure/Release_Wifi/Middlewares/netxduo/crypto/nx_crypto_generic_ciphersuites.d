@@ -1,5 +1,5 @@
 Middlewares/netxduo/crypto/nx_crypto_generic_ciphersuites.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_generic_ciphersuites.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_generic_ciphersuites.c \
  ../../../../../../../../Middlewares/ST/netxduo/nx_secure/inc/nx_secure_tls.h \
  ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
  ../../../NonSecure/Core/Inc/tx_user.h \

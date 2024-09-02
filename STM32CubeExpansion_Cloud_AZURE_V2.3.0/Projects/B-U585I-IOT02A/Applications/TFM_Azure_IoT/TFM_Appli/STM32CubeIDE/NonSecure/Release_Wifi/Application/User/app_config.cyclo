@@ -1,8 +1,8 @@
 ../../../../../../../../Drivers/CMSIS/Include/core_cm33.h:2448:34:__NVIC_SystemReset	1
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:303:13:flushRN	2
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:230:17:config_set_data	1
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:251:17:config_erase_data.isra	1
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:95:6:config_display_menu	1
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:187:10:config_get_data	3
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:84:10:config_init	1
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:122:10:config_process_command	8
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:303:13:flushRN	2
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:230:17:config_set_data	1
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:251:17:config_erase_data.isra	1
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:95:6:config_display_menu	1
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:187:10:config_get_data	3
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:84:10:config_init	1
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/app_config.c:122:10:config_process_command	8

@@ -1,6 +1,6 @@
 Application/NetXDuo/App/ctrl_component.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.c \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_hub_client.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_log.h \
@@ -104,8 +104,8 @@ Application/NetXDuo/App/ctrl_component.o: \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_hub_client.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_writer.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/dm_http_status_code.h
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.h:
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/dm_http_status_code.h
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/ctrl_component.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_hub_client.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_log.h:
@@ -209,4 +209,4 @@ Application/NetXDuo/App/ctrl_component.o: \
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_hub_client.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_writer.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/dm_http_status_code.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/dm_http_status_code.h:

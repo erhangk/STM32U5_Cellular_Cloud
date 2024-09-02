@@ -1,5 +1,5 @@
 Application/NetXDuo/App/app_azure_iot_adu_agent_s_driver.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_adu_agent_s_driver.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_adu_agent_s_driver.c \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_adu_agent.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_hub_client_properties.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client_properties.h \

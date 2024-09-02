@@ -1,5 +1,5 @@
 Middlewares/netxduo/addons/azure_iot/nx_azure_iot.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.c \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/nx_azure_iot_security_module.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/inc/configs/RTOS_BASE/asc_config.h \
  ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
@@ -55,7 +55,7 @@ Middlewares/netxduo/addons/azure_iot/nx_azure_iot.o: \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/utils/notifier.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/utils/notifier_topics.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/utils/ievent_loop.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/internal/az_log_internal.h
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/nx_azure_iot_security_module.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/inc/configs/RTOS_BASE/asc_config.h:
@@ -112,5 +112,5 @@ Middlewares/netxduo/addons/azure_iot/nx_azure_iot.o: \
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/utils/notifier.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/utils/notifier_topics.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure_iot_security_module/iot-security-module-core/inc/asc_security_core/utils/ievent_loop.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/internal/az_log_internal.h:

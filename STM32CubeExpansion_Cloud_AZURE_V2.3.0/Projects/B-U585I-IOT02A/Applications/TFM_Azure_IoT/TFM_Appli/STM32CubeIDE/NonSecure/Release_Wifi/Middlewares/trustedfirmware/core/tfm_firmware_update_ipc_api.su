@@ -1,7 +1,7 @@
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:16:14:psa_fwu_write	56	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:47:14:psa_fwu_install	56	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:84:14:psa_fwu_abort	40	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:110:14:psa_fwu_query	48	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:139:14:psa_fwu_request_reboot	24	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:161:14:psa_fwu_accept	24	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:183:14:psa_fwu_set_manifest	0	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:16:14:psa_fwu_write	56	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:47:14:psa_fwu_install	56	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:84:14:psa_fwu_abort	40	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:110:14:psa_fwu_query	48	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:139:14:psa_fwu_request_reboot	24	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:161:14:psa_fwu_accept	24	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/tfm_firmware_update_ipc_api.c:183:14:psa_fwu_set_manifest	0	static

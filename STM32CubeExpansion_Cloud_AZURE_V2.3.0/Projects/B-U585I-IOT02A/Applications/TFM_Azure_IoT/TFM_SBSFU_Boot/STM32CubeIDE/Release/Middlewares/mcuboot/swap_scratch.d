@@ -1,10 +1,10 @@
 Middlewares/mcuboot/swap_scratch.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_scratch.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_scratch.c \
  ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/bootutil.h \
  ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/fault_injection_hardening.h \
  ../../Inc/mcuboot_config/mcuboot_config.h \
  ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/fault_injection_hardening_delay_rng.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/bootutil_priv.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/bootutil_priv.h \
  ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/sysflash/sysflash.h \
  ../../../Linker/flash_layout.h \
  ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/flash_map_backend/flash_map_backend.h \
@@ -57,7 +57,7 @@ Middlewares/mcuboot/swap_scratch.o: \
  ../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h \
  ../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h \
  ../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_priv.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_priv.h \
  ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/bootutil_log.h \
  ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/ignore.h \
  ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/mcuboot_config/mcuboot_logging.h \
@@ -66,7 +66,7 @@ Middlewares/mcuboot/swap_scratch.o: \
 ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/fault_injection_hardening.h:
 ../../Inc/mcuboot_config/mcuboot_config.h:
 ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/fault_injection_hardening_delay_rng.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/bootutil_priv.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/bootutil_priv.h:
 ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/sysflash/sysflash.h:
 ../../../Linker/flash_layout.h:
 ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/flash_map_backend/flash_map_backend.h:
@@ -120,7 +120,7 @@ Middlewares/mcuboot/swap_scratch.o: \
 ../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h:
 ../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h:
 ../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_priv.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/swap_priv.h:
 ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/bootutil_log.h:
 ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/ignore.h:
 ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/mcuboot_config/mcuboot_logging.h:

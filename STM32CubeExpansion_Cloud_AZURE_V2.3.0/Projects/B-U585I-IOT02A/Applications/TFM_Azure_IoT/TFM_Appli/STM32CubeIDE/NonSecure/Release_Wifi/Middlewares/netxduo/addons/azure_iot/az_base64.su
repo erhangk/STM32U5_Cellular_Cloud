@@ -1,8 +1,8 @@
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:119:16:_get_base64_decoded_char	0	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:113:22:az_base64_get_max_encoded_size	8	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:66:1:az_base64_encode	48	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:332:22:az_base64_get_max_decoded_size	8	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:202:18:_az_base64_decode	72	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:314:1:az_base64_decode	48	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:338:24:az_base64_url_decode	48	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:360:22:az_base64_url_get_max_decoded_size	0	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:119:16:_get_base64_decoded_char	0	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:113:22:az_base64_get_max_encoded_size	8	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:66:1:az_base64_encode	48	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:332:22:az_base64_get_max_decoded_size	8	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:202:18:_az_base64_decode	72	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:314:1:az_base64_decode	48	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:338:24:az_base64_url_decode	48	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_base64.c:360:22:az_base64_url_get_max_decoded_size	0	static

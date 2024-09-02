@@ -1,5 +1,5 @@
 Middlewares/trustedfirmware/core/tfm_nspm_ipc.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_nspm_ipc.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/spm/cmsis_psa/tfm_nspm_ipc.c \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_spm_hal.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/lib/fih/inc/fih.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_secure_api.h \

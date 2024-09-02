@@ -1,5 +1,5 @@
 Middlewares/netxduo/core/nxe_tcp_socket_timed_wait_callback.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_timed_wait_callback.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_timed_wait_callback.c \
  ../../../../../../../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
  ../../../NonSecure/Core/Inc/tx_user.h \

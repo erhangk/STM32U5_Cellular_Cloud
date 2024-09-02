@@ -1,3 +1,3 @@
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_data_check.c:80:6:_nx_tcp_socket_state_data_trim	5
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_data_check.c:184:6:_nx_tcp_socket_state_data_trim_front	7
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_data_check.c:338:7:_nx_tcp_socket_state_data_check	39
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_data_check.c:80:6:_nx_tcp_socket_state_data_trim	5
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_data_check.c:184:6:_nx_tcp_socket_state_data_trim_front	7
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_data_check.c:338:7:_nx_tcp_socket_state_data_check	39

@@ -1,5 +1,5 @@
 Middlewares/netxduo/crypto/nx_crypto_dh.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_dh.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/crypto_libraries/src/nx_crypto_dh.c \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto_dh.h \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto_huge_number.h \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto.h \

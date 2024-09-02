@@ -1,2 +1,2 @@
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_embedded_sdk_connect.c:35:13:exponential_backoff_with_jitter	24	static
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_embedded_sdk_connect.c:102:6:sample_connection_monitor	40	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_embedded_sdk_connect.c:35:13:exponential_backoff_with_jitter	24	static
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_embedded_sdk_connect.c:102:6:sample_connection_monitor	40	static

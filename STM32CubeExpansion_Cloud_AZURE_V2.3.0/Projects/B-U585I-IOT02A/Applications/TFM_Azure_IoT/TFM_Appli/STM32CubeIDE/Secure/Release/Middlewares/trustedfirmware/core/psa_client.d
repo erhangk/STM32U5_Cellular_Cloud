@@ -1,5 +1,5 @@
 Middlewares/trustedfirmware/core/psa_client.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_client.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/interface/src/psa/psa_client.c \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/include/tfm/tfm_core_svc.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_device_header.h \
  ../../../Secure/Inc/cmsis.h \

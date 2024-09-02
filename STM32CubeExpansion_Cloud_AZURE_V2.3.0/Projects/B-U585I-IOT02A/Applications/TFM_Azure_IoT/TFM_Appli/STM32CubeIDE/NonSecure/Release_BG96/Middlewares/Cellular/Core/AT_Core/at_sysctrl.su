@@ -1,8 +1,0 @@
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_sysctrl.c:71:18:SysCtrl_getDeviceDescriptor	24	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_sysctrl.c:102:18:SysCtrl_open_channel	8	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_sysctrl.c:124:18:SysCtrl_close_channel	8	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_sysctrl.c:146:18:SysCtrl_power_on	8	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_sysctrl.c:168:18:SysCtrl_power_off	8	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_sysctrl.c:190:18:SysCtrl_reset_device	8	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_sysctrl.c:213:18:SysCtrl_sim_select	16	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_sysctrl.c:235:6:SysCtrl_delay	0	static

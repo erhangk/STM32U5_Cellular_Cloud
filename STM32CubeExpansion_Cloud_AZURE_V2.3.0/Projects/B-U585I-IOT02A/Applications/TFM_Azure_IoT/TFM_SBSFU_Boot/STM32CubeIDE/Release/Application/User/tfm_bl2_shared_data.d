@@ -1,5 +1,5 @@
 Application/User/tfm_bl2_shared_data.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/tfm_bl2_shared_data.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_SBSFU_Boot/Src/tfm_bl2_shared_data.c \
  ../../Inc/boot_hal_cfg.h \
  ../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../Inc/stm32u5xx_hal_conf.h \

@@ -1001,8 +1001,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x355 ./Application/User/dummy_crypto_keys.o
  .debug_macro   0x00000000       0x16 ./Application/User/dummy_crypto_keys.o
  .debug_macro   0x00000000       0x20 ./Application/User/dummy_crypto_keys.o
- .debug_line    0x00000000     0x104f ./Application/User/dummy_crypto_keys.o
- .debug_str     0x00000000   0x14738d ./Application/User/dummy_crypto_keys.o
+ .debug_line    0x00000000     0x1048 ./Application/User/dummy_crypto_keys.o
+ .debug_str     0x00000000   0x14737f ./Application/User/dummy_crypto_keys.o
  .comment       0x00000000       0x44 ./Application/User/dummy_crypto_keys.o
  .debug_frame   0x00000000       0x54 ./Application/User/dummy_crypto_keys.o
  .ARM.attributes
@@ -2769,8 +2769,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ae ./Application/User/md5_alt.o
  .debug_macro   0x00000000       0x16 ./Application/User/md5_alt.o
  .debug_macro   0x00000000       0x20 ./Application/User/md5_alt.o
- .debug_line    0x00000000      0xad2 ./Application/User/md5_alt.o
- .debug_str     0x00000000   0x13abeb ./Application/User/md5_alt.o
+ .debug_line    0x00000000      0xacb ./Application/User/md5_alt.o
+ .debug_str     0x00000000   0x13abdd ./Application/User/md5_alt.o
  .comment       0x00000000       0x44 ./Application/User/md5_alt.o
  .ARM.attributes
                 0x00000000       0x34 ./Application/User/md5_alt.o
@@ -3501,8 +3501,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ae ./Application/User/sha1_alt.o
  .debug_macro   0x00000000       0x16 ./Application/User/sha1_alt.o
  .debug_macro   0x00000000       0x20 ./Application/User/sha1_alt.o
- .debug_line    0x00000000      0xad5 ./Application/User/sha1_alt.o
- .debug_str     0x00000000   0x13ac1a ./Application/User/sha1_alt.o
+ .debug_line    0x00000000      0xace ./Application/User/sha1_alt.o
+ .debug_str     0x00000000   0x13ac0c ./Application/User/sha1_alt.o
  .comment       0x00000000       0x44 ./Application/User/sha1_alt.o
  .ARM.attributes
                 0x00000000       0x34 ./Application/User/sha1_alt.o
@@ -6469,8 +6469,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x1a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
  .debug_macro   0x00000000      0x1ce ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
  .debug_macro   0x00000000      0x3ae ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
- .debug_line    0x00000000     0x34cf ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
- .debug_str     0x00000000   0x13ac3f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
+ .debug_line    0x00000000     0x34c8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
+ .debug_str     0x00000000   0x13ac31 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
  .debug_frame   0x00000000      0x4fc ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma_ex.o
  .ARM.attributes
@@ -6639,8 +6639,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x1a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_exti.o
  .debug_macro   0x00000000      0x1ce ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_exti.o
  .debug_macro   0x00000000      0x3ae ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_exti.o
- .debug_line    0x00000000     0x105b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_exti.o
- .debug_str     0x00000000   0x13a1b3 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_exti.o
+ .debug_line    0x00000000     0x1054 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_exti.o
+ .debug_str     0x00000000   0x13a1a5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_exti.o
  .comment       0x00000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_exti.o
  .debug_frame   0x00000000      0x144 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_exti.o
  .ARM.attributes
@@ -8464,8 +8464,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x1a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr.o
  .debug_macro   0x00000000      0x1ce ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr.o
  .debug_macro   0x00000000      0x3ae ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr.o
- .debug_line    0x00000000      0xc71 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr.o
- .debug_str     0x00000000   0x13a381 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr.o
+ .debug_line    0x00000000      0xc6a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr.o
+ .debug_str     0x00000000   0x13a373 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr.o
  .comment       0x00000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr.o
  .debug_frame   0x00000000      0x150 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr.o
  .ARM.attributes
@@ -8730,8 +8730,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x1a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
  .debug_macro   0x00000000      0x1ce ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
  .debug_macro   0x00000000      0x3ae ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
- .debug_line    0x00000000     0x1470 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
- .debug_str     0x00000000   0x13a92d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
+ .debug_line    0x00000000     0x1469 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
+ .debug_str     0x00000000   0x13a91f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
  .debug_frame   0x00000000      0x3f4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
  .ARM.attributes
@@ -9385,8 +9385,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x1a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng_ex.o
  .debug_macro   0x00000000      0x1ce ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng_ex.o
  .debug_macro   0x00000000      0x3ae ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng_ex.o
- .debug_line    0x00000000      0xb7c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng_ex.o
- .debug_str     0x00000000   0x13a096 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng_ex.o
+ .debug_line    0x00000000      0xb75 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng_ex.o
+ .debug_str     0x00000000   0x13a088 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng_ex.o
  .debug_frame   0x00000000       0x64 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng_ex.o
  .ARM.attributes
@@ -9525,8 +9525,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x1a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc.o
  .debug_macro   0x00000000      0x1ce ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc.o
  .debug_macro   0x00000000      0x3ae ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc.o
- .debug_line    0x00000000      0x939 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc.o
- .debug_str     0x00000000   0x139e17 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc.o
+ .debug_line    0x00000000      0x932 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc.o
+ .debug_str     0x00000000   0x139e09 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc.o
  .comment       0x00000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc.o
  .ARM.attributes
                 0x00000000       0x34 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc.o
@@ -9664,8 +9664,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x1a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc_ex.o
  .debug_macro   0x00000000      0x1ce ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc_ex.o
  .debug_macro   0x00000000      0x3ae ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc_ex.o
- .debug_line    0x00000000      0x93c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc_ex.o
- .debug_str     0x00000000   0x139e1a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc_ex.o
+ .debug_line    0x00000000      0x935 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc_ex.o
+ .debug_str     0x00000000   0x139e0c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc_ex.o
  .ARM.attributes
                 0x00000000       0x34 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rtc_ex.o
@@ -10084,8 +10084,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x1a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart_ex.o
  .debug_macro   0x00000000      0x1ce ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart_ex.o
  .debug_macro   0x00000000      0x3ae ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart_ex.o
- .debug_line    0x00000000     0x15cb ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart_ex.o
- .debug_str     0x00000000   0x13a981 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart_ex.o
+ .debug_line    0x00000000     0x15c4 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart_ex.o
+ .debug_str     0x00000000   0x13a973 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart_ex.o
  .debug_frame   0x00000000      0x1dc ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart_ex.o
  .ARM.attributes
@@ -10298,8 +10298,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x40 ./Middlewares/mbed-crypto/aes.o
  .debug_macro   0x00000000       0x35 ./Middlewares/mbed-crypto/aes.o
  .debug_macro   0x00000000       0x17 ./Middlewares/mbed-crypto/aes.o
- .debug_line    0x00000000      0xc1a ./Middlewares/mbed-crypto/aes.o
- .debug_str     0x00000000   0x13d18a ./Middlewares/mbed-crypto/aes.o
+ .debug_line    0x00000000      0xc13 ./Middlewares/mbed-crypto/aes.o
+ .debug_str     0x00000000   0x13d17c ./Middlewares/mbed-crypto/aes.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/aes.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/aes.o
@@ -10343,8 +10343,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/arc4.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/arc4.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/arc4.o
- .debug_line    0x00000000      0x613 ./Middlewares/mbed-crypto/arc4.o
- .debug_str     0x00000000     0x766d ./Middlewares/mbed-crypto/arc4.o
+ .debug_line    0x00000000      0x60c ./Middlewares/mbed-crypto/arc4.o
+ .debug_str     0x00000000     0x765f ./Middlewares/mbed-crypto/arc4.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/arc4.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/arc4.o
@@ -10388,8 +10388,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/aria.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/aria.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/aria.o
- .debug_line    0x00000000      0x613 ./Middlewares/mbed-crypto/aria.o
- .debug_str     0x00000000     0x766d ./Middlewares/mbed-crypto/aria.o
+ .debug_line    0x00000000      0x60c ./Middlewares/mbed-crypto/aria.o
+ .debug_str     0x00000000     0x765f ./Middlewares/mbed-crypto/aria.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/aria.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/aria.o
@@ -10713,8 +10713,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/base64.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/base64.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/base64.o
- .debug_line    0x00000000      0x615 ./Middlewares/mbed-crypto/base64.o
- .debug_str     0x00000000     0x766f ./Middlewares/mbed-crypto/base64.o
+ .debug_line    0x00000000      0x60e ./Middlewares/mbed-crypto/base64.o
+ .debug_str     0x00000000     0x7661 ./Middlewares/mbed-crypto/base64.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/base64.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/base64.o
@@ -10888,8 +10888,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/blowfish.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/blowfish.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/blowfish.o
- .debug_line    0x00000000      0x617 ./Middlewares/mbed-crypto/blowfish.o
- .debug_str     0x00000000     0x7671 ./Middlewares/mbed-crypto/blowfish.o
+ .debug_line    0x00000000      0x610 ./Middlewares/mbed-crypto/blowfish.o
+ .debug_str     0x00000000     0x7663 ./Middlewares/mbed-crypto/blowfish.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/blowfish.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/blowfish.o
@@ -10933,8 +10933,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/camellia.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/camellia.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/camellia.o
- .debug_line    0x00000000      0x617 ./Middlewares/mbed-crypto/camellia.o
- .debug_str     0x00000000     0x7671 ./Middlewares/mbed-crypto/camellia.o
+ .debug_line    0x00000000      0x610 ./Middlewares/mbed-crypto/camellia.o
+ .debug_str     0x00000000     0x7663 ./Middlewares/mbed-crypto/camellia.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/camellia.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/camellia.o
@@ -11124,8 +11124,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x17 ./Middlewares/mbed-crypto/ccm.o
  .debug_macro   0x00000000       0x16 ./Middlewares/mbed-crypto/ccm.o
  .debug_macro   0x00000000       0x20 ./Middlewares/mbed-crypto/ccm.o
- .debug_line    0x00000000      0xbd2 ./Middlewares/mbed-crypto/ccm.o
- .debug_str     0x00000000   0x13c979 ./Middlewares/mbed-crypto/ccm.o
+ .debug_line    0x00000000      0xbcb ./Middlewares/mbed-crypto/ccm.o
+ .debug_str     0x00000000   0x13c96b ./Middlewares/mbed-crypto/ccm.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/ccm.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/ccm.o
@@ -11169,8 +11169,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/chacha20.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/chacha20.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/chacha20.o
- .debug_line    0x00000000      0x617 ./Middlewares/mbed-crypto/chacha20.o
- .debug_str     0x00000000     0x7671 ./Middlewares/mbed-crypto/chacha20.o
+ .debug_line    0x00000000      0x610 ./Middlewares/mbed-crypto/chacha20.o
+ .debug_str     0x00000000     0x7663 ./Middlewares/mbed-crypto/chacha20.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/chacha20.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/chacha20.o
@@ -11214,8 +11214,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/chachapoly.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/chachapoly.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/chachapoly.o
- .debug_line    0x00000000      0x619 ./Middlewares/mbed-crypto/chachapoly.o
- .debug_str     0x00000000     0x7673 ./Middlewares/mbed-crypto/chachapoly.o
+ .debug_line    0x00000000      0x612 ./Middlewares/mbed-crypto/chachapoly.o
+ .debug_str     0x00000000     0x7665 ./Middlewares/mbed-crypto/chachapoly.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/chachapoly.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/chachapoly.o
@@ -12206,8 +12206,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/des.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/des.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/des.o
- .debug_line    0x00000000      0x612 ./Middlewares/mbed-crypto/des.o
- .debug_str     0x00000000     0x766c ./Middlewares/mbed-crypto/des.o
+ .debug_line    0x00000000      0x60b ./Middlewares/mbed-crypto/des.o
+ .debug_str     0x00000000     0x765e ./Middlewares/mbed-crypto/des.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/des.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/des.o
@@ -12251,8 +12251,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/dhm.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/dhm.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/dhm.o
- .debug_line    0x00000000      0x612 ./Middlewares/mbed-crypto/dhm.o
- .debug_str     0x00000000     0x766c ./Middlewares/mbed-crypto/dhm.o
+ .debug_line    0x00000000      0x60b ./Middlewares/mbed-crypto/dhm.o
+ .debug_str     0x00000000     0x765e ./Middlewares/mbed-crypto/dhm.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/dhm.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/dhm.o
@@ -12735,8 +12735,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/ecjpake.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/ecjpake.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/ecjpake.o
- .debug_line    0x00000000      0x616 ./Middlewares/mbed-crypto/ecjpake.o
- .debug_str     0x00000000     0x7670 ./Middlewares/mbed-crypto/ecjpake.o
+ .debug_line    0x00000000      0x60f ./Middlewares/mbed-crypto/ecjpake.o
+ .debug_str     0x00000000     0x7662 ./Middlewares/mbed-crypto/ecjpake.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/ecjpake.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/ecjpake.o
@@ -12956,8 +12956,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x37 ./Middlewares/mbed-crypto/ecp.o
  .debug_macro   0x00000000       0x16 ./Middlewares/mbed-crypto/ecp.o
  .debug_macro   0x00000000       0x20 ./Middlewares/mbed-crypto/ecp.o
- .debug_line    0x00000000      0xc53 ./Middlewares/mbed-crypto/ecp.o
- .debug_str     0x00000000   0x13da39 ./Middlewares/mbed-crypto/ecp.o
+ .debug_line    0x00000000      0xc4c ./Middlewares/mbed-crypto/ecp.o
+ .debug_str     0x00000000   0x13da2b ./Middlewares/mbed-crypto/ecp.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/ecp.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/ecp.o
@@ -13175,8 +13175,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x37 ./Middlewares/mbed-crypto/ecp_curves.o
  .debug_macro   0x00000000       0x16 ./Middlewares/mbed-crypto/ecp_curves.o
  .debug_macro   0x00000000       0x20 ./Middlewares/mbed-crypto/ecp_curves.o
- .debug_line    0x00000000      0xc4b ./Middlewares/mbed-crypto/ecp_curves.o
- .debug_str     0x00000000   0x13d9a2 ./Middlewares/mbed-crypto/ecp_curves.o
+ .debug_line    0x00000000      0xc44 ./Middlewares/mbed-crypto/ecp_curves.o
+ .debug_str     0x00000000   0x13d994 ./Middlewares/mbed-crypto/ecp_curves.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/ecp_curves.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/ecp_curves.o
@@ -13358,8 +13358,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x52 ./Middlewares/mbed-crypto/entropy_poll.o
  .debug_macro   0x00000000       0x1c ./Middlewares/mbed-crypto/entropy_poll.o
  .debug_macro   0x00000000       0x17 ./Middlewares/mbed-crypto/entropy_poll.o
- .debug_line    0x00000000      0x6df ./Middlewares/mbed-crypto/entropy_poll.o
- .debug_str     0x00000000     0x94c5 ./Middlewares/mbed-crypto/entropy_poll.o
+ .debug_line    0x00000000      0x6d8 ./Middlewares/mbed-crypto/entropy_poll.o
+ .debug_str     0x00000000     0x94b7 ./Middlewares/mbed-crypto/entropy_poll.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/entropy_poll.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/entropy_poll.o
@@ -13629,8 +13629,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Middlewares/mbed-crypto/error.o
  .debug_macro   0x00000000       0x1c ./Middlewares/mbed-crypto/error.o
  .debug_macro   0x00000000       0x20 ./Middlewares/mbed-crypto/error.o
- .debug_line    0x00000000     0x1121 ./Middlewares/mbed-crypto/error.o
- .debug_str     0x00000000   0x141a14 ./Middlewares/mbed-crypto/error.o
+ .debug_line    0x00000000     0x111a ./Middlewares/mbed-crypto/error.o
+ .debug_str     0x00000000   0x141a06 ./Middlewares/mbed-crypto/error.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/error.o
  .debug_frame   0x00000000       0x5c ./Middlewares/mbed-crypto/error.o
  .ARM.attributes
@@ -13821,8 +13821,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x17 ./Middlewares/mbed-crypto/gcm.o
  .debug_macro   0x00000000       0x16 ./Middlewares/mbed-crypto/gcm.o
  .debug_macro   0x00000000       0x20 ./Middlewares/mbed-crypto/gcm.o
- .debug_line    0x00000000      0xbd2 ./Middlewares/mbed-crypto/gcm.o
- .debug_str     0x00000000   0x13c9a5 ./Middlewares/mbed-crypto/gcm.o
+ .debug_line    0x00000000      0xbcb ./Middlewares/mbed-crypto/gcm.o
+ .debug_str     0x00000000   0x13c997 ./Middlewares/mbed-crypto/gcm.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/gcm.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/gcm.o
@@ -13866,8 +13866,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/havege.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/havege.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/havege.o
- .debug_line    0x00000000      0x615 ./Middlewares/mbed-crypto/havege.o
- .debug_str     0x00000000     0x766f ./Middlewares/mbed-crypto/havege.o
+ .debug_line    0x00000000      0x60e ./Middlewares/mbed-crypto/havege.o
+ .debug_str     0x00000000     0x7661 ./Middlewares/mbed-crypto/havege.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/havege.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/havege.o
@@ -13983,8 +13983,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x41 ./Middlewares/mbed-crypto/hkdf.o
  .debug_macro   0x00000000       0x3c ./Middlewares/mbed-crypto/hkdf.o
  .debug_macro   0x00000000       0x17 ./Middlewares/mbed-crypto/hkdf.o
- .debug_line    0x00000000      0x980 ./Middlewares/mbed-crypto/hkdf.o
- .debug_str     0x00000000     0xa0fd ./Middlewares/mbed-crypto/hkdf.o
+ .debug_line    0x00000000      0x979 ./Middlewares/mbed-crypto/hkdf.o
+ .debug_str     0x00000000     0xa0ef ./Middlewares/mbed-crypto/hkdf.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/hkdf.o
  .debug_frame   0x00000000       0x8c ./Middlewares/mbed-crypto/hkdf.o
  .ARM.attributes
@@ -14372,8 +14372,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/md2.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/md2.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/md2.o
- .debug_line    0x00000000      0x612 ./Middlewares/mbed-crypto/md2.o
- .debug_str     0x00000000     0x766c ./Middlewares/mbed-crypto/md2.o
+ .debug_line    0x00000000      0x60b ./Middlewares/mbed-crypto/md2.o
+ .debug_str     0x00000000     0x765e ./Middlewares/mbed-crypto/md2.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/md2.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/md2.o
@@ -14417,8 +14417,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/md4.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/md4.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/md4.o
- .debug_line    0x00000000      0x612 ./Middlewares/mbed-crypto/md4.o
- .debug_str     0x00000000     0x766c ./Middlewares/mbed-crypto/md4.o
+ .debug_line    0x00000000      0x60b ./Middlewares/mbed-crypto/md4.o
+ .debug_str     0x00000000     0x765e ./Middlewares/mbed-crypto/md4.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/md4.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/md4.o
@@ -14462,8 +14462,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/md5.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/md5.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/md5.o
- .debug_line    0x00000000      0x612 ./Middlewares/mbed-crypto/md5.o
- .debug_str     0x00000000     0x766c ./Middlewares/mbed-crypto/md5.o
+ .debug_line    0x00000000      0x60b ./Middlewares/mbed-crypto/md5.o
+ .debug_str     0x00000000     0x765e ./Middlewares/mbed-crypto/md5.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/md5.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/md5.o
@@ -14627,8 +14627,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/nist_kw.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/nist_kw.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/nist_kw.o
- .debug_line    0x00000000      0x616 ./Middlewares/mbed-crypto/nist_kw.o
- .debug_str     0x00000000     0x7670 ./Middlewares/mbed-crypto/nist_kw.o
+ .debug_line    0x00000000      0x60f ./Middlewares/mbed-crypto/nist_kw.o
+ .debug_str     0x00000000     0x7662 ./Middlewares/mbed-crypto/nist_kw.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/nist_kw.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/nist_kw.o
@@ -14935,8 +14935,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/padlock.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/padlock.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/padlock.o
- .debug_line    0x00000000      0x616 ./Middlewares/mbed-crypto/padlock.o
- .debug_str     0x00000000     0x7670 ./Middlewares/mbed-crypto/padlock.o
+ .debug_line    0x00000000      0x60f ./Middlewares/mbed-crypto/padlock.o
+ .debug_str     0x00000000     0x7662 ./Middlewares/mbed-crypto/padlock.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/padlock.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/padlock.o
@@ -14980,8 +14980,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/pem.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/pem.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/pem.o
- .debug_line    0x00000000      0x612 ./Middlewares/mbed-crypto/pem.o
- .debug_str     0x00000000     0x766c ./Middlewares/mbed-crypto/pem.o
+ .debug_line    0x00000000      0x60b ./Middlewares/mbed-crypto/pem.o
+ .debug_str     0x00000000     0x765e ./Middlewares/mbed-crypto/pem.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/pem.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/pem.o
@@ -15497,8 +15497,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/pkcs12.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/pkcs12.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/pkcs12.o
- .debug_line    0x00000000      0x615 ./Middlewares/mbed-crypto/pkcs12.o
- .debug_str     0x00000000     0x766f ./Middlewares/mbed-crypto/pkcs12.o
+ .debug_line    0x00000000      0x60e ./Middlewares/mbed-crypto/pkcs12.o
+ .debug_str     0x00000000     0x7661 ./Middlewares/mbed-crypto/pkcs12.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/pkcs12.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/pkcs12.o
@@ -15542,8 +15542,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/pkcs5.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/pkcs5.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/pkcs5.o
- .debug_line    0x00000000      0x614 ./Middlewares/mbed-crypto/pkcs5.o
- .debug_str     0x00000000     0x766e ./Middlewares/mbed-crypto/pkcs5.o
+ .debug_line    0x00000000      0x60d ./Middlewares/mbed-crypto/pkcs5.o
+ .debug_str     0x00000000     0x7660 ./Middlewares/mbed-crypto/pkcs5.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/pkcs5.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/pkcs5.o
@@ -16244,8 +16244,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/poly1305.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/poly1305.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/poly1305.o
- .debug_line    0x00000000      0x617 ./Middlewares/mbed-crypto/poly1305.o
- .debug_str     0x00000000     0x7671 ./Middlewares/mbed-crypto/poly1305.o
+ .debug_line    0x00000000      0x610 ./Middlewares/mbed-crypto/poly1305.o
+ .debug_str     0x00000000     0x7663 ./Middlewares/mbed-crypto/poly1305.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/poly1305.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/poly1305.o
@@ -19544,8 +19544,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/ripemd160.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/ripemd160.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/ripemd160.o
- .debug_line    0x00000000      0x618 ./Middlewares/mbed-crypto/ripemd160.o
- .debug_str     0x00000000     0x7672 ./Middlewares/mbed-crypto/ripemd160.o
+ .debug_line    0x00000000      0x611 ./Middlewares/mbed-crypto/ripemd160.o
+ .debug_str     0x00000000     0x7664 ./Middlewares/mbed-crypto/ripemd160.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/ripemd160.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/ripemd160.o
@@ -19775,8 +19775,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x17 ./Middlewares/mbed-crypto/rsa.o
  .debug_macro   0x00000000       0x16 ./Middlewares/mbed-crypto/rsa.o
  .debug_macro   0x00000000       0x20 ./Middlewares/mbed-crypto/rsa.o
- .debug_line    0x00000000      0xcb7 ./Middlewares/mbed-crypto/rsa.o
- .debug_str     0x00000000   0x140ec6 ./Middlewares/mbed-crypto/rsa.o
+ .debug_line    0x00000000      0xcb0 ./Middlewares/mbed-crypto/rsa.o
+ .debug_str     0x00000000   0x140eb8 ./Middlewares/mbed-crypto/rsa.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/rsa.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/rsa.o
@@ -19997,8 +19997,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/sha1.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/sha1.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/sha1.o
- .debug_line    0x00000000      0x613 ./Middlewares/mbed-crypto/sha1.o
- .debug_str     0x00000000     0x766d ./Middlewares/mbed-crypto/sha1.o
+ .debug_line    0x00000000      0x60c ./Middlewares/mbed-crypto/sha1.o
+ .debug_str     0x00000000     0x765f ./Middlewares/mbed-crypto/sha1.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/sha1.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/sha1.o
@@ -20332,8 +20332,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/threading.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/threading.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/threading.o
- .debug_line    0x00000000      0x618 ./Middlewares/mbed-crypto/threading.o
- .debug_str     0x00000000     0x7602 ./Middlewares/mbed-crypto/threading.o
+ .debug_line    0x00000000      0x611 ./Middlewares/mbed-crypto/threading.o
+ .debug_str     0x00000000     0x75f4 ./Middlewares/mbed-crypto/threading.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/threading.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/threading.o
@@ -20411,8 +20411,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Middlewares/mbed-crypto/timing.o
  .debug_macro   0x00000000       0x16 ./Middlewares/mbed-crypto/timing.o
  .debug_macro   0x00000000      0x146 ./Middlewares/mbed-crypto/timing.o
- .debug_line    0x00000000      0x693 ./Middlewares/mbed-crypto/timing.o
- .debug_str     0x00000000     0x969b ./Middlewares/mbed-crypto/timing.o
+ .debug_line    0x00000000      0x68c ./Middlewares/mbed-crypto/timing.o
+ .debug_str     0x00000000     0x968d ./Middlewares/mbed-crypto/timing.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/timing.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/timing.o
@@ -20456,8 +20456,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/version.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/version.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/version.o
- .debug_line    0x00000000      0x616 ./Middlewares/mbed-crypto/version.o
- .debug_str     0x00000000     0x7670 ./Middlewares/mbed-crypto/version.o
+ .debug_line    0x00000000      0x60f ./Middlewares/mbed-crypto/version.o
+ .debug_str     0x00000000     0x7662 ./Middlewares/mbed-crypto/version.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/version.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/version.o
@@ -20501,8 +20501,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/version_features.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/version_features.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/version_features.o
- .debug_line    0x00000000      0x61f ./Middlewares/mbed-crypto/version_features.o
- .debug_str     0x00000000     0x7679 ./Middlewares/mbed-crypto/version_features.o
+ .debug_line    0x00000000      0x618 ./Middlewares/mbed-crypto/version_features.o
+ .debug_str     0x00000000     0x766b ./Middlewares/mbed-crypto/version_features.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/version_features.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/version_features.o
@@ -20546,8 +20546,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Middlewares/mbed-crypto/xtea.o
  .debug_macro   0x00000000      0x1df ./Middlewares/mbed-crypto/xtea.o
  .debug_macro   0x00000000       0x8b ./Middlewares/mbed-crypto/xtea.o
- .debug_line    0x00000000      0x613 ./Middlewares/mbed-crypto/xtea.o
- .debug_str     0x00000000     0x766d ./Middlewares/mbed-crypto/xtea.o
+ .debug_line    0x00000000      0x60c ./Middlewares/mbed-crypto/xtea.o
+ .debug_str     0x00000000     0x765f ./Middlewares/mbed-crypto/xtea.o
  .comment       0x00000000       0x44 ./Middlewares/mbed-crypto/xtea.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/mbed-crypto/xtea.o
@@ -24342,8 +24342,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x17 ./Middlewares/trustedfirmware/core/exception_info.o
  .debug_macro   0x00000000      0x118 ./Middlewares/trustedfirmware/core/exception_info.o
  .debug_macro   0x00000000       0x40 ./Middlewares/trustedfirmware/core/exception_info.o
- .debug_line    0x00000000      0xec5 ./Middlewares/trustedfirmware/core/exception_info.o
- .debug_str     0x00000000   0x13c4a8 ./Middlewares/trustedfirmware/core/exception_info.o
+ .debug_line    0x00000000      0xebe ./Middlewares/trustedfirmware/core/exception_info.o
+ .debug_str     0x00000000   0x13c49a ./Middlewares/trustedfirmware/core/exception_info.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/exception_info.o
  .debug_frame   0x00000000       0x40 ./Middlewares/trustedfirmware/core/exception_info.o
  .ARM.attributes
@@ -24866,8 +24866,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Middlewares/trustedfirmware/core/ieee754.o
  .debug_macro   0x00000000       0x35 ./Middlewares/trustedfirmware/core/ieee754.o
  .debug_macro   0x00000000       0x20 ./Middlewares/trustedfirmware/core/ieee754.o
- .debug_line    0x00000000      0xa37 ./Middlewares/trustedfirmware/core/ieee754.o
- .debug_str     0x00000000     0x8131 ./Middlewares/trustedfirmware/core/ieee754.o
+ .debug_line    0x00000000      0xa30 ./Middlewares/trustedfirmware/core/ieee754.o
+ .debug_str     0x00000000     0x8123 ./Middlewares/trustedfirmware/core/ieee754.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/ieee754.o
  .debug_frame   0x00000000       0xb4 ./Middlewares/trustedfirmware/core/ieee754.o
  .ARM.attributes
@@ -24924,8 +24924,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./Middlewares/trustedfirmware/core/its_flash.o
  .debug_macro   0x00000000       0x3a ./Middlewares/trustedfirmware/core/its_flash.o
  .debug_macro   0x00000000       0x22 ./Middlewares/trustedfirmware/core/its_flash.o
- .debug_line    0x00000000      0x903 ./Middlewares/trustedfirmware/core/its_flash.o
- .debug_str     0x00000000     0x8567 ./Middlewares/trustedfirmware/core/its_flash.o
+ .debug_line    0x00000000      0x8fc ./Middlewares/trustedfirmware/core/its_flash.o
+ .debug_str     0x00000000     0x8559 ./Middlewares/trustedfirmware/core/its_flash.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/its_flash.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/trustedfirmware/core/its_flash.o
@@ -25232,8 +25232,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Middlewares/trustedfirmware/core/its_flash_nand.o
  .debug_macro   0x00000000       0x20 ./Middlewares/trustedfirmware/core/its_flash_nand.o
  .debug_macro   0x00000000       0xfb ./Middlewares/trustedfirmware/core/its_flash_nand.o
- .debug_line    0x00000000      0xc82 ./Middlewares/trustedfirmware/core/its_flash_nand.o
- .debug_str     0x00000000     0xad07 ./Middlewares/trustedfirmware/core/its_flash_nand.o
+ .debug_line    0x00000000      0xc7b ./Middlewares/trustedfirmware/core/its_flash_nand.o
+ .debug_str     0x00000000     0xacf9 ./Middlewares/trustedfirmware/core/its_flash_nand.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/its_flash_nand.o
  .debug_frame   0x00000000       0x98 ./Middlewares/trustedfirmware/core/its_flash_nand.o
  .ARM.attributes
@@ -25383,8 +25383,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Middlewares/trustedfirmware/core/its_flash_ram.o
  .debug_macro   0x00000000       0x20 ./Middlewares/trustedfirmware/core/its_flash_ram.o
  .debug_macro   0x00000000       0xfb ./Middlewares/trustedfirmware/core/its_flash_ram.o
- .debug_line    0x00000000      0xb99 ./Middlewares/trustedfirmware/core/its_flash_ram.o
- .debug_str     0x00000000     0xaa93 ./Middlewares/trustedfirmware/core/its_flash_ram.o
+ .debug_line    0x00000000      0xb92 ./Middlewares/trustedfirmware/core/its_flash_ram.o
+ .debug_str     0x00000000     0xaa85 ./Middlewares/trustedfirmware/core/its_flash_ram.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/its_flash_ram.o
  .debug_frame   0x00000000       0x78 ./Middlewares/trustedfirmware/core/its_flash_ram.o
  .ARM.attributes
@@ -25824,8 +25824,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./Middlewares/trustedfirmware/core/ps_nv_counters.o
  .debug_macro   0x00000000       0x1c ./Middlewares/trustedfirmware/core/ps_nv_counters.o
  .debug_macro   0x00000000       0x1c ./Middlewares/trustedfirmware/core/ps_nv_counters.o
- .debug_line    0x00000000      0x7b4 ./Middlewares/trustedfirmware/core/ps_nv_counters.o
- .debug_str     0x00000000     0x6db6 ./Middlewares/trustedfirmware/core/ps_nv_counters.o
+ .debug_line    0x00000000      0x7ad ./Middlewares/trustedfirmware/core/ps_nv_counters.o
+ .debug_str     0x00000000     0x6da8 ./Middlewares/trustedfirmware/core/ps_nv_counters.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/ps_nv_counters.o
  .debug_frame   0x00000000       0x40 ./Middlewares/trustedfirmware/core/ps_nv_counters.o
  .ARM.attributes
@@ -26017,8 +26017,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./Middlewares/trustedfirmware/core/ps_utils.o
  .debug_macro   0x00000000       0x10 ./Middlewares/trustedfirmware/core/ps_utils.o
  .debug_macro   0x00000000       0x22 ./Middlewares/trustedfirmware/core/ps_utils.o
- .debug_line    0x00000000      0x4b4 ./Middlewares/trustedfirmware/core/ps_utils.o
- .debug_str     0x00000000     0x4cb9 ./Middlewares/trustedfirmware/core/ps_utils.o
+ .debug_line    0x00000000      0x4ad ./Middlewares/trustedfirmware/core/ps_utils.o
+ .debug_str     0x00000000     0x4cab ./Middlewares/trustedfirmware/core/ps_utils.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/ps_utils.o
  .debug_frame   0x00000000       0x20 ./Middlewares/trustedfirmware/core/ps_utils.o
  .ARM.attributes
@@ -26518,8 +26518,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x17 ./Middlewares/trustedfirmware/core/psa_lifecycle.o
  .debug_macro   0x00000000      0x118 ./Middlewares/trustedfirmware/core/psa_lifecycle.o
  .debug_macro   0x00000000       0x40 ./Middlewares/trustedfirmware/core/psa_lifecycle.o
- .debug_line    0x00000000      0xc95 ./Middlewares/trustedfirmware/core/psa_lifecycle.o
- .debug_str     0x00000000   0x13b9ef ./Middlewares/trustedfirmware/core/psa_lifecycle.o
+ .debug_line    0x00000000      0xc8e ./Middlewares/trustedfirmware/core/psa_lifecycle.o
+ .debug_str     0x00000000   0x13b9e1 ./Middlewares/trustedfirmware/core/psa_lifecycle.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/psa_lifecycle.o
  .debug_frame   0x00000000       0x20 ./Middlewares/trustedfirmware/core/psa_lifecycle.o
  .ARM.attributes
@@ -26804,8 +26804,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x51 ./Middlewares/trustedfirmware/core/qcbor_decode.o
  .debug_macro   0x00000000      0x286 ./Middlewares/trustedfirmware/core/qcbor_decode.o
  .debug_macro   0x00000000       0x1c ./Middlewares/trustedfirmware/core/qcbor_decode.o
- .debug_line    0x00000000     0x15c4 ./Middlewares/trustedfirmware/core/qcbor_decode.o
- .debug_str     0x00000000     0x95da ./Middlewares/trustedfirmware/core/qcbor_decode.o
+ .debug_line    0x00000000     0x15bd ./Middlewares/trustedfirmware/core/qcbor_decode.o
+ .debug_str     0x00000000     0x95cc ./Middlewares/trustedfirmware/core/qcbor_decode.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/qcbor_decode.o
  .debug_frame   0x00000000      0x234 ./Middlewares/trustedfirmware/core/qcbor_decode.o
  .ARM.attributes
@@ -26965,8 +26965,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./Middlewares/trustedfirmware/core/qcbor_util.o
  .debug_macro   0x00000000       0x6e ./Middlewares/trustedfirmware/core/qcbor_util.o
  .debug_macro   0x00000000       0x10 ./Middlewares/trustedfirmware/core/qcbor_util.o
- .debug_line    0x00000000      0x9c2 ./Middlewares/trustedfirmware/core/qcbor_util.o
- .debug_str     0x00000000     0x914a ./Middlewares/trustedfirmware/core/qcbor_util.o
+ .debug_line    0x00000000      0x9bb ./Middlewares/trustedfirmware/core/qcbor_util.o
+ .debug_str     0x00000000     0x913c ./Middlewares/trustedfirmware/core/qcbor_util.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/qcbor_util.o
  .debug_frame   0x00000000       0xd4 ./Middlewares/trustedfirmware/core/qcbor_util.o
  .ARM.attributes
@@ -27873,8 +27873,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 ./Middlewares/trustedfirmware/core/sprt_partition_metadata_indicator.o
  .debug_macro   0x00000000       0x6a ./Middlewares/trustedfirmware/core/sprt_partition_metadata_indicator.o
  .debug_macro   0x00000000      0x1df ./Middlewares/trustedfirmware/core/sprt_partition_metadata_indicator.o
- .debug_line    0x00000000      0x3f3 ./Middlewares/trustedfirmware/core/sprt_partition_metadata_indicator.o
- .debug_str     0x00000000     0x41f0 ./Middlewares/trustedfirmware/core/sprt_partition_metadata_indicator.o
+ .debug_line    0x00000000      0x3ec ./Middlewares/trustedfirmware/core/sprt_partition_metadata_indicator.o
+ .debug_str     0x00000000     0x41e2 ./Middlewares/trustedfirmware/core/sprt_partition_metadata_indicator.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/sprt_partition_metadata_indicator.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/trustedfirmware/core/sprt_partition_metadata_indicator.o
@@ -27964,8 +27964,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x286 ./Middlewares/trustedfirmware/core/t_cose_parameters.o
  .debug_macro   0x00000000       0x10 ./Middlewares/trustedfirmware/core/t_cose_parameters.o
  .debug_macro   0x00000000       0xc7 ./Middlewares/trustedfirmware/core/t_cose_parameters.o
- .debug_line    0x00000000      0xd1c ./Middlewares/trustedfirmware/core/t_cose_parameters.o
- .debug_str     0x00000000     0x97e7 ./Middlewares/trustedfirmware/core/t_cose_parameters.o
+ .debug_line    0x00000000      0xd15 ./Middlewares/trustedfirmware/core/t_cose_parameters.o
+ .debug_str     0x00000000     0x97d9 ./Middlewares/trustedfirmware/core/t_cose_parameters.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/t_cose_parameters.o
  .debug_frame   0x00000000       0xe4 ./Middlewares/trustedfirmware/core/t_cose_parameters.o
  .ARM.attributes
@@ -28247,8 +28247,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x3c ./Middlewares/trustedfirmware/core/t_cose_sign1_verify.o
  .debug_macro   0x00000000       0x1d ./Middlewares/trustedfirmware/core/t_cose_sign1_verify.o
  .debug_macro   0x00000000       0x16 ./Middlewares/trustedfirmware/core/t_cose_sign1_verify.o
- .debug_line    0x00000000      0x9d5 ./Middlewares/trustedfirmware/core/t_cose_sign1_verify.o
- .debug_str     0x00000000    0x1060c ./Middlewares/trustedfirmware/core/t_cose_sign1_verify.o
+ .debug_line    0x00000000      0x9ce ./Middlewares/trustedfirmware/core/t_cose_sign1_verify.o
+ .debug_str     0x00000000    0x105fe ./Middlewares/trustedfirmware/core/t_cose_sign1_verify.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/t_cose_sign1_verify.o
  .debug_frame   0x00000000       0x40 ./Middlewares/trustedfirmware/core/t_cose_sign1_verify.o
  .ARM.attributes
@@ -29202,8 +29202,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x28 ./Middlewares/trustedfirmware/core/tfm_attest_secure_api.o
  .debug_macro   0x00000000       0x10 ./Middlewares/trustedfirmware/core/tfm_attest_secure_api.o
  .debug_macro   0x00000000      0x2f1 ./Middlewares/trustedfirmware/core/tfm_attest_secure_api.o
- .debug_line    0x00000000      0xff0 ./Middlewares/trustedfirmware/core/tfm_attest_secure_api.o
- .debug_str     0x00000000   0x14541e ./Middlewares/trustedfirmware/core/tfm_attest_secure_api.o
+ .debug_line    0x00000000      0xfe9 ./Middlewares/trustedfirmware/core/tfm_attest_secure_api.o
+ .debug_str     0x00000000   0x145410 ./Middlewares/trustedfirmware/core/tfm_attest_secure_api.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/tfm_attest_secure_api.o
  .debug_frame   0x00000000       0x74 ./Middlewares/trustedfirmware/core/tfm_attest_secure_api.o
  .ARM.attributes
@@ -29992,8 +29992,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./Middlewares/trustedfirmware/core/tfm_fwu_secure_api.o
  .debug_macro   0x00000000       0x1c ./Middlewares/trustedfirmware/core/tfm_fwu_secure_api.o
  .debug_macro   0x00000000      0x2f1 ./Middlewares/trustedfirmware/core/tfm_fwu_secure_api.o
- .debug_line    0x00000000      0x73c ./Middlewares/trustedfirmware/core/tfm_fwu_secure_api.o
- .debug_str     0x00000000     0x65a5 ./Middlewares/trustedfirmware/core/tfm_fwu_secure_api.o
+ .debug_line    0x00000000      0x735 ./Middlewares/trustedfirmware/core/tfm_fwu_secure_api.o
+ .debug_str     0x00000000     0x6597 ./Middlewares/trustedfirmware/core/tfm_fwu_secure_api.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/tfm_fwu_secure_api.o
  .debug_frame   0x00000000       0xf0 ./Middlewares/trustedfirmware/core/tfm_fwu_secure_api.o
  .ARM.attributes
@@ -30646,8 +30646,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x27 ./Middlewares/trustedfirmware/core/tfm_mbedcrypto_alt.o
  .debug_macro   0x00000000       0x20 ./Middlewares/trustedfirmware/core/tfm_mbedcrypto_alt.o
  .debug_macro   0x00000000       0x12 ./Middlewares/trustedfirmware/core/tfm_mbedcrypto_alt.o
- .debug_line    0x00000000      0xf42 ./Middlewares/trustedfirmware/core/tfm_mbedcrypto_alt.o
- .debug_str     0x00000000   0x147c63 ./Middlewares/trustedfirmware/core/tfm_mbedcrypto_alt.o
+ .debug_line    0x00000000      0xf3b ./Middlewares/trustedfirmware/core/tfm_mbedcrypto_alt.o
+ .debug_str     0x00000000   0x147c55 ./Middlewares/trustedfirmware/core/tfm_mbedcrypto_alt.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/tfm_mbedcrypto_alt.o
  .ARM.attributes
                 0x00000000       0x34 ./Middlewares/trustedfirmware/core/tfm_mbedcrypto_alt.o
@@ -31764,8 +31764,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./Middlewares/trustedfirmware/core/tfm_ps_secure_api.o
  .debug_macro   0x00000000       0x1c ./Middlewares/trustedfirmware/core/tfm_ps_secure_api.o
  .debug_macro   0x00000000      0x2f1 ./Middlewares/trustedfirmware/core/tfm_ps_secure_api.o
- .debug_line    0x00000000      0x761 ./Middlewares/trustedfirmware/core/tfm_ps_secure_api.o
- .debug_str     0x00000000     0x61b6 ./Middlewares/trustedfirmware/core/tfm_ps_secure_api.o
+ .debug_line    0x00000000      0x75a ./Middlewares/trustedfirmware/core/tfm_ps_secure_api.o
+ .debug_str     0x00000000     0x61a8 ./Middlewares/trustedfirmware/core/tfm_ps_secure_api.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/tfm_ps_secure_api.o
  .debug_frame   0x00000000       0xe4 ./Middlewares/trustedfirmware/core/tfm_ps_secure_api.o
  .ARM.attributes
@@ -32006,8 +32006,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x7c ./Middlewares/trustedfirmware/core/tfm_sp_log_raw.o
  .debug_macro   0x00000000       0x17 ./Middlewares/trustedfirmware/core/tfm_sp_log_raw.o
  .debug_macro   0x00000000      0x118 ./Middlewares/trustedfirmware/core/tfm_sp_log_raw.o
- .debug_line    0x00000000      0x958 ./Middlewares/trustedfirmware/core/tfm_sp_log_raw.o
- .debug_str     0x00000000     0x6417 ./Middlewares/trustedfirmware/core/tfm_sp_log_raw.o
+ .debug_line    0x00000000      0x951 ./Middlewares/trustedfirmware/core/tfm_sp_log_raw.o
+ .debug_str     0x00000000     0x6409 ./Middlewares/trustedfirmware/core/tfm_sp_log_raw.o
  .comment       0x00000000       0x44 ./Middlewares/trustedfirmware/core/tfm_sp_log_raw.o
  .debug_frame   0x00000000       0xc4 ./Middlewares/trustedfirmware/core/tfm_sp_log_raw.o
  .ARM.attributes
@@ -32560,7 +32560,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./g/auto_generated/intermedia_tfm_ffm11_partition.o
  .debug_macro   0x00000000      0x1df ./g/auto_generated/intermedia_tfm_ffm11_partition.o
  .debug_line    0x00000000      0x361 ./g/auto_generated/intermedia_tfm_ffm11_partition.o
- .debug_str     0x00000000     0x4158 ./g/auto_generated/intermedia_tfm_ffm11_partition.o
+ .debug_str     0x00000000     0x4151 ./g/auto_generated/intermedia_tfm_ffm11_partition.o
  .comment       0x00000000       0x44 ./g/auto_generated/intermedia_tfm_ffm11_partition.o
  .ARM.attributes
                 0x00000000       0x34 ./g/auto_generated/intermedia_tfm_ffm11_partition.o
@@ -32640,7 +32640,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./g/auto_generated/intermedia_tfm_ipc_client_test.o
  .debug_macro   0x00000000      0x1df ./g/auto_generated/intermedia_tfm_ipc_client_test.o
  .debug_line    0x00000000      0x361 ./g/auto_generated/intermedia_tfm_ipc_client_test.o
- .debug_str     0x00000000     0x4162 ./g/auto_generated/intermedia_tfm_ipc_client_test.o
+ .debug_str     0x00000000     0x415b ./g/auto_generated/intermedia_tfm_ipc_client_test.o
  .comment       0x00000000       0x44 ./g/auto_generated/intermedia_tfm_ipc_client_test.o
  .ARM.attributes
                 0x00000000       0x34 ./g/auto_generated/intermedia_tfm_ipc_client_test.o
@@ -32669,7 +32669,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./g/auto_generated/intermedia_tfm_ipc_service_test.o
  .debug_macro   0x00000000      0x1df ./g/auto_generated/intermedia_tfm_ipc_service_test.o
  .debug_line    0x00000000      0x362 ./g/auto_generated/intermedia_tfm_ipc_service_test.o
- .debug_str     0x00000000     0x4164 ./g/auto_generated/intermedia_tfm_ipc_service_test.o
+ .debug_str     0x00000000     0x415d ./g/auto_generated/intermedia_tfm_ipc_service_test.o
  .comment       0x00000000       0x44 ./g/auto_generated/intermedia_tfm_ipc_service_test.o
  .ARM.attributes
                 0x00000000       0x34 ./g/auto_generated/intermedia_tfm_ipc_service_test.o
@@ -32698,7 +32698,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./g/auto_generated/intermedia_tfm_irq_test_service_1.o
  .debug_macro   0x00000000      0x1df ./g/auto_generated/intermedia_tfm_irq_test_service_1.o
  .debug_line    0x00000000      0x364 ./g/auto_generated/intermedia_tfm_irq_test_service_1.o
- .debug_str     0x00000000     0x415d ./g/auto_generated/intermedia_tfm_irq_test_service_1.o
+ .debug_str     0x00000000     0x4156 ./g/auto_generated/intermedia_tfm_irq_test_service_1.o
  .comment       0x00000000       0x44 ./g/auto_generated/intermedia_tfm_irq_test_service_1.o
  .ARM.attributes
                 0x00000000       0x34 ./g/auto_generated/intermedia_tfm_irq_test_service_1.o
@@ -32761,7 +32761,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./g/auto_generated/intermedia_tfm_ps_test_service.o
  .debug_macro   0x00000000      0x1df ./g/auto_generated/intermedia_tfm_ps_test_service.o
  .debug_line    0x00000000      0x361 ./g/auto_generated/intermedia_tfm_ps_test_service.o
- .debug_str     0x00000000     0x415a ./g/auto_generated/intermedia_tfm_ps_test_service.o
+ .debug_str     0x00000000     0x4153 ./g/auto_generated/intermedia_tfm_ps_test_service.o
  .comment       0x00000000       0x44 ./g/auto_generated/intermedia_tfm_ps_test_service.o
  .ARM.attributes
                 0x00000000       0x34 ./g/auto_generated/intermedia_tfm_ps_test_service.o
@@ -32790,7 +32790,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./g/auto_generated/intermedia_tfm_secure_client_2.o
  .debug_macro   0x00000000      0x1df ./g/auto_generated/intermedia_tfm_secure_client_2.o
  .debug_line    0x00000000      0x361 ./g/auto_generated/intermedia_tfm_secure_client_2.o
- .debug_str     0x00000000     0x4162 ./g/auto_generated/intermedia_tfm_secure_client_2.o
+ .debug_str     0x00000000     0x415b ./g/auto_generated/intermedia_tfm_secure_client_2.o
  .comment       0x00000000       0x44 ./g/auto_generated/intermedia_tfm_secure_client_2.o
  .ARM.attributes
                 0x00000000       0x34 ./g/auto_generated/intermedia_tfm_secure_client_2.o
@@ -32819,7 +32819,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./g/auto_generated/intermedia_tfm_secure_client_service.o
  .debug_macro   0x00000000      0x1df ./g/auto_generated/intermedia_tfm_secure_client_service.o
  .debug_line    0x00000000      0x367 ./g/auto_generated/intermedia_tfm_secure_client_service.o
- .debug_str     0x00000000     0x416e ./g/auto_generated/intermedia_tfm_secure_client_service.o
+ .debug_str     0x00000000     0x4167 ./g/auto_generated/intermedia_tfm_secure_client_service.o
  .comment       0x00000000       0x44 ./g/auto_generated/intermedia_tfm_secure_client_service.o
  .ARM.attributes
                 0x00000000       0x34 ./g/auto_generated/intermedia_tfm_secure_client_service.o
@@ -32848,7 +32848,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./g/auto_generated/intermedia_tfm_ss_core_test.o
  .debug_macro   0x00000000      0x1df ./g/auto_generated/intermedia_tfm_ss_core_test.o
  .debug_line    0x00000000      0x35e ./g/auto_generated/intermedia_tfm_ss_core_test.o
- .debug_str     0x00000000     0x4159 ./g/auto_generated/intermedia_tfm_ss_core_test.o
+ .debug_str     0x00000000     0x4152 ./g/auto_generated/intermedia_tfm_ss_core_test.o
  .comment       0x00000000       0x44 ./g/auto_generated/intermedia_tfm_ss_core_test.o
  .ARM.attributes
                 0x00000000       0x34 ./g/auto_generated/intermedia_tfm_ss_core_test.o
@@ -32877,7 +32877,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./g/auto_generated/intermedia_tfm_ss_core_test_2.o
  .debug_macro   0x00000000      0x1df ./g/auto_generated/intermedia_tfm_ss_core_test_2.o
  .debug_line    0x00000000      0x360 ./g/auto_generated/intermedia_tfm_ss_core_test_2.o
- .debug_str     0x00000000     0x415d ./g/auto_generated/intermedia_tfm_ss_core_test_2.o
+ .debug_str     0x00000000     0x4156 ./g/auto_generated/intermedia_tfm_ss_core_test_2.o
  .comment       0x00000000       0x44 ./g/auto_generated/intermedia_tfm_ss_core_test_2.o
  .ARM.attributes
                 0x00000000       0x34 ./g/auto_generated/intermedia_tfm_ss_core_test_2.o
@@ -39578,7 +39578,7 @@ LOAD linker stubs
  .comment       0x00000043       0x44 ./g/auto_generated/intermedia_tfm_platform.o
  .comment       0x00000043       0x44 ./g/auto_generated/intermedia_tfm_protected_storage.o
 
-.debug_info     0x00000000    0xc4c2a
+.debug_info     0x00000000    0xc4c1c
  .debug_info    0x00000000     0x18be ./Application/User/aes_alt.o
  .debug_info    0x000018be     0x141a ./Application/User/app_rot_test.o
  .debug_info    0x00002cd8      0x1a1 ./Application/User/attest_hal.o
@@ -39596,157 +39596,157 @@ LOAD linker stubs
  .debug_info    0x000119d9      0x6c9 ./Application/User/mpu_armv8m_drv.o
  .debug_info    0x000120a2      0xb11 ./Application/User/nv_counters.o
  .debug_info    0x00012bb3      0x978 ./Application/User/platform_sp.o
- .debug_info    0x0001352b     0x618a ./Application/User/rsa_alt.o
- .debug_info    0x000196b5     0x10a5 ./Application/User/sha256_alt.o
- .debug_info    0x0001a75a      0xcb8 ./Application/User/spm_hal.o
- .debug_info    0x0001b412     0x1961 ./Application/User/startup_stm32u5xx.o
- .debug_info    0x0001cd73     0x15cf ./Application/User/stsafea_crypto_interface.o
- .debug_info    0x0001e342     0x1755 ./Application/User/stsafea_service_interface.o
- .debug_info    0x0001fa97     0x2aba ./Application/User/target_cfg.o
- .debug_info    0x00022551      0x5fa ./Application/User/tfm_app_rot.o
- .debug_info    0x00022b4b      0x1fa ./Application/User/tfm_fih.o
- .debug_info    0x00022d45     0x1fed ./Application/User/tfm_hal_isolation.o
- .debug_info    0x00024d32      0x924 ./Application/User/tfm_platform_system.o
- .debug_info    0x00025656      0x1f8 ./Application/User/tick.o
- .debug_info    0x0002584e      0x5f8 ./Drivers/CMSIS/system_stm32u5xx.o
- .debug_info    0x00025e46     0x1353 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
- .debug_info    0x00027199     0x1927 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
- .debug_info    0x00028ac0     0x2565 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp.o
- .debug_info    0x0002b025      0xe30 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp_ex.o
- .debug_info    0x0002be55      0xd2a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
- .debug_info    0x0002cb7f      0xa22 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash.o
- .debug_info    0x0002d5a1     0x10f7 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash_ex.o
- .debug_info    0x0002e698      0xa6b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
- .debug_info    0x0002f103      0xe6c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gtzc.o
- .debug_info    0x0002ff6f     0x2701 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash.o
- .debug_info    0x00032670     0x18ff ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash_ex.o
- .debug_info    0x00033f6f     0x3ef2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
- .debug_info    0x00037e61      0xa53 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
- .debug_info    0x000388b4     0x3bdb ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pka.o
- .debug_info    0x0003c48f     0x167c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
- .debug_info    0x0003db0b     0x1cda ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
- .debug_info    0x0003f7e5      0x5cf ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng.o
- .debug_info    0x0003fdb4     0x5771 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart.o
- .debug_info    0x00045525      0xe1c ./Middlewares/mbed-crypto/asn1parse.o
- .debug_info    0x00046341     0x118c ./Middlewares/mbed-crypto/asn1write.o
- .debug_info    0x000474cd     0x4bb1 ./Middlewares/mbed-crypto/bignum.o
- .debug_info    0x0004c07e     0x2baa ./Middlewares/mbed-crypto/cipher.o
- .debug_info    0x0004ec28     0x1b0a ./Middlewares/mbed-crypto/cipher_wrap.o
- .debug_info    0x00050732     0x1114 ./Middlewares/mbed-crypto/cmac.o
- .debug_info    0x00051846      0x852 ./Middlewares/mbed-crypto/constant_time.o
- .debug_info    0x00052098     0x17b3 ./Middlewares/mbed-crypto/ctr_drbg.o
- .debug_info    0x0005384b     0x1839 ./Middlewares/mbed-crypto/ecdh.o
- .debug_info    0x00055084     0x1881 ./Middlewares/mbed-crypto/ecdsa.o
- .debug_info    0x00056905      0xad6 ./Middlewares/mbed-crypto/entropy.o
- .debug_info    0x000573db      0xd05 ./Middlewares/mbed-crypto/hmac_drbg.o
- .debug_info    0x000580e0     0x16fe ./Middlewares/mbed-crypto/md.o
- .debug_info    0x000597de      0x5f5 ./Middlewares/mbed-crypto/memory_buffer_alloc.o
- .debug_info    0x00059dd3     0x1397 ./Middlewares/mbed-crypto/oid.o
- .debug_info    0x0005b16a     0x122d ./Middlewares/mbed-crypto/pk.o
- .debug_info    0x0005c397     0x1d57 ./Middlewares/mbed-crypto/pk_wrap.o
- .debug_info    0x0005e0ee     0x20a2 ./Middlewares/mbed-crypto/pkparse.o
- .debug_info    0x00060190     0x1568 ./Middlewares/mbed-crypto/pkwrite.o
- .debug_info    0x000616f8      0x251 ./Middlewares/mbed-crypto/platform.o
- .debug_info    0x00061949      0x287 ./Middlewares/mbed-crypto/platform_util.o
- .debug_info    0x00061bd0     0x9c27 ./Middlewares/mbed-crypto/psa_crypto.o
- .debug_info    0x0006b7f7     0x18bd ./Middlewares/mbed-crypto/psa_crypto_aead.o
- .debug_info    0x0006d0b4     0x1684 ./Middlewares/mbed-crypto/psa_crypto_cipher.o
- .debug_info    0x0006e738      0x4d0 ./Middlewares/mbed-crypto/psa_crypto_client.o
- .debug_info    0x0006ec08     0x3d7b ./Middlewares/mbed-crypto/psa_crypto_driver_wrappers.o
- .debug_info    0x00072983     0x1ff6 ./Middlewares/mbed-crypto/psa_crypto_ecp.o
- .debug_info    0x00074979     0x1055 ./Middlewares/mbed-crypto/psa_crypto_hash.o
- .debug_info    0x000759ce     0x22c3 ./Middlewares/mbed-crypto/psa_crypto_mac.o
- .debug_info    0x00077c91     0x234a ./Middlewares/mbed-crypto/psa_crypto_rsa.o
- .debug_info    0x00079fdb     0x1495 ./Middlewares/mbed-crypto/psa_crypto_se.o
- .debug_info    0x0007b470     0x18f3 ./Middlewares/mbed-crypto/psa_crypto_slot_management.o
- .debug_info    0x0007cd63      0xfe5 ./Middlewares/mbed-crypto/psa_crypto_storage.o
- .debug_info    0x0007dd48     0x10ca ./Middlewares/mbed-crypto/rsa_internal.o
- .debug_info    0x0007ee12      0x9e6 ./Middlewares/mbed-crypto/sha256.o
- .debug_info    0x0007f7f8      0x935 ./Middlewares/mbed-crypto/sha512.o
- .debug_info    0x0008012d     0x1e38 ./Middlewares/mcuboot/core/bootutil_misc.o
- .debug_info    0x00081f65     0x44da ./Middlewares/stsafe_a/se_stsafea_api/se_stsafea_api.o
- .debug_info    0x0008643f     0x2fe8 ./Middlewares/stsafe_a/stsafe_axx0/stsafea_core.o
- .debug_info    0x00089427     0x100d ./Middlewares/stsafe_a/stsafe_axx0/stsafea_crypto.o
- .debug_info    0x0008a434      0x75c ./Middlewares/stsafe_a/stsafe_axx0/stsafea_service.o
- .debug_info    0x0008ab90      0x861 ./Middlewares/trustedfirmware/core/UsefulBuf.o
- .debug_info    0x0008b3f1      0x717 ./Middlewares/trustedfirmware/core/attest_asymmetric_key.o
- .debug_info    0x0008bb08     0x1dc5 ./Middlewares/trustedfirmware/core/attest_core.o
- .debug_info    0x0008d8cd     0x1031 ./Middlewares/trustedfirmware/core/attest_token_encode.o
- .debug_info    0x0008e8fe      0x12f ./Middlewares/trustedfirmware/core/crt_memcmp.o
- .debug_info    0x0008ea2d      0x1a4 ./Middlewares/trustedfirmware/core/crt_memcpy.o
- .debug_info    0x0008ebd1      0x277 ./Middlewares/trustedfirmware/core/crt_memmove.o
- .debug_info    0x0008ee48      0x19c ./Middlewares/trustedfirmware/core/crt_memset.o
- .debug_info    0x0008efe4      0x9bb ./Middlewares/trustedfirmware/core/crypto_aead.o
- .debug_info    0x0008f99f     0x164a ./Middlewares/trustedfirmware/core/crypto_alloc.o
- .debug_info    0x00090fe9      0xc3e ./Middlewares/trustedfirmware/core/crypto_asymmetric.o
- .debug_info    0x00091c27     0x1303 ./Middlewares/trustedfirmware/core/crypto_cipher.o
- .debug_info    0x00092f2a     0x14a9 ./Middlewares/trustedfirmware/core/crypto_hash.o
- .debug_info    0x000943d3     0x2151 ./Middlewares/trustedfirmware/core/crypto_init.o
- .debug_info    0x00096524     0x185a ./Middlewares/trustedfirmware/core/crypto_key.o
- .debug_info    0x00097d7e     0x2842 ./Middlewares/trustedfirmware/core/crypto_key_derivation.o
- .debug_info    0x0009a5c0     0x1a3a ./Middlewares/trustedfirmware/core/crypto_mac.o
- .debug_info    0x0009bffa      0x706 ./Middlewares/trustedfirmware/core/fih.o
- .debug_info    0x0009c700      0x810 ./Middlewares/trustedfirmware/core/flash_map.o
- .debug_info    0x0009cf10      0x6e0 ./Middlewares/trustedfirmware/core/flash_map_extended.o
- .debug_info    0x0009d5f0     0x1362 ./Middlewares/trustedfirmware/core/its_flash_fs.o
- .debug_info    0x0009e952      0x8be ./Middlewares/trustedfirmware/core/its_flash_fs_dblock.o
- .debug_info    0x0009f210     0x1cbc ./Middlewares/trustedfirmware/core/its_flash_fs_mblock.o
- .debug_info    0x000a0ecc      0x8aa ./Middlewares/trustedfirmware/core/its_flash_nor.o
- .debug_info    0x000a1776      0x169 ./Middlewares/trustedfirmware/core/its_utils.o
- .debug_info    0x000a18df     0x189e ./Middlewares/trustedfirmware/core/main.o
- .debug_info    0x000a317d      0xc9c ./Middlewares/trustedfirmware/core/ps_crypto_interface.o
- .debug_info    0x000a3e19      0x790 ./Middlewares/trustedfirmware/core/ps_encrypted_object.o
- .debug_info    0x000a45a9      0xd12 ./Middlewares/trustedfirmware/core/ps_object_system.o
- .debug_info    0x000a52bb     0x1202 ./Middlewares/trustedfirmware/core/ps_object_table.o
- .debug_info    0x000a64bd      0x403 ./Middlewares/trustedfirmware/core/psa_client.o
- .debug_info    0x000a68c0     0x1943 ./Middlewares/trustedfirmware/core/psa_client_service_apis.o
- .debug_info    0x000a8203      0x4a2 ./Middlewares/trustedfirmware/core/psa_service.o
- .debug_info    0x000a86a5     0x18d2 ./Middlewares/trustedfirmware/core/qcbor_encode.o
- .debug_info    0x000a9f77     0x2eb2 ./Middlewares/trustedfirmware/core/se_psa.o
- .debug_info    0x000ace29      0x29a ./Middlewares/trustedfirmware/core/service_api.o
- .debug_info    0x000ad0c3     0x299a ./Middlewares/trustedfirmware/core/spm_ipc.o
- .debug_info    0x000afa5d      0x28f ./Middlewares/trustedfirmware/core/spm_log.o
- .debug_info    0x000afcec     0x10f0 ./Middlewares/trustedfirmware/core/spm_psa_client_call.o
- .debug_info    0x000b0ddc     0x11ac ./Middlewares/trustedfirmware/core/t_cose_psa_crypto.o
- .debug_info    0x000b1f88     0x13f2 ./Middlewares/trustedfirmware/core/t_cose_sign1_sign.o
- .debug_info    0x000b337a      0xe45 ./Middlewares/trustedfirmware/core/t_cose_util.o
- .debug_info    0x000b41bf      0x4ec ./Middlewares/trustedfirmware/core/tfm_arch.o
- .debug_info    0x000b46ab      0xbbb ./Middlewares/trustedfirmware/core/tfm_arch_v8m_main.o
- .debug_info    0x000b5266      0x2d9 ./Middlewares/trustedfirmware/core/tfm_attest.o
- .debug_info    0x000b553f      0x76a ./Middlewares/trustedfirmware/core/tfm_attest_req_mngr.o
- .debug_info    0x000b5ca9      0x9b6 ./Middlewares/trustedfirmware/core/tfm_boot_data.o
- .debug_info    0x000b665f      0xb24 ./Middlewares/trustedfirmware/core/tfm_core_svcalls_ipc.o
- .debug_info    0x000b7183      0x21a ./Middlewares/trustedfirmware/core/tfm_core_utils.o
- .debug_info    0x000b739d     0x49ee ./Middlewares/trustedfirmware/core/tfm_crypto_secure_api.o
- .debug_info    0x000bbd8b      0x610 ./Middlewares/trustedfirmware/core/tfm_fwu.o
- .debug_info    0x000bc39b      0xbb8 ./Middlewares/trustedfirmware/core/tfm_fwu_req_mngr.o
- .debug_info    0x000bcf53      0x39c ./Middlewares/trustedfirmware/core/tfm_hal_isolation_mpu_v8m.o
- .debug_info    0x000bd2ef      0x167 ./Middlewares/trustedfirmware/core/tfm_hal_its.o
- .debug_info    0x000bd456      0x167 ./Middlewares/trustedfirmware/core/tfm_hal_ps.o
- .debug_info    0x000bd5bd      0x12e ./Middlewares/trustedfirmware/core/tfm_hal_spm_logdev_peripheral.o
- .debug_info    0x000bd6eb     0x1245 ./Middlewares/trustedfirmware/core/tfm_internal_trusted_storage.o
- .debug_info    0x000be930      0x7b1 ./Middlewares/trustedfirmware/core/tfm_its_req_mngr.o
- .debug_info    0x000bf0e1      0x5da ./Middlewares/trustedfirmware/core/tfm_its_secure_api.o
- .debug_info    0x000bf6bb     0x1410 ./Middlewares/trustedfirmware/core/tfm_mcuboot_fwu.o
- .debug_info    0x000c0acb      0x4f6 ./Middlewares/trustedfirmware/core/tfm_nspm_ipc.o
- .debug_info    0x000c0fc1      0x47b ./Middlewares/trustedfirmware/core/tfm_platform.o
- .debug_info    0x000c143c      0x56f ./Middlewares/trustedfirmware/core/tfm_platform_secure_api.o
- .debug_info    0x000c19ab      0x3bf ./Middlewares/trustedfirmware/core/tfm_pools.o
- .debug_info    0x000c1d6a      0x3f5 ./Middlewares/trustedfirmware/core/tfm_protected_storage.o
- .debug_info    0x000c215f      0x81f ./Middlewares/trustedfirmware/core/tfm_ps_req_mngr.o
- .debug_info    0x000c297e      0x352 ./Middlewares/trustedfirmware/core/tfm_psa_api_veneers.o
- .debug_info    0x000c2cd0      0x8d8 ./Middlewares/trustedfirmware/core/tfm_thread.o
- .debug_info    0x000c35a8      0x3ba ./Middlewares/trustedfirmware/core/tfm_wait.o
- .debug_info    0x000c3962      0x6d7 ./Middlewares/trustedfirmware/core/uart_stdout.o
- .debug_info    0x000c4039      0x1ec ./Middlewares/trustedfirmware/core/utilities.o
- .debug_info    0x000c4225      0x582 ./Middlewares/trustedfirmware/test/tfm_log_raw.o
- .debug_info    0x000c47a7       0xa5 ./g/auto_generated/intermedia_tfm_app_rot.o
- .debug_info    0x000c484c       0xa5 ./g/auto_generated/intermedia_tfm_crypto.o
- .debug_info    0x000c48f1       0xa5 ./g/auto_generated/intermedia_tfm_firmware_update.o
- .debug_info    0x000c4996       0xa5 ./g/auto_generated/intermedia_tfm_initial_attestation.o
- .debug_info    0x000c4a3b       0xa5 ./g/auto_generated/intermedia_tfm_internal_trusted_storage.o
- .debug_info    0x000c4ae0       0xa5 ./g/auto_generated/intermedia_tfm_platform.o
- .debug_info    0x000c4b85       0xa5 ./g/auto_generated/intermedia_tfm_protected_storage.o
+ .debug_info    0x0001352b     0x6183 ./Application/User/rsa_alt.o
+ .debug_info    0x000196ae     0x10a5 ./Application/User/sha256_alt.o
+ .debug_info    0x0001a753      0xcb8 ./Application/User/spm_hal.o
+ .debug_info    0x0001b40b     0x1961 ./Application/User/startup_stm32u5xx.o
+ .debug_info    0x0001cd6c     0x15cf ./Application/User/stsafea_crypto_interface.o
+ .debug_info    0x0001e33b     0x1755 ./Application/User/stsafea_service_interface.o
+ .debug_info    0x0001fa90     0x2aba ./Application/User/target_cfg.o
+ .debug_info    0x0002254a      0x5fa ./Application/User/tfm_app_rot.o
+ .debug_info    0x00022b44      0x1fa ./Application/User/tfm_fih.o
+ .debug_info    0x00022d3e     0x1fed ./Application/User/tfm_hal_isolation.o
+ .debug_info    0x00024d2b      0x924 ./Application/User/tfm_platform_system.o
+ .debug_info    0x0002564f      0x1f8 ./Application/User/tick.o
+ .debug_info    0x00025847      0x5f8 ./Drivers/CMSIS/system_stm32u5xx.o
+ .debug_info    0x00025e3f     0x1353 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+ .debug_info    0x00027192     0x1927 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+ .debug_info    0x00028ab9     0x2565 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp.o
+ .debug_info    0x0002b01e      0xe30 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp_ex.o
+ .debug_info    0x0002be4e      0xd2a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+ .debug_info    0x0002cb78      0xa22 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash.o
+ .debug_info    0x0002d59a     0x10f7 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash_ex.o
+ .debug_info    0x0002e691      0xa6b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+ .debug_info    0x0002f0fc      0xe6c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gtzc.o
+ .debug_info    0x0002ff68     0x2701 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash.o
+ .debug_info    0x00032669     0x18ff ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash_ex.o
+ .debug_info    0x00033f68     0x3ef2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+ .debug_info    0x00037e5a      0xa53 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+ .debug_info    0x000388ad     0x3bdb ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pka.o
+ .debug_info    0x0003c488     0x167c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+ .debug_info    0x0003db04     0x1cda ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+ .debug_info    0x0003f7de      0x5cf ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng.o
+ .debug_info    0x0003fdad     0x5771 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart.o
+ .debug_info    0x0004551e      0xe1c ./Middlewares/mbed-crypto/asn1parse.o
+ .debug_info    0x0004633a     0x118c ./Middlewares/mbed-crypto/asn1write.o
+ .debug_info    0x000474c6     0x4bb1 ./Middlewares/mbed-crypto/bignum.o
+ .debug_info    0x0004c077     0x2baa ./Middlewares/mbed-crypto/cipher.o
+ .debug_info    0x0004ec21     0x1b0a ./Middlewares/mbed-crypto/cipher_wrap.o
+ .debug_info    0x0005072b     0x1114 ./Middlewares/mbed-crypto/cmac.o
+ .debug_info    0x0005183f      0x852 ./Middlewares/mbed-crypto/constant_time.o
+ .debug_info    0x00052091     0x17b3 ./Middlewares/mbed-crypto/ctr_drbg.o
+ .debug_info    0x00053844     0x1839 ./Middlewares/mbed-crypto/ecdh.o
+ .debug_info    0x0005507d     0x1881 ./Middlewares/mbed-crypto/ecdsa.o
+ .debug_info    0x000568fe      0xad6 ./Middlewares/mbed-crypto/entropy.o
+ .debug_info    0x000573d4      0xd05 ./Middlewares/mbed-crypto/hmac_drbg.o
+ .debug_info    0x000580d9     0x16fe ./Middlewares/mbed-crypto/md.o
+ .debug_info    0x000597d7      0x5f5 ./Middlewares/mbed-crypto/memory_buffer_alloc.o
+ .debug_info    0x00059dcc     0x1397 ./Middlewares/mbed-crypto/oid.o
+ .debug_info    0x0005b163     0x122d ./Middlewares/mbed-crypto/pk.o
+ .debug_info    0x0005c390     0x1d57 ./Middlewares/mbed-crypto/pk_wrap.o
+ .debug_info    0x0005e0e7     0x209b ./Middlewares/mbed-crypto/pkparse.o
+ .debug_info    0x00060182     0x1568 ./Middlewares/mbed-crypto/pkwrite.o
+ .debug_info    0x000616ea      0x251 ./Middlewares/mbed-crypto/platform.o
+ .debug_info    0x0006193b      0x287 ./Middlewares/mbed-crypto/platform_util.o
+ .debug_info    0x00061bc2     0x9c27 ./Middlewares/mbed-crypto/psa_crypto.o
+ .debug_info    0x0006b7e9     0x18bd ./Middlewares/mbed-crypto/psa_crypto_aead.o
+ .debug_info    0x0006d0a6     0x1684 ./Middlewares/mbed-crypto/psa_crypto_cipher.o
+ .debug_info    0x0006e72a      0x4d0 ./Middlewares/mbed-crypto/psa_crypto_client.o
+ .debug_info    0x0006ebfa     0x3d7b ./Middlewares/mbed-crypto/psa_crypto_driver_wrappers.o
+ .debug_info    0x00072975     0x1ff6 ./Middlewares/mbed-crypto/psa_crypto_ecp.o
+ .debug_info    0x0007496b     0x1055 ./Middlewares/mbed-crypto/psa_crypto_hash.o
+ .debug_info    0x000759c0     0x22c3 ./Middlewares/mbed-crypto/psa_crypto_mac.o
+ .debug_info    0x00077c83     0x234a ./Middlewares/mbed-crypto/psa_crypto_rsa.o
+ .debug_info    0x00079fcd     0x1495 ./Middlewares/mbed-crypto/psa_crypto_se.o
+ .debug_info    0x0007b462     0x18f3 ./Middlewares/mbed-crypto/psa_crypto_slot_management.o
+ .debug_info    0x0007cd55      0xfe5 ./Middlewares/mbed-crypto/psa_crypto_storage.o
+ .debug_info    0x0007dd3a     0x10ca ./Middlewares/mbed-crypto/rsa_internal.o
+ .debug_info    0x0007ee04      0x9e6 ./Middlewares/mbed-crypto/sha256.o
+ .debug_info    0x0007f7ea      0x935 ./Middlewares/mbed-crypto/sha512.o
+ .debug_info    0x0008011f     0x1e38 ./Middlewares/mcuboot/core/bootutil_misc.o
+ .debug_info    0x00081f57     0x44da ./Middlewares/stsafe_a/se_stsafea_api/se_stsafea_api.o
+ .debug_info    0x00086431     0x2fe8 ./Middlewares/stsafe_a/stsafe_axx0/stsafea_core.o
+ .debug_info    0x00089419     0x100d ./Middlewares/stsafe_a/stsafe_axx0/stsafea_crypto.o
+ .debug_info    0x0008a426      0x75c ./Middlewares/stsafe_a/stsafe_axx0/stsafea_service.o
+ .debug_info    0x0008ab82      0x861 ./Middlewares/trustedfirmware/core/UsefulBuf.o
+ .debug_info    0x0008b3e3      0x717 ./Middlewares/trustedfirmware/core/attest_asymmetric_key.o
+ .debug_info    0x0008bafa     0x1dc5 ./Middlewares/trustedfirmware/core/attest_core.o
+ .debug_info    0x0008d8bf     0x1031 ./Middlewares/trustedfirmware/core/attest_token_encode.o
+ .debug_info    0x0008e8f0      0x12f ./Middlewares/trustedfirmware/core/crt_memcmp.o
+ .debug_info    0x0008ea1f      0x1a4 ./Middlewares/trustedfirmware/core/crt_memcpy.o
+ .debug_info    0x0008ebc3      0x277 ./Middlewares/trustedfirmware/core/crt_memmove.o
+ .debug_info    0x0008ee3a      0x19c ./Middlewares/trustedfirmware/core/crt_memset.o
+ .debug_info    0x0008efd6      0x9bb ./Middlewares/trustedfirmware/core/crypto_aead.o
+ .debug_info    0x0008f991     0x164a ./Middlewares/trustedfirmware/core/crypto_alloc.o
+ .debug_info    0x00090fdb      0xc3e ./Middlewares/trustedfirmware/core/crypto_asymmetric.o
+ .debug_info    0x00091c19     0x1303 ./Middlewares/trustedfirmware/core/crypto_cipher.o
+ .debug_info    0x00092f1c     0x14a9 ./Middlewares/trustedfirmware/core/crypto_hash.o
+ .debug_info    0x000943c5     0x2151 ./Middlewares/trustedfirmware/core/crypto_init.o
+ .debug_info    0x00096516     0x185a ./Middlewares/trustedfirmware/core/crypto_key.o
+ .debug_info    0x00097d70     0x2842 ./Middlewares/trustedfirmware/core/crypto_key_derivation.o
+ .debug_info    0x0009a5b2     0x1a3a ./Middlewares/trustedfirmware/core/crypto_mac.o
+ .debug_info    0x0009bfec      0x706 ./Middlewares/trustedfirmware/core/fih.o
+ .debug_info    0x0009c6f2      0x810 ./Middlewares/trustedfirmware/core/flash_map.o
+ .debug_info    0x0009cf02      0x6e0 ./Middlewares/trustedfirmware/core/flash_map_extended.o
+ .debug_info    0x0009d5e2     0x1362 ./Middlewares/trustedfirmware/core/its_flash_fs.o
+ .debug_info    0x0009e944      0x8be ./Middlewares/trustedfirmware/core/its_flash_fs_dblock.o
+ .debug_info    0x0009f202     0x1cbc ./Middlewares/trustedfirmware/core/its_flash_fs_mblock.o
+ .debug_info    0x000a0ebe      0x8aa ./Middlewares/trustedfirmware/core/its_flash_nor.o
+ .debug_info    0x000a1768      0x169 ./Middlewares/trustedfirmware/core/its_utils.o
+ .debug_info    0x000a18d1     0x189e ./Middlewares/trustedfirmware/core/main.o
+ .debug_info    0x000a316f      0xc9c ./Middlewares/trustedfirmware/core/ps_crypto_interface.o
+ .debug_info    0x000a3e0b      0x790 ./Middlewares/trustedfirmware/core/ps_encrypted_object.o
+ .debug_info    0x000a459b      0xd12 ./Middlewares/trustedfirmware/core/ps_object_system.o
+ .debug_info    0x000a52ad     0x1202 ./Middlewares/trustedfirmware/core/ps_object_table.o
+ .debug_info    0x000a64af      0x403 ./Middlewares/trustedfirmware/core/psa_client.o
+ .debug_info    0x000a68b2     0x1943 ./Middlewares/trustedfirmware/core/psa_client_service_apis.o
+ .debug_info    0x000a81f5      0x4a2 ./Middlewares/trustedfirmware/core/psa_service.o
+ .debug_info    0x000a8697     0x18d2 ./Middlewares/trustedfirmware/core/qcbor_encode.o
+ .debug_info    0x000a9f69     0x2eb2 ./Middlewares/trustedfirmware/core/se_psa.o
+ .debug_info    0x000ace1b      0x29a ./Middlewares/trustedfirmware/core/service_api.o
+ .debug_info    0x000ad0b5     0x299a ./Middlewares/trustedfirmware/core/spm_ipc.o
+ .debug_info    0x000afa4f      0x28f ./Middlewares/trustedfirmware/core/spm_log.o
+ .debug_info    0x000afcde     0x10f0 ./Middlewares/trustedfirmware/core/spm_psa_client_call.o
+ .debug_info    0x000b0dce     0x11ac ./Middlewares/trustedfirmware/core/t_cose_psa_crypto.o
+ .debug_info    0x000b1f7a     0x13f2 ./Middlewares/trustedfirmware/core/t_cose_sign1_sign.o
+ .debug_info    0x000b336c      0xe45 ./Middlewares/trustedfirmware/core/t_cose_util.o
+ .debug_info    0x000b41b1      0x4ec ./Middlewares/trustedfirmware/core/tfm_arch.o
+ .debug_info    0x000b469d      0xbbb ./Middlewares/trustedfirmware/core/tfm_arch_v8m_main.o
+ .debug_info    0x000b5258      0x2d9 ./Middlewares/trustedfirmware/core/tfm_attest.o
+ .debug_info    0x000b5531      0x76a ./Middlewares/trustedfirmware/core/tfm_attest_req_mngr.o
+ .debug_info    0x000b5c9b      0x9b6 ./Middlewares/trustedfirmware/core/tfm_boot_data.o
+ .debug_info    0x000b6651      0xb24 ./Middlewares/trustedfirmware/core/tfm_core_svcalls_ipc.o
+ .debug_info    0x000b7175      0x21a ./Middlewares/trustedfirmware/core/tfm_core_utils.o
+ .debug_info    0x000b738f     0x49ee ./Middlewares/trustedfirmware/core/tfm_crypto_secure_api.o
+ .debug_info    0x000bbd7d      0x610 ./Middlewares/trustedfirmware/core/tfm_fwu.o
+ .debug_info    0x000bc38d      0xbb8 ./Middlewares/trustedfirmware/core/tfm_fwu_req_mngr.o
+ .debug_info    0x000bcf45      0x39c ./Middlewares/trustedfirmware/core/tfm_hal_isolation_mpu_v8m.o
+ .debug_info    0x000bd2e1      0x167 ./Middlewares/trustedfirmware/core/tfm_hal_its.o
+ .debug_info    0x000bd448      0x167 ./Middlewares/trustedfirmware/core/tfm_hal_ps.o
+ .debug_info    0x000bd5af      0x12e ./Middlewares/trustedfirmware/core/tfm_hal_spm_logdev_peripheral.o
+ .debug_info    0x000bd6dd     0x1245 ./Middlewares/trustedfirmware/core/tfm_internal_trusted_storage.o
+ .debug_info    0x000be922      0x7b1 ./Middlewares/trustedfirmware/core/tfm_its_req_mngr.o
+ .debug_info    0x000bf0d3      0x5da ./Middlewares/trustedfirmware/core/tfm_its_secure_api.o
+ .debug_info    0x000bf6ad     0x1410 ./Middlewares/trustedfirmware/core/tfm_mcuboot_fwu.o
+ .debug_info    0x000c0abd      0x4f6 ./Middlewares/trustedfirmware/core/tfm_nspm_ipc.o
+ .debug_info    0x000c0fb3      0x47b ./Middlewares/trustedfirmware/core/tfm_platform.o
+ .debug_info    0x000c142e      0x56f ./Middlewares/trustedfirmware/core/tfm_platform_secure_api.o
+ .debug_info    0x000c199d      0x3bf ./Middlewares/trustedfirmware/core/tfm_pools.o
+ .debug_info    0x000c1d5c      0x3f5 ./Middlewares/trustedfirmware/core/tfm_protected_storage.o
+ .debug_info    0x000c2151      0x81f ./Middlewares/trustedfirmware/core/tfm_ps_req_mngr.o
+ .debug_info    0x000c2970      0x352 ./Middlewares/trustedfirmware/core/tfm_psa_api_veneers.o
+ .debug_info    0x000c2cc2      0x8d8 ./Middlewares/trustedfirmware/core/tfm_thread.o
+ .debug_info    0x000c359a      0x3ba ./Middlewares/trustedfirmware/core/tfm_wait.o
+ .debug_info    0x000c3954      0x6d7 ./Middlewares/trustedfirmware/core/uart_stdout.o
+ .debug_info    0x000c402b      0x1ec ./Middlewares/trustedfirmware/core/utilities.o
+ .debug_info    0x000c4217      0x582 ./Middlewares/trustedfirmware/test/tfm_log_raw.o
+ .debug_info    0x000c4799       0xa5 ./g/auto_generated/intermedia_tfm_app_rot.o
+ .debug_info    0x000c483e       0xa5 ./g/auto_generated/intermedia_tfm_crypto.o
+ .debug_info    0x000c48e3       0xa5 ./g/auto_generated/intermedia_tfm_firmware_update.o
+ .debug_info    0x000c4988       0xa5 ./g/auto_generated/intermedia_tfm_initial_attestation.o
+ .debug_info    0x000c4a2d       0xa5 ./g/auto_generated/intermedia_tfm_internal_trusted_storage.o
+ .debug_info    0x000c4ad2       0xa5 ./g/auto_generated/intermedia_tfm_platform.o
+ .debug_info    0x000c4b77       0xa5 ./g/auto_generated/intermedia_tfm_protected_storage.o
 
 .debug_abbrev   0x00000000    0x1e6e2
  .debug_abbrev  0x00000000      0x3e3 ./Application/User/aes_alt.o
@@ -41384,513 +41384,513 @@ LOAD linker stubs
  .debug_macro   0x0005f126       0x63 ./g/auto_generated/intermedia_tfm_platform.o
  .debug_macro   0x0005f189       0x63 ./g/auto_generated/intermedia_tfm_protected_storage.o
 
-.debug_line     0x00000000    0xc1de1
- .debug_line    0x00000000     0x1315 ./Application/User/aes_alt.o
- .debug_line    0x00001315     0x10e2 ./Application/User/app_rot_test.o
- .debug_line    0x000023f7      0x49d ./Application/User/attest_hal.o
- .debug_line    0x00002894     0x1147 ./Application/User/ccm_alt.o
- .debug_line    0x000039db      0xde6 ./Application/User/dummy_boot_seed.o
- .debug_line    0x000047c1     0x1207 ./Application/User/dummy_device_id.o
- .debug_line    0x000059c8     0x1140 ./Application/User/ecdsa_alt.o
- .debug_line    0x00006b08     0x2731 ./Application/User/ecp_alt.o
- .debug_line    0x00009239     0x13c7 ./Application/User/ecp_curves_alt.o
- .debug_line    0x0000a600     0x14b7 ./Application/User/gcm_alt.o
- .debug_line    0x0000bab7      0xc6e ./Application/User/low_level_com.o
- .debug_line    0x0000c725      0x9aa ./Application/User/low_level_device.o
- .debug_line    0x0000d0cf      0xfb6 ./Application/User/low_level_flash.o
- .debug_line    0x0000e085      0xce2 ./Application/User/low_level_rng.o
- .debug_line    0x0000ed67      0xce8 ./Application/User/mpu_armv8m_drv.o
- .debug_line    0x0000fa4f      0xb38 ./Application/User/nv_counters.o
- .debug_line    0x00010587     0x12dd ./Application/User/platform_sp.o
- .debug_line    0x00011864     0x344a ./Application/User/rsa_alt.o
- .debug_line    0x00014cae      0xf26 ./Application/User/sha256_alt.o
- .debug_line    0x00015bd4     0x11db ./Application/User/spm_hal.o
- .debug_line    0x00016daf     0x19ea ./Application/User/startup_stm32u5xx.o
- .debug_line    0x00018799      0xf90 ./Application/User/stsafea_crypto_interface.o
- .debug_line    0x00019729     0x10a1 ./Application/User/stsafea_service_interface.o
- .debug_line    0x0001a7ca     0x1b41 ./Application/User/target_cfg.o
- .debug_line    0x0001c30b     0x1027 ./Application/User/tfm_app_rot.o
- .debug_line    0x0001d332      0x6e6 ./Application/User/tfm_fih.o
- .debug_line    0x0001da18     0x225a ./Application/User/tfm_hal_isolation.o
- .debug_line    0x0001fc72      0xd92 ./Application/User/tfm_platform_system.o
- .debug_line    0x00020a04      0xae0 ./Application/User/tick.o
- .debug_line    0x000214e4      0xa81 ./Drivers/CMSIS/system_stm32u5xx.o
- .debug_line    0x00021f65      0xee3 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
- .debug_line    0x00022e48     0x10c7 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
- .debug_line    0x00023f0f     0x4540 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp.o
- .debug_line    0x0002844f     0x1443 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp_ex.o
- .debug_line    0x00029892     0x166c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
- .debug_line    0x0002aefe      0xf9b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash.o
- .debug_line    0x0002be99     0x165e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash_ex.o
- .debug_line    0x0002d4f7     0x11f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
- .debug_line    0x0002e6f0     0x1cca ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gtzc.o
- .debug_line    0x000303ba     0x2689 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash.o
- .debug_line    0x00032a43      0xd1b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash_ex.o
- .debug_line    0x0003375e     0x5de5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
- .debug_line    0x00039543      0xe7c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
- .debug_line    0x0003a3bf     0x245d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pka.o
- .debug_line    0x0003c81c     0x1d30 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
- .debug_line    0x0003e54c     0x2927 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
- .debug_line    0x00040e73      0xec0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng.o
- .debug_line    0x00041d33     0x5c36 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart.o
- .debug_line    0x00047969      0xeb1 ./Middlewares/mbed-crypto/asn1parse.o
- .debug_line    0x0004881a     0x123f ./Middlewares/mbed-crypto/asn1write.o
- .debug_line    0x00049a59     0x45da ./Middlewares/mbed-crypto/bignum.o
- .debug_line    0x0004e033     0x1b9e ./Middlewares/mbed-crypto/cipher.o
- .debug_line    0x0004fbd1      0xe23 ./Middlewares/mbed-crypto/cipher_wrap.o
- .debug_line    0x000509f4      0xd30 ./Middlewares/mbed-crypto/cmac.o
- .debug_line    0x00051724     0x1231 ./Middlewares/mbed-crypto/constant_time.o
- .debug_line    0x00052955     0x125b ./Middlewares/mbed-crypto/ctr_drbg.o
- .debug_line    0x00053bb0     0x119c ./Middlewares/mbed-crypto/ecdh.o
- .debug_line    0x00054d4c     0x1081 ./Middlewares/mbed-crypto/ecdsa.o
- .debug_line    0x00055dcd      0xb61 ./Middlewares/mbed-crypto/entropy.o
- .debug_line    0x0005692e      0xc46 ./Middlewares/mbed-crypto/hmac_drbg.o
- .debug_line    0x00057574     0x13d0 ./Middlewares/mbed-crypto/md.o
- .debug_line    0x00058944      0xd25 ./Middlewares/mbed-crypto/memory_buffer_alloc.o
- .debug_line    0x00059669     0x10c5 ./Middlewares/mbed-crypto/oid.o
- .debug_line    0x0005a72e     0x1220 ./Middlewares/mbed-crypto/pk.o
- .debug_line    0x0005b94e     0x123d ./Middlewares/mbed-crypto/pk_wrap.o
- .debug_line    0x0005cb8b     0x16b6 ./Middlewares/mbed-crypto/pkparse.o
- .debug_line    0x0005e241     0x1428 ./Middlewares/mbed-crypto/pkwrite.o
- .debug_line    0x0005f669      0x840 ./Middlewares/mbed-crypto/platform.o
- .debug_line    0x0005fea9      0x7e1 ./Middlewares/mbed-crypto/platform_util.o
- .debug_line    0x0006068a     0x4d0b ./Middlewares/mbed-crypto/psa_crypto.o
- .debug_line    0x00065395     0x128d ./Middlewares/mbed-crypto/psa_crypto_aead.o
- .debug_line    0x00066622     0x15ff ./Middlewares/mbed-crypto/psa_crypto_cipher.o
- .debug_line    0x00067c21     0x1009 ./Middlewares/mbed-crypto/psa_crypto_client.o
- .debug_line    0x00068c2a     0x18bd ./Middlewares/mbed-crypto/psa_crypto_driver_wrappers.o
- .debug_line    0x0006a4e7     0x1536 ./Middlewares/mbed-crypto/psa_crypto_ecp.o
- .debug_line    0x0006ba1d     0x1279 ./Middlewares/mbed-crypto/psa_crypto_hash.o
- .debug_line    0x0006cc96     0x1564 ./Middlewares/mbed-crypto/psa_crypto_mac.o
- .debug_line    0x0006e1fa     0x15b3 ./Middlewares/mbed-crypto/psa_crypto_rsa.o
- .debug_line    0x0006f7ad     0x13fa ./Middlewares/mbed-crypto/psa_crypto_se.o
- .debug_line    0x00070ba7     0x16fa ./Middlewares/mbed-crypto/psa_crypto_slot_management.o
- .debug_line    0x000722a1     0x146d ./Middlewares/mbed-crypto/psa_crypto_storage.o
- .debug_line    0x0007370e     0x139c ./Middlewares/mbed-crypto/rsa_internal.o
- .debug_line    0x00074aaa      0xc40 ./Middlewares/mbed-crypto/sha256.o
- .debug_line    0x000756ea      0xe0b ./Middlewares/mbed-crypto/sha512.o
- .debug_line    0x000764f5     0x1b2d ./Middlewares/mcuboot/core/bootutil_misc.o
- .debug_line    0x00078022     0x249c ./Middlewares/stsafe_a/se_stsafea_api/se_stsafea_api.o
- .debug_line    0x0007a4be     0x28c5 ./Middlewares/stsafe_a/stsafe_axx0/stsafea_core.o
- .debug_line    0x0007cd83      0xbec ./Middlewares/stsafe_a/stsafe_axx0/stsafea_crypto.o
- .debug_line    0x0007d96f      0x981 ./Middlewares/stsafe_a/stsafe_axx0/stsafea_service.o
- .debug_line    0x0007e2f0      0x94f ./Middlewares/trustedfirmware/core/UsefulBuf.o
- .debug_line    0x0007ec3f      0xca7 ./Middlewares/trustedfirmware/core/attest_asymmetric_key.o
- .debug_line    0x0007f8e6     0x1289 ./Middlewares/trustedfirmware/core/attest_core.o
- .debug_line    0x00080b6f      0xbf0 ./Middlewares/trustedfirmware/core/attest_token_encode.o
- .debug_line    0x0008175f      0x44c ./Middlewares/trustedfirmware/core/crt_memcmp.o
- .debug_line    0x00081bab      0x4a1 ./Middlewares/trustedfirmware/core/crt_memcpy.o
- .debug_line    0x0008204c      0x61a ./Middlewares/trustedfirmware/core/crt_memmove.o
- .debug_line    0x00082666      0x47e ./Middlewares/trustedfirmware/core/crt_memset.o
- .debug_line    0x00082ae4     0x1280 ./Middlewares/trustedfirmware/core/crypto_aead.o
- .debug_line    0x00083d64     0x12c8 ./Middlewares/trustedfirmware/core/crypto_alloc.o
- .debug_line    0x0008502c     0x1357 ./Middlewares/trustedfirmware/core/crypto_asymmetric.o
- .debug_line    0x00086383     0x1566 ./Middlewares/trustedfirmware/core/crypto_cipher.o
- .debug_line    0x000878e9     0x1532 ./Middlewares/trustedfirmware/core/crypto_hash.o
- .debug_line    0x00088e1b     0x1676 ./Middlewares/trustedfirmware/core/crypto_init.o
- .debug_line    0x0008a491     0x1d02 ./Middlewares/trustedfirmware/core/crypto_key.o
- .debug_line    0x0008c193     0x1a0f ./Middlewares/trustedfirmware/core/crypto_key_derivation.o
- .debug_line    0x0008dba2     0x14f9 ./Middlewares/trustedfirmware/core/crypto_mac.o
- .debug_line    0x0008f09b      0xa56 ./Middlewares/trustedfirmware/core/fih.o
- .debug_line    0x0008faf1     0x12b9 ./Middlewares/trustedfirmware/core/flash_map.o
- .debug_line    0x00090daa      0xead ./Middlewares/trustedfirmware/core/flash_map_extended.o
- .debug_line    0x00091c57     0x10d1 ./Middlewares/trustedfirmware/core/its_flash_fs.o
- .debug_line    0x00092d28      0xa98 ./Middlewares/trustedfirmware/core/its_flash_fs_dblock.o
- .debug_line    0x000937c0     0x15a7 ./Middlewares/trustedfirmware/core/its_flash_fs_mblock.o
- .debug_line    0x00094d67      0xa7a ./Middlewares/trustedfirmware/core/its_flash_nor.o
- .debug_line    0x000957e1      0x4bd ./Middlewares/trustedfirmware/core/its_utils.o
- .debug_line    0x00095c9e     0x1c40 ./Middlewares/trustedfirmware/core/main.o
- .debug_line    0x000978de      0xcb7 ./Middlewares/trustedfirmware/core/ps_crypto_interface.o
- .debug_line    0x00098595      0x981 ./Middlewares/trustedfirmware/core/ps_encrypted_object.o
- .debug_line    0x00098f16      0xcad ./Middlewares/trustedfirmware/core/ps_object_system.o
- .debug_line    0x00099bc3     0x10d8 ./Middlewares/trustedfirmware/core/ps_object_table.o
- .debug_line    0x0009ac9b      0xd86 ./Middlewares/trustedfirmware/core/psa_client.o
- .debug_line    0x0009ba21     0x1744 ./Middlewares/trustedfirmware/core/psa_client_service_apis.o
- .debug_line    0x0009d165      0xdda ./Middlewares/trustedfirmware/core/psa_service.o
- .debug_line    0x0009df3f      0xe5f ./Middlewares/trustedfirmware/core/qcbor_encode.o
- .debug_line    0x0009ed9e     0x22d0 ./Middlewares/trustedfirmware/core/se_psa.o
- .debug_line    0x000a106e      0xcc1 ./Middlewares/trustedfirmware/core/service_api.o
- .debug_line    0x000a1d2f     0x2330 ./Middlewares/trustedfirmware/core/spm_ipc.o
- .debug_line    0x000a405f      0x76f ./Middlewares/trustedfirmware/core/spm_log.o
- .debug_line    0x000a47ce     0x1510 ./Middlewares/trustedfirmware/core/spm_psa_client_call.o
- .debug_line    0x000a5cde      0xc9a ./Middlewares/trustedfirmware/core/t_cose_psa_crypto.o
- .debug_line    0x000a6978      0xbe9 ./Middlewares/trustedfirmware/core/t_cose_sign1_sign.o
- .debug_line    0x000a7561      0xa62 ./Middlewares/trustedfirmware/core/t_cose_util.o
- .debug_line    0x000a7fc3      0xe0d ./Middlewares/trustedfirmware/core/tfm_arch.o
- .debug_line    0x000a8dd0     0x10e6 ./Middlewares/trustedfirmware/core/tfm_arch_v8m_main.o
- .debug_line    0x000a9eb6      0xf23 ./Middlewares/trustedfirmware/core/tfm_attest.o
- .debug_line    0x000aadd9      0xa90 ./Middlewares/trustedfirmware/core/tfm_attest_req_mngr.o
- .debug_line    0x000ab869     0x12c4 ./Middlewares/trustedfirmware/core/tfm_boot_data.o
- .debug_line    0x000acb2d     0x107e ./Middlewares/trustedfirmware/core/tfm_core_svcalls_ipc.o
- .debug_line    0x000adbab      0x6b8 ./Middlewares/trustedfirmware/core/tfm_core_utils.o
- .debug_line    0x000ae263     0x24f1 ./Middlewares/trustedfirmware/core/tfm_crypto_secure_api.o
- .debug_line    0x000b0754      0x99b ./Middlewares/trustedfirmware/core/tfm_fwu.o
- .debug_line    0x000b10ef      0xd5b ./Middlewares/trustedfirmware/core/tfm_fwu_req_mngr.o
- .debug_line    0x000b1e4a      0xc1b ./Middlewares/trustedfirmware/core/tfm_hal_isolation_mpu_v8m.o
- .debug_line    0x000b2a65      0x73a ./Middlewares/trustedfirmware/core/tfm_hal_its.o
- .debug_line    0x000b319f      0x738 ./Middlewares/trustedfirmware/core/tfm_hal_ps.o
- .debug_line    0x000b38d7      0x425 ./Middlewares/trustedfirmware/core/tfm_hal_spm_logdev_peripheral.o
- .debug_line    0x000b3cfc     0x12e1 ./Middlewares/trustedfirmware/core/tfm_internal_trusted_storage.o
- .debug_line    0x000b4fdd      0x7b4 ./Middlewares/trustedfirmware/core/tfm_its_req_mngr.o
- .debug_line    0x000b5791      0x6ae ./Middlewares/trustedfirmware/core/tfm_its_secure_api.o
- .debug_line    0x000b5e3f     0x1bad ./Middlewares/trustedfirmware/core/tfm_mcuboot_fwu.o
- .debug_line    0x000b79ec      0xf5b ./Middlewares/trustedfirmware/core/tfm_nspm_ipc.o
- .debug_line    0x000b8947      0xf09 ./Middlewares/trustedfirmware/core/tfm_platform.o
- .debug_line    0x000b9850      0x8b0 ./Middlewares/trustedfirmware/core/tfm_platform_secure_api.o
- .debug_line    0x000ba100      0xdfb ./Middlewares/trustedfirmware/core/tfm_pools.o
- .debug_line    0x000baefb      0x664 ./Middlewares/trustedfirmware/core/tfm_protected_storage.o
- .debug_line    0x000bb55f     0x112e ./Middlewares/trustedfirmware/core/tfm_ps_req_mngr.o
- .debug_line    0x000bc68d      0xe05 ./Middlewares/trustedfirmware/core/tfm_psa_api_veneers.o
- .debug_line    0x000bd492      0xf2a ./Middlewares/trustedfirmware/core/tfm_thread.o
- .debug_line    0x000be3bc      0xb5a ./Middlewares/trustedfirmware/core/tfm_wait.o
- .debug_line    0x000bef16      0x77e ./Middlewares/trustedfirmware/core/uart_stdout.o
- .debug_line    0x000bf694      0x88d ./Middlewares/trustedfirmware/core/utilities.o
- .debug_line    0x000bff21      0x722 ./Middlewares/trustedfirmware/test/tfm_log_raw.o
- .debug_line    0x000c0643      0x359 ./g/auto_generated/intermedia_tfm_app_rot.o
- .debug_line    0x000c099c      0x358 ./g/auto_generated/intermedia_tfm_crypto.o
- .debug_line    0x000c0cf4      0x361 ./g/auto_generated/intermedia_tfm_firmware_update.o
- .debug_line    0x000c1055      0x365 ./g/auto_generated/intermedia_tfm_initial_attestation.o
- .debug_line    0x000c13ba      0x36a ./g/auto_generated/intermedia_tfm_internal_trusted_storage.o
- .debug_line    0x000c1724      0x35a ./g/auto_generated/intermedia_tfm_platform.o
- .debug_line    0x000c1a7e      0x363 ./g/auto_generated/intermedia_tfm_protected_storage.o
+.debug_line     0x00000000    0xc1950
+ .debug_line    0x00000000     0x130e ./Application/User/aes_alt.o
+ .debug_line    0x0000130e     0x10db ./Application/User/app_rot_test.o
+ .debug_line    0x000023e9      0x496 ./Application/User/attest_hal.o
+ .debug_line    0x0000287f     0x1140 ./Application/User/ccm_alt.o
+ .debug_line    0x000039bf      0xddf ./Application/User/dummy_boot_seed.o
+ .debug_line    0x0000479e     0x1200 ./Application/User/dummy_device_id.o
+ .debug_line    0x0000599e     0x1139 ./Application/User/ecdsa_alt.o
+ .debug_line    0x00006ad7     0x272a ./Application/User/ecp_alt.o
+ .debug_line    0x00009201     0x13c0 ./Application/User/ecp_curves_alt.o
+ .debug_line    0x0000a5c1     0x14b0 ./Application/User/gcm_alt.o
+ .debug_line    0x0000ba71      0xc67 ./Application/User/low_level_com.o
+ .debug_line    0x0000c6d8      0x9a3 ./Application/User/low_level_device.o
+ .debug_line    0x0000d07b      0xfaf ./Application/User/low_level_flash.o
+ .debug_line    0x0000e02a      0xcdb ./Application/User/low_level_rng.o
+ .debug_line    0x0000ed05      0xce1 ./Application/User/mpu_armv8m_drv.o
+ .debug_line    0x0000f9e6      0xb31 ./Application/User/nv_counters.o
+ .debug_line    0x00010517     0x12d6 ./Application/User/platform_sp.o
+ .debug_line    0x000117ed     0x3443 ./Application/User/rsa_alt.o
+ .debug_line    0x00014c30      0xf1f ./Application/User/sha256_alt.o
+ .debug_line    0x00015b4f     0x11d4 ./Application/User/spm_hal.o
+ .debug_line    0x00016d23     0x19e3 ./Application/User/startup_stm32u5xx.o
+ .debug_line    0x00018706      0xf89 ./Application/User/stsafea_crypto_interface.o
+ .debug_line    0x0001968f     0x109a ./Application/User/stsafea_service_interface.o
+ .debug_line    0x0001a729     0x1b3a ./Application/User/target_cfg.o
+ .debug_line    0x0001c263     0x1020 ./Application/User/tfm_app_rot.o
+ .debug_line    0x0001d283      0x6df ./Application/User/tfm_fih.o
+ .debug_line    0x0001d962     0x2253 ./Application/User/tfm_hal_isolation.o
+ .debug_line    0x0001fbb5      0xd8b ./Application/User/tfm_platform_system.o
+ .debug_line    0x00020940      0xad9 ./Application/User/tick.o
+ .debug_line    0x00021419      0xa7a ./Drivers/CMSIS/system_stm32u5xx.o
+ .debug_line    0x00021e93      0xedc ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+ .debug_line    0x00022d6f     0x10c0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+ .debug_line    0x00023e2f     0x4539 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp.o
+ .debug_line    0x00028368     0x143c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp_ex.o
+ .debug_line    0x000297a4     0x1665 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+ .debug_line    0x0002ae09      0xf94 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash.o
+ .debug_line    0x0002bd9d     0x1657 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash_ex.o
+ .debug_line    0x0002d3f4     0x11f2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+ .debug_line    0x0002e5e6     0x1cc3 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gtzc.o
+ .debug_line    0x000302a9     0x2682 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash.o
+ .debug_line    0x0003292b      0xd14 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash_ex.o
+ .debug_line    0x0003363f     0x5dde ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+ .debug_line    0x0003941d      0xe75 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+ .debug_line    0x0003a292     0x2456 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pka.o
+ .debug_line    0x0003c6e8     0x1d29 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+ .debug_line    0x0003e411     0x2920 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+ .debug_line    0x00040d31      0xeb9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng.o
+ .debug_line    0x00041bea     0x5c2f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart.o
+ .debug_line    0x00047819      0xeaa ./Middlewares/mbed-crypto/asn1parse.o
+ .debug_line    0x000486c3     0x1238 ./Middlewares/mbed-crypto/asn1write.o
+ .debug_line    0x000498fb     0x45d3 ./Middlewares/mbed-crypto/bignum.o
+ .debug_line    0x0004dece     0x1b97 ./Middlewares/mbed-crypto/cipher.o
+ .debug_line    0x0004fa65      0xe1c ./Middlewares/mbed-crypto/cipher_wrap.o
+ .debug_line    0x00050881      0xd29 ./Middlewares/mbed-crypto/cmac.o
+ .debug_line    0x000515aa     0x122a ./Middlewares/mbed-crypto/constant_time.o
+ .debug_line    0x000527d4     0x1254 ./Middlewares/mbed-crypto/ctr_drbg.o
+ .debug_line    0x00053a28     0x1195 ./Middlewares/mbed-crypto/ecdh.o
+ .debug_line    0x00054bbd     0x107a ./Middlewares/mbed-crypto/ecdsa.o
+ .debug_line    0x00055c37      0xb5a ./Middlewares/mbed-crypto/entropy.o
+ .debug_line    0x00056791      0xc3f ./Middlewares/mbed-crypto/hmac_drbg.o
+ .debug_line    0x000573d0     0x13c9 ./Middlewares/mbed-crypto/md.o
+ .debug_line    0x00058799      0xd1e ./Middlewares/mbed-crypto/memory_buffer_alloc.o
+ .debug_line    0x000594b7     0x10be ./Middlewares/mbed-crypto/oid.o
+ .debug_line    0x0005a575     0x1219 ./Middlewares/mbed-crypto/pk.o
+ .debug_line    0x0005b78e     0x1236 ./Middlewares/mbed-crypto/pk_wrap.o
+ .debug_line    0x0005c9c4     0x16af ./Middlewares/mbed-crypto/pkparse.o
+ .debug_line    0x0005e073     0x1421 ./Middlewares/mbed-crypto/pkwrite.o
+ .debug_line    0x0005f494      0x839 ./Middlewares/mbed-crypto/platform.o
+ .debug_line    0x0005fccd      0x7da ./Middlewares/mbed-crypto/platform_util.o
+ .debug_line    0x000604a7     0x4d04 ./Middlewares/mbed-crypto/psa_crypto.o
+ .debug_line    0x000651ab     0x1286 ./Middlewares/mbed-crypto/psa_crypto_aead.o
+ .debug_line    0x00066431     0x15f8 ./Middlewares/mbed-crypto/psa_crypto_cipher.o
+ .debug_line    0x00067a29     0x1002 ./Middlewares/mbed-crypto/psa_crypto_client.o
+ .debug_line    0x00068a2b     0x18b6 ./Middlewares/mbed-crypto/psa_crypto_driver_wrappers.o
+ .debug_line    0x0006a2e1     0x152f ./Middlewares/mbed-crypto/psa_crypto_ecp.o
+ .debug_line    0x0006b810     0x1272 ./Middlewares/mbed-crypto/psa_crypto_hash.o
+ .debug_line    0x0006ca82     0x155d ./Middlewares/mbed-crypto/psa_crypto_mac.o
+ .debug_line    0x0006dfdf     0x15ac ./Middlewares/mbed-crypto/psa_crypto_rsa.o
+ .debug_line    0x0006f58b     0x13f3 ./Middlewares/mbed-crypto/psa_crypto_se.o
+ .debug_line    0x0007097e     0x16f3 ./Middlewares/mbed-crypto/psa_crypto_slot_management.o
+ .debug_line    0x00072071     0x1466 ./Middlewares/mbed-crypto/psa_crypto_storage.o
+ .debug_line    0x000734d7     0x1395 ./Middlewares/mbed-crypto/rsa_internal.o
+ .debug_line    0x0007486c      0xc39 ./Middlewares/mbed-crypto/sha256.o
+ .debug_line    0x000754a5      0xe04 ./Middlewares/mbed-crypto/sha512.o
+ .debug_line    0x000762a9     0x1b26 ./Middlewares/mcuboot/core/bootutil_misc.o
+ .debug_line    0x00077dcf     0x2495 ./Middlewares/stsafe_a/se_stsafea_api/se_stsafea_api.o
+ .debug_line    0x0007a264     0x28be ./Middlewares/stsafe_a/stsafe_axx0/stsafea_core.o
+ .debug_line    0x0007cb22      0xbe5 ./Middlewares/stsafe_a/stsafe_axx0/stsafea_crypto.o
+ .debug_line    0x0007d707      0x97a ./Middlewares/stsafe_a/stsafe_axx0/stsafea_service.o
+ .debug_line    0x0007e081      0x948 ./Middlewares/trustedfirmware/core/UsefulBuf.o
+ .debug_line    0x0007e9c9      0xca0 ./Middlewares/trustedfirmware/core/attest_asymmetric_key.o
+ .debug_line    0x0007f669     0x1282 ./Middlewares/trustedfirmware/core/attest_core.o
+ .debug_line    0x000808eb      0xbe9 ./Middlewares/trustedfirmware/core/attest_token_encode.o
+ .debug_line    0x000814d4      0x445 ./Middlewares/trustedfirmware/core/crt_memcmp.o
+ .debug_line    0x00081919      0x49a ./Middlewares/trustedfirmware/core/crt_memcpy.o
+ .debug_line    0x00081db3      0x613 ./Middlewares/trustedfirmware/core/crt_memmove.o
+ .debug_line    0x000823c6      0x477 ./Middlewares/trustedfirmware/core/crt_memset.o
+ .debug_line    0x0008283d     0x1279 ./Middlewares/trustedfirmware/core/crypto_aead.o
+ .debug_line    0x00083ab6     0x12c1 ./Middlewares/trustedfirmware/core/crypto_alloc.o
+ .debug_line    0x00084d77     0x1350 ./Middlewares/trustedfirmware/core/crypto_asymmetric.o
+ .debug_line    0x000860c7     0x155f ./Middlewares/trustedfirmware/core/crypto_cipher.o
+ .debug_line    0x00087626     0x152b ./Middlewares/trustedfirmware/core/crypto_hash.o
+ .debug_line    0x00088b51     0x166f ./Middlewares/trustedfirmware/core/crypto_init.o
+ .debug_line    0x0008a1c0     0x1cfb ./Middlewares/trustedfirmware/core/crypto_key.o
+ .debug_line    0x0008bebb     0x1a08 ./Middlewares/trustedfirmware/core/crypto_key_derivation.o
+ .debug_line    0x0008d8c3     0x14f2 ./Middlewares/trustedfirmware/core/crypto_mac.o
+ .debug_line    0x0008edb5      0xa4f ./Middlewares/trustedfirmware/core/fih.o
+ .debug_line    0x0008f804     0x12b2 ./Middlewares/trustedfirmware/core/flash_map.o
+ .debug_line    0x00090ab6      0xea6 ./Middlewares/trustedfirmware/core/flash_map_extended.o
+ .debug_line    0x0009195c     0x10ca ./Middlewares/trustedfirmware/core/its_flash_fs.o
+ .debug_line    0x00092a26      0xa91 ./Middlewares/trustedfirmware/core/its_flash_fs_dblock.o
+ .debug_line    0x000934b7     0x15a0 ./Middlewares/trustedfirmware/core/its_flash_fs_mblock.o
+ .debug_line    0x00094a57      0xa73 ./Middlewares/trustedfirmware/core/its_flash_nor.o
+ .debug_line    0x000954ca      0x4b6 ./Middlewares/trustedfirmware/core/its_utils.o
+ .debug_line    0x00095980     0x1c39 ./Middlewares/trustedfirmware/core/main.o
+ .debug_line    0x000975b9      0xcb0 ./Middlewares/trustedfirmware/core/ps_crypto_interface.o
+ .debug_line    0x00098269      0x973 ./Middlewares/trustedfirmware/core/ps_encrypted_object.o
+ .debug_line    0x00098bdc      0xc9f ./Middlewares/trustedfirmware/core/ps_object_system.o
+ .debug_line    0x0009987b     0x10c3 ./Middlewares/trustedfirmware/core/ps_object_table.o
+ .debug_line    0x0009a93e      0xd7f ./Middlewares/trustedfirmware/core/psa_client.o
+ .debug_line    0x0009b6bd     0x173d ./Middlewares/trustedfirmware/core/psa_client_service_apis.o
+ .debug_line    0x0009cdfa      0xdd3 ./Middlewares/trustedfirmware/core/psa_service.o
+ .debug_line    0x0009dbcd      0xe58 ./Middlewares/trustedfirmware/core/qcbor_encode.o
+ .debug_line    0x0009ea25     0x22c9 ./Middlewares/trustedfirmware/core/se_psa.o
+ .debug_line    0x000a0cee      0xcba ./Middlewares/trustedfirmware/core/service_api.o
+ .debug_line    0x000a19a8     0x2329 ./Middlewares/trustedfirmware/core/spm_ipc.o
+ .debug_line    0x000a3cd1      0x768 ./Middlewares/trustedfirmware/core/spm_log.o
+ .debug_line    0x000a4439     0x1509 ./Middlewares/trustedfirmware/core/spm_psa_client_call.o
+ .debug_line    0x000a5942      0xc93 ./Middlewares/trustedfirmware/core/t_cose_psa_crypto.o
+ .debug_line    0x000a65d5      0xbe2 ./Middlewares/trustedfirmware/core/t_cose_sign1_sign.o
+ .debug_line    0x000a71b7      0xa5b ./Middlewares/trustedfirmware/core/t_cose_util.o
+ .debug_line    0x000a7c12      0xe06 ./Middlewares/trustedfirmware/core/tfm_arch.o
+ .debug_line    0x000a8a18     0x10df ./Middlewares/trustedfirmware/core/tfm_arch_v8m_main.o
+ .debug_line    0x000a9af7      0xf1c ./Middlewares/trustedfirmware/core/tfm_attest.o
+ .debug_line    0x000aaa13      0xa89 ./Middlewares/trustedfirmware/core/tfm_attest_req_mngr.o
+ .debug_line    0x000ab49c     0x12bd ./Middlewares/trustedfirmware/core/tfm_boot_data.o
+ .debug_line    0x000ac759     0x1077 ./Middlewares/trustedfirmware/core/tfm_core_svcalls_ipc.o
+ .debug_line    0x000ad7d0      0x6b1 ./Middlewares/trustedfirmware/core/tfm_core_utils.o
+ .debug_line    0x000ade81     0x24ea ./Middlewares/trustedfirmware/core/tfm_crypto_secure_api.o
+ .debug_line    0x000b036b      0x994 ./Middlewares/trustedfirmware/core/tfm_fwu.o
+ .debug_line    0x000b0cff      0xd54 ./Middlewares/trustedfirmware/core/tfm_fwu_req_mngr.o
+ .debug_line    0x000b1a53      0xc14 ./Middlewares/trustedfirmware/core/tfm_hal_isolation_mpu_v8m.o
+ .debug_line    0x000b2667      0x733 ./Middlewares/trustedfirmware/core/tfm_hal_its.o
+ .debug_line    0x000b2d9a      0x731 ./Middlewares/trustedfirmware/core/tfm_hal_ps.o
+ .debug_line    0x000b34cb      0x41e ./Middlewares/trustedfirmware/core/tfm_hal_spm_logdev_peripheral.o
+ .debug_line    0x000b38e9     0x12cc ./Middlewares/trustedfirmware/core/tfm_internal_trusted_storage.o
+ .debug_line    0x000b4bb5      0x7ad ./Middlewares/trustedfirmware/core/tfm_its_req_mngr.o
+ .debug_line    0x000b5362      0x6a7 ./Middlewares/trustedfirmware/core/tfm_its_secure_api.o
+ .debug_line    0x000b5a09     0x1ba6 ./Middlewares/trustedfirmware/core/tfm_mcuboot_fwu.o
+ .debug_line    0x000b75af      0xf54 ./Middlewares/trustedfirmware/core/tfm_nspm_ipc.o
+ .debug_line    0x000b8503      0xf02 ./Middlewares/trustedfirmware/core/tfm_platform.o
+ .debug_line    0x000b9405      0x8a9 ./Middlewares/trustedfirmware/core/tfm_platform_secure_api.o
+ .debug_line    0x000b9cae      0xdf4 ./Middlewares/trustedfirmware/core/tfm_pools.o
+ .debug_line    0x000baaa2      0x65d ./Middlewares/trustedfirmware/core/tfm_protected_storage.o
+ .debug_line    0x000bb0ff     0x1127 ./Middlewares/trustedfirmware/core/tfm_ps_req_mngr.o
+ .debug_line    0x000bc226      0xdfe ./Middlewares/trustedfirmware/core/tfm_psa_api_veneers.o
+ .debug_line    0x000bd024      0xf23 ./Middlewares/trustedfirmware/core/tfm_thread.o
+ .debug_line    0x000bdf47      0xb53 ./Middlewares/trustedfirmware/core/tfm_wait.o
+ .debug_line    0x000bea9a      0x777 ./Middlewares/trustedfirmware/core/uart_stdout.o
+ .debug_line    0x000bf211      0x886 ./Middlewares/trustedfirmware/core/utilities.o
+ .debug_line    0x000bfa97      0x71b ./Middlewares/trustedfirmware/test/tfm_log_raw.o
+ .debug_line    0x000c01b2      0x359 ./g/auto_generated/intermedia_tfm_app_rot.o
+ .debug_line    0x000c050b      0x358 ./g/auto_generated/intermedia_tfm_crypto.o
+ .debug_line    0x000c0863      0x361 ./g/auto_generated/intermedia_tfm_firmware_update.o
+ .debug_line    0x000c0bc4      0x365 ./g/auto_generated/intermedia_tfm_initial_attestation.o
+ .debug_line    0x000c0f29      0x36a ./g/auto_generated/intermedia_tfm_internal_trusted_storage.o
+ .debug_line    0x000c1293      0x35a ./g/auto_generated/intermedia_tfm_platform.o
+ .debug_line    0x000c15ed      0x363 ./g/auto_generated/intermedia_tfm_protected_storage.o
 
-.debug_str      0x00000000   0x18f8ce
- .debug_str     0x00000000   0x13c46b ./Application/User/aes_alt.o
-                             0x13d0b4 (size before relaxing)
- .debug_str     0x0013c46b     0x40dd ./Application/User/app_rot_test.o
-                             0x13eae1 (size before relaxing)
- .debug_str     0x00140548      0x249 ./Application/User/attest_hal.o
-                               0x4360 (size before relaxing)
- .debug_str     0x00140791      0x6f4 ./Application/User/ccm_alt.o
-                             0x13d263 (size before relaxing)
- .debug_str     0x00140e85     0x2981 ./Application/User/dummy_boot_seed.o
-                             0x13d8cd (size before relaxing)
- .debug_str     0x00143806     0xb4f2 ./Application/User/dummy_device_id.o
-                             0x148eb6 (size before relaxing)
- .debug_str     0x0014ecf8      0xf6b ./Application/User/ecdsa_alt.o
-                             0x13d410 (size before relaxing)
- .debug_str     0x0014fc63      0xcb6 ./Application/User/ecp_alt.o
-                             0x13dc98 (size before relaxing)
- .debug_str     0x00150919      0x905 ./Application/User/ecp_curves_alt.o
-                             0x13d6ce (size before relaxing)
- .debug_str     0x0015121e      0x35a ./Application/User/gcm_alt.o
-                             0x13d316 (size before relaxing)
- .debug_str     0x00151578     0x18aa ./Application/User/low_level_com.o
-                             0x13be42 (size before relaxing)
- .debug_str     0x00152e22      0x122 ./Application/User/low_level_device.o
-                             0x13ce3d (size before relaxing)
- .debug_str     0x00152f44      0x841 ./Application/User/low_level_flash.o
-                             0x13ca19 (size before relaxing)
- .debug_str     0x00153785      0x4ac ./Application/User/low_level_rng.o
-                             0x13b2b8 (size before relaxing)
- .debug_str     0x00153c31      0x43e ./Application/User/mpu_armv8m_drv.o
-                             0x13a36c (size before relaxing)
- .debug_str     0x0015406f      0x494 ./Application/User/nv_counters.o
-                               0x8d59 (size before relaxing)
- .debug_str     0x00154503      0x70b ./Application/User/platform_sp.o
-                             0x141056 (size before relaxing)
- .debug_str     0x00154c0e     0x4dcd ./Application/User/rsa_alt.o
-                             0x142183 (size before relaxing)
- .debug_str     0x001599db      0x64c ./Application/User/sha256_alt.o
-                             0x13ce2a (size before relaxing)
- .debug_str     0x0015a027     0x13ad ./Application/User/spm_hal.o
-                             0x141f48 (size before relaxing)
- .debug_str     0x0015b3d4      0xc84 ./Application/User/startup_stm32u5xx.o
-                             0x13b6fe (size before relaxing)
- .debug_str     0x0015c058     0x1331 ./Application/User/stsafea_crypto_interface.o
-                             0x142023 (size before relaxing)
- .debug_str     0x0015d389      0x8ef ./Application/User/stsafea_service_interface.o
-                             0x13e370 (size before relaxing)
- .debug_str     0x0015dc78     0x1aa0 ./Application/User/target_cfg.o
-                             0x144652 (size before relaxing)
- .debug_str     0x0015f718      0x17a ./Application/User/tfm_app_rot.o
-                             0x140919 (size before relaxing)
- .debug_str     0x0015f892       0xfd ./Application/User/tfm_fih.o
-                               0x7d8a (size before relaxing)
- .debug_str     0x0015f98f      0x371 ./Application/User/tfm_hal_isolation.o
-                             0x140457 (size before relaxing)
- .debug_str     0x0015fd00      0x175 ./Application/User/tfm_platform_system.o
-                             0x13cca4 (size before relaxing)
- .debug_str     0x0015fe75      0x1bd ./Application/User/tick.o
-                             0x13a076 (size before relaxing)
- .debug_str     0x00160032      0x194 ./Drivers/CMSIS/system_stm32u5xx.o
-                             0x13a18f (size before relaxing)
- .debug_str     0x001601c6      0x61e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
-                             0x13b060 (size before relaxing)
- .debug_str     0x001607e4      0x3c7 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
-                             0x13ae6d (size before relaxing)
- .debug_str     0x00160bab      0x733 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp.o
-                             0x13ab78 (size before relaxing)
- .debug_str     0x001612de      0x200 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp_ex.o
-                             0x13a723 (size before relaxing)
- .debug_str     0x001614de      0x328 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
-                             0x13a5bf (size before relaxing)
- .debug_str     0x00161806      0x245 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash.o
-                             0x13a2df (size before relaxing)
- .debug_str     0x00161a4b      0x520 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash_ex.o
-                             0x13a64e (size before relaxing)
- .debug_str     0x00161f6b      0x360 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
-                             0x13a287 (size before relaxing)
- .debug_str     0x001622cb      0x9c7 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gtzc.o
-                             0x13aadf (size before relaxing)
- .debug_str     0x00162c92      0x646 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash.o
-                             0x13ab72 (size before relaxing)
- .debug_str     0x001632d8      0x3cd ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash_ex.o
-                             0x13a8ec (size before relaxing)
- .debug_str     0x001636a5      0xecf ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
-                             0x13b464 (size before relaxing)
- .debug_str     0x00164574      0x1a8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
-                             0x13a668 (size before relaxing)
- .debug_str     0x0016471c      0xa31 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pka.o
-                             0x13acf5 (size before relaxing)
- .debug_str     0x0016514d     0x15e9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
-                             0x13b984 (size before relaxing)
- .debug_str     0x00166736     0x297e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
-                             0x13cc32 (size before relaxing)
- .debug_str     0x001690b4      0x19f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng.o
-                             0x13a0f4 (size before relaxing)
- .debug_str     0x00169253      0x99c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart.o
-                             0x13aee0 (size before relaxing)
- .debug_str     0x00169bef      0x328 ./Middlewares/mbed-crypto/asn1parse.o
-                               0xb4b9 (size before relaxing)
- .debug_str     0x00169f17      0x372 ./Middlewares/mbed-crypto/asn1write.o
-                               0xb3b4 (size before relaxing)
- .debug_str     0x0016a289      0x826 ./Middlewares/mbed-crypto/bignum.o
-                               0xb6ef (size before relaxing)
- .debug_str     0x0016aaaf      0x5f9 ./Middlewares/mbed-crypto/cipher.o
-                             0x13ee80 (size before relaxing)
- .debug_str     0x0016b0a8      0x37d ./Middlewares/mbed-crypto/cipher_wrap.o
-                             0x13ec3c (size before relaxing)
- .debug_str     0x0016b425      0x192 ./Middlewares/mbed-crypto/cmac.o
-                               0xb85c (size before relaxing)
- .debug_str     0x0016b5b7      0x156 ./Middlewares/mbed-crypto/constant_time.o
-                             0x13cfca (size before relaxing)
- .debug_str     0x0016b70d      0x541 ./Middlewares/mbed-crypto/ctr_drbg.o
-                             0x13d3df (size before relaxing)
- .debug_str     0x0016bc4e      0x45a ./Middlewares/mbed-crypto/ecdh.o
-                             0x13dfbe (size before relaxing)
- .debug_str     0x0016c0a8      0x4d9 ./Middlewares/mbed-crypto/ecdsa.o
-                             0x13eaca (size before relaxing)
- .debug_str     0x0016c581      0x36e ./Middlewares/mbed-crypto/entropy.o
-                               0xa41c (size before relaxing)
- .debug_str     0x0016c8ef      0x225 ./Middlewares/mbed-crypto/hmac_drbg.o
-                               0xa43f (size before relaxing)
- .debug_str     0x0016cb14      0x506 ./Middlewares/mbed-crypto/md.o
-                             0x13e204 (size before relaxing)
- .debug_str     0x0016d01a      0x304 ./Middlewares/mbed-crypto/memory_buffer_alloc.o
-                               0xa9cd (size before relaxing)
- .debug_str     0x0016d31e      0xe31 ./Middlewares/mbed-crypto/oid.o
-                             0x1427d2 (size before relaxing)
- .debug_str     0x0016e14f      0x4dc ./Middlewares/mbed-crypto/pk.o
-                             0x13e52d (size before relaxing)
- .debug_str     0x0016e62b      0x281 ./Middlewares/mbed-crypto/pk_wrap.o
-                             0x13e853 (size before relaxing)
- .debug_str     0x0016e8ac      0x1cc ./Middlewares/mbed-crypto/pkparse.o
-                             0x141667 (size before relaxing)
- .debug_str     0x0016ea78      0x14f ./Middlewares/mbed-crypto/pkwrite.o
-                             0x14159a (size before relaxing)
- .debug_str     0x0016ebc7      0x10a ./Middlewares/mbed-crypto/platform.o
-                               0xa817 (size before relaxing)
- .debug_str     0x0016ecd1      0x1b0 ./Middlewares/mbed-crypto/platform_util.o
-                               0xa0f6 (size before relaxing)
- .debug_str     0x0016ee81     0x8492 ./Middlewares/mbed-crypto/psa_crypto.o
-                             0x14ec40 (size before relaxing)
- .debug_str     0x00177313      0x18f ./Middlewares/mbed-crypto/psa_crypto_aead.o
-                             0x14a350 (size before relaxing)
- .debug_str     0x001774a2      0x224 ./Middlewares/mbed-crypto/psa_crypto_cipher.o
-                             0x14a50c (size before relaxing)
- .debug_str     0x001776c6       0xc7 ./Middlewares/mbed-crypto/psa_crypto_client.o
-                             0x148d97 (size before relaxing)
- .debug_str     0x0017778d      0x892 ./Middlewares/mbed-crypto/psa_crypto_driver_wrappers.o
-                             0x14a4ec (size before relaxing)
- .debug_str     0x0017801f       0xe0 ./Middlewares/mbed-crypto/psa_crypto_ecp.o
-                             0x14a475 (size before relaxing)
- .debug_str     0x001780ff       0x9b ./Middlewares/mbed-crypto/psa_crypto_hash.o
-                             0x14980b (size before relaxing)
- .debug_str     0x0017819a      0x13d ./Middlewares/mbed-crypto/psa_crypto_mac.o
-                             0x14a69c (size before relaxing)
- .debug_str     0x001782d7      0x12b ./Middlewares/mbed-crypto/psa_crypto_rsa.o
-                             0x14a9d4 (size before relaxing)
- .debug_str     0x00178402      0x31a ./Middlewares/mbed-crypto/psa_crypto_se.o
-                             0x1488a9 (size before relaxing)
- .debug_str     0x0017871c      0x332 ./Middlewares/mbed-crypto/psa_crypto_slot_management.o
-                             0x149c25 (size before relaxing)
- .debug_str     0x00178a4e      0x29f ./Middlewares/mbed-crypto/psa_crypto_storage.o
-                             0x1495ca (size before relaxing)
- .debug_str     0x00178ced       0xb1 ./Middlewares/mbed-crypto/rsa_internal.o
-                             0x13ced3 (size before relaxing)
- .debug_str     0x00178d9e       0xa1 ./Middlewares/mbed-crypto/sha256.o
-                             0x13cfb3 (size before relaxing)
- .debug_str     0x00178e3f      0x3e9 ./Middlewares/mbed-crypto/sha512.o
-                               0xa354 (size before relaxing)
- .debug_str     0x00179228     0x2249 ./Middlewares/mcuboot/core/bootutil_misc.o
-                             0x14275d (size before relaxing)
- .debug_str     0x0017b471     0x18f9 ./Middlewares/stsafe_a/se_stsafea_api/se_stsafea_api.o
-                               0xe0fe (size before relaxing)
- .debug_str     0x0017cd6a      0xc5b ./Middlewares/stsafe_a/stsafe_axx0/stsafea_core.o
-                               0xd150 (size before relaxing)
- .debug_str     0x0017d9c5      0x501 ./Middlewares/stsafe_a/stsafe_axx0/stsafea_crypto.o
-                               0xb068 (size before relaxing)
- .debug_str     0x0017dec6      0x130 ./Middlewares/stsafe_a/stsafe_axx0/stsafea_service.o
-                               0xab15 (size before relaxing)
- .debug_str     0x0017dff6      0x6d5 ./Middlewares/trustedfirmware/core/UsefulBuf.o
-                               0x7cbc (size before relaxing)
- .debug_str     0x0017e6cb     0x1250 ./Middlewares/trustedfirmware/core/attest_asymmetric_key.o
-                              0x11bba (size before relaxing)
- .debug_str     0x0017f91b     0x1123 ./Middlewares/trustedfirmware/core/attest_core.o
-                              0x12751 (size before relaxing)
- .debug_str     0x00180a3e      0x948 ./Middlewares/trustedfirmware/core/attest_token_encode.o
-                              0x118c8 (size before relaxing)
- .debug_str     0x00181386       0xb0 ./Middlewares/trustedfirmware/core/crt_memcmp.o
-                               0x4527 (size before relaxing)
- .debug_str     0x00181436      0x147 ./Middlewares/trustedfirmware/core/crt_memcpy.o
-                               0x45fa (size before relaxing)
- .debug_str     0x0018157d       0xba ./Middlewares/trustedfirmware/core/crt_memmove.o
-                               0x772a (size before relaxing)
- .debug_str     0x00181637       0xc3 ./Middlewares/trustedfirmware/core/crt_memset.o
-                               0x45fb (size before relaxing)
- .debug_str     0x001816fa      0xd00 ./Middlewares/trustedfirmware/core/crypto_aead.o
-                             0x148e8c (size before relaxing)
- .debug_str     0x001823fa      0x28f ./Middlewares/trustedfirmware/core/crypto_alloc.o
-                             0x14a2c4 (size before relaxing)
- .debug_str     0x00182689      0x11d ./Middlewares/trustedfirmware/core/crypto_asymmetric.o
-                             0x148fdf (size before relaxing)
- .debug_str     0x001827a6      0x1b1 ./Middlewares/trustedfirmware/core/crypto_cipher.o
-                             0x149bcb (size before relaxing)
- .debug_str     0x00182957      0x182 ./Middlewares/trustedfirmware/core/crypto_hash.o
-                             0x1496b5 (size before relaxing)
- .debug_str     0x00182ad9      0xf63 ./Middlewares/trustedfirmware/core/crypto_init.o
-                             0x14f287 (size before relaxing)
- .debug_str     0x00183a3c      0x1dc ./Middlewares/trustedfirmware/core/crypto_key.o
-                             0x1494ac (size before relaxing)
- .debug_str     0x00183c18      0x144 ./Middlewares/trustedfirmware/core/crypto_key_derivation.o
-                             0x14ade8 (size before relaxing)
- .debug_str     0x00183d5c       0xae ./Middlewares/trustedfirmware/core/crypto_mac.o
-                             0x14a299 (size before relaxing)
- .debug_str     0x00183e0a       0xef ./Middlewares/trustedfirmware/core/fih.o
-                               0x676d (size before relaxing)
- .debug_str     0x00183ef9      0x380 ./Middlewares/trustedfirmware/core/flash_map.o
-                             0x1424e7 (size before relaxing)
- .debug_str     0x00184279      0x5ca ./Middlewares/trustedfirmware/core/flash_map_extended.o
-                             0x13fa79 (size before relaxing)
- .debug_str     0x00184843      0xc7f ./Middlewares/trustedfirmware/core/its_flash_fs.o
-                               0xb064 (size before relaxing)
- .debug_str     0x001854c2      0x11d ./Middlewares/trustedfirmware/core/its_flash_fs_dblock.o
-                               0x893b (size before relaxing)
- .debug_str     0x001855df      0x57d ./Middlewares/trustedfirmware/core/its_flash_fs_mblock.o
-                               0xb38d (size before relaxing)
- .debug_str     0x00185b5c      0x145 ./Middlewares/trustedfirmware/core/its_flash_nor.o
-                               0x8940 (size before relaxing)
- .debug_str     0x00185ca1       0xf0 ./Middlewares/trustedfirmware/core/its_utils.o
-                               0x4bcb (size before relaxing)
- .debug_str     0x00185d91      0xe1d ./Middlewares/trustedfirmware/core/main.o
-                             0x13fae3 (size before relaxing)
- .debug_str     0x00186bae      0x36e ./Middlewares/trustedfirmware/core/ps_crypto_interface.o
-                              0x10101 (size before relaxing)
- .debug_str     0x00186f1c      0x4d7 ./Middlewares/trustedfirmware/core/ps_encrypted_object.o
-                               0xa389 (size before relaxing)
- .debug_str     0x001873f3      0x330 ./Middlewares/trustedfirmware/core/ps_object_system.o
-                               0x8caf (size before relaxing)
- .debug_str     0x00187723      0x6fc ./Middlewares/trustedfirmware/core/ps_object_table.o
-                               0x96aa (size before relaxing)
- .debug_str     0x00187e1f      0x342 ./Middlewares/trustedfirmware/core/psa_client.o
-                             0x13bf7f (size before relaxing)
- .debug_str     0x00188161      0xa8c ./Middlewares/trustedfirmware/core/psa_client_service_apis.o
-                             0x13fbe3 (size before relaxing)
- .debug_str     0x00188bed       0xc4 ./Middlewares/trustedfirmware/core/psa_service.o
-                             0x13c63d (size before relaxing)
- .debug_str     0x00188cb1      0x4ed ./Middlewares/trustedfirmware/core/qcbor_encode.o
-                               0x8ca0 (size before relaxing)
- .debug_str     0x0018919e      0x470 ./Middlewares/trustedfirmware/core/se_psa.o
-                             0x14deff (size before relaxing)
- .debug_str     0x0018960e       0xdd ./Middlewares/trustedfirmware/core/service_api.o
-                             0x13b6b8 (size before relaxing)
- .debug_str     0x001896eb     0x234e ./Middlewares/trustedfirmware/core/spm_ipc.o
-                             0x145244 (size before relaxing)
- .debug_str     0x0018ba39       0xe4 ./Middlewares/trustedfirmware/core/spm_log.o
-                               0x63e2 (size before relaxing)
- .debug_str     0x0018bb1d      0x14d ./Middlewares/trustedfirmware/core/spm_psa_client_call.o
-                             0x13ead1 (size before relaxing)
- .debug_str     0x0018bc6a      0x660 ./Middlewares/trustedfirmware/core/t_cose_psa_crypto.o
-                               0xf8c1 (size before relaxing)
- .debug_str     0x0018c2ca      0x3bd ./Middlewares/trustedfirmware/core/t_cose_sign1_sign.o
-                              0x105d7 (size before relaxing)
- .debug_str     0x0018c687      0x298 ./Middlewares/trustedfirmware/core/t_cose_util.o
-                              0x103d1 (size before relaxing)
- .debug_str     0x0018c91f      0x131 ./Middlewares/trustedfirmware/core/tfm_arch.o
-                             0x13cab7 (size before relaxing)
- .debug_str     0x0018ca50      0x1be ./Middlewares/trustedfirmware/core/tfm_arch_v8m_main.o
-                             0x141c69 (size before relaxing)
- .debug_str     0x0018cc0e       0xce ./Middlewares/trustedfirmware/core/tfm_attest.o
-                             0x1441ea (size before relaxing)
- .debug_str     0x0018ccdc      0x18d ./Middlewares/trustedfirmware/core/tfm_attest_req_mngr.o
-                              0x12aad (size before relaxing)
- .debug_str     0x0018ce69      0x185 ./Middlewares/trustedfirmware/core/tfm_boot_data.o
-                             0x141fed (size before relaxing)
- .debug_str     0x0018cfee      0x18e ./Middlewares/trustedfirmware/core/tfm_core_svcalls_ipc.o
-                             0x13eb2f (size before relaxing)
- .debug_str     0x0018d17c       0xa8 ./Middlewares/trustedfirmware/core/tfm_core_utils.o
-                               0x7d8c (size before relaxing)
- .debug_str     0x0018d224      0x3f9 ./Middlewares/trustedfirmware/core/tfm_crypto_secure_api.o
-                               0xf673 (size before relaxing)
- .debug_str     0x0018d61d      0x713 ./Middlewares/trustedfirmware/core/tfm_fwu.o
-                               0x87c6 (size before relaxing)
- .debug_str     0x0018dd30      0x200 ./Middlewares/trustedfirmware/core/tfm_fwu_req_mngr.o
-                               0xb52b (size before relaxing)
- .debug_str     0x0018df30       0xe2 ./Middlewares/trustedfirmware/core/tfm_hal_isolation_mpu_v8m.o
-                             0x13aaa5 (size before relaxing)
- .debug_str     0x0018e012       0xf3 ./Middlewares/trustedfirmware/core/tfm_hal_its.o
-                               0x8573 (size before relaxing)
- .debug_str     0x0018e105       0xce ./Middlewares/trustedfirmware/core/tfm_hal_ps.o
-                               0x856f (size before relaxing)
- .debug_str     0x0018e1d3       0xcd ./Middlewares/trustedfirmware/core/tfm_hal_spm_logdev_peripheral.o
-                               0x4235 (size before relaxing)
- .debug_str     0x0018e2a0      0x23c ./Middlewares/trustedfirmware/core/tfm_internal_trusted_storage.o
-                               0xb617 (size before relaxing)
- .debug_str     0x0018e4dc      0x12b ./Middlewares/trustedfirmware/core/tfm_its_req_mngr.o
-                               0x5145 (size before relaxing)
- .debug_str     0x0018e607       0xc8 ./Middlewares/trustedfirmware/core/tfm_its_secure_api.o
-                               0x6175 (size before relaxing)
- .debug_str     0x0018e6cf      0x36c ./Middlewares/trustedfirmware/core/tfm_mcuboot_fwu.o
-                             0x14aa0a (size before relaxing)
- .debug_str     0x0018ea3b      0x188 ./Middlewares/trustedfirmware/core/tfm_nspm_ipc.o
-                             0x13dfdc (size before relaxing)
- .debug_str     0x0018ebc3       0xa8 ./Middlewares/trustedfirmware/core/tfm_platform.o
-                             0x13e071 (size before relaxing)
- .debug_str     0x0018ec6b      0x116 ./Middlewares/trustedfirmware/core/tfm_platform_secure_api.o
-                               0x7cd1 (size before relaxing)
- .debug_str     0x0018ed81       0xff ./Middlewares/trustedfirmware/core/tfm_pools.o
-                             0x13c987 (size before relaxing)
- .debug_str     0x0018ee80      0x134 ./Middlewares/trustedfirmware/core/tfm_protected_storage.o
-                               0x4d0c (size before relaxing)
- .debug_str     0x0018efb4      0x14b ./Middlewares/trustedfirmware/core/tfm_ps_req_mngr.o
-                             0x13db02 (size before relaxing)
- .debug_str     0x0018f0ff      0x12b ./Middlewares/trustedfirmware/core/tfm_psa_api_veneers.o
-                             0x13d977 (size before relaxing)
- .debug_str     0x0018f22a      0x16a ./Middlewares/trustedfirmware/core/tfm_thread.o
-                             0x13c61e (size before relaxing)
- .debug_str     0x0018f394       0xc1 ./Middlewares/trustedfirmware/core/tfm_wait.o
-                             0x13bc32 (size before relaxing)
- .debug_str     0x0018f455       0xfc ./Middlewares/trustedfirmware/core/uart_stdout.o
-                               0x95e2 (size before relaxing)
- .debug_str     0x0018f551       0xa3 ./Middlewares/trustedfirmware/core/utilities.o
-                               0x9726 (size before relaxing)
- .debug_str     0x0018f5f4      0x170 ./Middlewares/trustedfirmware/test/tfm_log_raw.o
-                               0x47b4 (size before relaxing)
- .debug_str     0x0018f764       0x2d ./g/auto_generated/intermedia_tfm_app_rot.o
+.debug_str      0x00000000   0x18f460
+ .debug_str     0x00000000   0x13c45d ./Application/User/aes_alt.o
+                             0x13d0a6 (size before relaxing)
+ .debug_str     0x0013c45d     0x40d6 ./Application/User/app_rot_test.o
+                             0x13ead3 (size before relaxing)
+ .debug_str     0x00140533      0x242 ./Application/User/attest_hal.o
+                               0x4352 (size before relaxing)
+ .debug_str     0x00140775      0x6ed ./Application/User/ccm_alt.o
+                             0x13d255 (size before relaxing)
+ .debug_str     0x00140e62     0x297a ./Application/User/dummy_boot_seed.o
+                             0x13d8bf (size before relaxing)
+ .debug_str     0x001437dc     0xb4eb ./Application/User/dummy_device_id.o
+                             0x148ea8 (size before relaxing)
+ .debug_str     0x0014ecc7      0xf64 ./Application/User/ecdsa_alt.o
+                             0x13d402 (size before relaxing)
+ .debug_str     0x0014fc2b      0xcaf ./Application/User/ecp_alt.o
+                             0x13dc8a (size before relaxing)
+ .debug_str     0x001508da      0x8fe ./Application/User/ecp_curves_alt.o
+                             0x13d6c0 (size before relaxing)
+ .debug_str     0x001511d8      0x353 ./Application/User/gcm_alt.o
+                             0x13d308 (size before relaxing)
+ .debug_str     0x0015152b     0x18a3 ./Application/User/low_level_com.o
+                             0x13be34 (size before relaxing)
+ .debug_str     0x00152dce      0x11b ./Application/User/low_level_device.o
+                             0x13ce2f (size before relaxing)
+ .debug_str     0x00152ee9      0x83a ./Application/User/low_level_flash.o
+                             0x13ca0b (size before relaxing)
+ .debug_str     0x00153723      0x4a5 ./Application/User/low_level_rng.o
+                             0x13b2aa (size before relaxing)
+ .debug_str     0x00153bc8      0x437 ./Application/User/mpu_armv8m_drv.o
+                             0x13a35e (size before relaxing)
+ .debug_str     0x00153fff      0x48d ./Application/User/nv_counters.o
+                               0x8d4b (size before relaxing)
+ .debug_str     0x0015448c      0x704 ./Application/User/platform_sp.o
+                             0x141048 (size before relaxing)
+ .debug_str     0x00154b90     0x4dc6 ./Application/User/rsa_alt.o
+                             0x142175 (size before relaxing)
+ .debug_str     0x00159956      0x645 ./Application/User/sha256_alt.o
+                             0x13ce1c (size before relaxing)
+ .debug_str     0x00159f9b     0x13a6 ./Application/User/spm_hal.o
+                             0x141f3a (size before relaxing)
+ .debug_str     0x0015b341      0xc7d ./Application/User/startup_stm32u5xx.o
+                             0x13b6f0 (size before relaxing)
+ .debug_str     0x0015bfbe     0x132a ./Application/User/stsafea_crypto_interface.o
+                             0x142015 (size before relaxing)
+ .debug_str     0x0015d2e8      0x8e8 ./Application/User/stsafea_service_interface.o
+                             0x13e362 (size before relaxing)
+ .debug_str     0x0015dbd0     0x1a99 ./Application/User/target_cfg.o
+                             0x144644 (size before relaxing)
+ .debug_str     0x0015f669      0x173 ./Application/User/tfm_app_rot.o
+                             0x14090b (size before relaxing)
+ .debug_str     0x0015f7dc       0xf6 ./Application/User/tfm_fih.o
+                               0x7d7c (size before relaxing)
+ .debug_str     0x0015f8d2      0x36a ./Application/User/tfm_hal_isolation.o
+                             0x140449 (size before relaxing)
+ .debug_str     0x0015fc3c      0x16e ./Application/User/tfm_platform_system.o
+                             0x13cc96 (size before relaxing)
+ .debug_str     0x0015fdaa      0x1b6 ./Application/User/tick.o
+                             0x13a068 (size before relaxing)
+ .debug_str     0x0015ff60      0x18d ./Drivers/CMSIS/system_stm32u5xx.o
+                             0x13a181 (size before relaxing)
+ .debug_str     0x001600ed      0x617 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+                             0x13b052 (size before relaxing)
+ .debug_str     0x00160704      0x3c0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+                             0x13ae5f (size before relaxing)
+ .debug_str     0x00160ac4      0x72c ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp.o
+                             0x13ab6a (size before relaxing)
+ .debug_str     0x001611f0      0x1f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cryp_ex.o
+                             0x13a715 (size before relaxing)
+ .debug_str     0x001613e9      0x321 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+                             0x13a5b1 (size before relaxing)
+ .debug_str     0x0016170a      0x23e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash.o
+                             0x13a2d1 (size before relaxing)
+ .debug_str     0x00161948      0x519 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_flash_ex.o
+                             0x13a640 (size before relaxing)
+ .debug_str     0x00161e61      0x359 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+                             0x13a279 (size before relaxing)
+ .debug_str     0x001621ba      0x9c0 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gtzc.o
+                             0x13aad1 (size before relaxing)
+ .debug_str     0x00162b7a      0x63f ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash.o
+                             0x13ab64 (size before relaxing)
+ .debug_str     0x001631b9      0x3c6 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_hash_ex.o
+                             0x13a8de (size before relaxing)
+ .debug_str     0x0016357f      0xec8 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+                             0x13b456 (size before relaxing)
+ .debug_str     0x00164447      0x1a1 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+                             0x13a65a (size before relaxing)
+ .debug_str     0x001645e8      0xa2a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pka.o
+                             0x13ace7 (size before relaxing)
+ .debug_str     0x00165012     0x15e2 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+                             0x13b976 (size before relaxing)
+ .debug_str     0x001665f4     0x2977 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+                             0x13cc24 (size before relaxing)
+ .debug_str     0x00168f6b      0x198 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rng.o
+                             0x13a0e6 (size before relaxing)
+ .debug_str     0x00169103      0x995 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_uart.o
+                             0x13aed2 (size before relaxing)
+ .debug_str     0x00169a98      0x321 ./Middlewares/mbed-crypto/asn1parse.o
+                               0xb4ab (size before relaxing)
+ .debug_str     0x00169db9      0x36b ./Middlewares/mbed-crypto/asn1write.o
+                               0xb3a6 (size before relaxing)
+ .debug_str     0x0016a124      0x81f ./Middlewares/mbed-crypto/bignum.o
+                               0xb6e1 (size before relaxing)
+ .debug_str     0x0016a943      0x5f2 ./Middlewares/mbed-crypto/cipher.o
+                             0x13ee72 (size before relaxing)
+ .debug_str     0x0016af35      0x376 ./Middlewares/mbed-crypto/cipher_wrap.o
+                             0x13ec2e (size before relaxing)
+ .debug_str     0x0016b2ab      0x18b ./Middlewares/mbed-crypto/cmac.o
+                               0xb84e (size before relaxing)
+ .debug_str     0x0016b436      0x14f ./Middlewares/mbed-crypto/constant_time.o
+                             0x13cfbc (size before relaxing)
+ .debug_str     0x0016b585      0x53a ./Middlewares/mbed-crypto/ctr_drbg.o
+                             0x13d3d1 (size before relaxing)
+ .debug_str     0x0016babf      0x453 ./Middlewares/mbed-crypto/ecdh.o
+                             0x13dfb0 (size before relaxing)
+ .debug_str     0x0016bf12      0x4d2 ./Middlewares/mbed-crypto/ecdsa.o
+                             0x13eabc (size before relaxing)
+ .debug_str     0x0016c3e4      0x367 ./Middlewares/mbed-crypto/entropy.o
+                               0xa40e (size before relaxing)
+ .debug_str     0x0016c74b      0x21e ./Middlewares/mbed-crypto/hmac_drbg.o
+                               0xa431 (size before relaxing)
+ .debug_str     0x0016c969      0x4ff ./Middlewares/mbed-crypto/md.o
+                             0x13e1f6 (size before relaxing)
+ .debug_str     0x0016ce68      0x2fd ./Middlewares/mbed-crypto/memory_buffer_alloc.o
+                               0xa9bf (size before relaxing)
+ .debug_str     0x0016d165      0xe2a ./Middlewares/mbed-crypto/oid.o
+                             0x1427c4 (size before relaxing)
+ .debug_str     0x0016df8f      0x4d5 ./Middlewares/mbed-crypto/pk.o
+                             0x13e51f (size before relaxing)
+ .debug_str     0x0016e464      0x27a ./Middlewares/mbed-crypto/pk_wrap.o
+                             0x13e845 (size before relaxing)
+ .debug_str     0x0016e6de      0x1c5 ./Middlewares/mbed-crypto/pkparse.o
+                             0x141659 (size before relaxing)
+ .debug_str     0x0016e8a3      0x148 ./Middlewares/mbed-crypto/pkwrite.o
+                             0x14158c (size before relaxing)
+ .debug_str     0x0016e9eb      0x103 ./Middlewares/mbed-crypto/platform.o
+                               0xa809 (size before relaxing)
+ .debug_str     0x0016eaee      0x1a9 ./Middlewares/mbed-crypto/platform_util.o
+                               0xa0e8 (size before relaxing)
+ .debug_str     0x0016ec97     0x848b ./Middlewares/mbed-crypto/psa_crypto.o
+                             0x14ec32 (size before relaxing)
+ .debug_str     0x00177122      0x188 ./Middlewares/mbed-crypto/psa_crypto_aead.o
+                             0x14a342 (size before relaxing)
+ .debug_str     0x001772aa      0x21d ./Middlewares/mbed-crypto/psa_crypto_cipher.o
+                             0x14a4fe (size before relaxing)
+ .debug_str     0x001774c7       0xc0 ./Middlewares/mbed-crypto/psa_crypto_client.o
+                             0x148d89 (size before relaxing)
+ .debug_str     0x00177587      0x88b ./Middlewares/mbed-crypto/psa_crypto_driver_wrappers.o
+                             0x14a4de (size before relaxing)
+ .debug_str     0x00177e12       0xd9 ./Middlewares/mbed-crypto/psa_crypto_ecp.o
+                             0x14a467 (size before relaxing)
+ .debug_str     0x00177eeb       0x94 ./Middlewares/mbed-crypto/psa_crypto_hash.o
+                             0x1497fd (size before relaxing)
+ .debug_str     0x00177f7f      0x136 ./Middlewares/mbed-crypto/psa_crypto_mac.o
+                             0x14a68e (size before relaxing)
+ .debug_str     0x001780b5      0x124 ./Middlewares/mbed-crypto/psa_crypto_rsa.o
+                             0x14a9c6 (size before relaxing)
+ .debug_str     0x001781d9      0x313 ./Middlewares/mbed-crypto/psa_crypto_se.o
+                             0x14889b (size before relaxing)
+ .debug_str     0x001784ec      0x32b ./Middlewares/mbed-crypto/psa_crypto_slot_management.o
+                             0x149c17 (size before relaxing)
+ .debug_str     0x00178817      0x298 ./Middlewares/mbed-crypto/psa_crypto_storage.o
+                             0x1495bc (size before relaxing)
+ .debug_str     0x00178aaf       0xaa ./Middlewares/mbed-crypto/rsa_internal.o
+                             0x13cec5 (size before relaxing)
+ .debug_str     0x00178b59       0x9a ./Middlewares/mbed-crypto/sha256.o
+                             0x13cfa5 (size before relaxing)
+ .debug_str     0x00178bf3      0x3e2 ./Middlewares/mbed-crypto/sha512.o
+                               0xa346 (size before relaxing)
+ .debug_str     0x00178fd5     0x2242 ./Middlewares/mcuboot/core/bootutil_misc.o
+                             0x14274f (size before relaxing)
+ .debug_str     0x0017b217     0x18f2 ./Middlewares/stsafe_a/se_stsafea_api/se_stsafea_api.o
+                               0xe0f0 (size before relaxing)
+ .debug_str     0x0017cb09      0xc54 ./Middlewares/stsafe_a/stsafe_axx0/stsafea_core.o
+                               0xd142 (size before relaxing)
+ .debug_str     0x0017d75d      0x4fa ./Middlewares/stsafe_a/stsafe_axx0/stsafea_crypto.o
+                               0xb05a (size before relaxing)
+ .debug_str     0x0017dc57      0x129 ./Middlewares/stsafe_a/stsafe_axx0/stsafea_service.o
+                               0xab07 (size before relaxing)
+ .debug_str     0x0017dd80      0x6ce ./Middlewares/trustedfirmware/core/UsefulBuf.o
+                               0x7cae (size before relaxing)
+ .debug_str     0x0017e44e     0x1249 ./Middlewares/trustedfirmware/core/attest_asymmetric_key.o
+                              0x11bac (size before relaxing)
+ .debug_str     0x0017f697     0x111c ./Middlewares/trustedfirmware/core/attest_core.o
+                              0x12743 (size before relaxing)
+ .debug_str     0x001807b3      0x941 ./Middlewares/trustedfirmware/core/attest_token_encode.o
+                              0x118ba (size before relaxing)
+ .debug_str     0x001810f4       0xa9 ./Middlewares/trustedfirmware/core/crt_memcmp.o
+                               0x4519 (size before relaxing)
+ .debug_str     0x0018119d      0x140 ./Middlewares/trustedfirmware/core/crt_memcpy.o
+                               0x45ec (size before relaxing)
+ .debug_str     0x001812dd       0xb3 ./Middlewares/trustedfirmware/core/crt_memmove.o
+                               0x771c (size before relaxing)
+ .debug_str     0x00181390       0xbc ./Middlewares/trustedfirmware/core/crt_memset.o
+                               0x45ed (size before relaxing)
+ .debug_str     0x0018144c      0xcf9 ./Middlewares/trustedfirmware/core/crypto_aead.o
+                             0x148e7e (size before relaxing)
+ .debug_str     0x00182145      0x288 ./Middlewares/trustedfirmware/core/crypto_alloc.o
+                             0x14a2b6 (size before relaxing)
+ .debug_str     0x001823cd      0x116 ./Middlewares/trustedfirmware/core/crypto_asymmetric.o
+                             0x148fd1 (size before relaxing)
+ .debug_str     0x001824e3      0x1aa ./Middlewares/trustedfirmware/core/crypto_cipher.o
+                             0x149bbd (size before relaxing)
+ .debug_str     0x0018268d      0x17b ./Middlewares/trustedfirmware/core/crypto_hash.o
+                             0x1496a7 (size before relaxing)
+ .debug_str     0x00182808      0xf5c ./Middlewares/trustedfirmware/core/crypto_init.o
+                             0x14f279 (size before relaxing)
+ .debug_str     0x00183764      0x1d5 ./Middlewares/trustedfirmware/core/crypto_key.o
+                             0x14949e (size before relaxing)
+ .debug_str     0x00183939      0x13d ./Middlewares/trustedfirmware/core/crypto_key_derivation.o
+                             0x14adda (size before relaxing)
+ .debug_str     0x00183a76       0xa7 ./Middlewares/trustedfirmware/core/crypto_mac.o
+                             0x14a28b (size before relaxing)
+ .debug_str     0x00183b1d       0xe8 ./Middlewares/trustedfirmware/core/fih.o
+                               0x675f (size before relaxing)
+ .debug_str     0x00183c05      0x379 ./Middlewares/trustedfirmware/core/flash_map.o
+                             0x1424d9 (size before relaxing)
+ .debug_str     0x00183f7e      0x5c3 ./Middlewares/trustedfirmware/core/flash_map_extended.o
+                             0x13fa6b (size before relaxing)
+ .debug_str     0x00184541      0xc78 ./Middlewares/trustedfirmware/core/its_flash_fs.o
+                               0xb056 (size before relaxing)
+ .debug_str     0x001851b9      0x116 ./Middlewares/trustedfirmware/core/its_flash_fs_dblock.o
+                               0x892d (size before relaxing)
+ .debug_str     0x001852cf      0x576 ./Middlewares/trustedfirmware/core/its_flash_fs_mblock.o
+                               0xb37f (size before relaxing)
+ .debug_str     0x00185845      0x13e ./Middlewares/trustedfirmware/core/its_flash_nor.o
+                               0x8932 (size before relaxing)
+ .debug_str     0x00185983       0xe9 ./Middlewares/trustedfirmware/core/its_utils.o
+                               0x4bbd (size before relaxing)
+ .debug_str     0x00185a6c      0xe16 ./Middlewares/trustedfirmware/core/main.o
+                             0x13fad5 (size before relaxing)
+ .debug_str     0x00186882      0x367 ./Middlewares/trustedfirmware/core/ps_crypto_interface.o
+                              0x100f3 (size before relaxing)
+ .debug_str     0x00186be9      0x4d0 ./Middlewares/trustedfirmware/core/ps_encrypted_object.o
+                               0xa37b (size before relaxing)
+ .debug_str     0x001870b9      0x329 ./Middlewares/trustedfirmware/core/ps_object_system.o
+                               0x8ca1 (size before relaxing)
+ .debug_str     0x001873e2      0x6f5 ./Middlewares/trustedfirmware/core/ps_object_table.o
+                               0x969c (size before relaxing)
+ .debug_str     0x00187ad7      0x33b ./Middlewares/trustedfirmware/core/psa_client.o
+                             0x13bf71 (size before relaxing)
+ .debug_str     0x00187e12      0xa85 ./Middlewares/trustedfirmware/core/psa_client_service_apis.o
+                             0x13fbd5 (size before relaxing)
+ .debug_str     0x00188897       0xbd ./Middlewares/trustedfirmware/core/psa_service.o
+                             0x13c62f (size before relaxing)
+ .debug_str     0x00188954      0x4e6 ./Middlewares/trustedfirmware/core/qcbor_encode.o
+                               0x8c92 (size before relaxing)
+ .debug_str     0x00188e3a      0x469 ./Middlewares/trustedfirmware/core/se_psa.o
+                             0x14def1 (size before relaxing)
+ .debug_str     0x001892a3       0xd6 ./Middlewares/trustedfirmware/core/service_api.o
+                             0x13b6aa (size before relaxing)
+ .debug_str     0x00189379     0x2347 ./Middlewares/trustedfirmware/core/spm_ipc.o
+                             0x145236 (size before relaxing)
+ .debug_str     0x0018b6c0       0xdd ./Middlewares/trustedfirmware/core/spm_log.o
+                               0x63d4 (size before relaxing)
+ .debug_str     0x0018b79d      0x146 ./Middlewares/trustedfirmware/core/spm_psa_client_call.o
+                             0x13eac3 (size before relaxing)
+ .debug_str     0x0018b8e3      0x659 ./Middlewares/trustedfirmware/core/t_cose_psa_crypto.o
+                               0xf8b3 (size before relaxing)
+ .debug_str     0x0018bf3c      0x3b6 ./Middlewares/trustedfirmware/core/t_cose_sign1_sign.o
+                              0x105c9 (size before relaxing)
+ .debug_str     0x0018c2f2      0x291 ./Middlewares/trustedfirmware/core/t_cose_util.o
+                              0x103c3 (size before relaxing)
+ .debug_str     0x0018c583      0x12a ./Middlewares/trustedfirmware/core/tfm_arch.o
+                             0x13caa9 (size before relaxing)
+ .debug_str     0x0018c6ad      0x1b7 ./Middlewares/trustedfirmware/core/tfm_arch_v8m_main.o
+                             0x141c5b (size before relaxing)
+ .debug_str     0x0018c864       0xc7 ./Middlewares/trustedfirmware/core/tfm_attest.o
+                             0x1441dc (size before relaxing)
+ .debug_str     0x0018c92b      0x186 ./Middlewares/trustedfirmware/core/tfm_attest_req_mngr.o
+                              0x12a9f (size before relaxing)
+ .debug_str     0x0018cab1      0x17e ./Middlewares/trustedfirmware/core/tfm_boot_data.o
+                             0x141fdf (size before relaxing)
+ .debug_str     0x0018cc2f      0x187 ./Middlewares/trustedfirmware/core/tfm_core_svcalls_ipc.o
+                             0x13eb21 (size before relaxing)
+ .debug_str     0x0018cdb6       0xa1 ./Middlewares/trustedfirmware/core/tfm_core_utils.o
+                               0x7d7e (size before relaxing)
+ .debug_str     0x0018ce57      0x3f2 ./Middlewares/trustedfirmware/core/tfm_crypto_secure_api.o
+                               0xf665 (size before relaxing)
+ .debug_str     0x0018d249      0x70c ./Middlewares/trustedfirmware/core/tfm_fwu.o
+                               0x87b8 (size before relaxing)
+ .debug_str     0x0018d955      0x1f9 ./Middlewares/trustedfirmware/core/tfm_fwu_req_mngr.o
+                               0xb51d (size before relaxing)
+ .debug_str     0x0018db4e       0xdb ./Middlewares/trustedfirmware/core/tfm_hal_isolation_mpu_v8m.o
+                             0x13aa97 (size before relaxing)
+ .debug_str     0x0018dc29       0xec ./Middlewares/trustedfirmware/core/tfm_hal_its.o
+                               0x8565 (size before relaxing)
+ .debug_str     0x0018dd15       0xc7 ./Middlewares/trustedfirmware/core/tfm_hal_ps.o
+                               0x8561 (size before relaxing)
+ .debug_str     0x0018dddc       0xc6 ./Middlewares/trustedfirmware/core/tfm_hal_spm_logdev_peripheral.o
+                               0x4227 (size before relaxing)
+ .debug_str     0x0018dea2      0x235 ./Middlewares/trustedfirmware/core/tfm_internal_trusted_storage.o
+                               0xb609 (size before relaxing)
+ .debug_str     0x0018e0d7      0x124 ./Middlewares/trustedfirmware/core/tfm_its_req_mngr.o
+                               0x5137 (size before relaxing)
+ .debug_str     0x0018e1fb       0xc1 ./Middlewares/trustedfirmware/core/tfm_its_secure_api.o
+                               0x6167 (size before relaxing)
+ .debug_str     0x0018e2bc      0x365 ./Middlewares/trustedfirmware/core/tfm_mcuboot_fwu.o
+                             0x14a9fc (size before relaxing)
+ .debug_str     0x0018e621      0x181 ./Middlewares/trustedfirmware/core/tfm_nspm_ipc.o
+                             0x13dfce (size before relaxing)
+ .debug_str     0x0018e7a2       0xa1 ./Middlewares/trustedfirmware/core/tfm_platform.o
+                             0x13e063 (size before relaxing)
+ .debug_str     0x0018e843      0x10f ./Middlewares/trustedfirmware/core/tfm_platform_secure_api.o
+                               0x7cc3 (size before relaxing)
+ .debug_str     0x0018e952       0xf8 ./Middlewares/trustedfirmware/core/tfm_pools.o
+                             0x13c979 (size before relaxing)
+ .debug_str     0x0018ea4a      0x12d ./Middlewares/trustedfirmware/core/tfm_protected_storage.o
+                               0x4cfe (size before relaxing)
+ .debug_str     0x0018eb77      0x144 ./Middlewares/trustedfirmware/core/tfm_ps_req_mngr.o
+                             0x13daf4 (size before relaxing)
+ .debug_str     0x0018ecbb      0x124 ./Middlewares/trustedfirmware/core/tfm_psa_api_veneers.o
+                             0x13d969 (size before relaxing)
+ .debug_str     0x0018eddf      0x163 ./Middlewares/trustedfirmware/core/tfm_thread.o
+                             0x13c610 (size before relaxing)
+ .debug_str     0x0018ef42       0xba ./Middlewares/trustedfirmware/core/tfm_wait.o
+                             0x13bc24 (size before relaxing)
+ .debug_str     0x0018effc       0xf5 ./Middlewares/trustedfirmware/core/uart_stdout.o
+                               0x95d4 (size before relaxing)
+ .debug_str     0x0018f0f1       0x9c ./Middlewares/trustedfirmware/core/utilities.o
+                               0x9718 (size before relaxing)
+ .debug_str     0x0018f18d      0x169 ./Middlewares/trustedfirmware/test/tfm_log_raw.o
+                               0x47a6 (size before relaxing)
+ .debug_str     0x0018f2f6       0x2d ./g/auto_generated/intermedia_tfm_app_rot.o
+                               0x4148 (size before relaxing)
+ .debug_str     0x0018f323       0x2c ./g/auto_generated/intermedia_tfm_crypto.o
+                               0x4149 (size before relaxing)
+ .debug_str     0x0018f34f       0x35 ./g/auto_generated/intermedia_tfm_firmware_update.o
                                0x414f (size before relaxing)
- .debug_str     0x0018f791       0x2c ./g/auto_generated/intermedia_tfm_crypto.o
+ .debug_str     0x0018f384       0x39 ./g/auto_generated/intermedia_tfm_initial_attestation.o
+                               0x4163 (size before relaxing)
+ .debug_str     0x0018f3bd       0x3e ./g/auto_generated/intermedia_tfm_internal_trusted_storage.o
+                               0x4158 (size before relaxing)
+ .debug_str     0x0018f3fb       0x2e ./g/auto_generated/intermedia_tfm_platform.o
+                               0x414d (size before relaxing)
+ .debug_str     0x0018f429       0x37 ./g/auto_generated/intermedia_tfm_protected_storage.o
                                0x4150 (size before relaxing)
- .debug_str     0x0018f7bd       0x35 ./g/auto_generated/intermedia_tfm_firmware_update.o
-                               0x4156 (size before relaxing)
- .debug_str     0x0018f7f2       0x39 ./g/auto_generated/intermedia_tfm_initial_attestation.o
-                               0x416a (size before relaxing)
- .debug_str     0x0018f82b       0x3e ./g/auto_generated/intermedia_tfm_internal_trusted_storage.o
-                               0x415f (size before relaxing)
- .debug_str     0x0018f869       0x2e ./g/auto_generated/intermedia_tfm_platform.o
-                               0x4154 (size before relaxing)
- .debug_str     0x0018f897       0x37 ./g/auto_generated/intermedia_tfm_protected_storage.o
-                               0x4157 (size before relaxing)
 
 .debug_frame    0x00000000    0x10a50
  .debug_frame   0x00000000      0x1d8 ./Application/User/aes_alt.o

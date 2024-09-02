@@ -1,5 +1,5 @@
 Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.c \
  ../../../../../../../../Drivers/BSP/Components/mx_wifi/mx_wifi.h \
  ../../../NonSecure/Wifi/mx_wifi_conf.h \
  ../../../NonSecure/NetXDuo/App/app_azure_iot_config.h \
@@ -74,9 +74,9 @@ Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.o: \
  ../../../NonSecure/Core/Inc/com.h \
  ../../../../../../../../Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.h \
  ../../../../../../../../Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_slip.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_slip.h \
  ../../../../../../../../Drivers/BSP/Components/mx_wifi/io_pattern/mx_wifi_io.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/checksumutils.h
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/checksumutils.h
 ../../../../../../../../Drivers/BSP/Components/mx_wifi/mx_wifi.h:
 ../../../NonSecure/Wifi/mx_wifi_conf.h:
 ../../../NonSecure/NetXDuo/App/app_azure_iot_config.h:
@@ -151,6 +151,6 @@ Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.o: \
 ../../../NonSecure/Core/Inc/com.h:
 ../../../../../../../../Drivers/BSP/Components/mx_wifi/core/mx_wifi_hci.h:
 ../../../../../../../../Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_slip.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_slip.h:
 ../../../../../../../../Drivers/BSP/Components/mx_wifi/io_pattern/mx_wifi_io.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/checksumutils.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/checksumutils.h:

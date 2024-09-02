@@ -1,5 +1,5 @@
 Middlewares/trustedfirmware/core/tfm_platform.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/platform/ext/common/tfm_platform.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/platform/ext/common/tfm_platform.c \
  ../../../Secure/Inc/target_cfg.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/common/uart_stdout.h \
  ../../../Secure/Inc/tfm_peripherals_def.h \
@@ -60,7 +60,7 @@ Middlewares/trustedfirmware/core/tfm_platform.o: \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/service.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_plat_defs.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/platform/ext/common/uart_stdout.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/platform/ext/common/uart_stdout.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_platform.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_defs.h
 ../../../Secure/Inc/target_cfg.h:
@@ -123,6 +123,6 @@ Middlewares/trustedfirmware/core/tfm_platform.o: \
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/service.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_plat_defs.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/platform/ext/common/uart_stdout.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/platform/ext/common/uart_stdout.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_platform.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/include/tfm_hal_defs.h:

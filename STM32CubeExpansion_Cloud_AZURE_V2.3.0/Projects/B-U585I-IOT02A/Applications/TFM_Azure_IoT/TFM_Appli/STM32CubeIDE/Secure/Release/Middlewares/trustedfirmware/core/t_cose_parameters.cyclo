@@ -1,6 +1,6 @@
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:286:1:process_unknown_parameter	10
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:370:1:parse_cose_header_parameters	44
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:225:1:check_critical_labels	7
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:573:1:parse_protected_header_parameters	2
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:610:1:parse_unprotected_header_parameters	1
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:625:1:check_and_copy_parameters	20
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:286:1:process_unknown_parameter	10
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:370:1:parse_cose_header_parameters	44
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:225:1:check_critical_labels	7
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:573:1:parse_protected_header_parameters	2
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:610:1:parse_unprotected_header_parameters	1
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/lib/ext/t_cose/src/t_cose_parameters.c:625:1:check_and_copy_parameters	20

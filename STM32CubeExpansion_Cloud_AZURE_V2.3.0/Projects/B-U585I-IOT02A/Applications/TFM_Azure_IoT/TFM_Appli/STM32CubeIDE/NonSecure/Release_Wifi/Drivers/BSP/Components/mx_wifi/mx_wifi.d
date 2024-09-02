@@ -1,6 +1,6 @@
 Drivers/BSP/Components/mx_wifi/mx_wifi.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/mx_wifi.c \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/mx_wifi.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/mx_wifi.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/mx_wifi.h \
  ../../../NonSecure/Wifi/mx_wifi_conf.h \
  ../../../NonSecure/NetXDuo/App/app_azure_iot_config.h \
  ../../../NonSecure/NetXDuo/Target/mx_wifi_azure_rtos_conf.h \
@@ -72,10 +72,10 @@ Drivers/BSP/Components/mx_wifi/mx_wifi.o: \
  ../../../../../../../../Drivers/BSP/B-U585I-IOT02A/../Components/ism330dhcx/ism330dhcx.h \
  ../../../../../../../../Drivers/BSP/B-U585I-IOT02A/../Components/ism330dhcx/ism330dhcx_reg.h \
  ../../../NonSecure/Core/Inc/com.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.h \
  ../../../../../../../../Drivers/BSP/Components/mx_wifi/mx_wifi.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/io_pattern/mx_wifi_io.h
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/mx_wifi.h:
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/io_pattern/mx_wifi_io.h
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/mx_wifi.h:
 ../../../NonSecure/Wifi/mx_wifi_conf.h:
 ../../../NonSecure/NetXDuo/App/app_azure_iot_config.h:
 ../../../NonSecure/NetXDuo/Target/mx_wifi_azure_rtos_conf.h:
@@ -147,6 +147,6 @@ Drivers/BSP/Components/mx_wifi/mx_wifi.o: \
 ../../../../../../../../Drivers/BSP/B-U585I-IOT02A/../Components/ism330dhcx/ism330dhcx.h:
 ../../../../../../../../Drivers/BSP/B-U585I-IOT02A/../Components/ism330dhcx/ism330dhcx_reg.h:
 ../../../NonSecure/Core/Inc/com.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/core/mx_wifi_ipc.h:
 ../../../../../../../../Drivers/BSP/Components/mx_wifi/mx_wifi.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/io_pattern/mx_wifi_io.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/Components/mx_wifi/io_pattern/mx_wifi_io.h:

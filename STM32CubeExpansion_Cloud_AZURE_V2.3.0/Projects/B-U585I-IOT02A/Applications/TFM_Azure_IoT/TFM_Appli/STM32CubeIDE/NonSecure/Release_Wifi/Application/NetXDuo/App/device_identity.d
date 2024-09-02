@@ -1,5 +1,5 @@
 Application/NetXDuo/App/device_identity.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_identity.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/device_identity.c \
  ../../../../../../../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
  ../../../NonSecure/Core/Inc/tx_user.h \
@@ -7,7 +7,7 @@ Application/NetXDuo/App/device_identity.o: \
  ../../../../../../../../Middlewares/ST/netxduo/ports/cortex_m33/gnu/inc/nx_port.h \
  ../../../NonSecure/NetXDuo/App/nx_user.h \
  ../../../../../../../../Middlewares/ST/threadx/common/inc/tx_trace.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_config.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_config.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/secure_element/stm/se_psa_id.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_types.h \
@@ -17,7 +17,7 @@ Application/NetXDuo/App/device_identity.o: \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_struct.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_extra.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_compat.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_ciphersuites.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_ciphersuites.h \
  ../../../../../../../../Middlewares/ST/netxduo/nx_secure/inc/nx_secure_tls_api.h \
  ../../../../../../../../Middlewares/ST/netxduo/nx_secure/inc/nx_secure_tls.h \
  ../../../../../../../../Middlewares/ST/netxduo/nx_secure/ports/nx_secure_port.h \
@@ -32,7 +32,7 @@ Application/NetXDuo/App/device_identity.o: \
 ../../../../../../../../Middlewares/ST/netxduo/ports/cortex_m33/gnu/inc/nx_port.h:
 ../../../NonSecure/NetXDuo/App/nx_user.h:
 ../../../../../../../../Middlewares/ST/threadx/common/inc/tx_trace.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_config.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_config.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/secure_element/stm/se_psa_id.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_types.h:
@@ -42,7 +42,7 @@ Application/NetXDuo/App/device_identity.o: \
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_struct.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_extra.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_compat.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_ciphersuites.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/nx_azure_iot_ciphersuites.h:
 ../../../../../../../../Middlewares/ST/netxduo/nx_secure/inc/nx_secure_tls_api.h:
 ../../../../../../../../Middlewares/ST/netxduo/nx_secure/inc/nx_secure_tls.h:
 ../../../../../../../../Middlewares/ST/netxduo/nx_secure/ports/nx_secure_port.h:

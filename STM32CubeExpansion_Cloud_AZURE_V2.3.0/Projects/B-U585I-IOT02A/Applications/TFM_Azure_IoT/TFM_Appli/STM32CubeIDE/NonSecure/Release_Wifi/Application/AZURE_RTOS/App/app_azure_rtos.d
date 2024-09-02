@@ -1,6 +1,6 @@
 Application/AZURE_RTOS/App/app_azure_rtos.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos.c \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos.h \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../../NonSecure/Core/Inc/stm32u5xx_hal_conf.h \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h \
@@ -43,8 +43,8 @@ Application/AZURE_RTOS/App/app_azure_rtos.o: \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_usart.h \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_usart_ex.h \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos_config.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_threadx.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos_config.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_threadx.h \
  ../../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
  ../../../NonSecure/Core/Inc/tx_user.h \
@@ -99,7 +99,7 @@ Application/AZURE_RTOS/App/app_azure_rtos.o: \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/update.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/tfm_fwu_defs.h \
  ../../../../Linker/flash_layout.h
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos.h:
 ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
 ../../../NonSecure/Core/Inc/stm32u5xx_hal_conf.h:
 ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc.h:
@@ -142,8 +142,8 @@ Application/AZURE_RTOS/App/app_azure_rtos.o: \
 ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_usart.h:
 ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_usart_ex.h:
 ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos_config.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_threadx.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_azure_rtos_config.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/AZURE_RTOS/App/app_threadx.h:
 ../../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h:
 ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h:
 ../../../NonSecure/Core/Inc/tx_user.h:

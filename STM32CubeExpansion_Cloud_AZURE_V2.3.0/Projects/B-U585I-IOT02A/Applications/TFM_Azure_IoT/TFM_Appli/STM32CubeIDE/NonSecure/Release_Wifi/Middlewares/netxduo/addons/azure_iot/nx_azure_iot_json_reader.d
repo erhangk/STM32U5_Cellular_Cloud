@@ -1,6 +1,6 @@
 Middlewares/netxduo/addons/azure_iot/nx_azure_iot_json_reader.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_json.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_result.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_prefix.h \
@@ -14,7 +14,7 @@ Middlewares/netxduo/addons/azure_iot/nx_azure_iot_json_reader.o: \
  ../../../../../../../../Middlewares/ST/netxduo/ports/cortex_m33/gnu/inc/nx_port.h \
  ../../../NonSecure/NetXDuo/App/nx_user.h \
  ../../../../../../../../Middlewares/ST/threadx/common/inc/tx_trace.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_log.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_common.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/cloud/nx_cloud.h \
@@ -31,7 +31,7 @@ Middlewares/netxduo/addons/azure_iot/nx_azure_iot_json_reader.o: \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto.h \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto_const.h \
  ../../../../../../../../Middlewares/ST/netxduo/nx_secure/inc/nx_secure_x509.h
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_json_reader.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_json.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_result.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_prefix.h:
@@ -45,7 +45,7 @@ Middlewares/netxduo/addons/azure_iot/nx_azure_iot_json_reader.o: \
 ../../../../../../../../Middlewares/ST/netxduo/ports/cortex_m33/gnu/inc/nx_port.h:
 ../../../NonSecure/NetXDuo/App/nx_user.h:
 ../../../../../../../../Middlewares/ST/threadx/common/inc/tx_trace.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_log.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_common.h:
 ../../../../../../../../Middlewares/ST/netxduo/addons/cloud/nx_cloud.h:

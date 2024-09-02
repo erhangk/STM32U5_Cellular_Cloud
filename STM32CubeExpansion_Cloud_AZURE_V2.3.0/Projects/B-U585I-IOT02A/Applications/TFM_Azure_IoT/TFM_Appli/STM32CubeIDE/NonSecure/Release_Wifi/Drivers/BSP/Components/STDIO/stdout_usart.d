@@ -1,5 +1,5 @@
 Drivers/BSP/Components/STDIO/stdout_usart.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/stdout_usart.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/Core/Src/stdout_usart.c \
  ../../../NonSecure/Core/Inc/main.h \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../../NonSecure/Core/Inc/stm32u5xx_hal_conf.h \

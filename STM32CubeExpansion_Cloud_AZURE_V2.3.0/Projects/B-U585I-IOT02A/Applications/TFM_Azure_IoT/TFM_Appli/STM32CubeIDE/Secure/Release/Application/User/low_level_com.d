@@ -1,5 +1,5 @@
 Application/User/low_level_com.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Secure/Src/low_level_com.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/Secure/Src/low_level_com.c \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/driver/Driver_USART.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/platform/ext/driver/Driver_Common.h \
  ../../../Secure/Inc/cmsis.h \

@@ -1,5 +1,5 @@
 Middlewares/trustedfirmware/flash_map_extended.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/flash_map_extended.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/flash_map_extended.c \
  ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/target.h \
  ../../../Linker/flash_layout.h ../../Inc/cmsis.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h \

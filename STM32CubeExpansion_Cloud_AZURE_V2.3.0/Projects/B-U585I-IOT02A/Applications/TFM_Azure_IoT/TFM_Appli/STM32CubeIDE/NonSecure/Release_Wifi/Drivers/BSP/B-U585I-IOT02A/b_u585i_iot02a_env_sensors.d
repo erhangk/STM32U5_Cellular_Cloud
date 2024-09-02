@@ -1,6 +1,6 @@
 Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_env_sensors.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_env_sensors.c \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_env_sensors.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_env_sensors.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_env_sensors.h \
  ../../../NonSecure/Core/Inc/b_u585i_iot02a_conf.h \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h \
  ../../../NonSecure/Core/Inc/stm32u5xx_hal_conf.h \
@@ -44,14 +44,14 @@ Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_env_sensors.o: \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_usart.h \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_usart_ex.h \
  ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_errno.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/Common/env_sensor.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/lps22hh/lps22hh.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/lps22hh/lps22hh_reg.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/hts221/hts221.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/hts221/hts221_reg.h \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_bus.h
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_env_sensors.h:
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_errno.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/Common/env_sensor.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/lps22hh/lps22hh.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/lps22hh/lps22hh_reg.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/hts221/hts221.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/hts221/hts221_reg.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_bus.h
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_env_sensors.h:
 ../../../NonSecure/Core/Inc/b_u585i_iot02a_conf.h:
 ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:
 ../../../NonSecure/Core/Inc/stm32u5xx_hal_conf.h:
@@ -95,10 +95,10 @@ Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_env_sensors.o: \
 ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_usart.h:
 ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_usart_ex.h:
 ../../../../../../../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_errno.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/Common/env_sensor.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/lps22hh/lps22hh.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/lps22hh/lps22hh_reg.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/hts221/hts221.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/hts221/hts221_reg.h:
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_bus.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_errno.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/Common/env_sensor.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/lps22hh/lps22hh.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/lps22hh/lps22hh_reg.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/hts221/hts221.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/../Components/hts221/hts221_reg.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Drivers/BSP/B-U585I-IOT02A/b_u585i_iot02a_bus.h:

@@ -1,3 +1,0 @@
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_precondition.c:9:13:az_precondition_failed_default	0	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_precondition.c:19:6:az_precondition_failed_set_callback	0	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/src/azure/core/az_precondition.c:24:27:az_precondition_failed_get_callback	0	static

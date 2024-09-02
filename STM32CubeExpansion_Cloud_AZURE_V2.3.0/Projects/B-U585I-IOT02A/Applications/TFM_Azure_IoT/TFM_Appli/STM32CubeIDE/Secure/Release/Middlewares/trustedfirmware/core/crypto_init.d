@@ -1,7 +1,7 @@
 Middlewares/trustedfirmware/core/crypto_init.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/crypto_init.c \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/tfm_mbedcrypto_include.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/crypto_spe.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/crypto_init.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/tfm_mbedcrypto_include.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/crypto_spe.h \
  ../../../../../../../../Middlewares/Third_Party/mbed-crypto/include/psa/crypto.h \
  ../../../../../../../../Middlewares/Third_Party/mbed-crypto/include/psa/crypto_platform.h \
  ../../../Secure/Inc/tfm_mbedcrypto_config.h \
@@ -76,7 +76,7 @@ Middlewares/trustedfirmware/core/crypto_init.o: \
  ../../../../../../../../Middlewares/Third_Party/mbed-crypto/include/mbedtls/bignum.h \
  ../../../Secure/Inc/ecp_alt.h \
  ../../../../../../../../Middlewares/Third_Party/mbed-crypto/include/mbedtls/platform.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/tfm_crypto_api.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/tfm_crypto_api.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/tfm_crypto_defs.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/tfm_api.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h \
@@ -101,8 +101,8 @@ Middlewares/trustedfirmware/core/crypto_init.o: \
  ../g/psa_manifest/tfm_crypto.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/secure_fw/spm/include/tfm_memory_utils.h \
  ../../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/tfm_mbedcrypto_include.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/crypto_spe.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/tfm_mbedcrypto_include.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/crypto_spe.h:
 ../../../../../../../../Middlewares/Third_Party/mbed-crypto/include/psa/crypto.h:
 ../../../../../../../../Middlewares/Third_Party/mbed-crypto/include/psa/crypto_platform.h:
 ../../../Secure/Inc/tfm_mbedcrypto_config.h:
@@ -177,7 +177,7 @@ Middlewares/trustedfirmware/core/crypto_init.o: \
 ../../../../../../../../Middlewares/Third_Party/mbed-crypto/include/mbedtls/bignum.h:
 ../../../Secure/Inc/ecp_alt.h:
 ../../../../../../../../Middlewares/Third_Party/mbed-crypto/include/mbedtls/platform.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/tfm_crypto_api.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/trustedfirmware/secure_fw/partitions/crypto/tfm_crypto_api.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/tfm_crypto_defs.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/tfm_api.h:
 ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/client.h:

@@ -1,1 +1,1 @@
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/common/src/tx_queue_delete.c:76:7:_tx_queue_delete	24	static,ignoring_inline_asm
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/threadx/common/src/tx_queue_delete.c:76:7:_tx_queue_delete	24	static,ignoring_inline_asm

@@ -1,5 +1,5 @@
 Middlewares/mcuboot/image_validate.o: \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/image_validate.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/image_validate.c \
  ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/flash_map_backend/flash_map_backend.h \
  ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/flash_map/flash_map.h \
  ../../../Linker/region_defs.h ../../../Linker/flash_layout.h \
@@ -67,7 +67,7 @@ Middlewares/mcuboot/image_validate.o: \
  ../../../../../../../Middlewares/Third_Party/mbed-crypto/include/mbedtls/md.h \
  ../../Inc/rsa_alt.h \
  ../../../../../../../Middlewares/Third_Party/mbed-crypto/include/mbedtls/asn1.h \
- /home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/bootutil_priv.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/bootutil_priv.h \
  ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/sysflash/sysflash.h \
  ../../../Linker/flash_layout.h \
  ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/bootutil.h \
@@ -140,7 +140,7 @@ Middlewares/mcuboot/image_validate.o: \
 ../../../../../../../Middlewares/Third_Party/mbed-crypto/include/mbedtls/md.h:
 ../../Inc/rsa_alt.h:
 ../../../../../../../Middlewares/Third_Party/mbed-crypto/include/mbedtls/asn1.h:
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/bootutil_priv.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/Third_Party/mcuboot/boot/bootutil/src/bootutil_priv.h:
 ../../../../../../../Middlewares/Third_Party/trustedfirmware/bl2/ext/mcuboot/include/sysflash/sysflash.h:
 ../../../Linker/flash_layout.h:
 ../../../../../../../Middlewares/Third_Party/mcuboot/boot/bootutil/include/bootutil/bootutil.h:

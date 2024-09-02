@@ -1,6 +1,6 @@
 Application/PSA_Crypto_Ciphersuites/nx_crypto_ecdsa_psa_crypto.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/psa_crypto_ciphersuites/nx_crypto_ecdsa_psa_crypto.c \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/psa_crypto_ciphersuites/nx_crypto_ecdsa_psa_crypto.h \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/psa_crypto_ciphersuites/nx_crypto_ecdsa_psa_crypto.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/psa_crypto_ciphersuites/nx_crypto_ecdsa_psa_crypto.h \
  ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto.h \
  ../../../../../../../../Middlewares/ST/netxduo/common/inc/nx_api.h \
  ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h \
@@ -21,7 +21,7 @@ Application/PSA_Crypto_Ciphersuites/nx_crypto_ecdsa_psa_crypto.o: \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_struct.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_extra.h \
  ../../../../../../../../Middlewares/Third_Party/trustedfirmware/interface/include/psa/crypto_compat.h
-/home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/psa_crypto_ciphersuites/nx_crypto_ecdsa_psa_crypto.h:
+/home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/psa_crypto_ciphersuites/nx_crypto_ecdsa_psa_crypto.h:
 ../../../../../../../../Middlewares/ST/netxduo/crypto_libraries/inc/nx_crypto.h:
 ../../../../../../../../Middlewares/ST/netxduo/common/inc/nx_api.h:
 ../../../../../../../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h:

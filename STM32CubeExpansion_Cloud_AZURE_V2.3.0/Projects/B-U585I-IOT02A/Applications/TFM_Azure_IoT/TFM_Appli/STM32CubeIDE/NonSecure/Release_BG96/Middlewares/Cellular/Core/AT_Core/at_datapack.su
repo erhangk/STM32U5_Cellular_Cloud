@@ -1,7 +1,0 @@
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_datapack.c:284:26:check_structure_to_read	16	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_datapack.c:98:19:DATAPACK_writePtr	8	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_datapack.c:141:19:DATAPACK_writeStruct	32	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_datapack.c:195:19:DATAPACK_readPtr	16	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_datapack.c:236:19:DATAPACK_readStruct	24	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_datapack.c:262:10:DATAPACK_readMsgType	0	static
-/home/erhangok/Documents/GitHub/STM32U5_Cellular_Cloud/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Middlewares/ST/STM32_Cellular/Core/AT_Core/Src/at_datapack.c:270:10:DATAPACK_readSize	0	static

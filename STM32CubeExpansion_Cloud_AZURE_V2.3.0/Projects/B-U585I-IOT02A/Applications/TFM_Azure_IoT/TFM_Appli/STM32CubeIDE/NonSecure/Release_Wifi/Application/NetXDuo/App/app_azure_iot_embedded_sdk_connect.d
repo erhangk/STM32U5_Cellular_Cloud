@@ -1,5 +1,5 @@
 Application/NetXDuo/App/app_azure_iot_embedded_sdk_connect.o: \
- /home/erhangok/Downloads/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_embedded_sdk_connect.c \
+ /home/erhangok/Downloads/en.x-cube-azure-v2-3-0/STM32CubeExpansion_Cloud_AZURE_V2.3.0/Projects/B-U585I-IOT02A/Applications/TFM_Azure_IoT/TFM_Appli/NonSecure/NetXDuo/App/app_azure_iot_embedded_sdk_connect.c \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot_hub_client.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/nx_azure_iot.h \
  ../../../../../../../../Middlewares/ST/netxduo/addons/azure_iot/azure-sdk-for-c/sdk/inc/azure/core/az_log.h \
